@@ -78,14 +78,24 @@
    ]
   },
   "config": {
-   "orgId": null,
-   "datastreamId": null,
-   "alloyInstanceName": "alloy",
-   "edgeDomain": null,
-   "defaultConsent": null,
-   "launchUrls": [
-    "https://assets.adobedtm.com/ef0f7eb243a4/50bf6aad1917/launch-aa461fb6c86d.min.js"
-   ]
+   "orgId": "5FFF4CAB563CB2507F000101@AdobeOrg",
+   "datastreamId": "b1c04e90-7e5a-4cf7-b97f-341ac97dec1d",
+   "alloyInstanceName": "alloy1",
+   "edgeDomain": "edge.adobedc.net",
+   "defaultConsent": "in",
+   "launchUrls": [],
+   "webSdk": {
+    "idMigrationEnabled": true,
+    "targetMigrationEnabled": false,
+    "thirdPartyCookiesEnabled": false,
+    "clickCollectionEnabled": true,
+    "personalizationStorageEnabled": false
+   },
+   "options": {
+    "dataLayer": false
+   },
+   "beforeSend": "scripts/martech-analytics.js",
+   "from": "www.asianpaints.com alloy1 getLibraryInfo + /eds/scripts/analytics_1.js (2026-10-21); Launch keeps its own managed alloy via the adobe-launch route"
   },
   "candidates": {
    "datastreamId": [],
@@ -94,7 +104,7 @@
   "extension": null,
   "missingExtensions": [],
   "category": null,
-  "enabled": false
+  "enabled": true
  },
  "target": null
 }

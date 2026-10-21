@@ -195,6 +195,7 @@ async function loadLazy(doc) {
   if (hash && element) element.scrollIntoView();
 
   loadFooter(doc.querySelector('body > footer'));
+  import('./martech.js').then((m) => m.loadAnalytics());
   import('./datalayer.js').then((m) => m.pushPageLoad());
 
   loadCSS(`${window.hlx.codeBasePath}/styles/lazy-styles.css`);

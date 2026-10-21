@@ -10,7 +10,9 @@
  *                  owner): initMartech + martechEager from loadConsent(), martechLazy from loadAnalytics()
  *                  (hooked into loadLazy() after loadFooter, so page views go out without the delayed wait),
  *                  martechDelayed (which loads `launchUrls`) from loadTags(); a `category` makes the Web SDK
- *                  start `pending` whatever the source value, and sets `collect` once the CMP grants it
+ *                  start `pending` whatever the source value, and sets `collect` once the CMP grants it;
+ *                  config.webSdk / config.options pass extra Web SDK / plugin settings through, and
+ *                  config.beforeSend names a project module whose onBeforeEventSend shapes each event
  * Nothing loads off the production hosts unless the URL has `?martech=on`; `&consent=accept` then grants
  * every category. A scripts/martech.js the scaffold did not write is a conflict unless --force.
  * Re-running on the same contract changes nothing.
@@ -77,6 +79,7 @@ function configOf(contract) {
     if (twice) fail(`route \`${twice.id}\` is enabled and also in aemMartech.config.launchUrls — disable the route; the plugin loads it`);
     if (am.category && !(cmp?.groups && cmp?.event)) fail('aemMartech has a category but the CMP exposes no consent groups — clear the category or set consent.cmp.groups/event');
     if (k.defaultConsent === 'pending' && !am.category) fail('aemMartech.config.defaultConsent is `pending` with no category — nothing would ever be sent');
+    if (k.beforeSend && !existsSync(at(k.beforeSend))) fail(`aemMartech.config.beforeSend is ${k.beforeSend} but the file is missing`);
   }
   const target = contract.target?.enabled ? contract.target : null;
   if (target && !am) fail('target is enabled but aemMartech is not — switch the Web SDK on first; the plugin renders Target only through it');
@@ -91,9 +94,18 @@ function configOf(contract) {
       aemMartech: {
         module: `../${pluginDir(am)}/src/index.js`,
         // a category gates collection on the CMP: the SDK must not collect before it is granted
-        webSdk: Object.fromEntries(['orgId', 'datastreamId', 'edgeDomain', 'defaultConsent'].filter((f) => am.config[f])
-          .map((f) => [f, f === 'defaultConsent' && am.category ? 'pending' : am.config[f]])),
-        options: { alloyInstanceName: am.config.alloyInstanceName || 'alloy', launchUrls: am.config.launchUrls || [], personalization: !!target },
+        webSdk: {
+          ...am.config.webSdk,
+          ...Object.fromEntries(['orgId', 'datastreamId', 'edgeDomain', 'defaultConsent'].filter((f) => am.config[f])
+            .map((f) => [f, f === 'defaultConsent' && am.category ? 'pending' : am.config[f]])),
+        },
+        options: {
+          ...am.config.options,
+          alloyInstanceName: am.config.alloyInstanceName || 'alloy',
+          launchUrls: am.config.launchUrls || [],
+          personalization: !!target,
+        },
+        ...(am.config.beforeSend && { beforeSend: `../${am.config.beforeSend}` }),
         category: am.category || null,
       },
     }),
@@ -120,13 +132,21 @@ let analytics = null;
 
 export function loadAnalytics() {
   analytics = analytics || webSdk?.then(async (martech) => {
-    if (CONFIG.aemMartech.category) whenGranted(CONFIG.aemMartech.category, () => martech.updateUserConsent({ collect: true }));
+    const { category } = CONFIG.aemMartech;
+    if (category) whenGranted(category, () => martech.updateUserConsent({ collect: true }));
     await martech.martechLazy();
     return martech;
   }) || null;
   return analytics;
 }
 `;
+// a project module's onBeforeEventSend shapes each event (e.g. the source's Analytics variables)
+const AM_BEFORE_SEND = [
+  '  await martech.initMartech(CONFIG.aemMartech.webSdk, CONFIG.aemMartech.options);',
+  `  const { onBeforeEventSend } = await import(CONFIG.aemMartech.beforeSend);
+  const webSdkConfig = { ...CONFIG.aemMartech.webSdk, onBeforeEventSend };
+  await martech.initMartech(webSdkConfig, CONFIG.aemMartech.options);`,
+];
 const AM_TAGS = `
   loadAnalytics()?.then((martech) => martech.martechDelayed());`;
 
@@ -174,7 +194,7 @@ function whenGranted(category, run) {
   window.addEventListener(CONFIG.cmp.event, retry);
 }
 
-${config.aemMartech ? AM_CONSENT.slice(1) : `export function loadConsent() {
+${config.aemMartech ? (config.aemMartech.beforeSend ? AM_CONSENT.replace(...AM_BEFORE_SEND) : AM_CONSENT).slice(1) : `export function loadConsent() {
   if (!on || !CONFIG.cmp?.enabled) return;
   load(CONFIG.cmp.src, CONFIG.cmp.attrs);
 }

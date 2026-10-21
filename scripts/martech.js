@@ -24,6 +24,28 @@ const CONFIG = {
       category: null,
     },
   ],
+  aemMartech: {
+    module: '../plugins/martech/src/index.js',
+    webSdk: {
+      idMigrationEnabled: true,
+      targetMigrationEnabled: false,
+      thirdPartyCookiesEnabled: false,
+      clickCollectionEnabled: true,
+      personalizationStorageEnabled: false,
+      orgId: '5FFF4CAB563CB2507F000101@AdobeOrg',
+      datastreamId: 'b1c04e90-7e5a-4cf7-b97f-341ac97dec1d',
+      edgeDomain: 'edge.adobedc.net',
+      defaultConsent: 'in',
+    },
+    options: {
+      dataLayer: false,
+      alloyInstanceName: 'alloy1',
+      launchUrls: [],
+      personalization: false,
+    },
+    beforeSend: '../scripts/martech-analytics.js',
+    category: null,
+  },
 };
 
 const params = new URLSearchParams(window.location.search);
@@ -67,12 +89,34 @@ function whenGranted(category, run) {
   window.addEventListener(CONFIG.cmp.event, retry);
 }
 
-export function loadConsent() {
-  if (!on || !CONFIG.cmp?.enabled) return;
-  load(CONFIG.cmp.src, CONFIG.cmp.attrs);
+let webSdk = null;
+
+async function startWebSdk() {
+  const martech = await import(CONFIG.aemMartech.module);
+  const { onBeforeEventSend } = await import(CONFIG.aemMartech.beforeSend);
+  const webSdkConfig = { ...CONFIG.aemMartech.webSdk, onBeforeEventSend };
+  await martech.initMartech(webSdkConfig, CONFIG.aemMartech.options);
+  await martech.martechEager();
+  return martech;
 }
 
-export function loadAnalytics() {}
+export function loadConsent() {
+  if (!on) return;
+  if (CONFIG.cmp?.enabled) load(CONFIG.cmp.src, CONFIG.cmp.attrs);
+  webSdk = startWebSdk();
+}
+
+let analytics = null;
+
+export function loadAnalytics() {
+  analytics = analytics || webSdk?.then(async (martech) => {
+    const { category } = CONFIG.aemMartech;
+    if (category) whenGranted(category, () => martech.updateUserConsent({ collect: true }));
+    await martech.martechLazy();
+    return martech;
+  }) || null;
+  return analytics;
+}
 
 export function loadTags() {
   if (!on) return;
@@ -83,4 +127,5 @@ export function loadTags() {
     }
     load(src);
   }));
+  loadAnalytics()?.then((martech) => martech.martechDelayed());
 }
