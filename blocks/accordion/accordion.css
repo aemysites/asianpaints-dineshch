@@ -1,0 +1,211 @@
+/* stylelint-disable no-descending-specificity, no-duplicate-selectors */
+
+/* accordion — prototype section CSS (stardust/prototypes/css/index-*.css) scoped to the block,
+   then the EDS adaptation (authored nodes moved into the prototype slots). */
+
+.section.accordion-container > .default-content-wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.section.accordion-container > .default-content-wrapper h2 {
+  margin: 0;
+  padding-bottom: 0;
+  color: #222;
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 38px;
+  text-align: center;
+}
+
+.accordion.faq {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.accordion.faq .accordion-item {
+  padding: 23px 0;
+  border-bottom: 1px solid #cacbcc;
+  background: transparent;
+}
+
+.accordion.faq .accordion-faq-hidden {
+  display: none;
+}
+
+.accordion.faq.is-expanded .accordion-faq-hidden {
+  display: block;
+}
+
+.accordion.faq .accordion-item-label {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  color: #373737;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 23.4px;
+  list-style: none;
+  cursor: pointer;
+}
+
+.accordion.faq .accordion-item-label::after {
+  content: "";
+  flex: 0 0 auto;
+  width: 48px;
+  height: 48px;
+  margin-right: 3px;
+  border-radius: 50%;
+  background-color: transparent;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 16 16' fill='none'%3E%3Cpath d='M8 1V15M1 8H15' stroke='%232F2F2F' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 16px 16px;
+  transform: translateX(20px);
+}
+
+.accordion.faq .accordion-item.is-open .accordion-item-label::after {
+  background-color: #efefef;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12' fill='none'%3E%3Cpath d='M1 11L11 1M1 1L11 11' stroke='%232F2F2F' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+  background-size: 12px 12px;
+}
+
+.accordion.faq .accordion-item-body {
+  width: 92%;
+  max-height: 0;
+  padding: 0;
+  overflow: hidden;
+  opacity: 0;
+}
+
+.accordion.faq .accordion-item.is-open .accordion-item-body {
+  max-height: 1000px;
+  opacity: 1;
+}
+
+.accordion.faq .accordion-item-body p {
+  margin: 0;
+  padding-bottom: 13px;
+  color: #53565a;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+}
+
+@media (width > 992px) {
+  .accordion.faq .accordion-item-body p {
+    font-size: 14px;
+    font-weight: 500;
+  }
+}
+
+.accordion .accordion-faq-view-all {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  width: fit-content;
+  margin: 30px 0 0;
+  padding: 10px 16px;
+  border: 1px solid #000;
+  border-radius: 45px;
+  background: transparent;
+  color: #000;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.86px;
+  text-align: center;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.accordion .accordion-faq-view-all::after {
+  content: "";
+  flex-shrink: 0;
+  width: 10px;
+  height: 6px;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6' viewBox='0 0 10 6' fill='none'%3E%3Cpath d='M0.833344 1.33301L5.00069 5.14967L9.16668 1.33301' stroke='%23232426' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.accordion .accordion-faq-view-all:hover,
+.accordion .accordion-faq-view-all:focus-visible {
+  border: 1px solid currentcolor;
+  background-color: #fff7e8;
+  color: #000;
+  outline: none;
+}
+
+@media (width <= 600px) {
+  main > .section.accordion-container {
+    margin-top: 4rem;
+  }
+
+  .section.accordion-container > .default-content-wrapper h2 {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+    text-align: left;
+  }
+
+  .accordion.faq .accordion-item {
+    padding: 30px 0 23px;
+  }
+
+  .accordion.faq .accordion-item:not(.is-open) {
+    padding: 29px 0 30px;
+  }
+
+  .accordion.faq .accordion-item-label {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+  }
+
+  .accordion.faq .accordion-item-label::after {
+    margin-top: 2px;
+    margin-right: -1px;
+    transform: none;
+  }
+
+  .accordion.faq .accordion-item-body {
+    width: 100%;
+  }
+
+  .accordion.faq .accordion-item-body p {
+    padding-top: 10px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+  }
+}
+
+.accordion .accordion-faq-view-all[hidden] {
+  display: none;
+}
+
+.accordion.faq .accordion-item {
+  color: #222;
+}
+
+/* ---- EDS adaptation ---- */
+
+.accordion .accordion-item-label p {
+  margin: 0;
+}
+
+.accordion .accordion-item-label {
+  cursor: pointer;
+}
+
+.accordion .accordion-item-body {
+  display: block;
+}

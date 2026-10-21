@@ -1,1 +1,4 @@
 helix-importer-ui
+*.min.js
+# stardust/ is the migration workspace (captures, prototypes, tooling), not delivered runtime code
+stardust/

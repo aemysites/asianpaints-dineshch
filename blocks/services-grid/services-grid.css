@@ -1,0 +1,236 @@
+/* stylelint-disable no-descending-specificity, no-duplicate-selectors */
+
+/* services-grid — prototype section CSS (stardust/prototypes/css/index-*.css) scoped to the block,
+   then the EDS adaptation (authored nodes moved into the prototype slots). */
+
+main > .section.services-grid-container {
+  margin: 0;
+  padding: 32px 16px;
+  overflow-x: clip;
+}
+
+.services-grid {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 40px;
+  width: 100%;
+}
+
+.services-grid .services-grid-text {
+  min-width: 0;
+}
+
+.services-grid .services-grid-text h2 {
+  color: #1d1d1f;
+  font-size: 32px;
+  font-weight: 800;
+  margin: 0 0 12px;
+  line-height: 41px;
+  letter-spacing: -1px;
+  text-align: left;
+}
+
+.services-grid .services-grid-text p {
+  color: #000;
+  font-size: 16px;
+  line-height: 24px;
+  margin: 0;
+  font-weight: 400;
+}
+
+.services-grid .services-grid-images {
+  width: 100%;
+}
+
+.services-grid .services-grid-cards {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px;
+  width: 100%;
+  min-width: 0;
+}
+
+.services-grid .services-grid-card {
+  display: block;
+  position: relative;
+  min-width: 0;
+  padding: 15px 13px 18px;
+  background: #faf6ef;
+  border-radius: 10px;
+  color: #000;
+  cursor: pointer;
+  transition: all .3s ease;
+}
+
+.services-grid .services-grid-card-image {
+  width: 100%;
+  height: auto;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.services-grid .services-grid-card-image picture,
+.services-grid .services-grid-card-image img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.services-grid .services-grid-card-image img {
+  object-fit: cover;
+  transition: transform .3s ease;
+}
+
+.services-grid .services-grid-card-text {
+  margin-top: 10px;
+  min-width: 0;
+}
+
+.services-grid .services-grid-card-text p {
+  display: block;
+  color: #000;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 22px;
+  max-width: 89%;
+  overflow-wrap: anywhere;
+}
+
+.services-grid .services-grid-card-arrow {
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  color: #232426;
+  font-size: 22px;
+  line-height: 1;
+  transition: all .3s ease;
+}
+
+.services-grid .services-grid-card:hover .services-grid-card-arrow {
+  background: #ece5d7;
+}
+
+.services-grid .services-grid-card:hover .services-grid-card-image img {
+  transform: scale(1.06);
+}
+
+@media (width >= 601px) and (width <= 991px) {
+  main > .section.services-grid-container {
+    padding: 40px 24px;
+  }
+
+  .services-grid .services-grid-text h2 {
+    font-size: 36px;
+    line-height: 42px;
+    margin-bottom: 16px;
+  }
+}
+
+@media (width >= 992px) {
+  main > .section.services-grid-container {
+    padding: 0;
+  }
+
+  .services-grid-wrapper {
+    padding: 50px 40px 40px;
+  }
+
+  .services-grid {
+    flex-direction: row;
+    align-items: center;
+    gap: 0 45px;
+  }
+
+  .services-grid .services-grid-text {
+    width: 30%;
+  }
+
+  .services-grid .services-grid-text h2 {
+    font-size: 54px;
+    line-height: 60px;
+    letter-spacing: -2px;
+    margin: 0 0 30px;
+  }
+
+  .services-grid .services-grid-text p {
+    font-size: 18px;
+    line-height: 28px;
+  }
+
+  .services-grid .services-grid-images {
+    flex: 1;
+    display: flex;
+  }
+
+  .services-grid .services-grid-cards {
+    gap: 20px;
+  }
+
+  .services-grid .services-grid-card {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding: 23px;
+    min-height: 150px;
+  }
+
+  .services-grid .services-grid-card-image {
+    flex: 0 0 82px;
+    width: 82px;
+    height: 104px;
+    border-radius: 5px;
+  }
+
+  .services-grid .services-grid-card-text {
+    flex: 1 1 auto;
+    margin-top: 0;
+  }
+
+  .services-grid .services-grid-card-text p {
+    font-size: 32px;
+    line-height: 35.2px;
+    max-width: 225px;
+    overflow-wrap: normal;
+  }
+
+  .services-grid .services-grid-card-arrow {
+    position: static;
+    flex: 0 0 45px;
+    width: 45px;
+    height: 45px;
+    font-size: 30px;
+  }
+}
+
+@media (width >= 992px) and (width <= 1200px) {
+  .services-grid .services-grid-text {
+    flex-basis: 420px;
+    max-width: 420px;
+  }
+
+  .services-grid .services-grid-text h2 {
+    font-size: 46px;
+    line-height: 52px;
+  }
+
+  .services-grid .services-grid-card {
+    padding: 20px;
+  }
+}
+
+/* ---- EDS adaptation ---- */
+
+.services-grid .services-grid-card-text p {
+  margin: 0;
+}
+
+.services-grid .services-grid-text h2 {
+  font-family: inherit;
+}

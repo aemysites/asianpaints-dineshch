@@ -1,0 +1,111 @@
+{
+  "units": {
+    "foundation": {
+      "status": "done",
+      "kind": "foundation",
+      "templates": [
+        "landing"
+      ],
+      "pages": 0,
+      "startedAt": "2026-10-19T17:49:22.220Z",
+      "blocks": 2,
+      "endedAt": "2026-10-19T18:10:55.326Z",
+      "gates": {
+        "360": {
+          "header": "0.00%",
+          "footer": "0.48% harness / 3.59% live crop (fixed header overlaps footer in stitched capture; recheck at archetype)"
+        },
+        "1440": {
+          "header": "0.00%",
+          "footer": "1.43%"
+        },
+        "chrome": "header parity clean on preview"
+      },
+      "verdict": "foundation: styles+fonts+header+footer+martech, lint ok, /nav /footer live, code pushed aa1a29d"
+    },
+    "archetype-landing": {
+      "status": "done",
+      "kind": "archetype",
+      "templates": [
+        "landing"
+      ],
+      "pages": 1,
+      "startedAt": "2026-10-19T18:11:26.993Z",
+      "blocks": 14,
+      "endedAt": "2026-10-19T19:16:55.855Z",
+      "gates": {
+        "360": {
+          "gateSh": "5.23%",
+          "gateAll": "8.44%",
+          "heightDelta": 0,
+          "clipped": 0,
+          "cropHeader": "0.00%",
+          "cropFooter": "0.49%",
+          "presence": "1 HIDDEN (same)"
+        },
+        "1440": {
+          "gateSh": "5.11%",
+          "gateAll": "4.16%",
+          "heightDelta": 0,
+          "clipped": 0,
+          "cropHeader": "0.11%",
+          "cropFooter": "3.12% (footer banner rendition — foundation request)",
+          "presence": "1 HIDDEN: featured-products All Protek (autoplay timing)"
+        }
+      },
+      "open": [
+        "presence: featured-products autoplay slide → presence.json volatile entry at C-final",
+        "footer banner rendition 2000w webp vs 2886 avif → foundation-requests.md, apply at C-final"
+      ],
+      "verdict": "archetype-landing: pages 1/1 live, blocks 14, gate 1440 4.16% / 360 8.44%, crop hdr/ftr 0.11%/3.12% (1440), 0.00%/0.49% (360), clipped 0, requests 1"
+    },
+    "cluster-landing": {
+      "status": "done",
+      "kind": "cluster",
+      "templates": [
+        "landing"
+      ],
+      "pages": 0,
+      "endedAt": "2026-10-19T19:16:55.855Z",
+      "verdict": "cluster-landing: no siblings — template has 1 page (the archetype)"
+    },
+    "gate-all": {
+      "status": "done",
+      "kind": "final",
+      "templates": [
+        "landing"
+      ],
+      "pages": 1,
+      "startedAt": "2026-10-19T19:26:10.424Z",
+      "endedAt": "2026-10-19T19:31:32.342Z",
+      "gates": {
+        "360": {
+          "pixel": "8.44%",
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": "same override"
+        },
+        "1440": {
+          "pixel": "8.19%",
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": "1 HIDDEN (featured-products autoplay, symmetric) → documented override",
+          "cropFooterBanner": "1.01% (was 3.17%)",
+          "cropFooterBottom": "origin capture carries OneTrust consent bar over last ~100px (source capture state)"
+        }
+      },
+      "verdict": "gate-all: 1/1 delivered (documented override: autoplay slide timing), 1440 8.19% / 360 8.44%, Δh 0, clipped 0; foundation request applied (footer banner 3000w), coverage updated"
+    },
+    "final": {
+      "status": "done",
+      "kind": "final",
+      "templates": [
+        "landing"
+      ],
+      "pages": 1,
+      "startedAt": "2026-10-19T19:32:08.537Z",
+      "endedAt": "2026-10-19T19:32:08.537Z",
+      "verdict": "final: freeze check ok, 1 foundation request applied (footer banner 3000w) + re-frozen, archetype re-gated on published origin (gate.sh pub3 1440 5.11%), coverage updated from gate-all"
+    }
+  }
+}

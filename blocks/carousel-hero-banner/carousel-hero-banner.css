@@ -1,0 +1,329 @@
+/* stylelint-disable no-descending-specificity, no-duplicate-selectors */
+
+/* carousel-hero-banner — prototype section CSS (stardust/prototypes/css/index-*.css) scoped to the block,
+   then the EDS adaptation (authored nodes moved into the prototype slots). */
+
+.section.carousel-hero-banner-container {
+  position: relative;
+}
+
+.carousel-hero-banner {
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.carousel-hero-banner .hero-track {
+  display: grid;
+  width: 100%;
+}
+
+.carousel-hero-banner .hero-slide {
+  grid-area: 1 / 1;
+  position: relative;
+  width: 100%;
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  transition: opacity .8s;
+}
+
+.carousel-hero-banner .hero-slide.is-active {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+
+.carousel-hero-banner .hero-slide.is-leaving {
+  visibility: visible;
+}
+
+.carousel-hero-banner .hero-media {
+  position: relative;
+  width: 100%;
+}
+
+.carousel-hero-banner .hero-video-link,
+.carousel-hero-banner .hero-media-link {
+  display: block;
+}
+
+.carousel-hero-banner .hero-slide video {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 12 / 5;
+  object-fit: cover;
+  display: block;
+  background: #000;
+}
+
+.carousel-hero-banner .hero-slide picture {
+  display: block;
+}
+
+.carousel-hero-banner .hero-media img {
+  width: 100%;
+  display: block;
+}
+
+.carousel-hero-banner .video-overlay {
+  background: linear-gradient(270.75deg, rgb(129 122 107 / 0%) -1.31%, rgb(91 80 68 / 50%) 65.3%);
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  pointer-events: none;
+}
+
+.carousel-hero-banner .hero-image {
+  position: absolute;
+  top: 15%;
+  left: 4%;
+  height: auto;
+  z-index: 2;
+  width: 373px;
+  pointer-events: none;
+}
+
+.carousel-hero-banner .hero-cta {
+  position: absolute;
+  width: fit-content;
+  padding: 14px 20px;
+  align-items: center;
+  font-size: clamp(14px, 1vw, 16px);
+  font-weight: 600;
+  line-height: 1.6;
+  display: inline-flex;
+  gap: 10px;
+  height: 38px;
+  cursor: pointer;
+  border-radius: 45px;
+  white-space: nowrap;
+}
+
+.carousel-hero-banner .hero-cta::after {
+  content: " ";
+  background-image: url('/icons/a-arrow-icon-new.svg');
+  background-repeat: no-repeat;
+  width: 17px;
+  height: 20px;
+  filter: invert(1);
+}
+
+.carousel-hero-banner [data-slide="0"] .hero-cta {
+  left: 5%;
+  top: 45%;
+  min-height: 32px;
+  padding: 6px 16px;
+  border: .5px solid #fff;
+  color: #fff;
+  font-size: clamp(16px, 1vw, 20px);
+  z-index: 3;
+}
+
+.carousel-hero-banner [data-slide="1"] .hero-cta {
+  left: 5%;
+  top: 70%;
+  min-height: 32px;
+  padding: 6px 16px;
+  border: 1px solid #232426;
+  color: #232426;
+  font-size: clamp(16px, 1vw, 20px);
+}
+
+.carousel-hero-banner [data-slide="2"] .hero-cta {
+  left: 13.5%;
+  top: 42%;
+  border: .5px solid #fff;
+  color: #fff;
+  min-height: 32px;
+  padding: 6px 16px;
+}
+
+.carousel-hero-banner [data-slide="3"] .hero-cta {
+  left: 5.5%;
+  top: 30%;
+  border: 1px solid #232426;
+  color: #232426;
+}
+
+.carousel-hero-banner [data-slide="0"] .hero-cta::after,
+.carousel-hero-banner [data-slide="2"] .hero-cta::after {
+  filter: unset;
+}
+
+.carousel-hero-banner .hero-pagination {
+  position: absolute;
+  z-index: 10;
+  bottom: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #fff;
+  border-radius: 30px;
+  padding: 3px 5px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+  text-align: center;
+}
+
+.carousel-hero-banner .hero-bullet {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  margin: 0 4px;
+  border-radius: 50%;
+  background: #000;
+  opacity: .2;
+  cursor: pointer;
+}
+
+.carousel-hero-banner .hero-bullet.is-active {
+  background-color: #4c4e52;
+  opacity: 1;
+  width: 24px;
+  height: 6px;
+  border-radius: 30px;
+}
+
+.carousel-hero-banner .hero-arrow {
+  display: none;
+}
+
+@media (width <= 991px) {
+  .carousel-hero-banner .hero-image {
+    width: 100%;
+    height: auto;
+    top: 50px;
+    left: 5%;
+  }
+
+  .carousel-hero-banner .hero-image img {
+    width: 90% !important;
+    min-height: unset !important;
+  }
+
+  .carousel-hero-banner .hero-slide video,
+  .carousel-hero-banner .hero-media-link img {
+    min-height: 502px;
+    max-height: 502px;
+    aspect-ratio: auto;
+    height: 502px;
+    object-fit: cover;
+  }
+
+  .carousel-hero-banner .hero-pagination {
+    bottom: 50px;
+  }
+
+  .carousel-hero-banner .hero-bullet.is-active {
+    width: 20px;
+  }
+}
+
+@media (width >= 992px) {
+  .carousel-hero-banner .hero-arrow {
+    display: block;
+    background-image: url('/icons/a-arrow-icon-new.svg');
+    width: 20px;
+    height: 20px;
+    filter: invert(1);
+    background-repeat: no-repeat;
+    margin: 0 5px;
+    cursor: pointer;
+  }
+
+  .carousel-hero-banner .hero-prev {
+    rotate: 180deg;
+  }
+
+  .carousel-hero-banner .hero-arrow:disabled {
+    opacity: .35;
+    cursor: auto;
+  }
+
+  .carousel-hero-banner .hero-pagination {
+    padding: 8px 12px;
+  }
+
+  .carousel-hero-banner .hero-cta {
+    font-size: clamp(16px, 1vw, 20px);
+  }
+
+  .carousel-hero-banner [data-slide="0"] .hero-cta {
+    left: 4%;
+    top: calc(15% + 292px);
+  }
+
+  .carousel-hero-banner [data-slide="1"] .hero-cta {
+    left: 35%;
+    top: 60%;
+  }
+
+  .carousel-hero-banner [data-slide="2"] .hero-cta {
+    left: 26%;
+    top: 45%;
+  }
+
+  .carousel-hero-banner [data-slide="3"] .hero-cta {
+    left: 2.5%;
+    top: 45%;
+  }
+
+  .carousel-hero-banner [data-slide="1"] .hero-cta:hover,
+  .carousel-hero-banner [data-slide="3"] .hero-cta:hover {
+    background: #fff7e8;
+    border: 1px solid #232426;
+  }
+
+  .carousel-hero-banner [data-slide="0"] .hero-cta:hover,
+  .carousel-hero-banner [data-slide="2"] .hero-cta:hover {
+    background: #fff7e8;
+    color: #000;
+    border: 1px solid #232426;
+  }
+
+  .carousel-hero-banner [data-slide="0"] .hero-cta:hover::after,
+  .carousel-hero-banner [data-slide="2"] .hero-cta:hover::after {
+    filter: invert(1);
+  }
+}
+
+/* ---- EDS adaptation ---- */
+
+.carousel-hero-banner .ad-both,
+.carousel-hero-banner .ad-desk,
+.carousel-hero-banner .ad-mob {
+  display: contents;
+}
+
+@media (width < 768px) {
+  .carousel-hero-banner .ad-desk {
+    display: none;
+  }
+}
+
+@media (width >= 768px) {
+  .carousel-hero-banner .ad-mob {
+    display: none;
+  }
+}
+
+/* the page h1 is authored as default content before the hero: visually hidden */
+.carousel-hero-banner-container > .default-content-wrapper:first-child {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
+.carousel-hero-banner .hero-cta-wrap,
+.carousel-hero-banner .hero-cta-wrap > p {
+  display: contents;
+}
+
+.carousel-hero-banner .hero-video-sources {
+  display: none;
+}

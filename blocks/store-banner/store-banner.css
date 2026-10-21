@@ -1,0 +1,68 @@
+/* stylelint-disable no-descending-specificity, no-duplicate-selectors */
+
+/* store-banner — prototype section CSS (stardust/prototypes/css/index-*.css) scoped to the block,
+   then the EDS adaptation (authored nodes moved into the prototype slots). */
+
+.store-banner .store-banner-link,
+.store-banner .store-banner-link picture {
+  display: block;
+  width: 100%;
+}
+
+.store-banner .store-banner-link img {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+@media (width <= 768px) {
+  .store-banner {
+    margin: 30px 0 0;
+  }
+
+  .store-banner .store-banner-link img {
+    object-fit: cover;
+  }
+}
+
+.store-banner {
+  color: #222;
+}
+
+.store-banner .store-banner-link {
+  color: #00e;
+}
+
+/* ---- EDS adaptation ---- */
+
+.store-banner .ad-both,
+.store-banner .ad-desk,
+.store-banner .ad-mob {
+  display: contents;
+}
+
+@media (width < 769px) {
+  .store-banner .ad-desk {
+    display: none;
+  }
+}
+
+@media (width >= 769px) {
+  .store-banner .ad-mob {
+    display: none;
+  }
+}
+
+.store-banner .store-banner-link {
+  position: relative;
+}
+
+.store-banner .store-banner-label {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}

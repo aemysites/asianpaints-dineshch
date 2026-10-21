@@ -1,0 +1,782 @@
+{
+  "slug": "index",
+  "type": "landing",
+  "renderBranch": "A",
+  "template": null,
+  "modules": [
+    "carousel-hero-banner",
+    "homepage-icons-container",
+    "color-gallery",
+    "form",
+    "featured-products",
+    "services-grid",
+    "explore-split",
+    "tools-carousel",
+    "designer-collections",
+    "interiors-shop",
+    "testimonial-carousel",
+    "store-banner",
+    "video-shorts",
+    "accordion"
+  ],
+  "slotsFilled": [
+    "section",
+    "section",
+    "section",
+    "section",
+    "section",
+    "section",
+    "section",
+    "section",
+    "section",
+    "section",
+    "section",
+    "section",
+    "section",
+    "section",
+    "section"
+  ],
+  "canonShas": {
+    "header": "bfe815b3cec9",
+    "footer": "07434b414dae",
+    "css": "285c93cbc407"
+  },
+  "deviations": [],
+  "migrationDecisions": [],
+  "metadata": {
+    "title": "Trusted Wall Painting, Home Painting &amp; Waterproofing in India - Asian Paints",
+    "description": null,
+    "canonical": "https://main--03cd0138--aemcoder.aem.live/",
+    "lang": "en"
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Trusted Wall Painting, Home Painting &amp; Waterproofing in India - Asian Paints",
+    "url": "https://main--03cd0138--aemcoder.aem.live/"
+  },
+  "migratedAt": "2026-10-19T17:48:22Z",
+  "designMdSha": "f8b3671c80e1",
+  "designJsonSha": "50340c969ffa",
+  "sourceCurrentSha": "9bfebf8050de",
+  "sourceProposedSha": "4d375f17a203",
+  "fidelityTier": "archetype",
+  "archetypeSource": null,
+  "archetypeSha": null,
+  "variants": [],
+  "gatesPassed": [],
+  "gateEvidence": {},
+  "contentDeviations": [],
+  "assetsBundled": 231,
+  "missingAssets": [],
+  "brokenInternalLinks": [
+    {
+      "href": "https://www.asianpaints.com/contractors/painting-contractors.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.asianpaints.com/store-locator.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.asianpaints.com/content/ap/en/home/my-profile.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.asianpaints.com/content/ap/en/home/my-wishlist.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.asianpaints.com/eds/forms/book-free-site-visit",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.asianpaints.com/colour-catalogue.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.asianpaints.com/colour-catalogue/grey-wall-colours.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.asianpaints.com/colour-catalogue/blue-wall-colours.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.asianpaints.com/colour-catalogue/brown-wall-colours.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.asianpaints.com/colour-catalogue/red-wall-colours.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.asianpaints.com/colour-catalogue/orange-wall-colours.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.asianpaints.com/colour-catalogue/yellow-wall-colours.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.asianpaints.com/colour-catalogue/green-wall-colours.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.asianpaints.com/colour-catalogue/purple-wall-colours.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.asianpaints.com/colour-catalogue/pink-wall-colours.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.asianpaints.com/colour-catalogue/white-wall-colours.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.asianpaints.com/colour-catalogue/off-white-wall-colours.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.asianpaints.com/royale-inspiration.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.asianpaints.com/colour-next.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.asianpaints.com/home-colour-guide.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.asianpaints.com/resources/tools/paint-finish-tool.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.asianpaints.com/resources/tools/wood-finish-selection-tool.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.asianpaints.com/wood-visualiser.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.asianpaints.com/resources/tools/interior-texture-finder-tool.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.asianpaints.com/resources/tools/catalogue-directory.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.asianpaints.com/resources/tools/mobile-app.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.asianpaints.com/inspiration.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.asianpaints.com/moodboard.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.asianpaints.com/where-the-heart-is/season-9.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.asianpaints.com/resources/tools/home-discoveries.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.asianpaints.com/paint-products/interior-wall-paints.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.asianpaints.com/paint-products/interior-wall-paints/royale-play.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.asianpaints.com/wall-coverings.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.asianpaints.com/paint-products/exterior-wall-paints.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.asianpaints.com/texture-paints/exterior-textures.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.asianpaints.com/waterproofing-products.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.asianpaints.com/waterproofing-products/bathrooms.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.asianpaints.com/waterproofing-products/terrace-and-tanks.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.asianpaints.com/waterproofing-products/cracks-and-joints.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.asianpaints.com/waterproofing-products/interiors.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.asianpaints.com/waterproofing-products/tiling.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.asianpaints.com/waterproofing-products/exteriors.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.asianpaints.com/products/wood-finish/wood-for-interior.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.asianpaints.com/enamel-paints.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.asianpaints.com/products/undercoats.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.asianpaints.com/products/adhesives.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.asianpaints.com/products/tools.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.asianpaints.com/products/diy.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.asianpaints.com/services/asian-paints-safe-painting-service.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.asianpaints.com/services/interior-design-solutions.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.asianpaints.com/services/waterproofing-solutions.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.asianpaints.com/resources/tools/paint-quotation-tool.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.asianpaints.com/resources/tools/waterproofing-budget-calculator.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.asianpaints.com/resources/tools/paint-budget-calculator.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.asianpaints.com/resources/tools/interior-design-solutions-calculator.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.asianpaints.com/resources/tools/kitchen-cost-calculator.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.asianpaints.com/decorpro.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.asianpaints.com/contractors/painting-contractors.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.asianpaints.com/store-locator.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.asianpaints.com/service-center-locator.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.asianpaints.com/blogs.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.asianpaints.com/guides.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.asianpaints.com/recycle-store-locator.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.asianpaints.com/about-us.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.asianpaints.com/more/investors.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.asianpaints.com/contact-us.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.asianpaints.com/paint-products.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.asianpaints.com/services/asian-paints-safe-painting-service.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.asianpaints.com/services/beautiful-homes-service.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.asianpaints.com/resources/tools/paint-budget-calculator.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.asianpaints.com/home-colour-guide.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.asianpaints.com/content/ap/en/home/searchresult.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.asianpaints.com/colour-catalogue.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.asianpaints.com/colour-catalogue.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.asianpaints.com/services/asian-paints-safe-painting-service.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.asianpaints.com/services/asian-paints-safe-painting-service.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.asianpaints.com/campaign/warranty.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.asianpaints.com/campaign/warranty.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.asianpaints.com/services/interior-design-solutions.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.asianpaints.com/services/interior-design-solutions.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.asianpaints.com/services/asian-paints-safe-painting-service.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.asianpaints.com/resources/tools/paint-budget-calculator.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.asianpaints.com/resources/tools/waterproofing-budget-calculator.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.asianpaints.com/services/interior-design-solutions.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.asianpaints.com/home-colour-guide.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.asianpaints.com/contractors/painting-contractors.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.asianpaints.com/colour-catalogue.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.asianpaints.com/colour-catalogue/green-wall-colours/chinese-tea.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.asianpaints.com/colour-catalogue/purple-wall-colours/cardinal.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.asianpaints.com/colour-catalogue/brown-wall-colours/dessert-love-n.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.asianpaints.com/colour-catalogue/grey-wall-colours/silverfish-n.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.asianpaints.com/colour-catalogue/purple-wall-colours/clematis-pink-n.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.asianpaints.com/colour-catalogue/green-wall-colours/ivy-league.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.asianpaints.com/colour-catalogue/blue-wall-colours/retro-blue-n.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.asianpaints.com/colour-catalogue/pink-wall-colours/vine-yard.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.asianpaints.com/colour-catalogue/yellow-wall-colours/passion-flower.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.asianpaints.com/colour-catalogue.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.asianpaints.com/footer-links/terms-and-conditions.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.asianpaints.com/footer-links/terms-and-conditions/privacy-policy.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.asianpaints.com/footer-links/terms-and-conditions.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.asianpaints.com/footer-links/terms-and-conditions/privacy-policy.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.asianpaints.com/paint-products/interior-wall-paints/plain-finishes/royale-glitz.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.asianpaints.com/paint-products/interior-wall-paints/plain-finishes/apcolite-all-protek-shyne.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.asianpaints.com/paint-products/exterior-wall-paints/apex-ultima-protek.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.asianpaints.com/products/paints-and-textures/interior-walls.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.asianpaints.com/products/paints-and-textures/exterior-walls.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.asianpaints.com/products/waterproofing-solutions.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.asianpaints.com/products/wood-finish.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.asianpaints.com/paint-products/interior-wall-paints/royale-play.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.asianpaints.com/wall-coverings.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.asianpaints.com/paint-products/interior-wall-paints/royale-play.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.asianpaints.com/wall-coverings.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.asianpaints.com/home-colour-guide.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.asianpaints.com/resources/tools/paint-finish-tool.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.asianpaints.com/resources/tools/wood-finish-selection-tool.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.asianpaints.com/mera-wala-shade.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.asianpaints.com/wood-visualiser.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.asianpaints.com/services/interior-design-solutions.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.asianpaints.com/services/asian-paints-safe-painting-service.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.asianpaints.com/store-locator.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.asianpaints.com/colour-catalogue.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.asianpaints.com/colour-catalogue/brown-wall-colours/wholegrain-mustard-n.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.asianpaints.com/colour-catalogue.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.asianpaints.com/inspiration/ideas/colour-inspiration/living-room.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.asianpaints.com/colour-catalogue/green-wall-colours/jugnu-i.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.asianpaints.com/colour-catalogue/red-wall-colours/scarlet.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.asianpaints.com/colour-catalogue/grey-wall-colours/stone-steps.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.asianpaints.com/colour-catalogue/blue-wall-colours/empty-sky-n.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.asianpaints.com/colour-catalogue/yellow-wall-colours/mango-mood.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.asianpaints.com/colour-catalogue.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.asianpaints.com/services/asian-paints-safe-painting-service.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.asianpaints.com/services/interior-design-solutions.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.asianpaints.com/services/waterproofing-solutions.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.asianpaints.com/services/wood-solutions.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.asianpaints.com/resources/tools/paint-budget-calculator-oldd.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.asianpaints.com/resources/tools/waterproofing-budget-calculator.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.asianpaints.com/resources/tools/interior-design-solutions-calculator.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.asianpaints.com/resources/tools/kitchen-cost-calculator.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.asianpaints.com/home-colour-guide.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.asianpaints.com/mera-wala-shade.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.asianpaints.com/inspiration/ideas/colour-inspiration.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.asianpaints.com/resources/tools/paint-finish-tool.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.asianpaints.com/resources/tools/wood-finish-selection-tool.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.asianpaints.com/resources/tools/catalogue-directory.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.asianpaints.com/catalogue/colour-catalogue.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.asianpaints.com/resources/tools/mobile-app.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.asianpaints.com/products/paints-and-textures/interior-walls.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.asianpaints.com/products/paints-and-textures/interior-walls/royale-play.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.asianpaints.com/products/wall-coverings.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.asianpaints.com/products/paints-and-textures/exterior-walls.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.asianpaints.com/products/paints-and-textures/exterior-texture-range.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.asianpaints.com/products/waterproofing-solutions.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.asianpaints.com/products/waterproofing-solutions/bathrooms.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.asianpaints.com/products/waterproofing-solutions/terrace-and-tanks.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.asianpaints.com/products/waterproofing-solutions/cracks-and-joints.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.asianpaints.com/products/waterproofing-solutions/interiors.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.asianpaints.com/products/waterproofing-solutions/exteriors.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.asianpaints.com/products/waterproofing-solutions/tiling.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.asianpaints.com/guides/waterproofing-guide.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.asianpaints.com/about-us.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.asianpaints.com/more/investors.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.asianpaints.com/more/research-and-technology.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.asianpaints.com/more/supplier-registration.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.asianpaints.com/more/media.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.asianpaints.com/more/about-us/awards-and-recognitions.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.asianpaints.com/contact-us.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.asianpaints.com/footer-links/customer-policy.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.asianpaints.com/footer-links/cookie-policy.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.asianpaints.com/footer-links/environmental-policy.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.asianpaints.com/more/warranty.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.asianpaints.com/footer-links/quality-policy.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.asianpaints.com/PositionStatement.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.asianpaints.com/footer-links/terms-and-conditions.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.asianpaints.com/content/dam/asian_paints/resources/publicnotices/caution_notice.pdf",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.asianpaints.com/decorpro.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.asianpaints.com/sitemap.xml",
+      "reason": "not-in-inventory"
+    }
+  ],
+  "outputPath": "index.html",
+  "outputPathDefault": null,
+  "sidecar": "_meta.json",
+  "driverVersion": "1"
+}

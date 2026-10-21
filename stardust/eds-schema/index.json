@@ -1,0 +1,1473 @@
+{
+ "source": "http://localhost:8791/index-ds.html",
+ "width": 1280,
+ "profile": "eds",
+ "sections": [
+  {
+   "section": "carousel-hero-banner",
+   "items": [
+    {
+     "role": "cta",
+     "order": 0,
+     "text": "Explore colour catalogue",
+     "href": "https://www.asianpaints.com/colour-catalogue.html"
+    },
+    {
+     "role": "cta",
+     "order": 1,
+     "text": "Book a free site visit",
+     "href": "https://www.asianpaints.com/services/asian-paints-safe-painting-service.html"
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "Watch video",
+     "href": "https://www.asianpaints.com/campaign/warranty.html"
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "Explore now",
+     "href": "https://www.asianpaints.com/services/interior-design-solutions.html"
+    }
+   ],
+   "imgCount": 4,
+   "editableTexts": 0,
+   "repeats": [
+    {
+     "unitSelector": "DIV.hero-slide",
+     "count": 4,
+     "unit": {
+      "headings": 0,
+      "ctas": 1,
+      "imgs": 2,
+      "textRuns": 1
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "homepage-icons-container-block",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Transform your space"
+    }
+   ],
+   "imgCount": 6,
+   "editableTexts": 1,
+   "repeats": [
+    {
+     "unitSelector": "A.icon-item",
+     "count": 6,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 2,
+      "textRuns": 2
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "color-gallery",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Colour of the years"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Explore and elevate your space with featured shades of Asian Paints"
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "View colour catalogue",
+     "href": "https://www.asianpaints.com/colour-catalogue.html"
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "View colour catalogue",
+     "href": "https://www.asianpaints.com/colour-catalogue.html"
+    }
+   ],
+   "imgCount": 19,
+   "editableTexts": 3,
+   "repeats": [
+    {
+     "unitSelector": "DIV.color-gallery-slide",
+     "count": 9,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 4,
+      "textRuns": 0
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "form",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "By proceeding, I authorize Asian Paints Limited and its authorized contractors/partners to contact me via WhatsApp, phone calls, SMS and e-mail and I agree to the and ."
+    },
+    {
+     "role": "cta",
+     "order": 1,
+     "text": "Terms & Conditions",
+     "href": "https://www.asianpaints.com/footer-links/terms-and-conditions.html"
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "Privacy Policy",
+     "href": "https://www.asianpaints.com/footer-links/terms-and-conditions/privacy-policy.html"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Beautifulhomes"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Painting Service"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "Bid goodbye to your home painting hassles with our expert supervision"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "Name"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "*"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "Email"
+    },
+    {
+     "role": "body",
+     "order": 9,
+     "text": "*"
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "Mobile Number"
+    },
+    {
+     "role": "body",
+     "order": 11,
+     "text": "*"
+    },
+    {
+     "role": "body",
+     "order": 12,
+     "text": "PIN Code"
+    },
+    {
+     "role": "body",
+     "order": 13,
+     "text": "*"
+    },
+    {
+     "role": "body",
+     "order": 14,
+     "text": "Get updates on WhatsApp"
+    },
+    {
+     "role": "body",
+     "order": 15,
+     "text": "When do you plan to start with the painting?"
+    },
+    {
+     "role": "body",
+     "order": 16,
+     "text": "*"
+    },
+    {
+     "role": "body",
+     "order": 17,
+     "text": "Immediate"
+    },
+    {
+     "role": "body",
+     "order": 18,
+     "text": "Within a month"
+    },
+    {
+     "role": "body",
+     "order": 19,
+     "text": "After 1 month"
+    },
+    {
+     "role": "body",
+     "order": 20,
+     "text": "Is there a local painter hired?"
+    },
+    {
+     "role": "body",
+     "order": 21,
+     "text": "*"
+    },
+    {
+     "role": "body",
+     "order": 22,
+     "text": "Yes"
+    },
+    {
+     "role": "body",
+     "order": 23,
+     "text": "No"
+    },
+    {
+     "role": "body",
+     "order": 24,
+     "text": "By proceeding, I authorize Asian Paints Limited and its authorized contractors/partners to contact me via WhatsApp, phone calls, SMS and e-mail and I agree to the and ."
+    },
+    {
+     "role": "cta",
+     "order": 25,
+     "text": "Terms & Conditions",
+     "href": "https://www.asianpaints.com/footer-links/terms-and-conditions.html"
+    },
+    {
+     "role": "cta",
+     "order": 26,
+     "text": "Privacy Policy",
+     "href": "https://www.asianpaints.com/footer-links/terms-and-conditions/privacy-policy.html"
+    },
+    {
+     "role": "body",
+     "order": 27,
+     "text": "Book FREE Site Visit"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 5,
+   "repeats": [
+    {
+     "unitSelector": "DIV.form-input-cell",
+     "count": 4,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 2
+     },
+     "uniform": true
+    },
+    {
+     "unitSelector": "DIV.disclaimer-group",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 5
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "featured-products",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Featured Products"
+    }
+   ],
+   "imgCount": 6,
+   "editableTexts": 1,
+   "repeats": [
+    {
+     "unitSelector": "DIV.featured-products-slide",
+     "count": 3,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 4,
+      "textRuns": 0
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "services-grid",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Everything a home needs"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "One stop solution for all you need to keep your living space intact."
+    }
+   ],
+   "imgCount": 4,
+   "editableTexts": 2,
+   "repeats": [
+    {
+     "unitSelector": "A.services-grid-card",
+     "count": 4,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 2,
+      "textRuns": 2
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "explore-split",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Textures"
+    },
+    {
+     "role": "cta",
+     "order": 1,
+     "text": "View all",
+     "href": "https://www.asianpaints.com/paint-products/interior-wall-paints/royale-play.html"
+    },
+    {
+     "role": "heading",
+     "order": 2,
+     "text": "Wallpapers"
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "View all",
+     "href": "https://www.asianpaints.com/wall-coverings.html"
+    },
+    {
+     "role": "heading",
+     "order": 4,
+     "text": "Textures"
+    },
+    {
+     "role": "heading",
+     "order": 5,
+     "text": "Wallpapers"
+    },
+    {
+     "role": "cta",
+     "order": 6,
+     "text": "View all textures",
+     "href": "https://www.asianpaints.com/paint-products/interior-wall-paints/royale-play.html"
+    },
+    {
+     "role": "cta",
+     "order": 7,
+     "text": "View all wallpapers",
+     "href": "https://www.asianpaints.com/wall-coverings.html"
+    }
+   ],
+   "imgCount": 17,
+   "editableTexts": 8,
+   "repeats": [
+    {
+     "unitSelector": "P.",
+     "count": 4,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 2,
+      "textRuns": 0
+     },
+     "uniform": true
+    },
+    {
+     "unitSelector": "P.",
+     "count": 4,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 2,
+      "textRuns": 0
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "tools-carousel",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Colour Tools"
+    }
+   ],
+   "imgCount": 5,
+   "editableTexts": 1,
+   "repeats": [
+    {
+     "unitSelector": "A.tools-carousel-slide",
+     "count": 5,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 2,
+      "textRuns": 1
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "designer-collections",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Designer collections"
+    },
+    {
+     "role": "heading",
+     "order": 1,
+     "text": "Royale Designer Palette"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Sabyasachi-inspired Designer colour Palette for aesthetic interiors."
+    },
+    {
+     "role": "heading",
+     "order": 3,
+     "text": "Lux Indica"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Luxurious colour Shades inspired by Indian Heritage for home exteriors."
+    },
+    {
+     "role": "heading",
+     "order": 5,
+     "text": "Shvet"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "Indian whites and ivories colour palette especially curated for home interiors."
+    },
+    {
+     "role": "heading",
+     "order": 7,
+     "text": "Insignia"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "Designer range of Italian wood finishes for a luxurious look."
+    }
+   ],
+   "imgCount": 12,
+   "editableTexts": 9,
+   "repeats": [
+    {
+     "unitSelector": "DIV.designer-collections-card",
+     "count": 4,
+     "unit": {
+      "headings": 1,
+      "ctas": 0,
+      "imgs": 3,
+      "textRuns": 3
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "interiors-shop",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "One-stop shop for all things interiors"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "We provide complete painting service, interior design, renovation, and modular solutions for your home, including furniture and decor."
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Home Interiors"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Get home décor advice and interior design solutions."
+    },
+    {
+     "role": "cta",
+     "order": 4,
+     "text": "Explore now",
+     "href": "https://www.asianpaints.com/services/interior-design-solutions.html"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "Modular Kitchen"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "Shape your dream kitchen with our diverse collection."
+    },
+    {
+     "role": "cta",
+     "order": 7,
+     "text": "Explore now",
+     "href": "https://www.beautifulhomes.asianpaints.com/sleek-kitchens.html"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "Painting Services"
+    },
+    {
+     "role": "body",
+     "order": 9,
+     "text": "Get expert painting with on-time completion guaranteed."
+    },
+    {
+     "role": "cta",
+     "order": 10,
+     "text": "Explore now",
+     "href": "https://www.asianpaints.com/services/asian-paints-safe-painting-service.html"
+    }
+   ],
+   "imgCount": 3,
+   "editableTexts": 5,
+   "repeats": [
+    {
+     "unitSelector": "DIV.interiors-shop-card",
+     "count": 3,
+     "unit": {
+      "headings": 0,
+      "ctas": 1,
+      "imgs": 1,
+      "textRuns": 3
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "testimonial-carousel",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "What our clients say about us!"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Professional, clean, and seamless—BHPS stood out with execution excellence and design support that truly brought our vision alive."
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Srishti Parekh"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": ", Surat"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "BHPS combines professionalism with exceptional execution—translating vision into reality with expertise I’d confidently recommend to any homeowner."
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "Burhanuddin Lokhandwala"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": ", Dahod"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "BHPS impressed with quick response, thorough assessment, and results that matched every promise—truly exceeding expectations."
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "Kevin"
+    },
+    {
+     "role": "body",
+     "order": 9,
+     "text": ", Goa"
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "BHPS transformed my ideas into a beautifully crafted home with expert guidance on colours, textures, and every detail that matters."
+    },
+    {
+     "role": "body",
+     "order": 11,
+     "text": "A.K. Mehta"
+    },
+    {
+     "role": "body",
+     "order": 12,
+     "text": ", Goa"
+    },
+    {
+     "role": "body",
+     "order": 13,
+     "text": "From expert consultation to flawless execution, BHPS brought designs to life exactly as envisioned, transforming our home beautifully."
+    },
+    {
+     "role": "body",
+     "order": 14,
+     "text": "Rashmi"
+    },
+    {
+     "role": "body",
+     "order": 15,
+     "text": ", Udupi"
+    },
+    {
+     "role": "body",
+     "order": 16,
+     "text": "BHPS perfectly understood our vision and delivered a thoughtfully designed, detail-driven home with seamless execution—we couldn’t be happier."
+    },
+    {
+     "role": "body",
+     "order": 17,
+     "text": "Ranjana"
+    },
+    {
+     "role": "body",
+     "order": 18,
+     "text": ", Hubli"
+    },
+    {
+     "role": "body",
+     "order": 19,
+     "text": "\"With BHPS, expertise meets trust” We chose BHPS over local contractors for their product knowledge, professional approach, and the assurance that comes with Asian Paints. From day one, they understood our needs, supervised every step, and turned our vision into reality—it felt like a dream come true."
+    },
+    {
+     "role": "body",
+     "order": 20,
+     "text": "Preeti Saha"
+    },
+    {
+     "role": "body",
+     "order": 21,
+     "text": ", Pune"
+    },
+    {
+     "role": "body",
+     "order": 22,
+     "text": "\"Reliable and hassle-free” With 15 years of memories in this home, we wanted a stress-free makeover. BHPS stood out for their technical expertise, clear understanding of our needs, and timely execution. The experience was smooth, and BHPS proved to be truly reliable."
+    },
+    {
+     "role": "body",
+     "order": 23,
+     "text": "Alex Varghese Kurian"
+    },
+    {
+     "role": "body",
+     "order": 24,
+     "text": ", Kochi"
+    },
+    {
+     "role": "body",
+     "order": 25,
+     "text": "\"Our dream home, beautifully brought to life” When we found our dream home, we wanted it to look perfect. BHPS guided us with the right colours and designs for each room. Their expertise and care truly elevated the space. BHPS stands for trust and quality."
+    },
+    {
+     "role": "body",
+     "order": 26,
+     "text": "Deepa"
+    },
+    {
+     "role": "body",
+     "order": 27,
+     "text": ", Chennai"
+    },
+    {
+     "role": "body",
+     "order": 28,
+     "text": "\"Transformed our home into a wow” After 10 years, we approached BHPS for a much-needed makeover. Their prompt service, helpful colour visualisation, and beautiful results left us saying “WOW.” Our home feels joyful. I confidently recommend BHPS."
+    },
+    {
+     "role": "body",
+     "order": 29,
+     "text": "Dr Sachin Kumble"
+    },
+    {
+     "role": "body",
+     "order": 30,
+     "text": ", Pune"
+    },
+    {
+     "role": "body",
+     "order": 31,
+     "text": "\"Seamless and worry-free experience” A friend recommended BHPS, and I’m glad they did. The team offered great designs, a fair quote, and handled everything smoothly. They protected the furniture and ensured our routine wasn’t disturbed. It was truly seamless."
+    },
+    {
+     "role": "body",
+     "order": 32,
+     "text": "E. A. Varghese"
+    },
+    {
+     "role": "body",
+     "order": 33,
+     "text": ", Kochi"
+    },
+    {
+     "role": "body",
+     "order": 34,
+     "text": "\"Premium quality and well-managed” We wanted to redo the flat with premium finishes, and BHPS delivered. Though we couldn’t be involved daily, the supervisor kept us well-informed throughout. Their professionalism built our trust. BHPS is simply excellent."
+    },
+    {
+     "role": "body",
+     "order": 35,
+     "text": "Gargi Mallick"
+    },
+    {
+     "role": "body",
+     "order": 36,
+     "text": ", Kolkata"
+    },
+    {
+     "role": "body",
+     "order": 37,
+     "text": "\"Joyful, festive, and elegant” Ahead of my wedding, I wanted a lively yet elegant home makeover. After research and recommendations, BHPS stood out. They understood our vision, offered expert advice, and delivered beautifully. BHPS is truly beautiful."
+    },
+    {
+     "role": "body",
+     "order": 38,
+     "text": "Harsha"
+    },
+    {
+     "role": "body",
+     "order": 39,
+     "text": ", Hyderabad"
+    },
+    {
+     "role": "body",
+     "order": 40,
+     "text": "\"Fresh, vibrant, and worry-free” After 15 years, we wanted a vibrant new look. I found BHPS on social media and was impressed by their prompt response and supervision. Even in my absence, the work was neat, hygienic, and highly professional."
+    },
+    {
+     "role": "body",
+     "order": 41,
+     "text": "Jagdish"
+    },
+    {
+     "role": "body",
+     "order": 42,
+     "text": ", Chennai"
+    },
+    {
+     "role": "body",
+     "order": 43,
+     "text": "\"Professional, attentive, and seamless experience” We were looking for painting services when my husband’s friend recommended Beautiful Homes Painting Services. From the very beginning, their team stood out for their professionalism. They communicated clearly, listened patiently, and truly took the time to understand my requirements. The entire process felt seamless and well-managed."
+    },
+    {
+     "role": "body",
+     "order": 44,
+     "text": "Kalpana"
+    },
+    {
+     "role": "body",
+     "order": 45,
+     "text": ", Bangalore"
+    },
+    {
+     "role": "body",
+     "order": 46,
+     "text": "\"Trustworthy, professional, and uplifting” We wanted a peaceful, positive makeover for our home. BHPS truly understood our vision. Even in our absence, they handled everything with care, cleaned up thoroughly, and proved to be completely trustworthy. A truly professional service."
+    },
+    {
+     "role": "body",
+     "order": 47,
+     "text": "Kavya Vellaswamy"
+    },
+    {
+     "role": "body",
+     "order": 48,
+     "text": ", Coimbatore"
+    },
+    {
+     "role": "body",
+     "order": 49,
+     "text": "\"Helpful and understanding service” The BHPS team was very helpful—they understood my requirements and made thoughtful suggestions accordingly. It’s a great service, and I’m happy with the outcome."
+    },
+    {
+     "role": "body",
+     "order": 50,
+     "text": "Leena"
+    },
+    {
+     "role": "body",
+     "order": 51,
+     "text": ", Mumbai"
+    },
+    {
+     "role": "body",
+     "order": 52,
+     "text": "\"Helpful, professional, and seamless” While researching the best for my home, I discovered BHPS. They guided me through themes and colour schemes with care. The entire process was hassle-free. Their time, expertise, and professionalism helped me build my dream home."
+    },
+    {
+     "role": "body",
+     "order": 53,
+     "text": "Monica Aggarwal"
+    },
+    {
+     "role": "body",
+     "order": 54,
+     "text": ", Bengaluru"
+    },
+    {
+     "role": "body",
+     "order": 55,
+     "text": "\"Turned our home into a dream home” After 23 years, we wanted a fresh look. BHPS understood our vision effortlessly. Their service and pricing were both excellent. I highly recommend them—we’re fully satisfied. It truly is an outstanding service."
+    },
+    {
+     "role": "body",
+     "order": 56,
+     "text": "Priya"
+    },
+    {
+     "role": "body",
+     "order": 57,
+     "text": ", Ahmedabad"
+    },
+    {
+     "role": "body",
+     "order": 58,
+     "text": "\"Professional, punctual, and respectful” The BHPS team was incredibly professional—from prepping the space to timely execution. They were always punctual and worked so seamlessly, we never felt disturbed. Their respectful attitude and attention to detail truly stood out."
+    },
+    {
+     "role": "body",
+     "order": 59,
+     "text": "Ramesh Bohani"
+    },
+    {
+     "role": "body",
+     "order": 60,
+     "text": ", Delhi"
+    },
+    {
+     "role": "body",
+     "order": 61,
+     "text": "\"Flexible, responsive, and satisfying” I wanted something different for my home, and BHPS delivered. They were happy to incorporate any changes I requested, quickly and willingly. When I think of BHPS, I think of complete satisfaction."
+    },
+    {
+     "role": "body",
+     "order": 62,
+     "text": "Saraswati Singh"
+    },
+    {
+     "role": "body",
+     "order": 63,
+     "text": ", Lucknow"
+    },
+    {
+     "role": "body",
+     "order": 64,
+     "text": "\"Reliable, transparent, and skilled” I chose BHPS to repaint my second-hand flat, and they exceeded expectations. The team was honest, gave great suggestions, and paid attention to detail. I’ve already recommended them to friends—I know I can trust them."
+    },
+    {
+     "role": "body",
+     "order": 65,
+     "text": "Suman Dutta"
+    },
+    {
+     "role": "body",
+     "order": 66,
+     "text": ", Kolkata"
+    },
+    {
+     "role": "body",
+     "order": 67,
+     "text": "\"Great guidance and clean execution” The BHPS team explained the full process clearly, and the supervisor guided me on current design and colour trends. They even cleaned up thoroughly after the job. I now recommend BHPS to all my friends and family."
+    },
+    {
+     "role": "body",
+     "order": 68,
+     "text": "Sumit Arora"
+    },
+    {
+     "role": "body",
+     "order": 69,
+     "text": ", Delhi"
+    },
+    {
+     "role": "body",
+     "order": 70,
+     "text": "\"Reliable, trustworthy, and professional” My interaction with the BHPS team was excellent. They assessed my home thoroughly, gave a clear quotation and timeline, and completed the work as planned. Their professionalism and trustworthiness truly stood out. Highly recommended."
+    },
+    {
+     "role": "body",
+     "order": 71,
+     "text": "Sunita Chopra"
+    },
+    {
+     "role": "body",
+     "order": 72,
+     "text": ", Mumbai"
+    },
+    {
+     "role": "body",
+     "order": 73,
+     "text": "\"Truly professional and hassle-free” I chose BHPS while preparing my home for my daughter’s wedding. Their detailed quotation, minimal disruption, and room-wise painting showed great professionalism. They understood exactly what I wanted. When I think of BHPS—I think professional."
+    },
+    {
+     "role": "body",
+     "order": 74,
+     "text": "Tushar"
+    },
+    {
+     "role": "body",
+     "order": 75,
+     "text": ", Ahmedabad"
+    },
+    {
+     "role": "body",
+     "order": 76,
+     "text": "“Peaceful, happy, and well-guided” BHPS took the time to guide me through the process and shared great ideas for each room. The supervisor was helpful, and the team cleaned up thoroughly. The experience left me feeling peaceful and happy."
+    },
+    {
+     "role": "body",
+     "order": 77,
+     "text": "Vinod Kumar Srivastava"
+    },
+    {
+     "role": "body",
+     "order": 78,
+     "text": ", Lucknow"
+    },
+    {
+     "role": "body",
+     "order": 79,
+     "text": "“The team was very punctual with their work. The colour selection process included digital colour combinations, which helped us choose the best option. After the painting was completed, the team took care of the entire house cleaning. Overall, it was a hassle-free experience.”"
+    },
+    {
+     "role": "body",
+     "order": 80,
+     "text": "MV Prakash"
+    },
+    {
+     "role": "body",
+     "order": 81,
+     "text": ", Hyderabad"
+    },
+    {
+     "role": "body",
+     "order": 82,
+     "text": "“I had a leak on my terrace and contacted Asian Paints. The Supervisor reached out to me, conducted a thorough site evaluation, and recommended the appropriate product. His team completed the work in a week, and since then, I’ve had no issues with my terrace. I am very happy with the services.”"
+    },
+    {
+     "role": "body",
+     "order": 83,
+     "text": "Susairaj"
+    },
+    {
+     "role": "body",
+     "order": 84,
+     "text": ", Chennai"
+    },
+    {
+     "role": "body",
+     "order": 85,
+     "text": "“The Asian Paints team guided us on the colour that would suit our walls the most. Post the finalisation of the quote, it was a smooth experience since we got trustworthy service, advice, and complete supervision.”"
+    },
+    {
+     "role": "body",
+     "order": 86,
+     "text": "Arun Joshi"
+    },
+    {
+     "role": "body",
+     "order": 87,
+     "text": ", Mumbai"
+    },
+    {
+     "role": "body",
+     "order": 88,
+     "text": "“The team had a very good approach, and nothing was compromised. They have cleaned every inch and have done a superb work.”"
+    },
+    {
+     "role": "body",
+     "order": 89,
+     "text": "Ashwin"
+    },
+    {
+     "role": "body",
+     "order": 90,
+     "text": ", Chennai"
+    },
+    {
+     "role": "body",
+     "order": 91,
+     "text": "“They briefed about the work and how it would be executed. We strongly recommend Asian Paints.”"
+    },
+    {
+     "role": "body",
+     "order": 92,
+     "text": "Damodar & Shwetha"
+    },
+    {
+     "role": "body",
+     "order": 93,
+     "text": ", Bangalore"
+    },
+    {
+     "role": "body",
+     "order": 94,
+     "text": "“I chose Asian Paints and Asian Paints has the best paints. They explained how they are going to do the work and they did it that way. I had complete trusted in them, and trust is the most important thing”."
+    },
+    {
+     "role": "body",
+     "order": 95,
+     "text": "Dinesh Kumar"
+    },
+    {
+     "role": "body",
+     "order": 96,
+     "text": "“We really liked the Sabyasachi wallpapers. The detailing that they do with the painting is really well. The quotation that was given, I think was good, and they assured us that they will give us the best people, the best service”."
+    },
+    {
+     "role": "body",
+     "order": 97,
+     "text": "Shagun Sharma & Ravi Shankar"
+    },
+    {
+     "role": "body",
+     "order": 98,
+     "text": "“I needed someone professional to come and pickup this project. I felt extremely confident that the team will be able to deliver. This will take you for at least the next 8 to 10 years, that speaks for itself”"
+    },
+    {
+     "role": "body",
+     "order": 99,
+     "text": "Srilekha Bhattacharya"
+    },
+    {
+     "role": "body",
+     "order": 100,
+     "text": ", Gurgaon"
+    }
+   ],
+   "imgCount": 102,
+   "editableTexts": 1,
+   "repeats": [
+    {
+     "unitSelector": "DIV.testimonial-slide",
+     "count": 34,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 3,
+      "textRuns": 3
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "store-banner",
+   "items": [],
+   "imgCount": 1,
+   "editableTexts": 0,
+   "repeats": []
+  },
+  {
+   "section": "video-shorts",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Inspiring ideas for you"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "2.6K"
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "Explore catalogue",
+     "href": "https://www.asianpaints.com/colour-catalogue.html"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "3.6K"
+    },
+    {
+     "role": "cta",
+     "order": 4,
+     "text": "Explore shade",
+     "href": "https://www.asianpaints.com/colour-catalogue/brown-wall-colours/wholegrain-mustard-n.html"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "2.5K"
+    },
+    {
+     "role": "cta",
+     "order": 6,
+     "text": "Explore catalogue",
+     "href": "https://www.asianpaints.com/colour-catalogue.html"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "2.9K"
+    },
+    {
+     "role": "cta",
+     "order": 8,
+     "text": "Get Inspiration",
+     "href": "https://www.asianpaints.com/inspiration/ideas/colour-inspiration/living-room.html"
+    },
+    {
+     "role": "body",
+     "order": 9,
+     "text": "2.9K"
+    },
+    {
+     "role": "cta",
+     "order": 10,
+     "text": "Explore shade",
+     "href": "https://www.asianpaints.com/colour-catalogue/green-wall-colours/jugnu-i.html"
+    },
+    {
+     "role": "body",
+     "order": 11,
+     "text": "2.7K"
+    },
+    {
+     "role": "cta",
+     "order": 12,
+     "text": "Explore shade",
+     "href": "https://www.asianpaints.com/colour-catalogue/red-wall-colours/scarlet.html"
+    },
+    {
+     "role": "body",
+     "order": 13,
+     "text": "2.9K"
+    },
+    {
+     "role": "cta",
+     "order": 14,
+     "text": "Explore shade",
+     "href": "https://www.asianpaints.com/colour-catalogue/grey-wall-colours/stone-steps.html"
+    },
+    {
+     "role": "body",
+     "order": 15,
+     "text": "2.3K"
+    },
+    {
+     "role": "cta",
+     "order": 16,
+     "text": "Explore shade",
+     "href": "https://www.asianpaints.com/colour-catalogue/blue-wall-colours/empty-sky-n.html"
+    },
+    {
+     "role": "body",
+     "order": 17,
+     "text": "3.2K"
+    },
+    {
+     "role": "cta",
+     "order": 18,
+     "text": "Explore shade",
+     "href": "https://www.asianpaints.com/colour-catalogue/yellow-wall-colours/mango-mood.html"
+    },
+    {
+     "role": "body",
+     "order": 19,
+     "text": "2K"
+    },
+    {
+     "role": "cta",
+     "order": 20,
+     "text": "Explore catalogue",
+     "href": "https://www.asianpaints.com/colour-catalogue.html"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 11,
+   "repeats": [
+    {
+     "unitSelector": "DIV.vs-tile",
+     "count": 10,
+     "unit": {
+      "headings": 0,
+      "ctas": 1,
+      "imgs": 0,
+      "textRuns": 2
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "accordion",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Where can I find the nearest Asian Paints store?"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "You can use our store locator tool on the website to find the nearest Asian Paints store. Simply enter your location to get a list of nearby stores."
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "How can I contact Asian Paints customer service?"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "You can contact our customer service team by calling us on 1800-209-5678, or by emailing us directly at customercare@asianpaints.com."
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "How do I choose the right colour for my home?"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "Consider factors such as the room's lighting, furniture, and your personal style. You can also explore our Colour Catalogue and Home Colour Guide for ideas."
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "Can I get help with colour selection from Asian Paints?"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "Yes, our colour consultancy service is designed to help you choose the perfect shades for your home."
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "What are the latest colour trends?"
+    },
+    {
+     "role": "body",
+     "order": 9,
+     "text": "To know the latest colour trends you can go through the Asian Paints colour of the year or even talk to our experts to get the perfect paint colour for your home."
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "How do I use the Asian Paints Colour Visualizer tool?"
+    },
+    {
+     "role": "body",
+     "order": 11,
+     "text": "You can use the Asian Paints Colour Visualizer tool by clicking a photo of your room and try out different paint colours. Follow the instructions on our app to see how various shades will look in your space."
+    },
+    {
+     "role": "body",
+     "order": 12,
+     "text": "Where can I find the paint calculator to estimate the amount of paint needed?"
+    },
+    {
+     "role": "body",
+     "order": 13,
+     "text": "Our paint calculator is available on the website. Enter the dimensions of your room, and it will estimate the amount of paint required for your project."
+    },
+    {
+     "role": "body",
+     "order": 14,
+     "text": "How do I choose the right paint finish for my walls?"
+    },
+    {
+     "role": "body",
+     "order": 15,
+     "text": "Different finishes suit different needs. For example, matte finishes hide imperfections, while glossy finishes are durable and easy to clean. Explore our Home Painting Guide on the website or consult with our experts for advice."
+    },
+    {
+     "role": "body",
+     "order": 16,
+     "text": "How can I book a colour consultancy session?"
+    },
+    {
+     "role": "body",
+     "order": 17,
+     "text": "You can book a colour consultancy session through our website or by contacting our customer service team. We offer both online and in-person consultations at our stores."
+    },
+    {
+     "role": "body",
+     "order": 18,
+     "text": "How can I place an order for Asian Paints products?"
+    },
+    {
+     "role": "body",
+     "order": 19,
+     "text": "Orders can be placed directly through our website, at an Asian Paints store, or by contacting our customer service team."
+    },
+    {
+     "role": "body",
+     "order": 20,
+     "text": "What is the delivery process for online orders?"
+    },
+    {
+     "role": "body",
+     "order": 21,
+     "text": "Once you place an order, you will receive a confirmation email with delivery details. Our logistics team ensures timely and safe delivery of your products to your doorstep."
+    },
+    {
+     "role": "body",
+     "order": 22,
+     "text": "Can I track my order status?"
+    },
+    {
+     "role": "body",
+     "order": 23,
+     "text": "Yes, you can track your order status through your account on our website. You will also receive updates via email and SMS regarding the progress of your delivery."
+    },
+    {
+     "role": "body",
+     "order": 24,
+     "text": "How do I prepare a surface for painting?"
+    },
+    {
+     "role": "body",
+     "order": 25,
+     "text": "Proper surface preparation involves cleaning, sanding, and priming. Refer to our detailed guide on the website for step-by-step instructions to ensure a smooth and durable finish."
+    },
+    {
+     "role": "body",
+     "order": 26,
+     "text": "What is the best way to clean and maintain painted walls?"
+    },
+    {
+     "role": "body",
+     "order": 27,
+     "text": "Regular dusting and occasional cleaning with a damp cloth can keep your painted walls looking fresh."
+    },
+    {
+     "role": "body",
+     "order": 28,
+     "text": "How do I troubleshoot common painting issues (e.g., peeling, cracking)?"
+    },
+    {
+     "role": "body",
+     "order": 29,
+     "text": "To address peeling or cracking paint, start by removing any loose or damaged paint with a scraper or sandpaper. Clean the area thoroughly, then apply a high-quality primer. Fill any deep cracks with putty and sand smooth. After priming, repaint with thin, even coats, allowing each layer to dry fully. Ensure you use quality products and prepare surfaces properly to prevent future issues. Control moisture by fixing leaks and managing humidity."
+    },
+    {
+     "role": "body",
+     "order": 30,
+     "text": "How can I stay updated on new products and offers?"
+    },
+    {
+     "role": "body",
+     "order": 31,
+     "text": "Subscribe to our newsletter, follow us on social media, and regularly check our website to stay informed about the latest products, promotions, and offers from Asian Paints."
+    },
+    {
+     "role": "body",
+     "order": 32,
+     "text": "What warranty do Asian Paints products come with?"
+    },
+    {
+     "role": "body",
+     "order": 33,
+     "text": "Asian Paints products come with a warranty, the specific terms and conditions vary by product and can be found on our website."
+    },
+    {
+     "role": "body",
+     "order": 34,
+     "text": "How do I claim a warranty or get support for a product issue?"
+    },
+    {
+     "role": "body",
+     "order": 35,
+     "text": "To claim a warranty or get support, contact our customer service team with your purchase details and the nature of the issue. We will guide you through the process and provide the necessary assistance. You can also go through our warranty section on the website."
+    },
+    {
+     "role": "body",
+     "order": 36,
+     "text": "What are the terms and conditions for product returns?"
+    },
+    {
+     "role": "body",
+     "order": 37,
+     "text": "You can contact our customer service team or the dealer to understand the terms and conditions for a specific product return."
+    },
+    {
+     "role": "body",
+     "order": 38,
+     "text": "VIEW ALL"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 19,
+   "repeats": [
+    {
+     "unitSelector": "DETAILS.accordion-item",
+     "count": 19,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 2
+     },
+     "uniform": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,3818 @@
+{
+ "tool": "chrome-explore",
+ "url": "https://main--03cd0138--aemcoder.aem.live/",
+ "at": "2026-10-19T20:13:41.579Z",
+ "shots": "stardust/.work/chrome/header-build",
+ "widths": {
+  "360": {
+   "root": "body>header",
+   "controls": [
+    {
+     "name": "Asian Paints Home Page",
+     "key": "asian paints home page",
+     "role": "link",
+     "kind": "link",
+     "sel": "body>header>div>div:nth-of-type(1)>div>a:nth-of-type(1)",
+     "href": "https://main--03cd0138--aemcoder.aem.live/",
+     "expanded": null,
+     "rect": [
+      0,
+      29,
+      130,
+      40
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Beautiful Homes with Asian Paints Home Page",
+     "key": "beautiful homes with asian paints home page",
+     "role": "link",
+     "kind": "link",
+     "sel": "body>header>div>div:nth-of-type(1)>div>a:nth-of-type(2)",
+     "href": "https://www.beautifulhomes.asianpaints.com/?utm_source=ap-header&utm_medium=unification&utm_campaign=decor_org",
+     "expanded": null,
+     "rect": [
+      130,
+      29,
+      148,
+      40
+     ],
+     "actions": {}
+    },
+    {
+     "name": "The White Teak Company Home Page",
+     "key": "the white teak company home page",
+     "role": "link",
+     "kind": "link",
+     "sel": "body>header>div>div:nth-of-type(1)>div>a:nth-of-type(3)",
+     "href": "https://whiteteak.asianpaints.com/?utm_source=ap_header&utm_medium=unification&utm_campaign=white_teak",
+     "expanded": null,
+     "rect": [
+      278,
+      29,
+      55,
+      40
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Asian Paints B2B",
+     "key": "asian paints b2b",
+     "role": "link",
+     "kind": "link",
+     "sel": "body>header>div>div:nth-of-type(1)>a",
+     "href": "https://www.apassure.asianpaints.com/",
+     "expanded": null,
+     "rect": [
+      0,
+      0,
+      360,
+      29
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Open navigation",
+     "key": "open navigation",
+     "role": "toggle",
+     "kind": "drawer",
+     "sel": "body>header>div>div:nth-of-type(2)>div:nth-of-type(1)>div>button",
+     "expanded": "false",
+     "rect": [
+      8,
+      78,
+      40,
+      40
+     ],
+     "actions": {
+      "click": {
+       "opened": true,
+       "hidden": 9,
+       "panel": {
+        "links": [
+         {
+          "text": "Home",
+          "href": "https://main--03cd0138--aemcoder.aem.live/"
+         },
+         {
+          "text": "Colours",
+          "href": "https://main--03cd0138--aemcoder.aem.live/#"
+         },
+         {
+          "text": "Products",
+          "href": "https://main--03cd0138--aemcoder.aem.live/#"
+         },
+         {
+          "text": "Services",
+          "href": "https://main--03cd0138--aemcoder.aem.live/#"
+         },
+         {
+          "text": "Calculators",
+          "href": "https://main--03cd0138--aemcoder.aem.live/#"
+         },
+         {
+          "text": "Sustainability",
+          "href": "https://sustainability.asianpaints.com/sustainability/"
+         },
+         {
+          "text": "Professionals",
+          "href": "https://main--03cd0138--aemcoder.aem.live/#"
+         },
+         {
+          "text": "More...",
+          "href": "https://main--03cd0138--aemcoder.aem.live/#"
+         },
+         {
+          "text": "Our Company",
+          "href": "https://www.asianpaints.com/about-us.html"
+         },
+         {
+          "text": "Investors",
+          "href": "https://www.asianpaints.com/more/investors.html"
+         },
+         {
+          "text": "Careers",
+          "href": "https://careers.asianpaints.com/"
+         },
+         {
+          "text": "Contact us",
+          "href": "https://www.asianpaints.com/contact-us.html"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         0,
+         69,
+         360,
+         684
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": true,
+       "motion": [],
+       "shot": "360-001-Open-navigation-click.png"
+      },
+      "key": {
+       "opened": true,
+       "hidden": 9,
+       "panel": {
+        "links": [
+         {
+          "text": "Home",
+          "href": "https://main--03cd0138--aemcoder.aem.live/"
+         },
+         {
+          "text": "Colours",
+          "href": "https://main--03cd0138--aemcoder.aem.live/#"
+         },
+         {
+          "text": "Products",
+          "href": "https://main--03cd0138--aemcoder.aem.live/#"
+         },
+         {
+          "text": "Services",
+          "href": "https://main--03cd0138--aemcoder.aem.live/#"
+         },
+         {
+          "text": "Calculators",
+          "href": "https://main--03cd0138--aemcoder.aem.live/#"
+         },
+         {
+          "text": "Sustainability",
+          "href": "https://sustainability.asianpaints.com/sustainability/"
+         },
+         {
+          "text": "Professionals",
+          "href": "https://main--03cd0138--aemcoder.aem.live/#"
+         },
+         {
+          "text": "More...",
+          "href": "https://main--03cd0138--aemcoder.aem.live/#"
+         },
+         {
+          "text": "Our Company",
+          "href": "https://www.asianpaints.com/about-us.html"
+         },
+         {
+          "text": "Investors",
+          "href": "https://www.asianpaints.com/more/investors.html"
+         },
+         {
+          "text": "Careers",
+          "href": "https://careers.asianpaints.com/"
+         },
+         {
+          "text": "Contact us",
+          "href": "https://www.asianpaints.com/contact-us.html"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         0,
+         69,
+         360,
+         684
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": true,
+       "motion": [],
+       "shot": "360-002-Open-navigation-key.png",
+       "tabReachesPanel": true
+      }
+     },
+     "close": {
+      "escape": true,
+      "focusReturn": true,
+      "outside": null,
+      "toggle": true
+     },
+     "children": [
+      {
+       "name": "Colours",
+       "key": "colours",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#nav>div>div:nth-of-type(1)>nav>ul>li:nth-of-type(2)>a",
+       "expanded": "false",
+       "rect": [
+        17,
+        160,
+        331,
+        53
+       ],
+       "actions": {
+        "click": {
+         "opened": true,
+         "hidden": 0,
+         "panel": {
+          "links": [
+           {
+            "text": "All Colours",
+            "href": "https://www.asianpaints.com/colour-catalogue.html"
+           },
+           {
+            "text": "Grey",
+            "href": "https://www.asianpaints.com/colour-catalogue/grey-wall-colours.html"
+           },
+           {
+            "text": "Blue",
+            "href": "https://www.asianpaints.com/colour-catalogue/blue-wall-colours.html"
+           },
+           {
+            "text": "Brown",
+            "href": "https://www.asianpaints.com/colour-catalogue/brown-wall-colours.html"
+           },
+           {
+            "text": "Red",
+            "href": "https://www.asianpaints.com/colour-catalogue/red-wall-colours.html"
+           },
+           {
+            "text": "Orange",
+            "href": "https://www.asianpaints.com/colour-catalogue/orange-wall-colours.html"
+           },
+           {
+            "text": "Yellow",
+            "href": "https://www.asianpaints.com/colour-catalogue/yellow-wall-colours.html"
+           },
+           {
+            "text": "Green",
+            "href": "https://www.asianpaints.com/colour-catalogue/green-wall-colours.html"
+           },
+           {
+            "text": "Purple",
+            "href": "https://www.asianpaints.com/colour-catalogue/purple-wall-colours.html"
+           },
+           {
+            "text": "Pink",
+            "href": "https://www.asianpaints.com/colour-catalogue/pink-wall-colours.html"
+           },
+           {
+            "text": "Whites",
+            "href": "https://www.asianpaints.com/colour-catalogue/white-wall-colours.html"
+           },
+           {
+            "text": "Off Whites",
+            "href": "https://www.asianpaints.com/colour-catalogue/off-white-wall-colours.html"
+           }
+          ],
+          "headings": [
+           "Colour by family",
+           "Colour Collections"
+          ],
+          "images": 0,
+          "inputs": [],
+          "buttons": [
+           "‹ Colours"
+          ],
+          "options": 0,
+          "rect": [
+           0,
+           126,
+           360,
+           718
+          ]
+         },
+         "expanded": "true",
+         "focus": "trigger",
+         "scrollLock": true,
+         "motion": [
+          {
+           "kind": "transition",
+           "prop": "transform",
+           "ms": 250,
+           "delay": 0,
+           "easing": "ease-in-out",
+           "target": "div.nav-dropdown"
+          },
+          {
+           "kind": "transition",
+           "prop": "width",
+           "ms": 300,
+           "delay": 0,
+           "easing": "ease",
+           "target": "span.fp-bullet"
+          },
+          {
+           "kind": "transition",
+           "prop": "background-color",
+           "ms": 300,
+           "delay": 0,
+           "easing": "ease",
+           "target": "span.fp-bullet"
+          },
+          {
+           "kind": "transition",
+           "prop": "border-top-left-radius",
+           "ms": 300,
+           "delay": 0,
+           "easing": "ease",
+           "target": "span.fp-bullet"
+          },
+          {
+           "kind": "transition",
+           "prop": "border-top-right-radius",
+           "ms": 300,
+           "delay": 0,
+           "easing": "ease",
+           "target": "span.fp-bullet"
+          },
+          {
+           "kind": "transition",
+           "prop": "border-bottom-left-radius",
+           "ms": 300,
+           "delay": 0,
+           "easing": "ease",
+           "target": "span.fp-bullet"
+          },
+          {
+           "kind": "transition",
+           "prop": "border-bottom-right-radius",
+           "ms": 300,
+           "delay": 0,
+           "easing": "ease",
+           "target": "span.fp-bullet"
+          },
+          {
+           "kind": "transition",
+           "prop": "height",
+           "ms": 300,
+           "delay": 0,
+           "easing": "ease",
+           "target": "span.fp-bullet"
+          },
+          {
+           "kind": "transition",
+           "prop": "transform",
+           "ms": 600,
+           "delay": 0,
+           "easing": "ease",
+           "target": "div.featured-products-track"
+          }
+         ],
+         "shot": "360-003-Colours-click.png"
+        },
+        "key": {
+         "opened": true,
+         "hidden": 0,
+         "panel": {
+          "links": [
+           {
+            "text": "All Colours",
+            "href": "https://www.asianpaints.com/colour-catalogue.html"
+           },
+           {
+            "text": "Grey",
+            "href": "https://www.asianpaints.com/colour-catalogue/grey-wall-colours.html"
+           },
+           {
+            "text": "Blue",
+            "href": "https://www.asianpaints.com/colour-catalogue/blue-wall-colours.html"
+           },
+           {
+            "text": "Brown",
+            "href": "https://www.asianpaints.com/colour-catalogue/brown-wall-colours.html"
+           },
+           {
+            "text": "Red",
+            "href": "https://www.asianpaints.com/colour-catalogue/red-wall-colours.html"
+           },
+           {
+            "text": "Orange",
+            "href": "https://www.asianpaints.com/colour-catalogue/orange-wall-colours.html"
+           },
+           {
+            "text": "Yellow",
+            "href": "https://www.asianpaints.com/colour-catalogue/yellow-wall-colours.html"
+           },
+           {
+            "text": "Green",
+            "href": "https://www.asianpaints.com/colour-catalogue/green-wall-colours.html"
+           },
+           {
+            "text": "Purple",
+            "href": "https://www.asianpaints.com/colour-catalogue/purple-wall-colours.html"
+           },
+           {
+            "text": "Pink",
+            "href": "https://www.asianpaints.com/colour-catalogue/pink-wall-colours.html"
+           },
+           {
+            "text": "Whites",
+            "href": "https://www.asianpaints.com/colour-catalogue/white-wall-colours.html"
+           },
+           {
+            "text": "Off Whites",
+            "href": "https://www.asianpaints.com/colour-catalogue/off-white-wall-colours.html"
+           }
+          ],
+          "headings": [
+           "Colour by family",
+           "Colour Collections"
+          ],
+          "images": 0,
+          "inputs": [],
+          "buttons": [
+           "‹ Colours"
+          ],
+          "options": 0,
+          "rect": [
+           0,
+           126,
+           360,
+           718
+          ]
+         },
+         "expanded": "true",
+         "focus": "trigger",
+         "scrollLock": true,
+         "motion": [
+          {
+           "kind": "transition",
+           "prop": "transform",
+           "ms": 250,
+           "delay": 0,
+           "easing": "ease-in-out",
+           "target": "div.nav-dropdown"
+          }
+         ],
+         "shot": "360-004-Colours-key.png",
+         "tabReachesPanel": true
+        }
+       },
+       "close": {
+        "escape": true,
+        "focusReturn": true,
+        "outside": null,
+        "toggle": true
+       },
+       "children": [
+        {
+         "name": "‹ Colours",
+         "key": "colours",
+         "role": "toggle",
+         "kind": "menu",
+         "sel": "#nav>div>div:nth-of-type(1)>nav>ul>li:nth-of-type(2)>div>div:nth-of-type(1)",
+         "expanded": null,
+         "rect": [
+          17,
+          126,
+          326,
+          78
+         ],
+         "actions": {
+          "click": {
+           "opened": false,
+           "hides": 15
+          },
+          "key": {
+           "opened": false,
+           "hides": 15
+          }
+         }
+        }
+       ]
+      },
+      {
+       "name": "Products",
+       "key": "products",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#nav>div>div:nth-of-type(1)>nav>ul>li:nth-of-type(3)>a",
+       "expanded": "false",
+       "rect": [
+        17,
+        214,
+        331,
+        53
+       ],
+       "actions": {
+        "click": {
+         "opened": true,
+         "hidden": 0,
+         "panel": {
+          "links": [
+           {
+            "text": "Paints",
+            "href": "https://www.asianpaints.com/paint-products/interior-wall-paints.html"
+           },
+           {
+            "text": "Textures",
+            "href": "https://www.asianpaints.com/paint-products/interior-wall-paints/royale-play.html"
+           },
+           {
+            "text": "Wallpapers",
+            "href": "https://www.asianpaints.com/wall-coverings.html"
+           },
+           {
+            "text": "Paints",
+            "href": "https://www.asianpaints.com/paint-products/exterior-wall-paints.html"
+           },
+           {
+            "text": "Textures",
+            "href": "https://www.asianpaints.com/texture-paints/exterior-textures.html"
+           },
+           {
+            "text": "All products",
+            "href": "https://www.asianpaints.com/waterproofing-products.html"
+           },
+           {
+            "text": "Bathrooms",
+            "href": "https://www.asianpaints.com/waterproofing-products/bathrooms.html"
+           },
+           {
+            "text": "Terrace & tanks",
+            "href": "https://www.asianpaints.com/waterproofing-products/terrace-and-tanks.html"
+           },
+           {
+            "text": "Cracks & joints",
+            "href": "https://www.asianpaints.com/waterproofing-products/cracks-and-joints.html"
+           },
+           {
+            "text": "Interior",
+            "href": "https://www.asianpaints.com/waterproofing-products/interiors.html"
+           },
+           {
+            "text": "Tiling",
+            "href": "https://www.asianpaints.com/waterproofing-products/tiling.html"
+           }
+          ],
+          "headings": [
+           "For Interior Walls",
+           "For Exterior Walls",
+           "Waterproofing"
+          ],
+          "images": 0,
+          "inputs": [],
+          "buttons": [
+           "‹ Products"
+          ],
+          "options": 0,
+          "rect": [
+           0,
+           126,
+           360,
+           718
+          ]
+         },
+         "expanded": "true",
+         "focus": "trigger",
+         "scrollLock": true,
+         "motion": [
+          {
+           "kind": "transition",
+           "prop": "transform",
+           "ms": 250,
+           "delay": 0,
+           "easing": "ease-in-out",
+           "target": "div.nav-dropdown"
+          }
+         ],
+         "shot": "360-005-Products-click.png"
+        },
+        "key": {
+         "opened": true,
+         "hidden": 0,
+         "panel": {
+          "links": [
+           {
+            "text": "Paints",
+            "href": "https://www.asianpaints.com/paint-products/interior-wall-paints.html"
+           },
+           {
+            "text": "Textures",
+            "href": "https://www.asianpaints.com/paint-products/interior-wall-paints/royale-play.html"
+           },
+           {
+            "text": "Wallpapers",
+            "href": "https://www.asianpaints.com/wall-coverings.html"
+           },
+           {
+            "text": "Paints",
+            "href": "https://www.asianpaints.com/paint-products/exterior-wall-paints.html"
+           },
+           {
+            "text": "Textures",
+            "href": "https://www.asianpaints.com/texture-paints/exterior-textures.html"
+           },
+           {
+            "text": "All products",
+            "href": "https://www.asianpaints.com/waterproofing-products.html"
+           },
+           {
+            "text": "Bathrooms",
+            "href": "https://www.asianpaints.com/waterproofing-products/bathrooms.html"
+           },
+           {
+            "text": "Terrace & tanks",
+            "href": "https://www.asianpaints.com/waterproofing-products/terrace-and-tanks.html"
+           },
+           {
+            "text": "Cracks & joints",
+            "href": "https://www.asianpaints.com/waterproofing-products/cracks-and-joints.html"
+           },
+           {
+            "text": "Interior",
+            "href": "https://www.asianpaints.com/waterproofing-products/interiors.html"
+           },
+           {
+            "text": "Tiling",
+            "href": "https://www.asianpaints.com/waterproofing-products/tiling.html"
+           }
+          ],
+          "headings": [
+           "For Interior Walls",
+           "For Exterior Walls",
+           "Waterproofing"
+          ],
+          "images": 0,
+          "inputs": [],
+          "buttons": [
+           "‹ Products"
+          ],
+          "options": 0,
+          "rect": [
+           0,
+           126,
+           360,
+           718
+          ]
+         },
+         "expanded": "true",
+         "focus": "trigger",
+         "scrollLock": true,
+         "motion": [
+          {
+           "kind": "transition",
+           "prop": "transform",
+           "ms": 250,
+           "delay": 0,
+           "easing": "ease-in-out",
+           "target": "div.nav-dropdown"
+          }
+         ],
+         "shot": "360-006-Products-key.png",
+         "tabReachesPanel": true
+        }
+       },
+       "close": {
+        "escape": true,
+        "focusReturn": true,
+        "outside": null,
+        "toggle": false
+       },
+       "children": [
+        {
+         "name": "‹ Products",
+         "key": "products",
+         "role": "toggle",
+         "kind": "menu",
+         "sel": "#nav>div>div:nth-of-type(1)>nav>ul>li:nth-of-type(3)>div>div:nth-of-type(1)",
+         "expanded": null,
+         "rect": [
+          17,
+          126,
+          326,
+          78
+         ],
+         "actions": {
+          "click": {
+           "opened": false,
+           "hides": 15
+          },
+          "key": {
+           "opened": false,
+           "hides": 15
+          }
+         }
+        }
+       ]
+      },
+      {
+       "name": "Services",
+       "key": "services",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#nav>div>div:nth-of-type(1)>nav>ul>li:nth-of-type(4)>a",
+       "expanded": "false",
+       "rect": [
+        17,
+        268,
+        331,
+        53
+       ],
+       "actions": {
+        "click": {
+         "opened": true,
+         "hidden": 0,
+         "panel": {
+          "links": [
+           {
+            "text": "Painting",
+            "href": "https://www.asianpaints.com/services/asian-paints-safe-painting-service.html"
+           },
+           {
+            "text": "Interior solutions",
+            "href": "https://www.asianpaints.com/services/interior-design-solutions.html"
+           },
+           {
+            "text": "Waterproofing",
+            "href": "https://www.asianpaints.com/services/waterproofing-solutions.html"
+           },
+           {
+            "text": "Kitchen",
+            "href": "https://www.beautifulhomes.asianpaints.com/sleek-kitchens.html?utm_source=ap&utm_medium=top-nav&utm_campaign=unification"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [
+           "‹ Services"
+          ],
+          "options": 0,
+          "rect": [
+           0,
+           126,
+           360,
+           718
+          ]
+         },
+         "expanded": "true",
+         "focus": "trigger",
+         "scrollLock": true,
+         "motion": [
+          {
+           "kind": "transition",
+           "prop": "transform",
+           "ms": 250,
+           "delay": 0,
+           "easing": "ease-in-out",
+           "target": "div.nav-dropdown"
+          }
+         ],
+         "shot": "360-007-Services-click.png"
+        },
+        "key": {
+         "opened": true,
+         "hidden": 0,
+         "panel": {
+          "links": [
+           {
+            "text": "Painting",
+            "href": "https://www.asianpaints.com/services/asian-paints-safe-painting-service.html"
+           },
+           {
+            "text": "Interior solutions",
+            "href": "https://www.asianpaints.com/services/interior-design-solutions.html"
+           },
+           {
+            "text": "Waterproofing",
+            "href": "https://www.asianpaints.com/services/waterproofing-solutions.html"
+           },
+           {
+            "text": "Kitchen",
+            "href": "https://www.beautifulhomes.asianpaints.com/sleek-kitchens.html?utm_source=ap&utm_medium=top-nav&utm_campaign=unification"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [
+           "‹ Services"
+          ],
+          "options": 0,
+          "rect": [
+           0,
+           126,
+           360,
+           718
+          ]
+         },
+         "expanded": "true",
+         "focus": "trigger",
+         "scrollLock": true,
+         "motion": [
+          {
+           "kind": "transition",
+           "prop": "transform",
+           "ms": 250,
+           "delay": 0,
+           "easing": "ease-in-out",
+           "target": "div.nav-dropdown"
+          }
+         ],
+         "shot": "360-008-Services-key.png",
+         "tabReachesPanel": true
+        }
+       },
+       "close": {
+        "escape": true,
+        "focusReturn": true,
+        "outside": null,
+        "toggle": false
+       },
+       "children": [
+        {
+         "name": "‹ Services",
+         "key": "services",
+         "role": "toggle",
+         "kind": "menu",
+         "sel": "#nav>div>div:nth-of-type(1)>nav>ul>li:nth-of-type(4)>div>div:nth-of-type(1)",
+         "expanded": null,
+         "rect": [
+          17,
+          126,
+          326,
+          78
+         ],
+         "actions": {
+          "click": {
+           "opened": false,
+           "hides": 5
+          },
+          "key": {
+           "opened": false,
+           "hides": 5
+          }
+         }
+        }
+       ]
+      },
+      {
+       "name": "Calculators",
+       "key": "calculators",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#nav>div>div:nth-of-type(1)>nav>ul>li:nth-of-type(5)>a",
+       "expanded": "false",
+       "rect": [
+        17,
+        322,
+        331,
+        53
+       ],
+       "actions": {
+        "click": {
+         "opened": true,
+         "hidden": 0,
+         "panel": {
+          "links": [
+           {
+            "text": "Paint quotation calculator",
+            "href": "https://www.asianpaints.com/resources/tools/paint-quotation-tool.html"
+           },
+           {
+            "text": "Waterproofing budget calculator",
+            "href": "https://www.asianpaints.com/resources/tools/waterproofing-budget-calculator.html"
+           },
+           {
+            "text": "Paint budget calculator",
+            "href": "https://www.asianpaints.com/resources/tools/paint-budget-calculator.html"
+           },
+           {
+            "text": "Interior design cost calculator",
+            "href": "https://www.asianpaints.com/resources/tools/interior-design-solutions-calculator.html"
+           },
+           {
+            "text": "Kitchen cost calculator",
+            "href": "https://www.asianpaints.com/resources/tools/kitchen-cost-calculator.html"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [
+           "‹ Calculators"
+          ],
+          "options": 0,
+          "rect": [
+           0,
+           126,
+           360,
+           718
+          ]
+         },
+         "expanded": "true",
+         "focus": "trigger",
+         "scrollLock": true,
+         "motion": [
+          {
+           "kind": "transition",
+           "prop": "transform",
+           "ms": 250,
+           "delay": 0,
+           "easing": "ease-in-out",
+           "target": "div.nav-dropdown"
+          }
+         ],
+         "shot": "360-009-Calculators-click.png"
+        },
+        "key": {
+         "opened": true,
+         "hidden": 0,
+         "panel": {
+          "links": [
+           {
+            "text": "Paint quotation calculator",
+            "href": "https://www.asianpaints.com/resources/tools/paint-quotation-tool.html"
+           },
+           {
+            "text": "Waterproofing budget calculator",
+            "href": "https://www.asianpaints.com/resources/tools/waterproofing-budget-calculator.html"
+           },
+           {
+            "text": "Paint budget calculator",
+            "href": "https://www.asianpaints.com/resources/tools/paint-budget-calculator.html"
+           },
+           {
+            "text": "Interior design cost calculator",
+            "href": "https://www.asianpaints.com/resources/tools/interior-design-solutions-calculator.html"
+           },
+           {
+            "text": "Kitchen cost calculator",
+            "href": "https://www.asianpaints.com/resources/tools/kitchen-cost-calculator.html"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [
+           "‹ Calculators"
+          ],
+          "options": 0,
+          "rect": [
+           0,
+           126,
+           360,
+           718
+          ]
+         },
+         "expanded": "true",
+         "focus": "trigger",
+         "scrollLock": true,
+         "motion": [
+          {
+           "kind": "transition",
+           "prop": "transform",
+           "ms": 250,
+           "delay": 0,
+           "easing": "ease-in-out",
+           "target": "div.nav-dropdown"
+          }
+         ],
+         "shot": "360-010-Calculators-key.png",
+         "tabReachesPanel": true
+        }
+       },
+       "close": {
+        "escape": true,
+        "focusReturn": false,
+        "outside": null,
+        "toggle": false
+       },
+       "children": [
+        {
+         "name": "‹ Calculators",
+         "key": "calculators",
+         "role": "toggle",
+         "kind": "menu",
+         "sel": "#nav>div>div:nth-of-type(1)>nav>ul>li:nth-of-type(5)>div>div:nth-of-type(1)",
+         "expanded": null,
+         "rect": [
+          17,
+          126,
+          326,
+          78
+         ],
+         "actions": {
+          "click": {
+           "opened": false,
+           "hides": 6
+          },
+          "key": {
+           "opened": false,
+           "hides": 6
+          }
+         }
+        }
+       ]
+      },
+      {
+       "name": "Professionals",
+       "key": "professionals",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#nav>div>div:nth-of-type(1)>nav>ul>li:nth-of-type(7)>a",
+       "expanded": "false",
+       "rect": [
+        17,
+        430,
+        331,
+        53
+       ],
+       "actions": {
+        "click": {
+         "opened": true,
+         "hidden": 0,
+         "panel": {
+          "links": [
+           {
+            "text": "B2B Customers",
+            "href": "https://www.apassure.asianpaints.com/"
+           },
+           {
+            "text": "Architects/Interior designers",
+            "href": "https://www.asianpaints.com/decorpro.html"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [
+           "‹ Professionals"
+          ],
+          "options": 0,
+          "rect": [
+           0,
+           126,
+           360,
+           718
+          ]
+         },
+         "expanded": "true",
+         "focus": "trigger",
+         "scrollLock": true,
+         "motion": [
+          {
+           "kind": "transition",
+           "prop": "transform",
+           "ms": 250,
+           "delay": 0,
+           "easing": "ease-in-out",
+           "target": "div.nav-dropdown"
+          }
+         ],
+         "shot": "360-011-Professionals-click.png"
+        },
+        "key": {
+         "opened": true,
+         "hidden": 0,
+         "panel": {
+          "links": [
+           {
+            "text": "B2B Customers",
+            "href": "https://www.apassure.asianpaints.com/"
+           },
+           {
+            "text": "Architects/Interior designers",
+            "href": "https://www.asianpaints.com/decorpro.html"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [
+           "‹ Professionals"
+          ],
+          "options": 0,
+          "rect": [
+           0,
+           126,
+           360,
+           718
+          ]
+         },
+         "expanded": "true",
+         "focus": "trigger",
+         "scrollLock": true,
+         "motion": [
+          {
+           "kind": "transition",
+           "prop": "transform",
+           "ms": 250,
+           "delay": 0,
+           "easing": "ease-in-out",
+           "target": "div.nav-dropdown"
+          }
+         ],
+         "shot": "360-012-Professionals-key.png",
+         "tabReachesPanel": true
+        }
+       },
+       "close": {
+        "escape": true,
+        "focusReturn": false,
+        "outside": null,
+        "toggle": true
+       },
+       "children": [
+        {
+         "name": "‹ Professionals",
+         "key": "professionals",
+         "role": "toggle",
+         "kind": "menu",
+         "sel": "#nav>div>div:nth-of-type(1)>nav>ul>li:nth-of-type(7)>div>div:nth-of-type(1)",
+         "expanded": null,
+         "rect": [
+          17,
+          126,
+          326,
+          78
+         ],
+         "actions": {
+          "click": {
+           "opened": false,
+           "hides": 3
+          },
+          "key": {
+           "opened": false,
+           "hides": 3
+          }
+         }
+        }
+       ]
+      },
+      {
+       "name": "More...",
+       "key": "more",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#nav>div>div:nth-of-type(1)>nav>ul>li:nth-of-type(8)>a",
+       "expanded": "false",
+       "rect": [
+        17,
+        484,
+        331,
+        53
+       ],
+       "actions": {
+        "click": {
+         "opened": true,
+         "hidden": 0,
+         "panel": {
+          "links": [
+           {
+            "text": "Find Contractor",
+            "href": "https://www.asianpaints.com/contractors/painting-contractors.html"
+           },
+           {
+            "text": "Find a store",
+            "href": "https://www.asianpaints.com/store-locator.html"
+           },
+           {
+            "text": "Find a Service Center",
+            "href": "https://www.asianpaints.com/service-center-locator.html"
+           },
+           {
+            "text": "Blogs",
+            "href": "https://www.asianpaints.com/blogs.html"
+           },
+           {
+            "text": "Guides",
+            "href": "https://www.asianpaints.com/guides.html"
+           },
+           {
+            "text": "Paint bucket return",
+            "href": "https://www.asianpaints.com/recycle-store-locator.html"
+           },
+           {
+            "text": "Explore home decor",
+            "href": "https://www.beautifulhomes.asianpaints.com/?utm_source=ap&utm_medium=top-nav&utm_campaign=unification"
+           }
+          ],
+          "headings": [
+           "More"
+          ],
+          "images": 0,
+          "inputs": [],
+          "buttons": [
+           "‹ More..."
+          ],
+          "options": 0,
+          "rect": [
+           0,
+           126,
+           360,
+           718
+          ]
+         },
+         "expanded": "true",
+         "focus": "trigger",
+         "scrollLock": true,
+         "motion": [
+          {
+           "kind": "transition",
+           "prop": "transform",
+           "ms": 250,
+           "delay": 0,
+           "easing": "ease-in-out",
+           "target": "div.nav-dropdown"
+          }
+         ],
+         "shot": "360-013-More--click.png"
+        },
+        "key": {
+         "opened": true,
+         "hidden": 0,
+         "panel": {
+          "links": [
+           {
+            "text": "Find Contractor",
+            "href": "https://www.asianpaints.com/contractors/painting-contractors.html"
+           },
+           {
+            "text": "Find a store",
+            "href": "https://www.asianpaints.com/store-locator.html"
+           },
+           {
+            "text": "Find a Service Center",
+            "href": "https://www.asianpaints.com/service-center-locator.html"
+           },
+           {
+            "text": "Blogs",
+            "href": "https://www.asianpaints.com/blogs.html"
+           },
+           {
+            "text": "Guides",
+            "href": "https://www.asianpaints.com/guides.html"
+           },
+           {
+            "text": "Paint bucket return",
+            "href": "https://www.asianpaints.com/recycle-store-locator.html"
+           },
+           {
+            "text": "Explore home decor",
+            "href": "https://www.beautifulhomes.asianpaints.com/?utm_source=ap&utm_medium=top-nav&utm_campaign=unification"
+           }
+          ],
+          "headings": [
+           "More"
+          ],
+          "images": 0,
+          "inputs": [],
+          "buttons": [
+           "‹ More..."
+          ],
+          "options": 0,
+          "rect": [
+           0,
+           126,
+           360,
+           718
+          ]
+         },
+         "expanded": "true",
+         "focus": "trigger",
+         "scrollLock": true,
+         "motion": [
+          {
+           "kind": "transition",
+           "prop": "transform",
+           "ms": 250,
+           "delay": 0,
+           "easing": "ease-in-out",
+           "target": "div.nav-dropdown"
+          }
+         ],
+         "shot": "360-014-More--key.png",
+         "tabReachesPanel": true
+        }
+       },
+       "close": {
+        "escape": true,
+        "focusReturn": false,
+        "outside": null,
+        "toggle": false
+       },
+       "children": [
+        {
+         "name": "‹ More...",
+         "key": "more",
+         "role": "toggle",
+         "kind": "menu",
+         "sel": "#nav>div>div:nth-of-type(1)>nav>ul>li:nth-of-type(8)>div>div:nth-of-type(1)",
+         "expanded": null,
+         "rect": [
+          17,
+          126,
+          326,
+          78
+         ],
+         "actions": {
+          "click": {
+           "opened": false,
+           "hides": 9
+          },
+          "key": {
+           "opened": false,
+           "hides": 9
+          }
+         }
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Search",
+     "key": "search",
+     "role": "toggle",
+     "kind": "search",
+     "sel": "body>header>div>div:nth-of-type(2)>div:nth-of-type(1)>div>div:nth-of-type(2)>button",
+     "expanded": null,
+     "rect": [
+      109,
+      78,
+      40,
+      40
+     ],
+     "actions": {
+      "click": null,
+      "key": null
+     }
+    },
+    {
+     "name": "Find Contractor",
+     "key": "find contractor",
+     "role": "link",
+     "kind": "link",
+     "sel": "body>header>div>div:nth-of-type(2)>div:nth-of-type(1)>div>div:nth-of-type(2)>a:nth-of-type(1)",
+     "href": "https://www.asianpaints.com/contractors/painting-contractors.html",
+     "expanded": null,
+     "rect": [
+      157,
+      78,
+      40,
+      40
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Store Locator",
+     "key": "store locator",
+     "role": "link",
+     "kind": "link",
+     "sel": "body>header>div>div:nth-of-type(2)>div:nth-of-type(1)>div>div:nth-of-type(2)>a:nth-of-type(2)",
+     "href": "https://www.asianpaints.com/store-locator.html",
+     "expanded": null,
+     "rect": [
+      205,
+      79,
+      40,
+      40
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Profile",
+     "key": "profile",
+     "role": "link",
+     "kind": "account",
+     "sel": "body>header>div>div:nth-of-type(2)>div:nth-of-type(1)>div>div:nth-of-type(2)>div>a",
+     "href": "https://www.asianpaints.com/content/ap/en/home/my-profile.html",
+     "expanded": null,
+     "rect": [
+      253,
+      78,
+      40,
+      40
+     ],
+     "actions": {}
+    },
+    {
+     "name": "0",
+     "key": "0",
+     "role": "link",
+     "kind": "cart",
+     "sel": "body>header>div>div:nth-of-type(2)>div:nth-of-type(1)>div>div:nth-of-type(2)>a:nth-of-type(3)",
+     "href": "https://main--03cd0138--aemcoder.aem.live/",
+     "expanded": null,
+     "rect": [
+      307,
+      78,
+      34,
+      40
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Book Free Site Visit",
+     "key": "book free site visit",
+     "role": "link",
+     "kind": "link",
+     "sel": "body>header>div>div:nth-of-type(2)>div:nth-of-type(1)>div>div:nth-of-type(3)>p>a",
+     "href": "https://www.asianpaints.com/eds/forms/book-free-site-visit",
+     "expanded": null,
+     "rect": [
+      130,
+      780,
+      165,
+      32
+     ],
+     "actions": {}
+    }
+   ],
+   "scroll": [
+    {
+     "at": "top",
+     "y": 0,
+     "top": 0,
+     "height": 126,
+     "position": "fixed",
+     "inView": true
+    },
+    {
+     "at": "down",
+     "y": 1000,
+     "top": 0,
+     "height": 126,
+     "position": "fixed",
+     "inView": true
+    },
+    {
+     "at": "up",
+     "y": 700,
+     "top": 0,
+     "height": 126,
+     "position": "fixed",
+     "inView": true
+    },
+    {
+     "at": "back",
+     "y": 0,
+     "top": 0,
+     "height": 126,
+     "position": "fixed",
+     "inView": true
+    }
+   ],
+   "states": 14,
+   "truncated": null,
+   "loads": 35
+  },
+  "1440": {
+   "root": "body>header",
+   "controls": [
+    {
+     "name": "Asian Paints Home Page",
+     "key": "asian paints home page",
+     "role": "link",
+     "kind": "link",
+     "sel": "body>header>div>div:nth-of-type(1)>div>a:nth-of-type(1)",
+     "href": "https://main--03cd0138--aemcoder.aem.live/",
+     "expanded": null,
+     "rect": [
+      509,
+      0,
+      129,
+      40
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Beautiful Homes with Asian Paints Home Page",
+     "key": "beautiful homes with asian paints home page",
+     "role": "link",
+     "kind": "link",
+     "sel": "body>header>div>div:nth-of-type(1)>div>a:nth-of-type(2)",
+     "href": "https://www.beautifulhomes.asianpaints.com/?utm_source=ap-header&utm_medium=unification&utm_campaign=decor_org",
+     "expanded": null,
+     "rect": [
+      663,
+      0,
+      129,
+      40
+     ],
+     "actions": {}
+    },
+    {
+     "name": "The White Teak Company Home Page",
+     "key": "the white teak company home page",
+     "role": "link",
+     "kind": "link",
+     "sel": "body>header>div>div:nth-of-type(1)>div>a:nth-of-type(3)",
+     "href": "https://whiteteak.asianpaints.com/?utm_source=ap_header&utm_medium=unification&utm_campaign=white_teak",
+     "expanded": null,
+     "rect": [
+      802,
+      0,
+      129,
+      40
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Asian Paints B2B",
+     "key": "asian paints b2b",
+     "role": "link",
+     "kind": "link",
+     "sel": "body>header>div>div:nth-of-type(1)>a",
+     "href": "https://www.apassure.asianpaints.com/",
+     "expanded": null,
+     "rect": [
+      1259,
+      8,
+      141,
+      24
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Asian Paints Home Page",
+     "key": "asian paints home page",
+     "role": "link",
+     "kind": "link",
+     "sel": "body>header>div>div:nth-of-type(2)>div:nth-of-type(1)>div>a:nth-of-type(1)",
+     "href": "https://main--03cd0138--aemcoder.aem.live/",
+     "expanded": null,
+     "rect": [
+      40,
+      54,
+      204,
+      32
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Search",
+     "key": "search",
+     "role": "input",
+     "kind": "search",
+     "sel": "body>header>div>div:nth-of-type(2)>div:nth-of-type(1)>div>div:nth-of-type(1)>div>input",
+     "expanded": null,
+     "rect": [
+      285,
+      59,
+      276,
+      22
+     ],
+     "actions": {},
+     "search": {
+      "probe": "asian",
+      "typeahead": {
+       "links": 0,
+       "options": 0
+      },
+      "submit": "https://www.{q}paints.com/searchresult.html?q={q}"
+     }
+    },
+    {
+     "name": "Search by image",
+     "key": "search by image",
+     "role": "toggle",
+     "kind": "search",
+     "sel": "body>header>div>div:nth-of-type(2)>div:nth-of-type(1)>div>div:nth-of-type(1)>button",
+     "expanded": null,
+     "rect": [
+      561,
+      57,
+      24,
+      25
+     ],
+     "actions": {
+      "hover": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Asian Paints B2B",
+          "href": "https://www.apassure.asianpaints.com/"
+         }
+        ],
+        "headings": [],
+        "images": 1,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         0,
+         0,
+         1440,
+         40
+        ]
+       },
+       "expanded": null,
+       "focus": "body",
+       "scrollLock": false,
+       "motion": [],
+       "shot": "1440-001-Search-by-image-hover.png"
+      },
+      "click": null,
+      "key": null
+     },
+     "close": {
+      "escape": true,
+      "focusReturn": false,
+      "outside": true,
+      "leave": true
+     },
+     "children": []
+    },
+    {
+     "name": "Find Contractor",
+     "key": "find contractor",
+     "role": "link",
+     "kind": "link",
+     "sel": "body>header>div>div:nth-of-type(2)>div:nth-of-type(1)>div>div:nth-of-type(2)>a:nth-of-type(1)",
+     "href": "https://www.asianpaints.com/contractors/painting-contractors.html",
+     "expanded": null,
+     "rect": [
+      1005,
+      50,
+      40,
+      40
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Store Locator",
+     "key": "store locator",
+     "role": "link",
+     "kind": "link",
+     "sel": "body>header>div>div:nth-of-type(2)>div:nth-of-type(1)>div>div:nth-of-type(2)>a:nth-of-type(2)",
+     "href": "https://www.asianpaints.com/store-locator.html",
+     "expanded": null,
+     "rect": [
+      1059,
+      51,
+      40,
+      40
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Profile",
+     "key": "profile",
+     "role": "link",
+     "kind": "account",
+     "sel": "body>header>div>div:nth-of-type(2)>div:nth-of-type(1)>div>div:nth-of-type(2)>div>a",
+     "href": "https://www.asianpaints.com/content/ap/en/home/my-profile.html",
+     "expanded": null,
+     "rect": [
+      1116,
+      52,
+      40,
+      40
+     ],
+     "actions": {}
+    },
+    {
+     "name": "0",
+     "key": "0",
+     "role": "link",
+     "kind": "cart",
+     "sel": "body>header>div>div:nth-of-type(2)>div:nth-of-type(1)>div>div:nth-of-type(2)>a:nth-of-type(3)",
+     "href": "https://main--03cd0138--aemcoder.aem.live/",
+     "expanded": null,
+     "rect": [
+      1174,
+      50,
+      34,
+      40
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Book Free Site Visit",
+     "key": "book free site visit",
+     "role": "link",
+     "kind": "link",
+     "sel": "body>header>div>div:nth-of-type(2)>div:nth-of-type(1)>div>div:nth-of-type(3)>p>a",
+     "href": "https://www.asianpaints.com/eds/forms/book-free-site-visit",
+     "expanded": null,
+     "rect": [
+      1231,
+      54,
+      169,
+      32
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Home",
+     "key": "home",
+     "role": "link",
+     "kind": "link",
+     "sel": "#nav>div>div:nth-of-type(1)>nav>ul>li:nth-of-type(1)>a",
+     "href": "https://main--03cd0138--aemcoder.aem.live/",
+     "expanded": null,
+     "rect": [
+      48,
+      112,
+      17,
+      17
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Colours",
+     "key": "colours",
+     "role": "toggle",
+     "kind": "menu",
+     "sel": "#nav>div>div:nth-of-type(1)>nav>ul>li:nth-of-type(2)>a",
+     "expanded": "false",
+     "rect": [
+      81,
+      103,
+      67,
+      34
+     ],
+     "actions": {
+      "hover": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "All Colours",
+          "href": "https://www.asianpaints.com/colour-catalogue.html"
+         },
+         {
+          "text": "Grey",
+          "href": "https://www.asianpaints.com/colour-catalogue/grey-wall-colours.html"
+         },
+         {
+          "text": "Blue",
+          "href": "https://www.asianpaints.com/colour-catalogue/blue-wall-colours.html"
+         },
+         {
+          "text": "Brown",
+          "href": "https://www.asianpaints.com/colour-catalogue/brown-wall-colours.html"
+         },
+         {
+          "text": "Red",
+          "href": "https://www.asianpaints.com/colour-catalogue/red-wall-colours.html"
+         },
+         {
+          "text": "Orange",
+          "href": "https://www.asianpaints.com/colour-catalogue/orange-wall-colours.html"
+         },
+         {
+          "text": "Yellow",
+          "href": "https://www.asianpaints.com/colour-catalogue/yellow-wall-colours.html"
+         },
+         {
+          "text": "Green",
+          "href": "https://www.asianpaints.com/colour-catalogue/green-wall-colours.html"
+         },
+         {
+          "text": "Purple",
+          "href": "https://www.asianpaints.com/colour-catalogue/purple-wall-colours.html"
+         },
+         {
+          "text": "Pink",
+          "href": "https://www.asianpaints.com/colour-catalogue/pink-wall-colours.html"
+         },
+         {
+          "text": "Whites",
+          "href": "https://www.asianpaints.com/colour-catalogue/white-wall-colours.html"
+         },
+         {
+          "text": "Off Whites",
+          "href": "https://www.asianpaints.com/colour-catalogue/off-white-wall-colours.html"
+         },
+         {
+          "text": "Royale Designer",
+          "href": "https://www.asianpaints.com/royale-inspiration.html"
+         },
+         {
+          "text": "Colour of the year",
+          "href": "https://www.asianpaints.com/colour-next.html"
+         },
+         {
+          "text": "Colour Quiz",
+          "href": "https://www.asianpaints.com/home-colour-guide.html"
+         },
+         {
+          "text": "Wall Paint Finder",
+          "href": "https://www.asianpaints.com/resources/tools/paint-finish-tool.html"
+         },
+         {
+          "text": "Wood Paint Finder",
+          "href": "https://www.asianpaints.com/resources/tools/wood-finish-selection-tool.html"
+         },
+         {
+          "text": "Wood Finish Visualiser",
+          "href": "https://www.asianpaints.com/wood-visualiser.html"
+         },
+         {
+          "text": "Textures For You New",
+          "href": "https://www.asianpaints.com/resources/tools/interior-texture-finder-tool.html"
+         },
+         {
+          "text": "Shade Cards New",
+          "href": "https://www.asianpaints.com/resources/tools/catalogue-directory.html"
+         },
+         {
+          "text": "Visualize Shades",
+          "href": "https://www.asianpaints.com/resources/tools/mobile-app.html"
+         },
+         {
+          "text": "Colour combinations",
+          "href": "https://www.asianpaints.com/inspiration.html"
+         },
+         {
+          "text": "Moodboard New",
+          "href": "https://www.asianpaints.com/moodboard.html"
+         },
+         {
+          "text": "Celebrity homes",
+          "href": "https://www.asianpaints.com/where-the-heart-is/season-9.html"
+         },
+         {
+          "text": "Home discoveries",
+          "href": "https://www.asianpaints.com/resources/tools/home-discoveries.html"
+         }
+        ],
+        "headings": [
+         "Colour by family",
+         "Colour Collections",
+         "Colour Tools",
+         "Inspirations"
+        ],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         41,
+         139,
+         865,
+         357
+        ]
+       },
+       "expanded": "true",
+       "focus": "body",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "a.nav-link"
+        },
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 200,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.nav-dropdown"
+        },
+        {
+         "kind": "transition",
+         "prop": "visibility",
+         "ms": 200,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.nav-dropdown"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 200,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.nav-dropdown"
+        }
+       ],
+       "shot": "1440-002-Colours-hover.png"
+      },
+      "click": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "All Colours",
+          "href": "https://www.asianpaints.com/colour-catalogue.html"
+         },
+         {
+          "text": "Grey",
+          "href": "https://www.asianpaints.com/colour-catalogue/grey-wall-colours.html"
+         },
+         {
+          "text": "Blue",
+          "href": "https://www.asianpaints.com/colour-catalogue/blue-wall-colours.html"
+         },
+         {
+          "text": "Brown",
+          "href": "https://www.asianpaints.com/colour-catalogue/brown-wall-colours.html"
+         },
+         {
+          "text": "Red",
+          "href": "https://www.asianpaints.com/colour-catalogue/red-wall-colours.html"
+         },
+         {
+          "text": "Orange",
+          "href": "https://www.asianpaints.com/colour-catalogue/orange-wall-colours.html"
+         },
+         {
+          "text": "Yellow",
+          "href": "https://www.asianpaints.com/colour-catalogue/yellow-wall-colours.html"
+         },
+         {
+          "text": "Green",
+          "href": "https://www.asianpaints.com/colour-catalogue/green-wall-colours.html"
+         },
+         {
+          "text": "Purple",
+          "href": "https://www.asianpaints.com/colour-catalogue/purple-wall-colours.html"
+         },
+         {
+          "text": "Pink",
+          "href": "https://www.asianpaints.com/colour-catalogue/pink-wall-colours.html"
+         },
+         {
+          "text": "Whites",
+          "href": "https://www.asianpaints.com/colour-catalogue/white-wall-colours.html"
+         },
+         {
+          "text": "Off Whites",
+          "href": "https://www.asianpaints.com/colour-catalogue/off-white-wall-colours.html"
+         },
+         {
+          "text": "Royale Designer",
+          "href": "https://www.asianpaints.com/royale-inspiration.html"
+         },
+         {
+          "text": "Colour of the year",
+          "href": "https://www.asianpaints.com/colour-next.html"
+         },
+         {
+          "text": "Colour Quiz",
+          "href": "https://www.asianpaints.com/home-colour-guide.html"
+         },
+         {
+          "text": "Wall Paint Finder",
+          "href": "https://www.asianpaints.com/resources/tools/paint-finish-tool.html"
+         },
+         {
+          "text": "Wood Paint Finder",
+          "href": "https://www.asianpaints.com/resources/tools/wood-finish-selection-tool.html"
+         },
+         {
+          "text": "Wood Finish Visualiser",
+          "href": "https://www.asianpaints.com/wood-visualiser.html"
+         },
+         {
+          "text": "Textures For You New",
+          "href": "https://www.asianpaints.com/resources/tools/interior-texture-finder-tool.html"
+         },
+         {
+          "text": "Shade Cards New",
+          "href": "https://www.asianpaints.com/resources/tools/catalogue-directory.html"
+         },
+         {
+          "text": "Visualize Shades",
+          "href": "https://www.asianpaints.com/resources/tools/mobile-app.html"
+         },
+         {
+          "text": "Colour combinations",
+          "href": "https://www.asianpaints.com/inspiration.html"
+         },
+         {
+          "text": "Moodboard New",
+          "href": "https://www.asianpaints.com/moodboard.html"
+         },
+         {
+          "text": "Celebrity homes",
+          "href": "https://www.asianpaints.com/where-the-heart-is/season-9.html"
+         },
+         {
+          "text": "Home discoveries",
+          "href": "https://www.asianpaints.com/resources/tools/home-discoveries.html"
+         }
+        ],
+        "headings": [
+         "Colour by family",
+         "Colour Collections",
+         "Colour Tools",
+         "Inspirations"
+        ],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         41,
+         139,
+         865,
+         357
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "a.nav-link"
+        },
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 200,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.nav-dropdown"
+        },
+        {
+         "kind": "transition",
+         "prop": "visibility",
+         "ms": 200,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.nav-dropdown"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 200,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.nav-dropdown"
+        }
+       ],
+       "shot": "1440-003-Colours-click.png"
+      },
+      "key": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "All Colours",
+          "href": "https://www.asianpaints.com/colour-catalogue.html"
+         },
+         {
+          "text": "Grey",
+          "href": "https://www.asianpaints.com/colour-catalogue/grey-wall-colours.html"
+         },
+         {
+          "text": "Blue",
+          "href": "https://www.asianpaints.com/colour-catalogue/blue-wall-colours.html"
+         },
+         {
+          "text": "Brown",
+          "href": "https://www.asianpaints.com/colour-catalogue/brown-wall-colours.html"
+         },
+         {
+          "text": "Red",
+          "href": "https://www.asianpaints.com/colour-catalogue/red-wall-colours.html"
+         },
+         {
+          "text": "Orange",
+          "href": "https://www.asianpaints.com/colour-catalogue/orange-wall-colours.html"
+         },
+         {
+          "text": "Yellow",
+          "href": "https://www.asianpaints.com/colour-catalogue/yellow-wall-colours.html"
+         },
+         {
+          "text": "Green",
+          "href": "https://www.asianpaints.com/colour-catalogue/green-wall-colours.html"
+         },
+         {
+          "text": "Purple",
+          "href": "https://www.asianpaints.com/colour-catalogue/purple-wall-colours.html"
+         },
+         {
+          "text": "Pink",
+          "href": "https://www.asianpaints.com/colour-catalogue/pink-wall-colours.html"
+         },
+         {
+          "text": "Whites",
+          "href": "https://www.asianpaints.com/colour-catalogue/white-wall-colours.html"
+         },
+         {
+          "text": "Off Whites",
+          "href": "https://www.asianpaints.com/colour-catalogue/off-white-wall-colours.html"
+         },
+         {
+          "text": "Royale Designer",
+          "href": "https://www.asianpaints.com/royale-inspiration.html"
+         },
+         {
+          "text": "Colour of the year",
+          "href": "https://www.asianpaints.com/colour-next.html"
+         },
+         {
+          "text": "Colour Quiz",
+          "href": "https://www.asianpaints.com/home-colour-guide.html"
+         },
+         {
+          "text": "Wall Paint Finder",
+          "href": "https://www.asianpaints.com/resources/tools/paint-finish-tool.html"
+         },
+         {
+          "text": "Wood Paint Finder",
+          "href": "https://www.asianpaints.com/resources/tools/wood-finish-selection-tool.html"
+         },
+         {
+          "text": "Wood Finish Visualiser",
+          "href": "https://www.asianpaints.com/wood-visualiser.html"
+         },
+         {
+          "text": "Textures For You New",
+          "href": "https://www.asianpaints.com/resources/tools/interior-texture-finder-tool.html"
+         },
+         {
+          "text": "Shade Cards New",
+          "href": "https://www.asianpaints.com/resources/tools/catalogue-directory.html"
+         },
+         {
+          "text": "Visualize Shades",
+          "href": "https://www.asianpaints.com/resources/tools/mobile-app.html"
+         },
+         {
+          "text": "Colour combinations",
+          "href": "https://www.asianpaints.com/inspiration.html"
+         },
+         {
+          "text": "Moodboard New",
+          "href": "https://www.asianpaints.com/moodboard.html"
+         },
+         {
+          "text": "Celebrity homes",
+          "href": "https://www.asianpaints.com/where-the-heart-is/season-9.html"
+         },
+         {
+          "text": "Home discoveries",
+          "href": "https://www.asianpaints.com/resources/tools/home-discoveries.html"
+         }
+        ],
+        "headings": [
+         "Colour by family",
+         "Colour Collections",
+         "Colour Tools",
+         "Inspirations"
+        ],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         41,
+         139,
+         865,
+         357
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "a.nav-link"
+        },
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 200,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.nav-dropdown"
+        },
+        {
+         "kind": "transition",
+         "prop": "visibility",
+         "ms": 200,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.nav-dropdown"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 200,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.nav-dropdown"
+        }
+       ],
+       "shot": "1440-004-Colours-key.png",
+       "tabReachesPanel": true
+      }
+     },
+     "close": {
+      "escape": true,
+      "focusReturn": true,
+      "outside": true,
+      "toggle": false
+     },
+     "children": []
+    },
+    {
+     "name": "Products",
+     "key": "products",
+     "role": "toggle",
+     "kind": "menu",
+     "sel": "#nav>div>div:nth-of-type(1)>nav>ul>li:nth-of-type(3)>a",
+     "expanded": "false",
+     "rect": [
+      158,
+      103,
+      76,
+      34
+     ],
+     "actions": {
+      "hover": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Paints",
+          "href": "https://www.asianpaints.com/paint-products/interior-wall-paints.html"
+         },
+         {
+          "text": "Textures",
+          "href": "https://www.asianpaints.com/paint-products/interior-wall-paints/royale-play.html"
+         },
+         {
+          "text": "Wallpapers",
+          "href": "https://www.asianpaints.com/wall-coverings.html"
+         },
+         {
+          "text": "Paints",
+          "href": "https://www.asianpaints.com/paint-products/exterior-wall-paints.html"
+         },
+         {
+          "text": "Textures",
+          "href": "https://www.asianpaints.com/texture-paints/exterior-textures.html"
+         },
+         {
+          "text": "All products",
+          "href": "https://www.asianpaints.com/waterproofing-products.html"
+         },
+         {
+          "text": "Bathrooms",
+          "href": "https://www.asianpaints.com/waterproofing-products/bathrooms.html"
+         },
+         {
+          "text": "Terrace & tanks",
+          "href": "https://www.asianpaints.com/waterproofing-products/terrace-and-tanks.html"
+         },
+         {
+          "text": "Cracks & joints",
+          "href": "https://www.asianpaints.com/waterproofing-products/cracks-and-joints.html"
+         },
+         {
+          "text": "Interior",
+          "href": "https://www.asianpaints.com/waterproofing-products/interiors.html"
+         },
+         {
+          "text": "Tiling",
+          "href": "https://www.asianpaints.com/waterproofing-products/tiling.html"
+         },
+         {
+          "text": "Exteriors",
+          "href": "https://www.asianpaints.com/waterproofing-products/exteriors.html"
+         },
+         {
+          "text": "Wood Finishes",
+          "href": "https://www.asianpaints.com/products/wood-finish/wood-for-interior.html"
+         },
+         {
+          "text": "Metal paints",
+          "href": "https://www.asianpaints.com/enamel-paints.html"
+         },
+         {
+          "text": "Undercoats",
+          "href": "https://www.asianpaints.com/products/undercoats.html"
+         },
+         {
+          "text": "Adhesives",
+          "href": "https://www.asianpaints.com/products/adhesives.html"
+         },
+         {
+          "text": "Brushes & Ancillaries",
+          "href": "https://www.asianpaints.com/products/tools.html"
+         },
+         {
+          "text": "DIY",
+          "href": "https://www.asianpaints.com/products/diy.html"
+         }
+        ],
+        "headings": [
+         "For Interior Walls",
+         "For Exterior Walls",
+         "Waterproofing",
+         "Other Surface"
+        ],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         128,
+         139,
+         704,
+         357
+        ]
+       },
+       "expanded": "true",
+       "focus": "body",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "a.nav-link"
+        },
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 200,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.nav-dropdown"
+        },
+        {
+         "kind": "transition",
+         "prop": "visibility",
+         "ms": 200,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.nav-dropdown"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 200,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.nav-dropdown"
+        }
+       ],
+       "shot": "1440-005-Products-hover.png"
+      },
+      "click": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Paints",
+          "href": "https://www.asianpaints.com/paint-products/interior-wall-paints.html"
+         },
+         {
+          "text": "Textures",
+          "href": "https://www.asianpaints.com/paint-products/interior-wall-paints/royale-play.html"
+         },
+         {
+          "text": "Wallpapers",
+          "href": "https://www.asianpaints.com/wall-coverings.html"
+         },
+         {
+          "text": "Paints",
+          "href": "https://www.asianpaints.com/paint-products/exterior-wall-paints.html"
+         },
+         {
+          "text": "Textures",
+          "href": "https://www.asianpaints.com/texture-paints/exterior-textures.html"
+         },
+         {
+          "text": "All products",
+          "href": "https://www.asianpaints.com/waterproofing-products.html"
+         },
+         {
+          "text": "Bathrooms",
+          "href": "https://www.asianpaints.com/waterproofing-products/bathrooms.html"
+         },
+         {
+          "text": "Terrace & tanks",
+          "href": "https://www.asianpaints.com/waterproofing-products/terrace-and-tanks.html"
+         },
+         {
+          "text": "Cracks & joints",
+          "href": "https://www.asianpaints.com/waterproofing-products/cracks-and-joints.html"
+         },
+         {
+          "text": "Interior",
+          "href": "https://www.asianpaints.com/waterproofing-products/interiors.html"
+         },
+         {
+          "text": "Tiling",
+          "href": "https://www.asianpaints.com/waterproofing-products/tiling.html"
+         },
+         {
+          "text": "Exteriors",
+          "href": "https://www.asianpaints.com/waterproofing-products/exteriors.html"
+         },
+         {
+          "text": "Wood Finishes",
+          "href": "https://www.asianpaints.com/products/wood-finish/wood-for-interior.html"
+         },
+         {
+          "text": "Metal paints",
+          "href": "https://www.asianpaints.com/enamel-paints.html"
+         },
+         {
+          "text": "Undercoats",
+          "href": "https://www.asianpaints.com/products/undercoats.html"
+         },
+         {
+          "text": "Adhesives",
+          "href": "https://www.asianpaints.com/products/adhesives.html"
+         },
+         {
+          "text": "Brushes & Ancillaries",
+          "href": "https://www.asianpaints.com/products/tools.html"
+         },
+         {
+          "text": "DIY",
+          "href": "https://www.asianpaints.com/products/diy.html"
+         }
+        ],
+        "headings": [
+         "For Interior Walls",
+         "For Exterior Walls",
+         "Waterproofing",
+         "Other Surface"
+        ],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         128,
+         139,
+         704,
+         357
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "a.nav-link"
+        },
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 200,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.nav-dropdown"
+        },
+        {
+         "kind": "transition",
+         "prop": "visibility",
+         "ms": 200,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.nav-dropdown"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 200,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.nav-dropdown"
+        }
+       ],
+       "shot": "1440-006-Products-click.png"
+      },
+      "key": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Paints",
+          "href": "https://www.asianpaints.com/paint-products/interior-wall-paints.html"
+         },
+         {
+          "text": "Textures",
+          "href": "https://www.asianpaints.com/paint-products/interior-wall-paints/royale-play.html"
+         },
+         {
+          "text": "Wallpapers",
+          "href": "https://www.asianpaints.com/wall-coverings.html"
+         },
+         {
+          "text": "Paints",
+          "href": "https://www.asianpaints.com/paint-products/exterior-wall-paints.html"
+         },
+         {
+          "text": "Textures",
+          "href": "https://www.asianpaints.com/texture-paints/exterior-textures.html"
+         },
+         {
+          "text": "All products",
+          "href": "https://www.asianpaints.com/waterproofing-products.html"
+         },
+         {
+          "text": "Bathrooms",
+          "href": "https://www.asianpaints.com/waterproofing-products/bathrooms.html"
+         },
+         {
+          "text": "Terrace & tanks",
+          "href": "https://www.asianpaints.com/waterproofing-products/terrace-and-tanks.html"
+         },
+         {
+          "text": "Cracks & joints",
+          "href": "https://www.asianpaints.com/waterproofing-products/cracks-and-joints.html"
+         },
+         {
+          "text": "Interior",
+          "href": "https://www.asianpaints.com/waterproofing-products/interiors.html"
+         },
+         {
+          "text": "Tiling",
+          "href": "https://www.asianpaints.com/waterproofing-products/tiling.html"
+         },
+         {
+          "text": "Exteriors",
+          "href": "https://www.asianpaints.com/waterproofing-products/exteriors.html"
+         },
+         {
+          "text": "Wood Finishes",
+          "href": "https://www.asianpaints.com/products/wood-finish/wood-for-interior.html"
+         },
+         {
+          "text": "Metal paints",
+          "href": "https://www.asianpaints.com/enamel-paints.html"
+         },
+         {
+          "text": "Undercoats",
+          "href": "https://www.asianpaints.com/products/undercoats.html"
+         },
+         {
+          "text": "Adhesives",
+          "href": "https://www.asianpaints.com/products/adhesives.html"
+         },
+         {
+          "text": "Brushes & Ancillaries",
+          "href": "https://www.asianpaints.com/products/tools.html"
+         },
+         {
+          "text": "DIY",
+          "href": "https://www.asianpaints.com/products/diy.html"
+         }
+        ],
+        "headings": [
+         "For Interior Walls",
+         "For Exterior Walls",
+         "Waterproofing",
+         "Other Surface"
+        ],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         128,
+         139,
+         704,
+         357
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "a.nav-link"
+        },
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 200,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.nav-dropdown"
+        },
+        {
+         "kind": "transition",
+         "prop": "visibility",
+         "ms": 200,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.nav-dropdown"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 200,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.nav-dropdown"
+        }
+       ],
+       "shot": "1440-007-Products-key.png",
+       "tabReachesPanel": true
+      }
+     },
+     "close": {
+      "escape": true,
+      "focusReturn": true,
+      "outside": true,
+      "toggle": false
+     },
+     "children": []
+    },
+    {
+     "name": "Services",
+     "key": "services",
+     "role": "toggle",
+     "kind": "menu",
+     "sel": "#nav>div>div:nth-of-type(1)>nav>ul>li:nth-of-type(4)>a",
+     "expanded": "false",
+     "rect": [
+      244,
+      103,
+      72,
+      34
+     ],
+     "actions": {
+      "hover": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Painting",
+          "href": "https://www.asianpaints.com/services/asian-paints-safe-painting-service.html"
+         },
+         {
+          "text": "Interior solutions",
+          "href": "https://www.asianpaints.com/services/interior-design-solutions.html"
+         },
+         {
+          "text": "Waterproofing",
+          "href": "https://www.asianpaints.com/services/waterproofing-solutions.html"
+         },
+         {
+          "text": "Kitchen",
+          "href": "https://www.beautifulhomes.asianpaints.com/sleek-kitchens.html?utm_source=ap&utm_medium=top-nav&utm_campaign=unification"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         214,
+         139,
+         203,
+         207
+        ]
+       },
+       "expanded": "true",
+       "focus": "body",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "a.nav-link"
+        },
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 200,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.nav-dropdown"
+        },
+        {
+         "kind": "transition",
+         "prop": "visibility",
+         "ms": 200,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.nav-dropdown"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 200,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.nav-dropdown"
+        }
+       ],
+       "shot": "1440-008-Services-hover.png"
+      },
+      "click": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Painting",
+          "href": "https://www.asianpaints.com/services/asian-paints-safe-painting-service.html"
+         },
+         {
+          "text": "Interior solutions",
+          "href": "https://www.asianpaints.com/services/interior-design-solutions.html"
+         },
+         {
+          "text": "Waterproofing",
+          "href": "https://www.asianpaints.com/services/waterproofing-solutions.html"
+         },
+         {
+          "text": "Kitchen",
+          "href": "https://www.beautifulhomes.asianpaints.com/sleek-kitchens.html?utm_source=ap&utm_medium=top-nav&utm_campaign=unification"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         214,
+         139,
+         203,
+         207
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "a.nav-link"
+        },
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 200,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.nav-dropdown"
+        },
+        {
+         "kind": "transition",
+         "prop": "visibility",
+         "ms": 200,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.nav-dropdown"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 200,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.nav-dropdown"
+        }
+       ],
+       "shot": "1440-009-Services-click.png"
+      },
+      "key": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Painting",
+          "href": "https://www.asianpaints.com/services/asian-paints-safe-painting-service.html"
+         },
+         {
+          "text": "Interior solutions",
+          "href": "https://www.asianpaints.com/services/interior-design-solutions.html"
+         },
+         {
+          "text": "Waterproofing",
+          "href": "https://www.asianpaints.com/services/waterproofing-solutions.html"
+         },
+         {
+          "text": "Kitchen",
+          "href": "https://www.beautifulhomes.asianpaints.com/sleek-kitchens.html?utm_source=ap&utm_medium=top-nav&utm_campaign=unification"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         214,
+         139,
+         203,
+         207
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 200,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.nav-dropdown"
+        },
+        {
+         "kind": "transition",
+         "prop": "visibility",
+         "ms": 200,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.nav-dropdown"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 200,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.nav-dropdown"
+        },
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "a.nav-link"
+        }
+       ],
+       "shot": "1440-010-Services-key.png",
+       "tabReachesPanel": true
+      }
+     },
+     "close": {
+      "escape": true,
+      "focusReturn": true,
+      "outside": true,
+      "toggle": false
+     },
+     "children": []
+    },
+    {
+     "name": "Calculators",
+     "key": "calculators",
+     "role": "toggle",
+     "kind": "menu",
+     "sel": "#nav>div>div:nth-of-type(1)>nav>ul>li:nth-of-type(5)>a",
+     "expanded": "false",
+     "rect": [
+      327,
+      103,
+      91,
+      34
+     ],
+     "actions": {
+      "hover": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Paint quotation calculator",
+          "href": "https://www.asianpaints.com/resources/tools/paint-quotation-tool.html"
+         },
+         {
+          "text": "Waterproofing budget calculator",
+          "href": "https://www.asianpaints.com/resources/tools/waterproofing-budget-calculator.html"
+         },
+         {
+          "text": "Paint budget calculator",
+          "href": "https://www.asianpaints.com/resources/tools/paint-budget-calculator.html"
+         },
+         {
+          "text": "Interior design cost calculator",
+          "href": "https://www.asianpaints.com/resources/tools/interior-design-solutions-calculator.html"
+         },
+         {
+          "text": "Kitchen cost calculator",
+          "href": "https://www.asianpaints.com/resources/tools/kitchen-cost-calculator.html"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         297,
+         139,
+         306,
+         250
+        ]
+       },
+       "expanded": "true",
+       "focus": "body",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "a.nav-link"
+        },
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 200,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.nav-dropdown"
+        },
+        {
+         "kind": "transition",
+         "prop": "visibility",
+         "ms": 200,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.nav-dropdown"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 200,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.nav-dropdown"
+        }
+       ],
+       "shot": "1440-011-Calculators-hover.png"
+      },
+      "click": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Paint quotation calculator",
+          "href": "https://www.asianpaints.com/resources/tools/paint-quotation-tool.html"
+         },
+         {
+          "text": "Waterproofing budget calculator",
+          "href": "https://www.asianpaints.com/resources/tools/waterproofing-budget-calculator.html"
+         },
+         {
+          "text": "Paint budget calculator",
+          "href": "https://www.asianpaints.com/resources/tools/paint-budget-calculator.html"
+         },
+         {
+          "text": "Interior design cost calculator",
+          "href": "https://www.asianpaints.com/resources/tools/interior-design-solutions-calculator.html"
+         },
+         {
+          "text": "Kitchen cost calculator",
+          "href": "https://www.asianpaints.com/resources/tools/kitchen-cost-calculator.html"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         297,
+         139,
+         306,
+         250
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "a.nav-link"
+        },
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 200,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.nav-dropdown"
+        },
+        {
+         "kind": "transition",
+         "prop": "visibility",
+         "ms": 200,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.nav-dropdown"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 200,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.nav-dropdown"
+        }
+       ],
+       "shot": "1440-012-Calculators-click.png"
+      },
+      "key": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Paint quotation calculator",
+          "href": "https://www.asianpaints.com/resources/tools/paint-quotation-tool.html"
+         },
+         {
+          "text": "Waterproofing budget calculator",
+          "href": "https://www.asianpaints.com/resources/tools/waterproofing-budget-calculator.html"
+         },
+         {
+          "text": "Paint budget calculator",
+          "href": "https://www.asianpaints.com/resources/tools/paint-budget-calculator.html"
+         },
+         {
+          "text": "Interior design cost calculator",
+          "href": "https://www.asianpaints.com/resources/tools/interior-design-solutions-calculator.html"
+         },
+         {
+          "text": "Kitchen cost calculator",
+          "href": "https://www.asianpaints.com/resources/tools/kitchen-cost-calculator.html"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         297,
+         139,
+         306,
+         250
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "a.nav-link"
+        },
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 200,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.nav-dropdown"
+        },
+        {
+         "kind": "transition",
+         "prop": "visibility",
+         "ms": 200,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.nav-dropdown"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 200,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.nav-dropdown"
+        }
+       ],
+       "shot": "1440-013-Calculators-key.png",
+       "tabReachesPanel": true
+      }
+     },
+     "close": {
+      "escape": true,
+      "focusReturn": true,
+      "outside": true,
+      "toggle": false
+     },
+     "children": []
+    },
+    {
+     "name": "Sustainability",
+     "key": "sustainability",
+     "role": "link",
+     "kind": "link",
+     "sel": "#nav>div>div:nth-of-type(1)>nav>ul>li:nth-of-type(6)>a",
+     "href": "https://sustainability.asianpaints.com/sustainability/",
+     "expanded": null,
+     "rect": [
+      428,
+      103,
+      106,
+      34
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Professionals",
+     "key": "professionals",
+     "role": "toggle",
+     "kind": "menu",
+     "sel": "#nav>div>div:nth-of-type(1)>nav>ul>li:nth-of-type(7)>a",
+     "expanded": "false",
+     "rect": [
+      544,
+      103,
+      105,
+      34
+     ],
+     "actions": {
+      "hover": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "B2B Customers",
+          "href": "https://www.apassure.asianpaints.com/"
+         },
+         {
+          "text": "Architects/Interior designers",
+          "href": "https://www.asianpaints.com/decorpro.html"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         514,
+         139,
+         281,
+         121
+        ]
+       },
+       "expanded": "true",
+       "focus": "body",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "a.nav-link"
+        },
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 200,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.nav-dropdown"
+        },
+        {
+         "kind": "transition",
+         "prop": "visibility",
+         "ms": 200,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.nav-dropdown"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 200,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.nav-dropdown"
+        }
+       ],
+       "shot": "1440-014-Professionals-hover.png"
+      },
+      "click": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "B2B Customers",
+          "href": "https://www.apassure.asianpaints.com/"
+         },
+         {
+          "text": "Architects/Interior designers",
+          "href": "https://www.asianpaints.com/decorpro.html"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         514,
+         139,
+         281,
+         121
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "a.nav-link"
+        },
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 200,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.nav-dropdown"
+        },
+        {
+         "kind": "transition",
+         "prop": "visibility",
+         "ms": 200,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.nav-dropdown"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 200,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.nav-dropdown"
+        }
+       ],
+       "shot": "1440-015-Professionals-click.png"
+      },
+      "key": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "B2B Customers",
+          "href": "https://www.apassure.asianpaints.com/"
+         },
+         {
+          "text": "Architects/Interior designers",
+          "href": "https://www.asianpaints.com/decorpro.html"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         514,
+         139,
+         281,
+         121
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "a.nav-link"
+        },
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 200,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.nav-dropdown"
+        },
+        {
+         "kind": "transition",
+         "prop": "visibility",
+         "ms": 200,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.nav-dropdown"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 200,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.nav-dropdown"
+        }
+       ],
+       "shot": "1440-016-Professionals-key.png",
+       "tabReachesPanel": true
+      }
+     },
+     "close": {
+      "escape": true,
+      "focusReturn": true,
+      "outside": true,
+      "toggle": false
+     },
+     "children": []
+    },
+    {
+     "name": "More...",
+     "key": "more",
+     "role": "toggle",
+     "kind": "menu",
+     "sel": "#nav>div>div:nth-of-type(1)>nav>ul>li:nth-of-type(8)>a",
+     "expanded": "false",
+     "rect": [
+      659,
+      103,
+      61,
+      34
+     ],
+     "actions": {
+      "hover": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Find Contractor",
+          "href": "https://www.asianpaints.com/contractors/painting-contractors.html"
+         },
+         {
+          "text": "Find a store",
+          "href": "https://www.asianpaints.com/store-locator.html"
+         },
+         {
+          "text": "Find a Service Center",
+          "href": "https://www.asianpaints.com/service-center-locator.html"
+         },
+         {
+          "text": "Blogs",
+          "href": "https://www.asianpaints.com/blogs.html"
+         },
+         {
+          "text": "Guides",
+          "href": "https://www.asianpaints.com/guides.html"
+         },
+         {
+          "text": "Paint bucket return",
+          "href": "https://www.asianpaints.com/recycle-store-locator.html"
+         },
+         {
+          "text": "Explore home decor",
+          "href": "https://www.beautifulhomes.asianpaints.com/?utm_source=ap&utm_medium=top-nav&utm_campaign=unification"
+         }
+        ],
+        "headings": [
+         "More"
+        ],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         629,
+         139,
+         229,
+         357
+        ]
+       },
+       "expanded": "true",
+       "focus": "body",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "a.nav-link"
+        },
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 200,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.nav-dropdown"
+        },
+        {
+         "kind": "transition",
+         "prop": "visibility",
+         "ms": 200,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.nav-dropdown"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 200,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.nav-dropdown"
+        }
+       ],
+       "shot": "1440-017-More--hover.png"
+      },
+      "click": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Find Contractor",
+          "href": "https://www.asianpaints.com/contractors/painting-contractors.html"
+         },
+         {
+          "text": "Find a store",
+          "href": "https://www.asianpaints.com/store-locator.html"
+         },
+         {
+          "text": "Find a Service Center",
+          "href": "https://www.asianpaints.com/service-center-locator.html"
+         },
+         {
+          "text": "Blogs",
+          "href": "https://www.asianpaints.com/blogs.html"
+         },
+         {
+          "text": "Guides",
+          "href": "https://www.asianpaints.com/guides.html"
+         },
+         {
+          "text": "Paint bucket return",
+          "href": "https://www.asianpaints.com/recycle-store-locator.html"
+         },
+         {
+          "text": "Explore home decor",
+          "href": "https://www.beautifulhomes.asianpaints.com/?utm_source=ap&utm_medium=top-nav&utm_campaign=unification"
+         }
+        ],
+        "headings": [
+         "More"
+        ],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         629,
+         139,
+         229,
+         357
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "a.nav-link"
+        },
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 200,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.nav-dropdown"
+        },
+        {
+         "kind": "transition",
+         "prop": "visibility",
+         "ms": 200,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.nav-dropdown"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 200,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.nav-dropdown"
+        }
+       ],
+       "shot": "1440-018-More--click.png"
+      },
+      "key": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Find Contractor",
+          "href": "https://www.asianpaints.com/contractors/painting-contractors.html"
+         },
+         {
+          "text": "Find a store",
+          "href": "https://www.asianpaints.com/store-locator.html"
+         },
+         {
+          "text": "Find a Service Center",
+          "href": "https://www.asianpaints.com/service-center-locator.html"
+         },
+         {
+          "text": "Blogs",
+          "href": "https://www.asianpaints.com/blogs.html"
+         },
+         {
+          "text": "Guides",
+          "href": "https://www.asianpaints.com/guides.html"
+         },
+         {
+          "text": "Paint bucket return",
+          "href": "https://www.asianpaints.com/recycle-store-locator.html"
+         },
+         {
+          "text": "Explore home decor",
+          "href": "https://www.beautifulhomes.asianpaints.com/?utm_source=ap&utm_medium=top-nav&utm_campaign=unification"
+         }
+        ],
+        "headings": [
+         "More"
+        ],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         629,
+         139,
+         229,
+         357
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 200,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.nav-dropdown"
+        },
+        {
+         "kind": "transition",
+         "prop": "visibility",
+         "ms": 200,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.nav-dropdown"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 200,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.nav-dropdown"
+        },
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "a.nav-link"
+        }
+       ],
+       "shot": "1440-019-More--key.png",
+       "tabReachesPanel": true
+      }
+     },
+     "close": {
+      "escape": true,
+      "focusReturn": true,
+      "outside": true,
+      "toggle": false
+     },
+     "children": []
+    },
+    {
+     "name": "Our Company",
+     "key": "our company",
+     "role": "link",
+     "kind": "link",
+     "sel": "#nav>div>div:nth-of-type(2)>nav>ul>li:nth-of-type(1)>a",
+     "href": "https://www.asianpaints.com/about-us.html",
+     "expanded": null,
+     "rect": [
+      1035,
+      101,
+      104,
+      38
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Investors",
+     "key": "investors",
+     "role": "link",
+     "kind": "link",
+     "sel": "#nav>div>div:nth-of-type(2)>nav>ul>li:nth-of-type(2)>a",
+     "href": "https://www.asianpaints.com/more/investors.html",
+     "expanded": null,
+     "rect": [
+      1149,
+      101,
+      76,
+      38
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Careers",
+     "key": "careers",
+     "role": "link",
+     "kind": "link",
+     "sel": "#nav>div>div:nth-of-type(2)>nav>ul>li:nth-of-type(3)>a",
+     "href": "https://careers.asianpaints.com/",
+     "expanded": null,
+     "rect": [
+      1235,
+      101,
+      67,
+      38
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Contact us",
+     "key": "contact us",
+     "role": "link",
+     "kind": "link",
+     "sel": "#nav>div>div:nth-of-type(2)>nav>ul>li:nth-of-type(4)>a",
+     "href": "https://www.asianpaints.com/contact-us.html",
+     "expanded": null,
+     "rect": [
+      1312,
+      101,
+      88,
+      38
+     ],
+     "actions": {}
+    }
+   ],
+   "scroll": [
+    {
+     "at": "top",
+     "y": 0,
+     "top": 0,
+     "height": 140,
+     "position": "fixed",
+     "inView": true
+    },
+    {
+     "at": "down",
+     "y": 1000,
+     "top": 0,
+     "height": 140,
+     "position": "fixed",
+     "inView": true
+    },
+    {
+     "at": "up",
+     "y": 700,
+     "top": 0,
+     "height": 140,
+     "position": "fixed",
+     "inView": true
+    },
+    {
+     "at": "back",
+     "y": 0,
+     "top": 0,
+     "height": 140,
+     "position": "fixed",
+     "inView": true
+    }
+   ],
+   "states": 19,
+   "truncated": null,
+   "loads": 6
+  }
+ },
+ "probe": "asian"
+}

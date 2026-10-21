@@ -1,0 +1,2249 @@
+{
+  "url": "http://localhost:8791/index-proposed.html",
+  "width": 1440,
+  "headerTimeline": [
+    {
+      "y": 0,
+      "cls": "header-wrapper",
+      "position": "fixed",
+      "height": "140px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 0,
+      "cls": "header-wrapper",
+      "position": "fixed",
+      "height": "140px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 1200,
+      "cls": "header-wrapper",
+      "position": "fixed",
+      "height": "140px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 2400,
+      "cls": "header-wrapper",
+      "position": "fixed",
+      "height": "140px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 3600,
+      "cls": "header-wrapper",
+      "position": "fixed",
+      "height": "140px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 4800,
+      "cls": "header-wrapper",
+      "position": "fixed",
+      "height": "140px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 6000,
+      "cls": "header-wrapper",
+      "position": "fixed",
+      "height": "140px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 7200,
+      "cls": "header-wrapper",
+      "position": "fixed",
+      "height": "140px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 8400,
+      "cls": "header-wrapper",
+      "position": "fixed",
+      "height": "140px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 7861,
+      "cls": "header-wrapper",
+      "position": "fixed",
+      "height": "140px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 6361,
+      "cls": "header-wrapper",
+      "position": "fixed",
+      "height": "140px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 2400,
+      "cls": "header-wrapper",
+      "position": "fixed",
+      "height": "140px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 1200,
+      "cls": "header-wrapper",
+      "position": "fixed",
+      "height": "140px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 800,
+      "cls": "header-wrapper",
+      "position": "fixed",
+      "height": "140px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 500,
+      "cls": "header-wrapper",
+      "position": "fixed",
+      "height": "140px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 300,
+      "cls": "header-wrapper",
+      "position": "fixed",
+      "height": "140px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 200,
+      "cls": "header-wrapper",
+      "position": "fixed",
+      "height": "140px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 150,
+      "cls": "header-wrapper",
+      "position": "fixed",
+      "height": "140px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 120,
+      "cls": "header-wrapper",
+      "position": "fixed",
+      "height": "140px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 90,
+      "cls": "header-wrapper",
+      "position": "fixed",
+      "height": "140px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 60,
+      "cls": "header-wrapper",
+      "position": "fixed",
+      "height": "140px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 30,
+      "cls": "header-wrapper",
+      "position": "fixed",
+      "height": "140px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 0,
+      "cls": "header-wrapper",
+      "position": "fixed",
+      "height": "140px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    }
+  ],
+  "widgetSamples": [
+    {
+      "sel": ".carousel-hero-banner .swiper-button-next, .carousel-hero-banner .hero-next",
+      "frames": [
+        {
+          "t": 13215.599999999627,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "matrix(1, 0, 0, 1, -82, 0)",
+          "dots": []
+        },
+        {
+          "t": 13420.69999999972,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "matrix(1, 0, 0, 1, -82, 0)",
+          "dots": []
+        },
+        {
+          "t": 13626.599999999627,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "matrix(1, 0, 0, 1, -82, 0)",
+          "dots": []
+        },
+        {
+          "t": 13832.099999999627,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "matrix(1, 0, 0, 1, -82, 0)",
+          "dots": []
+        }
+      ]
+    },
+    {
+      "sel": ".carousel-hero-banner .swiper-pagination-bullet:nth-child(3), .carousel-hero-banner .hero-bullet:nth-child(3)",
+      "frames": [
+        {
+          "t": 14844.799999999814,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 15049.799999999814,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 15256.299999999814,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 15463.5,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        }
+      ]
+    },
+    {
+      "sel": ".color-gallery [aria-label=\"Next slide\"]",
+      "frames": [
+        {
+          "t": 16481.399999999907,
+          "trackTransform": "matrix(1, 0, 0, 1, 0, 0)",
+          "trackTransition": "transform 0.5s",
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 16687.19999999972,
+          "trackTransform": "matrix(1, 0, 0, 1, -219.085, 0)",
+          "trackTransition": "transform 0.5s",
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 16892.599999999627,
+          "trackTransform": "matrix(1, 0, 0, 1, -315.693, 0)",
+          "trackTransition": "transform 0.5s",
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 17099.099999999627,
+          "trackTransform": "matrix(1, 0, 0, 1, -321, 0)",
+          "trackTransition": "transform 0.5s",
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        }
+      ]
+    },
+    {
+      "sel": ".featured-products-next",
+      "frames": [
+        {
+          "t": 18116.599999999627,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 18322,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 18527.299999999814,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 18731.599999999627,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        }
+      ]
+    },
+    {
+      "sel": ".tools-carousel-next",
+      "frames": [
+        {
+          "t": 19746.5,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 19951.799999999814,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 20157.599999999627,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 20362.299999999814,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        }
+      ]
+    },
+    {
+      "sel": ".designer-collections-next",
+      "frames": [
+        {
+          "t": 21378.799999999814,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 21583.69999999972,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 21790.299999999814,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 21997.799999999814,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        }
+      ]
+    },
+    {
+      "sel": ".testimonial-next",
+      "frames": [
+        {
+          "t": 23021.69999999972,
+          "trackTransform": "matrix(1, 0, 0, 1, 0, 0)",
+          "trackTransition": "transform 0.5s",
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 23228.899999999907,
+          "trackTransform": "matrix(1, 0, 0, 1, -235.457, 0)",
+          "trackTransition": "transform 0.5s",
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 23434.899999999907,
+          "trackTransform": "matrix(1, 0, 0, 1, -336.599, 0)",
+          "trackTransition": "transform 0.5s",
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 23640.69999999972,
+          "trackTransform": "matrix(1, 0, 0, 1, -345, 0)",
+          "trackTransition": "transform 0.5s",
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        }
+      ]
+    },
+    {
+      "sel": ".video-shorts .sa-shorts-swiper-button-next, .video-shorts .vs-next",
+      "frames": [
+        {
+          "t": 24658.5,
+          "trackTransform": "matrix(1, 0, 0, 1, -321, 0)",
+          "trackTransition": "transform 0.5s",
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 24867.399999999907,
+          "trackTransform": "matrix(1, 0, 0, 1, -321, 0)",
+          "trackTransition": "transform 0.5s",
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 25076.099999999627,
+          "trackTransform": "matrix(1, 0, 0, 1, -321, 0)",
+          "trackTransition": "transform 0.5s",
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 25284.69999999972,
+          "trackTransform": "matrix(1, 0, 0, 1, -321, 0)",
+          "trackTransition": "transform 0.5s",
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        }
+      ]
+    },
+    {
+      "sel": ".accordion summary",
+      "frames": [
+        {
+          "t": 26303.399999999907,
+          "trackTransform": "matrix(1, 0, 0, 1, -321, 0)",
+          "trackTransition": "transform 0.5s",
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 26511.899999999907,
+          "trackTransform": "matrix(1, 0, 0, 1, -321, 0)",
+          "trackTransition": "transform 0.5s",
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 26720.899999999907,
+          "trackTransform": "matrix(1, 0, 0, 1, -321, 0)",
+          "trackTransition": "transform 0.5s",
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 26925.69999999972,
+          "trackTransform": "matrix(1, 0, 0, 1, -321, 0)",
+          "trackTransition": "transform 0.5s",
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        }
+      ]
+    }
+  ],
+  "hoverSamples": [
+    {
+      "sel": ".header .nav-item",
+      "changed": [
+        "a.nav-link.color"
+      ],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(33, 37, 41)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": [
+          {
+            "el": "a.nav-link",
+            "transform": "none",
+            "color": "rgb(47, 47, 47)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "color 0.2s"
+          }
+        ]
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(33, 37, 41)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": [
+          {
+            "el": "a.nav-link",
+            "transform": "none",
+            "color": "rgb(33, 37, 41)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "color 0.2s"
+          }
+        ]
+      }
+    },
+    {
+      "sel": ".color-gallery-card",
+      "changed": [],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(13, 110, 253)",
+          "background": "rgb(224, 224, 224)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": [
+          {
+            "el": "img.",
+            "transform": "none",
+            "color": "rgb(13, 110, 253)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "transform 1s ease-in-out"
+          },
+          {
+            "el": "img.",
+            "transform": "none",
+            "color": "rgb(13, 110, 253)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          }
+        ]
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(13, 110, 253)",
+          "background": "rgb(224, 224, 224)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": [
+          {
+            "el": "img.",
+            "transform": "none",
+            "color": "rgb(13, 110, 253)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "transform 1s ease-in-out"
+          },
+          {
+            "el": "img.",
+            "transform": "none",
+            "color": "rgb(13, 110, 253)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          }
+        ]
+      }
+    },
+    {
+      "sel": ".featured-products-card",
+      "changed": [],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(33, 37, 41)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": [
+          {
+            "el": "img.",
+            "transform": "none",
+            "color": "rgb(33, 37, 41)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "el": "img.",
+            "transform": "none",
+            "color": "rgb(33, 37, 41)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          }
+        ]
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(33, 37, 41)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": [
+          {
+            "el": "img.",
+            "transform": "none",
+            "color": "rgb(33, 37, 41)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "el": "img.",
+            "transform": "none",
+            "color": "rgb(33, 37, 41)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          }
+        ]
+      }
+    },
+    {
+      "sel": ".tools-carousel-slide",
+      "changed": [],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(13, 110, 253)",
+          "background": "rgb(35, 36, 38)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "0.3s"
+        },
+        "subs": [
+          {
+            "el": "img.",
+            "transform": "none",
+            "color": "rgb(13, 110, 253)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "0",
+            "transition": "opacity 0.4s"
+          }
+        ]
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(13, 110, 253)",
+          "background": "rgb(35, 36, 38)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "0.3s"
+        },
+        "subs": [
+          {
+            "el": "img.",
+            "transform": "none",
+            "color": "rgb(13, 110, 253)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "0",
+            "transition": "opacity 0.4s"
+          }
+        ]
+      }
+    },
+    {
+      "sel": ".interiors-shop-card",
+      "changed": [],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": [
+          {
+            "el": "img.",
+            "transform": "none",
+            "color": "rgb(255, 255, 255)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "el": "a.interiors-shop-button",
+            "transform": "none",
+            "color": "rgb(255, 255, 255)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "0.3s"
+          },
+          {
+            "el": "span.arrow",
+            "transform": "none",
+            "color": "rgb(255, 255, 255)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          }
+        ]
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": [
+          {
+            "el": "img.",
+            "transform": "none",
+            "color": "rgb(255, 255, 255)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "el": "a.interiors-shop-button",
+            "transform": "none",
+            "color": "rgb(255, 255, 255)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "0.3s"
+          },
+          {
+            "el": "span.arrow",
+            "transform": "none",
+            "color": "rgb(255, 255, 255)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          }
+        ]
+      }
+    },
+    {
+      "sel": ".designer-collections-cta",
+      "changed": [],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(0, 0, 0)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": [
+          {
+            "el": "img.designer-collections-cta-icon",
+            "transform": "none",
+            "color": "rgb(0, 0, 0)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          }
+        ]
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(0, 0, 0)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": [
+          {
+            "el": "img.designer-collections-cta-icon",
+            "transform": "none",
+            "color": "rgb(0, 0, 0)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          }
+        ]
+      }
+    },
+    {
+      "sel": ".header .cta-btn",
+      "changed": [
+        "self.background"
+      ],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(35, 36, 38)",
+          "background": "rgb(252, 175, 23)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "background-color 0.25s"
+        },
+        "subs": []
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(35, 36, 38)",
+          "background": "rgb(253, 191, 69)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "background-color 0.25s"
+        },
+        "subs": []
+      }
+    },
+    {
+      "sel": "main a.button",
+      "changed": [
+        "self.color",
+        "self.background"
+      ],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(35, 36, 38)",
+          "background": "rgb(255, 255, 255)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "0.3s"
+        },
+        "subs": []
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(0, 0, 0)",
+          "background": "rgb(255, 247, 232)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "0.3s"
+        },
+        "subs": []
+      }
+    },
+    {
+      "sel": ".services-grid a",
+      "changed": [
+        "self.color",
+        "img..transform",
+        "img..color",
+        "div.services-grid-card-arrow.background"
+      ],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(0, 0, 0)",
+          "background": "rgb(250, 246, 239)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "0.3s"
+        },
+        "subs": [
+          {
+            "el": "img.",
+            "transform": "none",
+            "color": "rgb(0, 0, 0)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "transform 0.3s"
+          },
+          {
+            "el": "div.services-grid-card-arrow",
+            "transform": "none",
+            "color": "rgb(35, 36, 38)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "0.3s"
+          }
+        ]
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(115, 69, 179)",
+          "background": "rgb(250, 246, 239)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "0.3s"
+        },
+        "subs": [
+          {
+            "el": "img.",
+            "transform": "matrix(1.06, 0, 0, 1.06, 0, 0)",
+            "color": "rgb(115, 69, 179)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "transform 0.3s"
+          },
+          {
+            "el": "div.services-grid-card-arrow",
+            "transform": "none",
+            "color": "rgb(35, 36, 38)",
+            "background": "rgb(236, 229, 215)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "0.3s"
+          }
+        ]
+      }
+    }
+  ],
+  "media": {
+    "videos": [
+      {
+        "src": "http://localhost:8791/media/a-hero-video-desk.webm",
+        "autoplay": true,
+        "loop": true,
+        "muted": true,
+        "paused": false,
+        "currentTime": 2.284273,
+        "readyState": 4,
+        "inViewport": true,
+        "currentTimeAfter": 3.799658,
+        "playing": true
+      },
+      {
+        "src": "http://localhost:8791/media/b-dc-video-1.webm",
+        "autoplay": false,
+        "loop": false,
+        "muted": true,
+        "paused": true,
+        "currentTime": 0,
+        "readyState": 4,
+        "inViewport": false,
+        "currentTimeAfter": 0,
+        "playing": false
+      },
+      {
+        "src": "http://localhost:8791/media/b-dc-video-2.webm",
+        "autoplay": false,
+        "loop": false,
+        "muted": true,
+        "paused": true,
+        "currentTime": 0,
+        "readyState": 4,
+        "inViewport": false,
+        "currentTimeAfter": 0,
+        "playing": false
+      },
+      {
+        "src": "http://localhost:8791/media/b-dc-video-3.webm",
+        "autoplay": false,
+        "loop": false,
+        "muted": true,
+        "paused": true,
+        "currentTime": 0,
+        "readyState": 4,
+        "inViewport": false,
+        "currentTimeAfter": 0,
+        "playing": false
+      },
+      {
+        "src": "http://localhost:8791/media/b-dc-video-4.webm",
+        "autoplay": false,
+        "loop": false,
+        "muted": true,
+        "paused": true,
+        "currentTime": 0,
+        "readyState": 4,
+        "inViewport": false,
+        "currentTimeAfter": 0,
+        "playing": false
+      },
+      {
+        "src": "http://localhost:8791/media/b-vs-1.mp4",
+        "autoplay": true,
+        "loop": true,
+        "muted": true,
+        "paused": true,
+        "currentTime": 0,
+        "readyState": 4,
+        "inViewport": false,
+        "currentTimeAfter": 0,
+        "playing": false
+      },
+      {
+        "src": "http://localhost:8791/media/b-vs-2.mp4",
+        "autoplay": true,
+        "loop": true,
+        "muted": true,
+        "paused": true,
+        "currentTime": 0,
+        "readyState": 4,
+        "inViewport": false,
+        "currentTimeAfter": 0,
+        "playing": false
+      },
+      {
+        "src": "http://localhost:8791/media/b-vs-3.mp4",
+        "autoplay": true,
+        "loop": true,
+        "muted": true,
+        "paused": true,
+        "currentTime": 0,
+        "readyState": 4,
+        "inViewport": false,
+        "currentTimeAfter": 0,
+        "playing": false
+      },
+      {
+        "src": "http://localhost:8791/media/b-vs-4.mp4",
+        "autoplay": true,
+        "loop": true,
+        "muted": true,
+        "paused": true,
+        "currentTime": 0,
+        "readyState": 4,
+        "inViewport": false,
+        "currentTimeAfter": 0,
+        "playing": false
+      },
+      {
+        "src": "http://localhost:8791/media/b-vs-5.mp4",
+        "autoplay": true,
+        "loop": true,
+        "muted": true,
+        "paused": true,
+        "currentTime": 0,
+        "readyState": 4,
+        "inViewport": false,
+        "currentTimeAfter": 0,
+        "playing": false
+      },
+      {
+        "src": "http://localhost:8791/media/b-vs-6.mp4",
+        "autoplay": true,
+        "loop": true,
+        "muted": true,
+        "paused": true,
+        "currentTime": 0,
+        "readyState": 4,
+        "inViewport": false,
+        "currentTimeAfter": 0,
+        "playing": false
+      },
+      {
+        "src": "http://localhost:8791/media/b-vs-7.mp4",
+        "autoplay": true,
+        "loop": true,
+        "muted": true,
+        "paused": true,
+        "currentTime": 0,
+        "readyState": 4,
+        "inViewport": false,
+        "currentTimeAfter": 0,
+        "playing": false
+      }
+    ],
+    "idleClassMutations": [
+      {
+        "added": [
+          "is-active",
+          "swiper-pagination-bullet-active"
+        ],
+        "el": "div.section.featured-products-container > div.featured-products > div.featured-products-carousel > div.featured-products-pagination.swiper-pagination-bullets.swiper-pagination-horizontal > span.fp-bullet.is-active.swiper-pagination-bullet-active"
+      },
+      {
+        "added": [
+          "swiper-slide-prev"
+        ],
+        "el": "div.featured-products > div.featured-products-carousel > div.featured-products-images.swiper-initialized.swiper-horizontal > div.featured-products-track.swiper-wrapper > div.featured-products-slide.swiper-slide-prev"
+      },
+      {
+        "added": [
+          "swiper-slide-active"
+        ],
+        "el": "div.featured-products > div.featured-products-carousel > div.featured-products-images.swiper-initialized.swiper-horizontal > div.featured-products-track.swiper-wrapper > div.featured-products-slide.swiper-slide-active"
+      },
+      {
+        "added": [
+          "swiper-slide-next"
+        ],
+        "el": "div.featured-products > div.featured-products-carousel > div.featured-products-images.swiper-initialized.swiper-horizontal > div.featured-products-track.swiper-wrapper > div.featured-products-slide.swiper-slide-next"
+      },
+      {
+        "added": [
+          "swiper-pagination-bullet-active"
+        ],
+        "el": "div.section.featured-products-container > div.featured-products > div.featured-products-carousel > div.featured-products-pagination.swiper-pagination-bullets.swiper-pagination-horizontal > span.fp-bullet.is-active.swiper-pagination-bullet-active"
+      }
+    ],
+    "idleClassMutationCount": 5
+  },
+  "events": {
+    "animations": [],
+    "transitions": [
+      {
+        "prop": "transform",
+        "el": "div.section.featured-products-container > div.featured-products > div.featured-products-carousel > div.featured-products-images.swiper-initialized.swiper-horizontal > div.featured-products-track.swiper-wrapper",
+        "y": 0,
+        "dur": "0.6s"
+      },
+      {
+        "prop": "transform",
+        "el": "div.section.featured-products-container > div.featured-products > div.featured-products-carousel > div.featured-products-images.swiper-initialized.swiper-horizontal > div.featured-products-track.swiper-wrapper",
+        "y": 8000,
+        "dur": "0.6s"
+      },
+      {
+        "prop": "transform",
+        "el": "div.section.featured-products-container > div.featured-products > div.featured-products-carousel > div.featured-products-images.swiper-initialized.swiper-horizontal > div.featured-products-track.swiper-wrapper",
+        "y": 242,
+        "dur": "0.6s"
+      },
+      {
+        "prop": "opacity",
+        "el": "main > div.section.sr-only-container.carousel-hero-banner-container > div.carousel-hero-banner.swiper-initialized.swiper-horizontal > div.hero-track > div.hero-slide.swiper-slide-visible.swiper-slide-fully-visible",
+        "y": 242,
+        "dur": "0.8s"
+      },
+      {
+        "prop": "opacity",
+        "el": "main > div.section.sr-only-container.carousel-hero-banner-container > div.carousel-hero-banner.swiper-initialized.swiper-horizontal > div.hero-track > div.hero-slide.is-active.swiper-slide-active",
+        "y": 242,
+        "dur": "0.8s"
+      },
+      {
+        "prop": "transform",
+        "el": "div.section.color-gallery-container > div.color-gallery > div.color-gallery-carousel > div.color-gallery-swiper.swiper-initialized.swiper-horizontal > div.color-gallery-track.swiper-wrapper",
+        "y": 984,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "transform",
+        "el": "div.section.featured-products-container > div.featured-products > div.featured-products-carousel > div.featured-products-images.swiper-initialized.swiper-horizontal > div.featured-products-track.swiper-wrapper",
+        "y": 984,
+        "dur": "0.6s"
+      },
+      {
+        "prop": "transform",
+        "el": "div.section.featured-products-container > div.featured-products > div.featured-products-carousel > div.featured-products-images.swiper-initialized.swiper-horizontal > div.featured-products-track.swiper-wrapper",
+        "y": 1587,
+        "dur": "0.6s"
+      },
+      {
+        "prop": "transform",
+        "el": "div.section.tools-carousel-container.tools-carousel-wrapper > div.tools-carousel > div.tools-carousel-items > div.tools-carousel-track.swiper-initialized.swiper-horizontal > div.tools-carousel-wrapper-inner.swiper-wrapper",
+        "y": 3372,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "opacity",
+        "el": "main > div.section.sr-only-container.carousel-hero-banner-container > div.carousel-hero-banner.swiper-initialized.swiper-horizontal > div.hero-track > div.hero-slide.is-active.swiper-slide-active",
+        "y": 3372,
+        "dur": "0.8s"
+      },
+      {
+        "prop": "opacity",
+        "el": "main > div.section.sr-only-container.carousel-hero-banner-container > div.carousel-hero-banner.swiper-initialized.swiper-horizontal > div.hero-track > div.hero-slide.is-leaving.swiper-slide-prev",
+        "y": 3372,
+        "dur": "0.8s"
+      },
+      {
+        "prop": "transform",
+        "el": "div.section.featured-products-container > div.featured-products > div.featured-products-carousel > div.featured-products-images.swiper-initialized.swiper-horizontal > div.featured-products-track.swiper-wrapper",
+        "y": 3939,
+        "dur": "0.6s"
+      },
+      {
+        "prop": "transform",
+        "el": "div.section.designer-collections-container > div.designer-collections-wrapper > div.designer-collections.block > div.designer-collections-carousel.swiper-initialized.swiper-horizontal > div.designer-collections-track.swiper-wrapper",
+        "y": 3939,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.designer-collections-wrapper > div.designer-collections.block > div.designer-collections-header > div.designer-collections-nav-wrapper > button.designer-collections-nav.designer-collections-prev",
+        "y": 3939,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.designer-collections-wrapper > div.designer-collections.block > div.designer-collections-header > div.designer-collections-nav-wrapper > button.designer-collections-nav.designer-collections-next.swiper-button-disabled",
+        "y": 3939,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "transform",
+        "el": "div.testimonial-carousel.block.swiper-ready > div.testimonial-carousel-container > div.testimonial-carousel-inner-wrapper > div.testimonial-swiper.swiper-initialized.swiper-horizontal > div.testimonial-track.swiper-wrapper",
+        "y": 6193,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.testimonial-carousel.block.swiper-ready > div.testimonial-carousel-container > div.testimonial-carousel-inner-wrapper > div.testimonial-nav-buttons > button.testimonial-prev",
+        "y": 6193,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "transform",
+        "el": "div.video-shorts-wrapper > div.video-shorts.block > div.vs-root.saleassist-video-shorts-root-container > div.vs-viewport.swiper-initialized.swiper-horizontal > div.vs-track.swiper-wrapper",
+        "y": 7073,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "transform",
+        "el": "div.section.featured-products-container > div.featured-products > div.featured-products-carousel > div.featured-products-images.swiper-initialized.swiper-horizontal > div.featured-products-track.swiper-wrapper",
+        "y": 7073,
+        "dur": "0.6s"
+      },
+      {
+        "prop": "opacity",
+        "el": "main > div.section.sr-only-container.carousel-hero-banner-container > div.carousel-hero-banner.swiper-initialized.swiper-horizontal > div.hero-track > div.hero-slide.is-active.swiper-slide-active",
+        "y": 7073,
+        "dur": "0.8s"
+      },
+      {
+        "prop": "opacity",
+        "el": "main > div.section.sr-only-container.carousel-hero-banner-container > div.carousel-hero-banner.swiper-initialized.swiper-horizontal > div.hero-track > div.hero-slide.is-leaving.swiper-slide-prev",
+        "y": 7073,
+        "dur": "0.8s"
+      },
+      {
+        "prop": "color",
+        "el": "div.nav-left > nav.main-nav > ul.nav-list > li.nav-item.nav-item-1.nav-home > a.nav-link",
+        "y": 7453,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "color",
+        "el": "div.nav-left > nav.main-nav > ul.nav-list > li.nav-item.nav-item-1.nav-home > a.nav-link",
+        "y": 665,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "transform",
+        "el": "div.section.featured-products-container > div.featured-products > div.featured-products-carousel > div.featured-products-images.swiper-initialized.swiper-horizontal > div.featured-products-track.swiper-wrapper",
+        "y": 1911,
+        "dur": "0.6s"
+      },
+      {
+        "prop": "opacity",
+        "el": "main > div.section.sr-only-container.carousel-hero-banner-container > div.carousel-hero-banner.swiper-initialized.swiper-horizontal > div.hero-track > div.hero-slide.is-leaving",
+        "y": 3585,
+        "dur": "0.8s"
+      },
+      {
+        "prop": "opacity",
+        "el": "main > div.section.sr-only-container.carousel-hero-banner-container > div.carousel-hero-banner.swiper-initialized.swiper-horizontal > div.hero-track > div.hero-slide.swiper-slide-visible.swiper-slide-fully-visible",
+        "y": 3585,
+        "dur": "0.8s"
+      },
+      {
+        "prop": "background-color",
+        "el": "div.header-sticky > div.header-main > div.header-main-inner > div.header-cta > a.cta-btn",
+        "y": 4583,
+        "dur": "0.25s"
+      },
+      {
+        "prop": "background-color",
+        "el": "div.header-sticky > div.header-main > div.header-main-inner > div.header-cta > a.cta-btn",
+        "y": 835,
+        "dur": "0.25s"
+      },
+      {
+        "prop": "background-color",
+        "el": "div.section.color-gallery-container > div.color-gallery > div.color-gallery-text > p.button-container > a.button",
+        "y": 835,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "color",
+        "el": "div.section.color-gallery-container > div.color-gallery > div.color-gallery-text > p.button-container > a.button",
+        "y": 835,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "transform",
+        "el": "div.section.featured-products-container > div.featured-products > div.featured-products-carousel > div.featured-products-images.swiper-initialized.swiper-horizontal > div.featured-products-track.swiper-wrapper",
+        "y": 835,
+        "dur": "0.6s"
+      },
+      {
+        "prop": "background-color",
+        "el": "div.section.color-gallery-container > div.color-gallery > div.color-gallery-text > p.button-container > a.button",
+        "y": 2396,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "color",
+        "el": "div.section.color-gallery-container > div.color-gallery > div.color-gallery-text > p.button-container > a.button",
+        "y": 2396,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "transform",
+        "el": "div.services-grid-cards > a.services-grid-card > div.services-grid-card-image > picture > img",
+        "y": 2396,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "background-color",
+        "el": "div.services-grid > div.services-grid-images > div.services-grid-cards > a.services-grid-card > div.services-grid-card-arrow",
+        "y": 2396,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "color",
+        "el": "div.services-grid-wrapper > div.services-grid > div.services-grid-images > div.services-grid-cards > a.services-grid-card",
+        "y": 2396,
+        "dur": "0.3s"
+      }
+    ],
+    "classMutations": [
+      {
+        "added": [
+          "is-active",
+          "swiper-pagination-bullet-active"
+        ],
+        "el": "div.section.featured-products-container > div.featured-products > div.featured-products-carousel > div.featured-products-pagination.swiper-pagination-bullets.swiper-pagination-horizontal > span.fp-bullet.is-active.swiper-pagination-bullet-active",
+        "y": 0
+      },
+      {
+        "added": [
+          "swiper-slide-prev"
+        ],
+        "el": "div.featured-products > div.featured-products-carousel > div.featured-products-images.swiper-initialized.swiper-horizontal > div.featured-products-track.swiper-wrapper > div.featured-products-slide.swiper-slide-prev",
+        "y": 0
+      },
+      {
+        "added": [
+          "swiper-slide-active"
+        ],
+        "el": "div.featured-products > div.featured-products-carousel > div.featured-products-images.swiper-initialized.swiper-horizontal > div.featured-products-track.swiper-wrapper > div.featured-products-slide.swiper-slide-active",
+        "y": 0
+      },
+      {
+        "added": [
+          "swiper-slide-next"
+        ],
+        "el": "div.featured-products > div.featured-products-carousel > div.featured-products-images.swiper-initialized.swiper-horizontal > div.featured-products-track.swiper-wrapper > div.featured-products-slide.swiper-slide-next",
+        "y": 0
+      },
+      {
+        "added": [
+          "swiper-pagination-bullet-active"
+        ],
+        "el": "div.section.featured-products-container > div.featured-products > div.featured-products-carousel > div.featured-products-pagination.swiper-pagination-bullets.swiper-pagination-horizontal > span.fp-bullet.is-active.swiper-pagination-bullet-active",
+        "y": 0
+      },
+      {
+        "added": [
+          "desktop-scrolled"
+        ],
+        "el": "html > body > header.header-wrapper > div.header.block.desktop-scrolled",
+        "y": 400
+      },
+      {
+        "added": [
+          "is-active",
+          "swiper-pagination-bullet-active"
+        ],
+        "el": "div.section.featured-products-container > div.featured-products > div.featured-products-carousel > div.featured-products-pagination.swiper-pagination-bullets.swiper-pagination-horizontal > span.fp-bullet.is-active.swiper-pagination-bullet-active",
+        "y": 8000
+      },
+      {
+        "added": [
+          "swiper-slide-prev"
+        ],
+        "el": "div.featured-products > div.featured-products-carousel > div.featured-products-images.swiper-initialized.swiper-horizontal > div.featured-products-track.swiper-wrapper > div.featured-products-slide.swiper-slide-prev",
+        "y": 8000
+      },
+      {
+        "added": [
+          "swiper-slide-prev"
+        ],
+        "el": "div.featured-products > div.featured-products-carousel > div.featured-products-images.swiper-initialized.swiper-horizontal > div.featured-products-track.swiper-wrapper > div.featured-products-slide.swiper-slide-prev",
+        "y": 8000
+      },
+      {
+        "added": [
+          "swiper-slide-active"
+        ],
+        "el": "div.featured-products > div.featured-products-carousel > div.featured-products-images.swiper-initialized.swiper-horizontal > div.featured-products-track.swiper-wrapper > div.featured-products-slide.swiper-slide-active",
+        "y": 8000
+      },
+      {
+        "added": [
+          "swiper-pagination-bullet-active"
+        ],
+        "el": "div.section.featured-products-container > div.featured-products > div.featured-products-carousel > div.featured-products-pagination.swiper-pagination-bullets.swiper-pagination-horizontal > span.fp-bullet.is-active.swiper-pagination-bullet-active",
+        "y": 8000
+      },
+      {
+        "added": [
+          "swiper-button-disabled"
+        ],
+        "el": "div.section.featured-products-container > div.featured-products > div.featured-products-header > div.featured-products-nav > button.featured-products-next.swiper-button-disabled",
+        "y": 8000
+      },
+      {
+        "added": [
+          "desktop-scrolled"
+        ],
+        "el": "html > body > header.header-wrapper > div.header.block.desktop-scrolled",
+        "y": 242
+      },
+      {
+        "added": [
+          "is-active",
+          "swiper-pagination-bullet-active"
+        ],
+        "el": "div.section.featured-products-container > div.featured-products > div.featured-products-carousel > div.featured-products-pagination.swiper-pagination-bullets.swiper-pagination-horizontal > span.fp-bullet.is-active.swiper-pagination-bullet-active",
+        "y": 242
+      },
+      {
+        "added": [
+          "swiper-slide-active"
+        ],
+        "el": "div.featured-products > div.featured-products-carousel > div.featured-products-images.swiper-initialized.swiper-horizontal > div.featured-products-track.swiper-wrapper > div.featured-products-slide.swiper-slide-active",
+        "y": 242
+      },
+      {
+        "added": [
+          "swiper-slide-next"
+        ],
+        "el": "div.featured-products > div.featured-products-carousel > div.featured-products-images.swiper-initialized.swiper-horizontal > div.featured-products-track.swiper-wrapper > div.featured-products-slide.swiper-slide-next",
+        "y": 242
+      },
+      {
+        "added": [
+          "swiper-pagination-bullet-active"
+        ],
+        "el": "div.section.featured-products-container > div.featured-products > div.featured-products-carousel > div.featured-products-pagination.swiper-pagination-bullets.swiper-pagination-horizontal > span.fp-bullet.is-active.swiper-pagination-bullet-active",
+        "y": 242
+      },
+      {
+        "added": [
+          "swiper-button-disabled"
+        ],
+        "el": "div.section.featured-products-container > div.featured-products > div.featured-products-header > div.featured-products-nav > button.featured-products-prev.swiper-button-disabled",
+        "y": 242
+      },
+      {
+        "added": [
+          "is-leaving",
+          "swiper-slide-prev"
+        ],
+        "el": "main > div.section.sr-only-container.carousel-hero-banner-container > div.carousel-hero-banner.swiper-initialized.swiper-horizontal > div.hero-track > div.hero-slide.swiper-slide-visible.swiper-slide-fully-visible",
+        "y": 242
+      },
+      {
+        "added": [
+          "swiper-slide-prev"
+        ],
+        "el": "main > div.section.sr-only-container.carousel-hero-banner-container > div.carousel-hero-banner.swiper-initialized.swiper-horizontal > div.hero-track > div.hero-slide.swiper-slide-visible.swiper-slide-fully-visible",
+        "y": 242
+      },
+      {
+        "added": [
+          "is-active",
+          "swiper-slide-active"
+        ],
+        "el": "main > div.section.sr-only-container.carousel-hero-banner-container > div.carousel-hero-banner.swiper-initialized.swiper-horizontal > div.hero-track > div.hero-slide.is-active.swiper-slide-active",
+        "y": 242
+      },
+      {
+        "added": [
+          "swiper-slide-prev"
+        ],
+        "el": "main > div.section.sr-only-container.carousel-hero-banner-container > div.carousel-hero-banner.swiper-initialized.swiper-horizontal > div.hero-track > div.hero-slide.swiper-slide-visible.swiper-slide-fully-visible",
+        "y": 242
+      },
+      {
+        "added": [
+          "swiper-slide-active"
+        ],
+        "el": "main > div.section.sr-only-container.carousel-hero-banner-container > div.carousel-hero-banner.swiper-initialized.swiper-horizontal > div.hero-track > div.hero-slide.is-active.swiper-slide-active",
+        "y": 242
+      },
+      {
+        "added": [
+          "swiper-slide-next"
+        ],
+        "el": "main > div.section.sr-only-container.carousel-hero-banner-container > div.carousel-hero-banner.swiper-initialized.swiper-horizontal > div.hero-track > div.hero-slide.swiper-slide-next",
+        "y": 242
+      },
+      {
+        "added": [
+          "swiper-pagination-bullet-active",
+          "is-active"
+        ],
+        "el": "main > div.section.sr-only-container.carousel-hero-banner-container > div.carousel-hero-banner.swiper-initialized.swiper-horizontal > div.hero-pagination.swiper-pagination-bullets.swiper-pagination-horizontal > button.hero-bullet.swiper-pagination-bullet-active.is-active",
+        "y": 242
+      },
+      {
+        "added": [
+          "is-active"
+        ],
+        "el": "main > div.section.sr-only-container.carousel-hero-banner-container > div.carousel-hero-banner.swiper-initialized.swiper-horizontal > div.hero-pagination.swiper-pagination-bullets.swiper-pagination-horizontal > button.hero-bullet.swiper-pagination-bullet-active.is-active",
+        "y": 242
+      },
+      {
+        "added": [
+          "is-active",
+          "swiper-pagination-bullet-active"
+        ],
+        "el": "div.section.color-gallery-container > div.color-gallery > div.color-gallery-carousel > div.color-gallery-pagination.swiper-pagination-bullets.swiper-pagination-horizontal > span.cg-bullet.is-active.swiper-pagination-bullet-active",
+        "y": 984
+      },
+      {
+        "added": [
+          "swiper-slide-prev"
+        ],
+        "el": "div.color-gallery > div.color-gallery-carousel > div.color-gallery-swiper.swiper-initialized.swiper-horizontal > div.color-gallery-track.swiper-wrapper > div.color-gallery-slide.is-active.swiper-slide-prev",
+        "y": 984
+      },
+      {
+        "added": [
+          "swiper-slide-active"
+        ],
+        "el": "div.color-gallery > div.color-gallery-carousel > div.color-gallery-swiper.swiper-initialized.swiper-horizontal > div.color-gallery-track.swiper-wrapper > div.color-gallery-slide.swiper-slide-active",
+        "y": 984
+      },
+      {
+        "added": [
+          "swiper-slide-next"
+        ],
+        "el": "div.color-gallery > div.color-gallery-carousel > div.color-gallery-swiper.swiper-initialized.swiper-horizontal > div.color-gallery-track.swiper-wrapper > div.color-gallery-slide.swiper-slide-next",
+        "y": 984
+      },
+      {
+        "added": [
+          "swiper-pagination-bullet-active"
+        ],
+        "el": "div.section.color-gallery-container > div.color-gallery > div.color-gallery-carousel > div.color-gallery-pagination.swiper-pagination-bullets.swiper-pagination-horizontal > span.cg-bullet.is-active.swiper-pagination-bullet-active",
+        "y": 984
+      },
+      {
+        "added": [
+          "is-active",
+          "swiper-pagination-bullet-active"
+        ],
+        "el": "div.section.featured-products-container > div.featured-products > div.featured-products-carousel > div.featured-products-pagination.swiper-pagination-bullets.swiper-pagination-horizontal > span.fp-bullet.is-active.swiper-pagination-bullet-active",
+        "y": 984
+      },
+      {
+        "added": [
+          "swiper-slide-prev"
+        ],
+        "el": "div.featured-products > div.featured-products-carousel > div.featured-products-images.swiper-initialized.swiper-horizontal > div.featured-products-track.swiper-wrapper > div.featured-products-slide.swiper-slide-prev",
+        "y": 984
+      },
+      {
+        "added": [
+          "swiper-slide-prev"
+        ],
+        "el": "div.featured-products > div.featured-products-carousel > div.featured-products-images.swiper-initialized.swiper-horizontal > div.featured-products-track.swiper-wrapper > div.featured-products-slide.swiper-slide-prev",
+        "y": 984
+      },
+      {
+        "added": [
+          "swiper-slide-active"
+        ],
+        "el": "div.featured-products > div.featured-products-carousel > div.featured-products-images.swiper-initialized.swiper-horizontal > div.featured-products-track.swiper-wrapper > div.featured-products-slide.swiper-slide-active",
+        "y": 984
+      },
+      {
+        "added": [
+          "swiper-slide-next"
+        ],
+        "el": "div.featured-products > div.featured-products-carousel > div.featured-products-images.swiper-initialized.swiper-horizontal > div.featured-products-track.swiper-wrapper > div.featured-products-slide.swiper-slide-next",
+        "y": 984
+      },
+      {
+        "added": [
+          "swiper-pagination-bullet-active"
+        ],
+        "el": "div.section.featured-products-container > div.featured-products > div.featured-products-carousel > div.featured-products-pagination.swiper-pagination-bullets.swiper-pagination-horizontal > span.fp-bullet.is-active.swiper-pagination-bullet-active",
+        "y": 984
+      },
+      {
+        "added": [
+          "is-active",
+          "swiper-pagination-bullet-active"
+        ],
+        "el": "div.section.featured-products-container > div.featured-products > div.featured-products-carousel > div.featured-products-pagination.swiper-pagination-bullets.swiper-pagination-horizontal > span.fp-bullet.is-active.swiper-pagination-bullet-active",
+        "y": 1587
+      },
+      {
+        "added": [
+          "swiper-slide-prev"
+        ],
+        "el": "div.featured-products > div.featured-products-carousel > div.featured-products-images.swiper-initialized.swiper-horizontal > div.featured-products-track.swiper-wrapper > div.featured-products-slide.swiper-slide-prev",
+        "y": 1587
+      },
+      {
+        "added": [
+          "swiper-slide-prev"
+        ],
+        "el": "div.featured-products > div.featured-products-carousel > div.featured-products-images.swiper-initialized.swiper-horizontal > div.featured-products-track.swiper-wrapper > div.featured-products-slide.swiper-slide-prev",
+        "y": 1587
+      },
+      {
+        "added": [
+          "swiper-slide-active"
+        ],
+        "el": "div.featured-products > div.featured-products-carousel > div.featured-products-images.swiper-initialized.swiper-horizontal > div.featured-products-track.swiper-wrapper > div.featured-products-slide.swiper-slide-active",
+        "y": 1587
+      },
+      {
+        "added": [
+          "swiper-pagination-bullet-active"
+        ],
+        "el": "div.section.featured-products-container > div.featured-products > div.featured-products-carousel > div.featured-products-pagination.swiper-pagination-bullets.swiper-pagination-horizontal > span.fp-bullet.is-active.swiper-pagination-bullet-active",
+        "y": 1587
+      },
+      {
+        "added": [
+          "swiper-button-disabled"
+        ],
+        "el": "div.section.featured-products-container > div.featured-products > div.featured-products-header > div.featured-products-nav > button.featured-products-next.swiper-button-disabled",
+        "y": 1587
+      },
+      {
+        "added": [
+          "swiper-slide-prev"
+        ],
+        "el": "div.tools-carousel > div.tools-carousel-items > div.tools-carousel-track.swiper-initialized.swiper-horizontal > div.tools-carousel-wrapper-inner.swiper-wrapper > a.tools-carousel-slide.swiper-slide-prev",
+        "y": 3372
+      },
+      {
+        "added": [
+          "swiper-slide-active"
+        ],
+        "el": "div.tools-carousel > div.tools-carousel-items > div.tools-carousel-track.swiper-initialized.swiper-horizontal > div.tools-carousel-wrapper-inner.swiper-wrapper > a.tools-carousel-slide.swiper-slide-active",
+        "y": 3372
+      },
+      {
+        "added": [
+          "swiper-slide-next"
+        ],
+        "el": "div.tools-carousel > div.tools-carousel-items > div.tools-carousel-track.swiper-initialized.swiper-horizontal > div.tools-carousel-wrapper-inner.swiper-wrapper > a.tools-carousel-slide.swiper-slide-next",
+        "y": 3372
+      },
+      {
+        "added": [
+          "is-leaving",
+          "swiper-slide-prev"
+        ],
+        "el": "main > div.section.sr-only-container.carousel-hero-banner-container > div.carousel-hero-banner.swiper-initialized.swiper-horizontal > div.hero-track > div.hero-slide.is-leaving.swiper-slide-prev",
+        "y": 3372
+      },
+      {
+        "added": [
+          "swiper-slide-prev"
+        ],
+        "el": "main > div.section.sr-only-container.carousel-hero-banner-container > div.carousel-hero-banner.swiper-initialized.swiper-horizontal > div.hero-track > div.hero-slide.is-leaving.swiper-slide-prev",
+        "y": 3372
+      },
+      {
+        "added": [
+          "is-active",
+          "swiper-slide-active"
+        ],
+        "el": "main > div.section.sr-only-container.carousel-hero-banner-container > div.carousel-hero-banner.swiper-initialized.swiper-horizontal > div.hero-track > div.hero-slide.is-active.swiper-slide-active",
+        "y": 3372
+      },
+      {
+        "added": [
+          "swiper-slide-prev"
+        ],
+        "el": "main > div.section.sr-only-container.carousel-hero-banner-container > div.carousel-hero-banner.swiper-initialized.swiper-horizontal > div.hero-track > div.hero-slide.is-leaving.swiper-slide-prev",
+        "y": 3372
+      },
+      {
+        "added": [
+          "swiper-slide-prev"
+        ],
+        "el": "main > div.section.sr-only-container.carousel-hero-banner-container > div.carousel-hero-banner.swiper-initialized.swiper-horizontal > div.hero-track > div.hero-slide.is-leaving.swiper-slide-prev",
+        "y": 3372
+      },
+      {
+        "added": [
+          "swiper-slide-active"
+        ],
+        "el": "main > div.section.sr-only-container.carousel-hero-banner-container > div.carousel-hero-banner.swiper-initialized.swiper-horizontal > div.hero-track > div.hero-slide.is-active.swiper-slide-active",
+        "y": 3372
+      },
+      {
+        "added": [
+          "swiper-slide-next"
+        ],
+        "el": "main > div.section.sr-only-container.carousel-hero-banner-container > div.carousel-hero-banner.swiper-initialized.swiper-horizontal > div.hero-track > div.hero-slide.swiper-slide-next",
+        "y": 3372
+      },
+      {
+        "added": [
+          "swiper-pagination-bullet-active",
+          "is-active"
+        ],
+        "el": "main > div.section.sr-only-container.carousel-hero-banner-container > div.carousel-hero-banner.swiper-initialized.swiper-horizontal > div.hero-pagination.swiper-pagination-bullets.swiper-pagination-horizontal > button.hero-bullet.swiper-pagination-bullet-active.is-active",
+        "y": 3372
+      },
+      {
+        "added": [
+          "is-active"
+        ],
+        "el": "main > div.section.sr-only-container.carousel-hero-banner-container > div.carousel-hero-banner.swiper-initialized.swiper-horizontal > div.hero-pagination.swiper-pagination-bullets.swiper-pagination-horizontal > button.hero-bullet.swiper-pagination-bullet-active.is-active",
+        "y": 3372
+      },
+      {
+        "added": [
+          "is-active",
+          "swiper-pagination-bullet-active"
+        ],
+        "el": "div.section.featured-products-container > div.featured-products > div.featured-products-carousel > div.featured-products-pagination.swiper-pagination-bullets.swiper-pagination-horizontal > span.fp-bullet.is-active.swiper-pagination-bullet-active",
+        "y": 3939
+      },
+      {
+        "added": [
+          "swiper-slide-active"
+        ],
+        "el": "div.featured-products > div.featured-products-carousel > div.featured-products-images.swiper-initialized.swiper-horizontal > div.featured-products-track.swiper-wrapper > div.featured-products-slide.swiper-slide-active",
+        "y": 3939
+      },
+      {
+        "added": [
+          "swiper-slide-next"
+        ],
+        "el": "div.featured-products > div.featured-products-carousel > div.featured-products-images.swiper-initialized.swiper-horizontal > div.featured-products-track.swiper-wrapper > div.featured-products-slide.swiper-slide-next",
+        "y": 3939
+      },
+      {
+        "added": [
+          "swiper-pagination-bullet-active"
+        ],
+        "el": "div.section.featured-products-container > div.featured-products > div.featured-products-carousel > div.featured-products-pagination.swiper-pagination-bullets.swiper-pagination-horizontal > span.fp-bullet.is-active.swiper-pagination-bullet-active",
+        "y": 3939
+      },
+      {
+        "added": [
+          "swiper-button-disabled"
+        ],
+        "el": "div.section.featured-products-container > div.featured-products > div.featured-products-header > div.featured-products-nav > button.featured-products-prev.swiper-button-disabled",
+        "y": 3939
+      },
+      {
+        "added": [
+          "is-active",
+          "swiper-pagination-bullet-active"
+        ],
+        "el": "div.designer-collections-wrapper > div.designer-collections.block > div.designer-collections-carousel.swiper-initialized.swiper-horizontal > div.designer-collections-pagination > span.dc-bullet.is-active.swiper-pagination-bullet-active",
+        "y": 3939
+      },
+      {
+        "added": [
+          "swiper-slide-prev"
+        ],
+        "el": "div.designer-collections-wrapper > div.designer-collections.block > div.designer-collections-carousel.swiper-initialized.swiper-horizontal > div.designer-collections-track.swiper-wrapper > div.designer-collections-card.swiper-slide-prev",
+        "y": 3939
+      },
+      {
+        "added": [
+          "swiper-slide-active"
+        ],
+        "el": "div.designer-collections-wrapper > div.designer-collections.block > div.designer-collections-carousel.swiper-initialized.swiper-horizontal > div.designer-collections-track.swiper-wrapper > div.designer-collections-card.swiper-slide-active",
+        "y": 3939
+      },
+      {
+        "added": [
+          "swiper-slide-next"
+        ],
+        "el": "div.designer-collections-wrapper > div.designer-collections.block > div.designer-collections-carousel.swiper-initialized.swiper-horizontal > div.designer-collections-track.swiper-wrapper > div.designer-collections-card.swiper-slide-next",
+        "y": 3939
+      },
+      {
+        "added": [
+          "swiper-pagination-bullet-active"
+        ],
+        "el": "div.designer-collections-wrapper > div.designer-collections.block > div.designer-collections-carousel.swiper-initialized.swiper-horizontal > div.designer-collections-pagination > span.dc-bullet.is-active.swiper-pagination-bullet-active",
+        "y": 3939
+      },
+      {
+        "added": [
+          "swiper-button-disabled"
+        ],
+        "el": "div.designer-collections-wrapper > div.designer-collections.block > div.designer-collections-header > div.designer-collections-nav-wrapper > button.designer-collections-nav.designer-collections-next.swiper-button-disabled",
+        "y": 3939
+      },
+      {
+        "added": [
+          "is-active",
+          "swiper-pagination-bullet-active"
+        ],
+        "el": "div.testimonial-carousel.block.swiper-ready > div.testimonial-carousel-container > div.testimonial-carousel-inner-wrapper > div.testimonial-pagination.swiper-pagination-clickable.swiper-pagination-bullets > span.tc-bullet.is-active.swiper-pagination-bullet-active",
+        "y": 6193
+      },
+      {
+        "added": [
+          "swiper-slide-prev"
+        ],
+        "el": "div.testimonial-carousel-container > div.testimonial-carousel-inner-wrapper > div.testimonial-swiper.swiper-initialized.swiper-horizontal > div.testimonial-track.swiper-wrapper > div.testimonial-slide.swiper-slide-prev",
+        "y": 6193
+      },
+      {
+        "added": [
+          "swiper-slide-active"
+        ],
+        "el": "div.testimonial-carousel-container > div.testimonial-carousel-inner-wrapper > div.testimonial-swiper.swiper-initialized.swiper-horizontal > div.testimonial-track.swiper-wrapper > div.testimonial-slide.swiper-slide-active",
+        "y": 6193
+      },
+      {
+        "added": [
+          "swiper-slide-next"
+        ],
+        "el": "div.testimonial-carousel-container > div.testimonial-carousel-inner-wrapper > div.testimonial-swiper.swiper-initialized.swiper-horizontal > div.testimonial-track.swiper-wrapper > div.testimonial-slide.swiper-slide-next",
+        "y": 6193
+      },
+      {
+        "added": [
+          "swiper-pagination-bullet-active"
+        ],
+        "el": "div.testimonial-carousel.block.swiper-ready > div.testimonial-carousel-container > div.testimonial-carousel-inner-wrapper > div.testimonial-pagination.swiper-pagination-clickable.swiper-pagination-bullets > span.tc-bullet.is-active.swiper-pagination-bullet-active",
+        "y": 6193
+      },
+      {
+        "added": [
+          "swiper-slide-prev"
+        ],
+        "el": "div.video-shorts.block > div.vs-root.saleassist-video-shorts-root-container > div.vs-viewport.swiper-initialized.swiper-horizontal > div.vs-track.swiper-wrapper > div.vs-tile.swiper-slide-prev",
+        "y": 7073
+      },
+      {
+        "added": [
+          "swiper-slide-active"
+        ],
+        "el": "div.video-shorts.block > div.vs-root.saleassist-video-shorts-root-container > div.vs-viewport.swiper-initialized.swiper-horizontal > div.vs-track.swiper-wrapper > div.vs-tile.swiper-slide-active",
+        "y": 7073
+      },
+      {
+        "added": [
+          "swiper-slide-next"
+        ],
+        "el": "div.video-shorts.block > div.vs-root.saleassist-video-shorts-root-container > div.vs-viewport.swiper-initialized.swiper-horizontal > div.vs-track.swiper-wrapper > div.vs-tile.swiper-slide-next",
+        "y": 7073
+      },
+      {
+        "added": [
+          "is-active",
+          "swiper-pagination-bullet-active"
+        ],
+        "el": "div.section.featured-products-container > div.featured-products > div.featured-products-carousel > div.featured-products-pagination.swiper-pagination-bullets.swiper-pagination-horizontal > span.fp-bullet.is-active.swiper-pagination-bullet-active",
+        "y": 7073
+      },
+      {
+        "added": [
+          "swiper-slide-prev"
+        ],
+        "el": "div.featured-products > div.featured-products-carousel > div.featured-products-images.swiper-initialized.swiper-horizontal > div.featured-products-track.swiper-wrapper > div.featured-products-slide.swiper-slide-prev",
+        "y": 7073
+      },
+      {
+        "added": [
+          "swiper-slide-prev"
+        ],
+        "el": "div.featured-products > div.featured-products-carousel > div.featured-products-images.swiper-initialized.swiper-horizontal > div.featured-products-track.swiper-wrapper > div.featured-products-slide.swiper-slide-prev",
+        "y": 7073
+      },
+      {
+        "added": [
+          "swiper-slide-active"
+        ],
+        "el": "div.featured-products > div.featured-products-carousel > div.featured-products-images.swiper-initialized.swiper-horizontal > div.featured-products-track.swiper-wrapper > div.featured-products-slide.swiper-slide-active",
+        "y": 7073
+      },
+      {
+        "added": [
+          "swiper-slide-next"
+        ],
+        "el": "div.featured-products > div.featured-products-carousel > div.featured-products-images.swiper-initialized.swiper-horizontal > div.featured-products-track.swiper-wrapper > div.featured-products-slide.swiper-slide-next",
+        "y": 7073
+      },
+      {
+        "added": [
+          "swiper-pagination-bullet-active"
+        ],
+        "el": "div.section.featured-products-container > div.featured-products > div.featured-products-carousel > div.featured-products-pagination.swiper-pagination-bullets.swiper-pagination-horizontal > span.fp-bullet.is-active.swiper-pagination-bullet-active",
+        "y": 7073
+      },
+      {
+        "added": [
+          "is-leaving",
+          "swiper-slide-prev"
+        ],
+        "el": "main > div.section.sr-only-container.carousel-hero-banner-container > div.carousel-hero-banner.swiper-initialized.swiper-horizontal > div.hero-track > div.hero-slide.is-leaving.swiper-slide-prev",
+        "y": 7073
+      },
+      {
+        "added": [
+          "swiper-slide-prev"
+        ],
+        "el": "main > div.section.sr-only-container.carousel-hero-banner-container > div.carousel-hero-banner.swiper-initialized.swiper-horizontal > div.hero-track > div.hero-slide.is-leaving.swiper-slide-prev",
+        "y": 7073
+      },
+      {
+        "added": [
+          "is-active",
+          "swiper-slide-active"
+        ],
+        "el": "main > div.section.sr-only-container.carousel-hero-banner-container > div.carousel-hero-banner.swiper-initialized.swiper-horizontal > div.hero-track > div.hero-slide.is-active.swiper-slide-active",
+        "y": 7073
+      },
+      {
+        "added": [
+          "swiper-slide-prev"
+        ],
+        "el": "main > div.section.sr-only-container.carousel-hero-banner-container > div.carousel-hero-banner.swiper-initialized.swiper-horizontal > div.hero-track > div.hero-slide.is-leaving.swiper-slide-prev",
+        "y": 7073
+      },
+      {
+        "added": [
+          "swiper-slide-prev"
+        ],
+        "el": "main > div.section.sr-only-container.carousel-hero-banner-container > div.carousel-hero-banner.swiper-initialized.swiper-horizontal > div.hero-track > div.hero-slide.is-leaving.swiper-slide-prev",
+        "y": 7073
+      },
+      {
+        "added": [
+          "swiper-slide-active"
+        ],
+        "el": "main > div.section.sr-only-container.carousel-hero-banner-container > div.carousel-hero-banner.swiper-initialized.swiper-horizontal > div.hero-track > div.hero-slide.is-active.swiper-slide-active",
+        "y": 7073
+      },
+      {
+        "added": [
+          "swiper-pagination-bullet-active",
+          "is-active"
+        ],
+        "el": "main > div.section.sr-only-container.carousel-hero-banner-container > div.carousel-hero-banner.swiper-initialized.swiper-horizontal > div.hero-pagination.swiper-pagination-bullets.swiper-pagination-horizontal > button.hero-bullet.swiper-pagination-bullet-active.is-active",
+        "y": 7073
+      },
+      {
+        "added": [
+          "swiper-button-disabled"
+        ],
+        "el": "main > div.section.sr-only-container.carousel-hero-banner-container > div.carousel-hero-banner.swiper-initialized.swiper-horizontal > div.hero-pagination.swiper-pagination-bullets.swiper-pagination-horizontal > button.hero-arrow.hero-next.swiper-button-disabled",
+        "y": 7073
+      },
+      {
+        "added": [
+          "is-active"
+        ],
+        "el": "main > div.section.sr-only-container.carousel-hero-banner-container > div.carousel-hero-banner.swiper-initialized.swiper-horizontal > div.hero-pagination.swiper-pagination-bullets.swiper-pagination-horizontal > button.hero-bullet.swiper-pagination-bullet-active.is-active",
+        "y": 7073
+      },
+      {
+        "added": [
+          "is-active",
+          "swiper-pagination-bullet-active"
+        ],
+        "el": "div.section.featured-products-container > div.featured-products > div.featured-products-carousel > div.featured-products-pagination.swiper-pagination-bullets.swiper-pagination-horizontal > span.fp-bullet.is-active.swiper-pagination-bullet-active",
+        "y": 1911
+      },
+      {
+        "added": [
+          "swiper-slide-prev"
+        ],
+        "el": "div.featured-products > div.featured-products-carousel > div.featured-products-images.swiper-initialized.swiper-horizontal > div.featured-products-track.swiper-wrapper > div.featured-products-slide.swiper-slide-prev",
+        "y": 1911
+      },
+      {
+        "added": [
+          "swiper-slide-prev"
+        ],
+        "el": "div.featured-products > div.featured-products-carousel > div.featured-products-images.swiper-initialized.swiper-horizontal > div.featured-products-track.swiper-wrapper > div.featured-products-slide.swiper-slide-prev",
+        "y": 1911
+      },
+      {
+        "added": [
+          "swiper-slide-active"
+        ],
+        "el": "div.featured-products > div.featured-products-carousel > div.featured-products-images.swiper-initialized.swiper-horizontal > div.featured-products-track.swiper-wrapper > div.featured-products-slide.swiper-slide-active",
+        "y": 1911
+      },
+      {
+        "added": [
+          "swiper-pagination-bullet-active"
+        ],
+        "el": "div.section.featured-products-container > div.featured-products > div.featured-products-carousel > div.featured-products-pagination.swiper-pagination-bullets.swiper-pagination-horizontal > span.fp-bullet.is-active.swiper-pagination-bullet-active",
+        "y": 1911
+      },
+      {
+        "added": [
+          "swiper-button-disabled"
+        ],
+        "el": "div.section.featured-products-container > div.featured-products > div.featured-products-header > div.featured-products-nav > button.featured-products-next.swiper-button-disabled",
+        "y": 1911
+      },
+      {
+        "added": [
+          "is-leaving"
+        ],
+        "el": "main > div.section.sr-only-container.carousel-hero-banner-container > div.carousel-hero-banner.swiper-initialized.swiper-horizontal > div.hero-track > div.hero-slide.is-leaving",
+        "y": 3585
+      },
+      {
+        "added": [
+          "is-active",
+          "swiper-slide-active"
+        ],
+        "el": "main > div.section.sr-only-container.carousel-hero-banner-container > div.carousel-hero-banner.swiper-initialized.swiper-horizontal > div.hero-track > div.hero-slide.swiper-slide-visible.swiper-slide-fully-visible",
+        "y": 3585
+      },
+      {
+        "added": [
+          "swiper-slide-active"
+        ],
+        "el": "main > div.section.sr-only-container.carousel-hero-banner-container > div.carousel-hero-banner.swiper-initialized.swiper-horizontal > div.hero-track > div.hero-slide.swiper-slide-visible.swiper-slide-fully-visible",
+        "y": 3585
+      },
+      {
+        "added": [
+          "swiper-slide-next"
+        ],
+        "el": "main > div.section.sr-only-container.carousel-hero-banner-container > div.carousel-hero-banner.swiper-initialized.swiper-horizontal > div.hero-track > div.hero-slide.swiper-slide-next",
+        "y": 3585
+      },
+      {
+        "added": [
+          "swiper-pagination-bullet-active",
+          "is-active"
+        ],
+        "el": "main > div.section.sr-only-container.carousel-hero-banner-container > div.carousel-hero-banner.swiper-initialized.swiper-horizontal > div.hero-pagination.swiper-pagination-bullets.swiper-pagination-horizontal > button.hero-bullet.swiper-pagination-bullet-active.is-active",
+        "y": 3585
+      },
+      {
+        "added": [
+          "swiper-button-disabled"
+        ],
+        "el": "main > div.section.sr-only-container.carousel-hero-banner-container > div.carousel-hero-banner.swiper-initialized.swiper-horizontal > div.hero-pagination.swiper-pagination-bullets.swiper-pagination-horizontal > button.hero-arrow.hero-prev.swiper-button-disabled",
+        "y": 3585
+      },
+      {
+        "added": [
+          "is-active"
+        ],
+        "el": "main > div.section.sr-only-container.carousel-hero-banner-container > div.carousel-hero-banner.swiper-initialized.swiper-horizontal > div.hero-pagination.swiper-pagination-bullets.swiper-pagination-horizontal > button.hero-bullet.swiper-pagination-bullet-active.is-active",
+        "y": 3585
+      },
+      {
+        "added": [
+          "is-active",
+          "swiper-pagination-bullet-active"
+        ],
+        "el": "div.section.featured-products-container > div.featured-products > div.featured-products-carousel > div.featured-products-pagination.swiper-pagination-bullets.swiper-pagination-horizontal > span.fp-bullet.is-active.swiper-pagination-bullet-active",
+        "y": 835
+      },
+      {
+        "added": [
+          "swiper-slide-active"
+        ],
+        "el": "div.featured-products > div.featured-products-carousel > div.featured-products-images.swiper-initialized.swiper-horizontal > div.featured-products-track.swiper-wrapper > div.featured-products-slide.swiper-slide-active",
+        "y": 835
+      },
+      {
+        "added": [
+          "swiper-slide-next"
+        ],
+        "el": "div.featured-products > div.featured-products-carousel > div.featured-products-images.swiper-initialized.swiper-horizontal > div.featured-products-track.swiper-wrapper > div.featured-products-slide.swiper-slide-next",
+        "y": 835
+      },
+      {
+        "added": [
+          "swiper-pagination-bullet-active"
+        ],
+        "el": "div.section.featured-products-container > div.featured-products > div.featured-products-carousel > div.featured-products-pagination.swiper-pagination-bullets.swiper-pagination-horizontal > span.fp-bullet.is-active.swiper-pagination-bullet-active",
+        "y": 835
+      },
+      {
+        "added": [
+          "swiper-button-disabled"
+        ],
+        "el": "div.section.featured-products-container > div.featured-products > div.featured-products-header > div.featured-products-nav > button.featured-products-prev.swiper-button-disabled",
+        "y": 835
+      }
+    ]
+  }
+}

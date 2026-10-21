@@ -1,0 +1,35 @@
+{
+  "pageTypes": {
+    "landing": {
+      "archetype": "index",
+      "liveUrl": "https://www.asianpaints.com/",
+      "prototype": "stardust/prototypes/index-proposed.html",
+      "iterations": { "1440": 3, "360": 3 },
+      "gates": {
+        "1440": { "pixel": 5.52, "pixelMasked": 0.44, "heightDelta": 0, "contentDiffRed": 0, "visualDiff": "12 advisory, justified (object-fit crops / flush-left)", "clipped": 0, "overflow": "ok", "chromeHeader": 0.0, "chromeFooter": 0.32, "chromeParity": "2 deltas — rotating search placeholder (volatile)", "verdict": "PASS" },
+        "360": { "pixel": 5.76, "pixelMasked": 0.38, "heightDelta": 0, "contentDiffRed": 1, "contentDiffRedNote": "rotating search placeholder (volatile)", "visualDiff": "76 advisory, justified", "clipped": 0, "overflow": "ok", "chromeHeader": 0.0, "chromeFooter": 0.38, "chromeParity": "clean", "verdict": "PASS" },
+        "capProbe": { "width": 3038, "verdict": "PASS", "note": "video-shorts track sized to content (max-content) after first FAIL" }
+      },
+      "residuals": [
+        { "band": "1440 y0-1000 / 360 y0-1000", "cause": "volatile-media", "note": "hero carousel autoplay: live captured on slide 2, build on slide 1 (looping video)", "mask": "1440 140:600 · 360 126:804" },
+        { "band": "1440 y2000-2500 / 360 y3000-3500", "cause": "volatile-media", "note": "featured-products autoplay advanced on live", "mask": "1440 1963:718 · 360 2583:666" },
+        { "cause": "volatile", "note": "header search placeholder rotates on live (frozen 'Interior paints' in build)" },
+        { "cause": "other", "note": "third-party chat bubble on live only" },
+        { "cause": "glyph-antialiasing", "note": "~0.4% outside masks" }
+      ],
+      "motion": {
+        "observed": ["testimonial arrow slide 500ms", "header CTA hover bg #fdbf45 0.25s", "nav link hover colour 0.2s", "hero fade 800ms autoplay", "carousel tracks 500ms (featured 600ms)", "featured-products autoplay 4000ms", "swiper state classes"],
+        "implemented": ["testimonial arrow slide", "header hovers", "hero fade autoplay", "carousel track speeds", "featured-products autoplay", "swiper state classes"],
+        "dead": ["OneTrust banner classes", "SaleAssist coverflow modal", "swiper setup reflows", "card hovers (no change measured on live)"],
+        "note": "motion-observe misreads carousel arrows whose own class contains 'swiper' as dead; tracks verified via transition events"
+      },
+      "captureState": [
+        { "what": "hero carousel", "restoreAtDelivery": "autoplay fade 800ms, slide 1 (looping video) 18s then 5s each, pause on hover" },
+        { "what": "featured-products carousel", "restoreAtDelivery": "autoplay 4000ms, 600ms slide, loop, pause on hover" },
+        { "what": "video-shorts tiles (10)", "restoreAtDelivery": "video autoplay loop muted" },
+        { "what": "designer-collections videos", "restoreAtDelivery": "paused at first frame, click plays (as live)" }
+      ],
+      "approvedBy": "hands-off"
+    }
+  }
+}

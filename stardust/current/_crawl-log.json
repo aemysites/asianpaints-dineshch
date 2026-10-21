@@ -1,0 +1,455 @@
+{
+  "discovery": {
+    "fetchTechnique": "headless",
+    "count": 1,
+    "concurrency": 1,
+    "originRedirect": {
+      "from": "https://asianpaints.com",
+      "to": "https://www.asianpaints.com"
+    }
+  },
+  "consent": {
+    "method": "auto"
+  },
+  "favicon": {
+    "url": "https://www.asianpaints.com/eds/icons/favicon.ico",
+    "file": "assets/favicon.ico"
+  },
+  "crawl": {
+    "failures": []
+  },
+  "captureGaps": {
+    "roots": [],
+    "detail": "uncaptured first-level targets: none (no locale root captured)"
+  },
+  "dynamicSurface": {
+    "pages": 1,
+    "pagesWithSameSiteData": 1,
+    "pagesWithSearchForm": 0,
+    "pagesHydrated": 0,
+    "truncatedPages": 0,
+    "endpoints": [
+      {
+        "method": "GET",
+        "host": "www.asianpaints.com",
+        "path": "/eds/blocks/footer/footer.css",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "text/css",
+        "sameSite": true,
+        "example": "https://www.asianpaints.com/eds/blocks/footer/footer.css",
+        "pages": 1,
+        "examples": [
+          "index"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.asianpaints.com",
+        "path": "/eds/blocks/color-gallery/color-gallery.css",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "text/css",
+        "sameSite": true,
+        "example": "https://www.asianpaints.com/eds/blocks/color-gallery/color-gallery.css",
+        "pages": 1,
+        "examples": [
+          "index"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.asianpaints.com",
+        "path": "/eds/blocks/featured-products/featured-products.css",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "text/css",
+        "sameSite": true,
+        "example": "https://www.asianpaints.com/eds/blocks/featured-products/featured-products.css",
+        "pages": 1,
+        "examples": [
+          "index"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.asianpaints.com",
+        "path": "/eds/blocks/video-shorts/video-shorts.css",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "text/css",
+        "sameSite": true,
+        "example": "https://www.asianpaints.com/eds/blocks/video-shorts/video-shorts.css",
+        "pages": 1,
+        "examples": [
+          "index"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.asianpaints.com",
+        "path": "/eds/blocks/form/form.css",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "text/css",
+        "sameSite": true,
+        "example": "https://www.asianpaints.com/eds/blocks/form/form.css",
+        "pages": 1,
+        "examples": [
+          "index"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.asianpaints.com",
+        "path": "/eds/blocks/testimonial-carousel/testimonial-carousel.css",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "text/css",
+        "sameSite": true,
+        "example": "https://www.asianpaints.com/eds/blocks/testimonial-carousel/testimonial-carousel.css",
+        "pages": 1,
+        "examples": [
+          "index"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.asianpaints.com",
+        "path": "/eds/blocks/form-configs/form-configs.css",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "text/css",
+        "sameSite": true,
+        "example": "https://www.asianpaints.com/eds/blocks/form-configs/form-configs.css",
+        "pages": 1,
+        "examples": [
+          "index"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.asianpaints.com",
+        "path": "/eds/blocks/services-grid/services-grid.css",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "text/css",
+        "sameSite": true,
+        "example": "https://www.asianpaints.com/eds/blocks/services-grid/services-grid.css",
+        "pages": 1,
+        "examples": [
+          "index"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.asianpaints.com",
+        "path": "/eds/blocks/accordion/accordion.css",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "text/css",
+        "sameSite": true,
+        "example": "https://www.asianpaints.com/eds/blocks/accordion/accordion.css",
+        "pages": 1,
+        "examples": [
+          "index"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.asianpaints.com",
+        "path": "/eds/blocks/interiors-shop/interiors-shop.css",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "text/css",
+        "sameSite": true,
+        "example": "https://www.asianpaints.com/eds/blocks/interiors-shop/interiors-shop.css",
+        "pages": 1,
+        "examples": [
+          "index"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.asianpaints.com",
+        "path": "/eds/blocks/tools-carousel/tools-carousel.css",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "text/css",
+        "sameSite": true,
+        "example": "https://www.asianpaints.com/eds/blocks/tools-carousel/tools-carousel.css",
+        "pages": 1,
+        "examples": [
+          "index"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.asianpaints.com",
+        "path": "/eds/blocks/store-banner/store-banner.css",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "text/css",
+        "sameSite": true,
+        "example": "https://www.asianpaints.com/eds/blocks/store-banner/store-banner.css",
+        "pages": 1,
+        "examples": [
+          "index"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.asianpaints.com",
+        "path": "/eds/blocks/explore-split/explore-split.css",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "text/css",
+        "sameSite": true,
+        "example": "https://www.asianpaints.com/eds/blocks/explore-split/explore-split.css",
+        "pages": 1,
+        "examples": [
+          "index"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.asianpaints.com",
+        "path": "/eds/blocks/designer-collections/designer-collections.css",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "text/css",
+        "sameSite": true,
+        "example": "https://www.asianpaints.com/eds/blocks/designer-collections/designer-collections.css",
+        "pages": 1,
+        "examples": [
+          "index"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "edge.adobedc.net",
+        "path": "/ee/v1/identity/acquire",
+        "query": [
+          "configId",
+          "requestId"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://edge.adobedc.net/ee/v1/identity/acquire",
+        "pages": 1,
+        "examples": [
+          "index"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "edge.adobedc.net",
+        "path": "/ee/or2/v1/identity/acquire",
+        "query": [
+          "configId",
+          "requestId"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://edge.adobedc.net/ee/or2/v1/identity/acquire",
+        "pages": 1,
+        "examples": [
+          "index"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "edge.adobedc.net",
+        "path": "/ee/or2/v1/interact",
+        "query": [
+          "configId",
+          "requestId"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://edge.adobedc.net/ee/or2/v1/interact",
+        "pages": 1,
+        "examples": [
+          "index"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.asianpaints.com",
+        "path": "/eds/configs/site-config.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": true,
+        "example": "https://www.asianpaints.com/eds/configs/site-config.json",
+        "pages": 1,
+        "examples": [
+          "index"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "apl.data.adobedc.net",
+        "path": "/ee/or2/v1/interact",
+        "query": [
+          "configId",
+          "requestId"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://apl.data.adobedc.net/ee/or2/v1/interact",
+        "pages": 1,
+        "examples": [
+          "index"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.asianpaints.com",
+        "path": "/nav.plain.html",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "text/html",
+        "sameSite": true,
+        "example": "https://www.asianpaints.com/nav.plain.html",
+        "pages": 1,
+        "examples": [
+          "index"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.asianpaints.com",
+        "path": "/footer.plain.html",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "text/html",
+        "sameSite": true,
+        "example": "https://www.asianpaints.com/footer.plain.html",
+        "pages": 1,
+        "examples": [
+          "index"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.asianpaints.com",
+        "path": "/apcolourcatalogue/commerce/miniCart.json",
+        "query": [
+          "_"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": true,
+        "example": "https://www.asianpaints.com/apcolourcatalogue/commerce/miniCart.json",
+        "pages": 1,
+        "examples": [
+          "index"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.asianpaints.com",
+        "path": "/apcolourcatalogue/detect-location",
+        "query": [
+          "_"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": true,
+        "example": "https://www.asianpaints.com/apcolourcatalogue/detect-location",
+        "pages": 1,
+        "examples": [
+          "index"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "vtiles.saleassist.ai",
+        "path": "/source/{uuid}/shorts",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://vtiles.saleassist.ai/source/12b7c69d-67cb-4a7f-baba-11fbbd1d9c84/shorts",
+        "pages": 1,
+        "examples": [
+          "index"
+        ]
+      }
+    ],
+    "thirdPartyScriptHosts": [
+      {
+        "host": "cdn.gumlytics.com",
+        "pages": 1,
+        "examples": [
+          "index"
+        ]
+      },
+      {
+        "host": "www.googletagmanager.com",
+        "pages": 1,
+        "examples": [
+          "index"
+        ]
+      },
+      {
+        "host": "cdn.jsdelivr.net",
+        "pages": 1,
+        "examples": [
+          "index"
+        ]
+      },
+      {
+        "host": "assets.adobedtm.com",
+        "pages": 1,
+        "examples": [
+          "index"
+        ]
+      },
+      {
+        "host": "static.saleassist.ai",
+        "pages": 1,
+        "examples": [
+          "index"
+        ]
+      },
+      {
+        "host": "cdn.socket.io",
+        "pages": 1,
+        "examples": [
+          "index"
+        ]
+      },
+      {
+        "host": "cdnjs.cloudflare.com",
+        "pages": 1,
+        "examples": [
+          "index"
+        ]
+      }
+    ],
+    "frameworkHints": [],
+    "globalState": [
+      {
+        "name": "dataLayer",
+        "pages": 1,
+        "examples": [
+          "index"
+        ]
+      }
+    ],
+    "formTargets": []
+  },
+  "visionCheck": [
+    {
+      "slug": "index",
+      "verdict": "suspect",
+      "notes": "page fully rendered, logo + hero ok; Inspiring-ideas reel tiles (~y7120-7900) render as black tiles and footer video band (~y9100-9300) empty in the headless capture — lazy video media; replicate as captured per capture-state policy, re-check at gate"
+    }
+  ]
+}
