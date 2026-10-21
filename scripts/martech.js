@@ -12,7 +12,18 @@ const CONFIG = {
     groups: 'OnetrustActiveGroups',
     event: 'OneTrustGroupsUpdated',
   },
-  routes: [],
+  routes: [
+    {
+      src: 'https://assets.adobedtm.com/ef0f7eb243a4/50bf6aad1917/launch-aa461fb6c86d.min.js',
+      boot: null,
+      category: null,
+    },
+    {
+      src: 'https://www.googletagmanager.com/gtm.js?id=GTM-MP96GBBF',
+      boot: 'gtm',
+      category: null,
+    },
+  ],
 };
 
 const params = new URLSearchParams(window.location.search);

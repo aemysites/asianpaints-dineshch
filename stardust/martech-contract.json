@@ -33,7 +33,7 @@
    "boot": null,
    "category": null,
    "cmpGroups": [],
-   "enabled": false
+   "enabled": true
   },
   {
    "id": "google-tag-manager",
@@ -42,7 +42,7 @@
    "boot": "gtm",
    "category": null,
    "cmpGroups": [],
-   "enabled": false
+   "enabled": true
   }
  ],
  "otherTags": [
