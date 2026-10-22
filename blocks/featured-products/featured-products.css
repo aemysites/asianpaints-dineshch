@@ -1,0 +1,198 @@
+/* stylelint-disable no-descending-specificity, no-duplicate-selectors */
+
+/* featured-products — prototype section CSS (stardust/prototypes/css/index-*.css) scoped to the block,
+   then the EDS adaptation (authored nodes moved into the prototype slots). */
+
+.featured-products .featured-products-nav button::before {
+  content: " ";
+  background-repeat: no-repeat;
+  width: 44px;
+  height: 44px;
+}
+
+.featured-products .featured-products-prev::before {
+  background-image: url('/icons/a-round-black-prev-icon.svg');
+}
+
+.featured-products .featured-products-next::before {
+  background-image: url('/icons/a-round-black-next-icon.svg');
+}
+
+.section.featured-products-container {
+  padding: 40px 16px 30px;
+}
+
+.featured-products-container .default-content-wrapper {
+  display: none;
+}
+
+.featured-products .featured-products-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.featured-products .featured-products-title h2 {
+  font-size: 24px;
+  font-weight: 800;
+  color: #000;
+  margin: 0;
+  line-height: 1.2;
+}
+
+.featured-products .featured-products-nav {
+  display: none;
+  gap: 12px;
+}
+
+.featured-products .featured-products-nav button {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.featured-products .featured-products-carousel {
+  position: relative;
+}
+
+.featured-products .featured-products-images {
+  overflow: hidden;
+  border-radius: 12px;
+}
+
+.featured-products .featured-products-track {
+  display: flex;
+  transition: transform .6s ease;
+}
+
+.featured-products .featured-products-slide {
+  flex: 0 0 100%;
+  width: 100%;
+}
+
+.featured-products .featured-products-card {
+  display: block;
+  width: 100%;
+  border-radius: 12px;
+  overflow: hidden;
+  color: inherit;
+}
+
+.featured-products .featured-products-image picture {
+  display: block;
+  width: 100%;
+}
+
+.featured-products .featured-products-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+}
+
+.featured-products .featured-products-image-desktop {
+  display: none;
+}
+
+.featured-products .featured-products-pagination {
+  position: absolute;
+  left: 0;
+  bottom: 8px;
+  width: 100%;
+  z-index: 10;
+  text-align: center;
+  line-height: 0;
+}
+
+.featured-products .featured-products-pagination .fp-bullet {
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  margin: 0 5px;
+  background: #c9c9c9;
+  border-radius: 999px;
+  transition: all .3s ease;
+}
+
+.featured-products .featured-products-pagination .fp-bullet.is-active {
+  width: 20px;
+  height: 8px;
+  background: #4d4d4d;
+  border-radius: 8px;
+}
+
+@media (width >= 601px) {
+  .featured-products .featured-products-header {
+    margin-bottom: 30px;
+  }
+
+  .featured-products .featured-products-nav {
+    display: flex;
+  }
+
+  .featured-products .featured-products-images,
+  .featured-products .featured-products-card {
+    border-radius: 16px;
+  }
+
+  .featured-products .featured-products-image-desktop {
+    display: block;
+  }
+
+  .featured-products .featured-products-image-mobile {
+    display: none;
+  }
+
+  .featured-products .featured-products-pagination {
+    display: none;
+  }
+}
+
+@media (width >= 601px) and (width <= 991px) {
+  .section.featured-products-container {
+    padding: 60px 20px 40px;
+  }
+
+  .featured-products .featured-products-title h2 {
+    font-size: 28px;
+  }
+
+  .featured-products .featured-products-nav button {
+    width: 40px;
+    height: 40px;
+  }
+}
+
+@media (width >= 992px) {
+  .section.featured-products-container {
+    padding: 50px 40px;
+  }
+
+  .featured-products .featured-products-title h2 {
+    font-size: 40px;
+  }
+}
+
+/* ---- EDS adaptation ---- */
+
+.featured-products .featured-products-card {
+  position: relative;
+}
+
+.featured-products .featured-products-label {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
+.featured-products .featured-products-title h2 {
+  font-family: inherit;
+}

@@ -1,0 +1,181 @@
+{
+  "extensions": {
+    "breakpoints": {
+      "containerMaxWidth": null,
+      "probeWidth": 3038,
+      "shellMaxWidth": null,
+      "caps": [
+        {
+          "kind": "module",
+          "px": 2430,
+          "via": "fixed",
+          "selector": "div.video-shorts.block > div > div.swiper.sa_shorts_parentSwiper > div.swiper-wrapper",
+          "pages": [
+            "https://www.asianpaints.com/"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 1200,
+          "via": "max-width",
+          "selector": "body.appear.splash-open > main > div.section.sectionpadding > div.default-content-wrapper",
+          "pages": [
+            "https://www.asianpaints.com/"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 602,
+          "via": "fixed",
+          "selector": "#interior--exterior-wall-paint-by-experts > strong",
+          "pages": [
+            "https://www.asianpaints.com/"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 406,
+          "via": "fixed",
+          "selector": "div.designer-collections-wrapper > div.designer-collections.block > div.designer-collections-header > h2.designer-collections-title",
+          "pages": [
+            "https://www.asianpaints.com/"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 373,
+          "via": "fixed",
+          "selector": "#swiper-wrapper-4e3ce6b85fa52ae7 > div.swiper-slide.swiper-slide-visible > div.hero-media > div.hero-image",
+          "pages": [
+            "https://www.asianpaints.com/"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 331,
+          "via": "fixed",
+          "selector": "div.new-questions-wrapper > div.new-disclaimer-questions > div.disclaimer-ques-one.disclaimer-group > fieldset",
+          "pages": [
+            "https://www.asianpaints.com/"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 298,
+          "via": "other",
+          "selector": "#swiper-wrapper-4e3ce6b85fa52ae7 > div.swiper-slide.swiper-slide-visible > div.hero-media > a.hero-cta",
+          "pages": [
+            "https://www.asianpaints.com/"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 261,
+          "via": "fixed",
+          "selector": "div.designer-collections-card.swiper-slide > div.designer-collections-card-inner > div.designer-collections-logo > div.designer-collections-logo-image",
+          "pages": [
+            "https://www.asianpaints.com/"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 240,
+          "via": "fixed",
+          "selector": "#textures",
+          "pages": [
+            "https://www.asianpaints.com/"
+          ]
+        }
+      ],
+      "modules": [
+        {
+          "url": "https://www.asianpaints.com/",
+          "section": 0,
+          "selector": "body.appear.splash-open > main > div.section.sr-only-container",
+          "px": 602
+        },
+        {
+          "url": "https://www.asianpaints.com/",
+          "section": 1,
+          "selector": "body.appear.splash-open > main > div.section.color-gallery-container",
+          "px": 305
+        },
+        {
+          "url": "https://www.asianpaints.com/",
+          "section": 2,
+          "selector": "body.appear.splash-open > main > div.section.form-container",
+          "px": 331
+        },
+        {
+          "url": "https://www.asianpaints.com/",
+          "section": 3,
+          "selector": "body.appear.splash-open > main > div.section.featured-products-container",
+          "px": 365
+        },
+        {
+          "url": "https://www.asianpaints.com/",
+          "section": 4,
+          "selector": "body.appear.splash-open > main > div.section.services-grid-container",
+          "px": null
+        },
+        {
+          "url": "https://www.asianpaints.com/",
+          "section": 5,
+          "selector": "body.appear.splash-open > main > div.section.explore-split-container",
+          "px": 300
+        },
+        {
+          "url": "https://www.asianpaints.com/",
+          "section": 6,
+          "selector": "body.appear.splash-open > main > div.section.tools-carousel-container",
+          "px": 280
+        },
+        {
+          "url": "https://www.asianpaints.com/",
+          "section": 7,
+          "selector": "body.appear.splash-open > main > div.section.designer-collections-container",
+          "px": 406
+        },
+        {
+          "url": "https://www.asianpaints.com/",
+          "section": 8,
+          "selector": "body.appear.splash-open > main > div.section.interiors-shop-container",
+          "px": null
+        },
+        {
+          "url": "https://www.asianpaints.com/",
+          "section": 9,
+          "selector": "body.appear.splash-open > main > div.section.testimonial-carousel-container",
+          "px": 325
+        },
+        {
+          "url": "https://www.asianpaints.com/",
+          "section": 10,
+          "selector": "body.appear.splash-open > main > div.section.store-banner-container",
+          "px": null
+        },
+        {
+          "url": "https://www.asianpaints.com/",
+          "section": 11,
+          "selector": "body.appear.splash-open > main > div.section.video-shorts-container",
+          "px": 2430
+        },
+        {
+          "url": "https://www.asianpaints.com/",
+          "section": 12,
+          "selector": "body.appear.splash-open > main > div.section.sectionpadding",
+          "px": 1200
+        }
+      ],
+      "capRegister": [],
+      "capProvenance": {
+        "writtenBy": "skills/replica/scripts/cap-probe.mjs",
+        "writtenAt": "2026-10-19T16:45:40.217Z",
+        "baseWidth": 1440,
+        "urls": [
+          "https://www.asianpaints.com/"
+        ]
+      }
+    }
+  }
+}

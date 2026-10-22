@@ -1,0 +1,180 @@
+/* stylelint-disable no-descending-specificity, no-duplicate-selectors */
+
+/* homepage-icons-container-block — prototype section CSS (stardust/prototypes/css/index-*.css) scoped to the block,
+   then the EDS adaptation (authored nodes moved into the prototype slots). */
+
+.homepage-icons-container-block .home-icon-content-wrapper {
+  position: relative;
+  gap: 10px;
+  width: calc(100% - 32px);
+  padding: 6px 12px 25px;
+  box-shadow: 0 4px 16px -2px #1018281a;
+  border-radius: 8px;
+  background-color: #fff;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+}
+
+.homepage-icons-container-block .home-icon-content-wrapper h2 {
+  color: #df0f29;
+  font-weight: 300;
+  line-height: 50px;
+  width: 100%;
+  text-align: center;
+  letter-spacing: 0;
+  font-size: 26px;
+  margin: 0;
+}
+
+.homepage-icons-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px 10px;
+  align-items: flex-start;
+}
+
+.homepage-icons-container a {
+  flex: 0 0 calc((100% - 20px) / 3);
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  position: relative;
+  color: #222;
+}
+
+.homepage-icons-container a::after {
+  content: "";
+  width: 30px;
+  height: 30px;
+  background: #feda94;
+  position: absolute;
+  border-radius: 50%;
+  top: 0;
+  right: 30%;
+  z-index: -1;
+  opacity: 0;
+  transition: opacity .3s ease-in-out;
+}
+
+.homepage-icons-container a:hover::after {
+  opacity: 1;
+}
+
+.homepage-icons-container figure {
+  row-gap: 10px;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.homepage-icons-container .icon-wrapper {
+  height: 43px;
+}
+
+.homepage-icons-container .icon-wrapper img {
+  max-width: 50px;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+}
+
+.homepage-icons-container figcaption {
+  font-size: 13px;
+  line-height: 22px;
+  font-weight: 400;
+  color: #222;
+}
+
+.homepage-icons-container figcaption span {
+  display: block;
+}
+
+@media (width <= 991px) {
+  .homepage-icons-container-block .home-icon-content-wrapper {
+    margin: -25px auto 50px;
+  }
+}
+
+@media (width >= 992px) {
+  .homepage-icons-container-block .home-icon-content-wrapper {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 60px;
+    padding: 30px 25px;
+    width: 30%;
+    gap: 30px;
+  }
+
+  .homepage-icons-container {
+    gap: 35px 20px;
+  }
+
+  .homepage-icons-container a {
+    flex: 0 0 calc((100% - 40px) / 3);
+  }
+
+  .homepage-icons-container figure {
+    row-gap: 12px;
+  }
+
+  .homepage-icons-container .icon-wrapper {
+    height: 51px;
+  }
+
+  .homepage-icons-container .icon-wrapper img {
+    max-width: 53px;
+  }
+
+  .homepage-icons-container figcaption {
+    font-size: 14px;
+  }
+
+  .homepage-icons-container-block .home-icon-content-wrapper h2 {
+    font-size: 60px;
+    line-height: 66px;
+    width: 90%;
+    text-align: left;
+  }
+}
+
+@media (width >= 1680px) {
+  .homepage-icons-container-block .home-icon-content-wrapper h2 {
+    width: 75%;
+  }
+}
+
+/* ---- EDS adaptation ---- */
+
+.homepage-icons-container-block .ad-both,
+.homepage-icons-container-block .ad-desk,
+.homepage-icons-container-block .ad-mob {
+  display: contents;
+}
+
+@media (width < 992px) {
+  .homepage-icons-container-block .ad-desk {
+    display: none;
+  }
+}
+
+@media (width >= 992px) {
+  .homepage-icons-container-block .ad-mob {
+    display: none;
+  }
+}
+
+.homepage-icons-container-block .home-icon-content-wrapper h2 {
+  font-family: inherit;
+}
+
+.homepage-icons-container-block figcaption p {
+  margin: 0;
+}
+
+.homepage-icons-container-block .icon-wrapper picture,
+.homepage-icons-container-block .icon-wrapper img {
+  display: block;
+  height: 100%;
+}

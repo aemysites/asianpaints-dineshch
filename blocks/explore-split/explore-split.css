@@ -1,0 +1,363 @@
+/* stylelint-disable no-descending-specificity, no-duplicate-selectors */
+
+/* explore-split — prototype section CSS (stardust/prototypes/css/index-*.css) scoped to the block,
+   then the EDS adaptation (authored nodes moved into the prototype slots). */
+
+.explore-split-container > .default-content-wrapper h2 {
+  color: #222;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: normal;
+  text-align: center;
+  margin: 36px 0;
+}
+
+.explore-split {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.explore-split .explore-split-desktop {
+  display: none;
+}
+
+.explore-split .explore-mobile-tabs {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 24px 0;
+  gap: 15px;
+}
+
+.explore-split .explore-mobile-tabs h3 {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 21px;
+  color: #6a6d70;
+  border-bottom: 3px solid transparent;
+  text-transform: uppercase;
+  padding-bottom: 5px;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.explore-split .explore-mobile-tabs h3.active {
+  font-weight: 600;
+  color: #2e2f32;
+  border-bottom-color: #feb940;
+}
+
+.explore-split .textures-mobile {
+  display: block;
+  position: relative;
+  height: 470px;
+}
+
+.explore-split .textures-mobile .es-item {
+  position: absolute;
+  width: 48%;
+  margin: 0;
+}
+
+.explore-split .textures-mobile .es-item.img-1 {
+  right: 0;
+  top: 0;
+}
+
+.explore-split .textures-mobile .es-item.img-2 {
+  left: 0;
+  top: 0;
+}
+
+.explore-split .textures-mobile .es-item.img-3 {
+  right: 0;
+  top: calc(var(--es-h1, 209px) + 12px);
+}
+
+.explore-split .textures-mobile .es-item.img-4 {
+  left: 0;
+  top: calc(var(--es-h2, 103px) + 12px);
+}
+
+.explore-split .textures-mobile .es-item img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.explore-split .textures-mobile .es-item.button-container,
+.explore-split .wallpapers-mobile .es-item.button-container {
+  bottom: 5%;
+  width: 100%;
+  text-align: center;
+}
+
+.explore-split .wallpapers-mobile {
+  display: grid;
+  grid-template-columns: 158fr 160fr;
+  grid-template-rows: 106px 96px 106px auto;
+  gap: 10px;
+  margin-top: 1rem;
+}
+
+.explore-split .wallpapers-mobile[hidden],
+.explore-split .textures-mobile[hidden] {
+  display: none;
+}
+
+.explore-split .wallpapers-mobile .es-item {
+  margin: 0;
+}
+
+.explore-split .wallpapers-mobile .es-item:nth-of-type(1) {
+  grid-column: 1;
+  grid-row: 1 / 3;
+}
+
+.explore-split .wallpapers-mobile .es-item:nth-of-type(2) {
+  grid-column: 2;
+  grid-row: 1;
+}
+
+.explore-split .wallpapers-mobile .es-item:nth-of-type(3) {
+  grid-column: 1;
+  grid-row: 3;
+}
+
+.explore-split .wallpapers-mobile .es-item:nth-of-type(4) {
+  grid-column: 2;
+  grid-row: 2 / 4;
+}
+
+.explore-split .wallpapers-mobile .es-item:not(.button-container) picture,
+.explore-split .wallpapers-mobile .es-item:not(.button-container) img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.explore-split .wallpapers-mobile .es-item img {
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.explore-split .wallpapers-mobile .es-item.button-container {
+  grid-column: 1 / -1;
+  grid-row: 4;
+}
+
+.explore-split .es-item.button-container a {
+  border: 1px solid #232426;
+  width: fit-content;
+  padding: 7px 20px;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 22.4px;
+  display: inline-flex;
+  gap: 10px;
+  cursor: pointer;
+  color: #222;
+  border-radius: 45px;
+}
+
+.explore-split .es-item.button-container a:hover {
+  background: #fff7e8;
+}
+
+.explore-split .es-item.button-container a::after {
+  content: "";
+  background: url('/icons/a-arrow-icon-new.svg');
+  width: 17px;
+  height: 20px;
+  filter: invert(1);
+  display: inline-flex;
+}
+
+@media (width >= 992px) {
+  .explore-split-container > .default-content-wrapper h2 {
+    font-size: 40px;
+    line-height: 54px;
+    margin: 0 0 50px;
+    font-weight: 800;
+  }
+
+  .explore-split {
+    width: 100%;
+  }
+
+  .explore-split .explore-split-mobile {
+    display: none;
+  }
+
+  .explore-split .explore-split-desktop {
+    margin: 0 auto;
+    width: calc(100% - 80px);
+    display: flex;
+    gap: 60px;
+  }
+
+  .explore-split .textures-desktop,
+  .explore-split .wallpapers-desktop {
+    position: relative;
+    height: 470px;
+    width: 50%;
+  }
+
+  .explore-split .textures-desktop .es-item,
+  .explore-split .wallpapers-desktop .es-item {
+    position: absolute;
+    overflow: hidden;
+    border-radius: 8px;
+    margin: 0;
+  }
+
+  .explore-split .textures-desktop h3,
+  .explore-split .wallpapers-desktop h3 {
+    font-weight: 300;
+    font-size: 60px;
+    line-height: 66px;
+    color: #303030;
+    margin: 0 0 10px;
+    width: max-content;
+  }
+
+  .explore-split .explore-split-desktop .es-item.button-container {
+    margin-top: 10px;
+    overflow: visible;
+    width: auto;
+  }
+
+  .explore-split .textures-desktop .es-item.button-container {
+    left: 8px;
+  }
+
+  .explore-split .wallpapers-desktop .es-item.button-container {
+    left: 0;
+  }
+
+  .explore-split .textures-desktop .es-item picture,
+  .explore-split .wallpapers-desktop .es-item picture {
+    display: block;
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .explore-split .textures-desktop .es-item img,
+  .explore-split .wallpapers-desktop .es-item img {
+    display: block;
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    border-radius: 8px;
+    transition: transform 1.5s ease;
+  }
+
+  .explore-split .textures-desktop .es-item img:hover,
+  .explore-split .wallpapers-desktop .es-item img:hover {
+    transform: scale(1.075);
+  }
+
+  .explore-split .textures-desktop .img-2 {
+    left: 0;
+    bottom: 0;
+    width: 40%;
+  }
+
+  .explore-split .textures-desktop .img-2 picture {
+    height: 305px;
+  }
+
+  .explore-split .textures-desktop .img-3 {
+    left: calc(40% + 10px);
+    top: 0;
+    width: calc(30% - 10px);
+  }
+
+  .explore-split .textures-desktop .img-3 picture {
+    height: 308px;
+  }
+
+  .explore-split .textures-desktop .img-4 {
+    left: calc(40% + 10px);
+    bottom: 0;
+    width: calc(30% - 10px);
+  }
+
+  .explore-split .textures-desktop .img-4 picture {
+    height: 152px;
+  }
+
+  .explore-split .textures-desktop .img-5 {
+    left: calc(70% + 10px);
+    top: 0;
+    bottom: 0;
+    width: calc(30% - 10px);
+    margin-top: 2px;
+  }
+
+  .explore-split .textures-desktop .img-5 picture {
+    height: 220px;
+  }
+
+  .explore-split .textures-desktop .img-6 {
+    left: calc(70% + 10px);
+    bottom: 0;
+    width: calc(30% - 10px);
+    height: 63.5%;
+  }
+
+  .explore-split .textures-desktop .img-6 picture {
+    height: 318px;
+  }
+
+  .explore-split .wallpapers-desktop .es-item:not(.button-container) {
+    width: calc(50% - 7.5px);
+  }
+
+  .explore-split .wallpapers-desktop .es-item:nth-child(3) {
+    left: 0;
+    top: 155px;
+  }
+
+  .explore-split .wallpapers-desktop .es-item:nth-child(3) picture {
+    height: 155px;
+  }
+
+  .explore-split .wallpapers-desktop .es-item:nth-child(4) {
+    left: 0;
+    bottom: 0;
+  }
+
+  .explore-split .wallpapers-desktop .es-item:nth-child(4) picture {
+    height: 153px;
+  }
+
+  .explore-split .wallpapers-desktop .es-item:nth-child(5) {
+    left: calc(50% + 7.5px);
+    top: 0;
+  }
+
+  .explore-split .wallpapers-desktop .es-item:nth-child(5) picture {
+    height: 192px;
+  }
+
+  .explore-split .wallpapers-desktop .es-item:nth-child(6) {
+    left: calc(50% + 7.5px);
+    bottom: 0;
+  }
+
+  .explore-split .wallpapers-desktop .es-item:nth-child(6) picture {
+    height: 268px;
+  }
+}
+
+/* ---- EDS adaptation ---- */
+
+.explore-split .button-container > p {
+  display: contents;
+}
+
+.explore-split-container > .default-content-wrapper h2 {
+  font-family: inherit;
+}

@@ -1,0 +1,14 @@
+{
+ "cache-control": "max-age=7200, s-maxage=172800, must-revalidate",
+ "server": "volt-adc",
+ "strict-transport-security": "max-age=31536000",
+ "via": "1.1 varnish, 1.1 varnish, 1.1 varnish, 1.1 dbfd9bcc806d4c322e72b461b2458112.cloudfront.net (CloudFront)",
+ "x-amz-cf-pop": "SEA900-P10",
+ "x-amz-meta-cache-tag": "main--edspoc--aemedsap,0rgmMDKlJL4JjAWl,301d2cc08b0246c0a083e53d9d47c38eef22db287417b903fb3a9a10f6d_metadata,main--cm-p213608-s34514-asianpaints-eds--adobe-cm_head,301d2cc08b0246c0a083e53d9d47c38eef22db287417b903fb3a9a10f6d",
+ "x-cache": "Hit from cloudfront",
+ "x-cache-hits": "0, 1, 1",
+ "x-envoy-upstream-service-time": "68",
+ "x-served-by": "cache-iad-kcgs7200143-IAD, cache-iad-kcgs7270050-IAD, cache-sjc10064-SJC",
+ "x-timer": "S1792397496.998971,VS0,VE0",
+ "x-volterra-location": "wes-sea"
+}

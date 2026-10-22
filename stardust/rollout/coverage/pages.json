@@ -1,0 +1,72 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:rollout/inventory",
+    "writtenAt": "2026-10-19T17:48:32.838Z",
+    "readArtifacts": [
+      "stardust/migrated",
+      "stardust/state.json"
+    ],
+    "stardustVersion": "0.0.0"
+  },
+  "generatedAt": "2026-10-19T19:40:02.706Z",
+  "pages": [
+    {
+      "slug": "index",
+      "path": "/",
+      "title": "Trusted Wall Painting, Home Painting &amp; Waterproofing in India - Asian Paints",
+      "templateId": "index",
+      "source": {
+        "migratedHtml": "stardust/migrated/index.html",
+        "metaJson": "stardust/migrated/_meta.json",
+        "sourceHash": "sha256:71ba6c0459d5984ac3031456c8ea1d88a6e70c3443b99a4c2a6db4692f0507d4",
+        "sourceUrl": "https://www.asianpaints.com/"
+      },
+      "blocks": [
+        "carousel-hero-banner",
+        "homepage-icons-container",
+        "color-gallery",
+        "form",
+        "featured-products",
+        "services-grid",
+        "explore-split",
+        "tools-carousel",
+        "designer-collections",
+        "interiors-shop",
+        "testimonial-carousel",
+        "store-banner",
+        "video-shorts",
+        "accordion"
+      ],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--03cd0138--aemcoder.aem.page/",
+        "deployedAt": "2026-10-19T19:12:44.114Z",
+        "verifiedAt": "2026-10-19T19:40:02.706Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 8.44,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 1,
+            "controlState": 0,
+            "missingButtons": 34,
+            "hiddenButtons": 0,
+            "findings": 14,
+            "variable": [
+              ".carousel-hero-banner=.carousel-hero-banner",
+              ".featured-products=.featured-products"
+            ]
+          },
+          "reasons": [
+            "content MISSING 0 / HIDDEN 1"
+          ],
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-10-19T19:30:12.604Z"
+        }
+      }
+    }
+  ]
+}

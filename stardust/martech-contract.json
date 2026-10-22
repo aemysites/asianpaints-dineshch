@@ -1,0 +1,100 @@
+{
+ "_provenance": {
+  "writtenBy": "stardust:dynamics plan",
+  "writtenAt": "2026-10-19T16:48:33.301Z",
+  "input": "stardust/current/_dynamics.json",
+  "martech": "stardust/martech"
+ },
+ "productionHosts": [
+  "www.asianpaints.com"
+ ],
+ "consent": {
+  "cmp": {
+   "vendor": "OneTrust",
+   "src": "https://cdn.cookielaw.org/scripttemplates/otSDKStub.js",
+   "attrs": {
+    "data-domain-script": null
+   },
+   "groups": "OnetrustActiveGroups",
+   "event": "OneTrustGroupsUpdated",
+   "viaTagManager": false,
+   "enabled": false
+  },
+  "model": "owner-decision",
+  "categories": [],
+  "ruleSets": 0,
+  "consentMode": null
+ },
+ "routes": [
+  {
+   "id": "adobe-launch",
+   "vendor": "Adobe Launch",
+   "src": "https://assets.adobedtm.com/ef0f7eb243a4/50bf6aad1917/launch-aa461fb6c86d.min.js",
+   "boot": null,
+   "category": null,
+   "cmpGroups": [],
+   "enabled": false
+  },
+  {
+   "id": "google-tag-manager",
+   "vendor": "Google Tag Manager",
+   "src": "https://www.googletagmanager.com/gtm.js?id=GTM-MP96GBBF",
+   "boot": "gtm",
+   "category": null,
+   "cmpGroups": [],
+   "enabled": false
+  }
+ ],
+ "otherTags": [
+  "analytics: Adobe Experience Platform Web SDK",
+  "analytics: session replay"
+ ],
+ "tagManagers": [
+  "Adobe Launch",
+  "Google Tag Manager"
+ ],
+ "dataLayers": [
+  "adobeDataLayer",
+  "dataLayer",
+  "digitalData"
+ ],
+ "tagNotes": {},
+ "rewrite": {
+  "library": null,
+  "rules": [],
+  "dataElements": [],
+  "dataLayer": [],
+  "dataLayerPaths": []
+ },
+ "aemMartech": {
+  "plugin": {
+   "name": "aem-martech",
+   "repo": "https://github.com/adobe-rnd/aem-martech.git",
+   "path": "plugins/martech",
+   "edge": "edge.adobedc.net",
+   "sdkDefaultConsent": "in",
+   "launchExtensions": [
+    "Adobe Client Data Layer"
+   ]
+  },
+  "config": {
+   "orgId": null,
+   "datastreamId": null,
+   "alloyInstanceName": "alloy",
+   "edgeDomain": null,
+   "defaultConsent": null,
+   "launchUrls": [
+    "https://assets.adobedtm.com/ef0f7eb243a4/50bf6aad1917/launch-aa461fb6c86d.min.js"
+   ]
+  },
+  "candidates": {
+   "datastreamId": [],
+   "stagingDatastreamId": []
+  },
+  "extension": null,
+  "missingExtensions": [],
+  "category": null,
+  "enabled": false
+ },
+ "target": null
+}

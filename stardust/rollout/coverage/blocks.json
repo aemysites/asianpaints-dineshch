@@ -1,0 +1,293 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:rollout/blocks",
+    "writtenAt": "2026-10-19T17:48:37.629Z",
+    "readArtifacts": [
+      "stardust/rollout/coverage/pages.json"
+    ],
+    "stardustVersion": "0.0.0"
+  },
+  "generatedAt": "2026-10-19T19:13:01.676Z",
+  "blocks": [
+    {
+      "id": "accordion",
+      "label": "accordion",
+      "kind": "module",
+      "signature": "module:accordion",
+      "source": null,
+      "usedByTemplates": [
+        "index"
+      ],
+      "usedByPages": [
+        "index"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "accordion",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "carousel-hero-banner",
+      "label": "carousel-hero-banner",
+      "kind": "module",
+      "signature": "module:carousel-hero-banner",
+      "source": null,
+      "usedByTemplates": [
+        "index"
+      ],
+      "usedByPages": [
+        "index"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "carousel-hero-banner",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "color-gallery",
+      "label": "color-gallery",
+      "kind": "module",
+      "signature": "module:color-gallery",
+      "source": null,
+      "usedByTemplates": [
+        "index"
+      ],
+      "usedByPages": [
+        "index"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "color-gallery",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "designer-collections",
+      "label": "designer-collections",
+      "kind": "module",
+      "signature": "module:designer-collections",
+      "source": null,
+      "usedByTemplates": [
+        "index"
+      ],
+      "usedByPages": [
+        "index"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "designer-collections",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "explore-split",
+      "label": "explore-split",
+      "kind": "module",
+      "signature": "module:explore-split",
+      "source": null,
+      "usedByTemplates": [
+        "index"
+      ],
+      "usedByPages": [
+        "index"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "explore-split",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "featured-products",
+      "label": "featured-products",
+      "kind": "module",
+      "signature": "module:featured-products",
+      "source": null,
+      "usedByTemplates": [
+        "index"
+      ],
+      "usedByPages": [
+        "index"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "featured-products",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "form",
+      "label": "form",
+      "kind": "module",
+      "signature": "module:form",
+      "source": null,
+      "usedByTemplates": [
+        "index"
+      ],
+      "usedByPages": [
+        "index"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "form",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "homepage-icons-container",
+      "label": "homepage-icons-container",
+      "kind": "module",
+      "signature": "module:homepage-icons-container",
+      "source": null,
+      "usedByTemplates": [
+        "index"
+      ],
+      "usedByPages": [
+        "index"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "homepage-icons-container-block",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "interiors-shop",
+      "label": "interiors-shop",
+      "kind": "module",
+      "signature": "module:interiors-shop",
+      "source": null,
+      "usedByTemplates": [
+        "index"
+      ],
+      "usedByPages": [
+        "index"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "interiors-shop",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "services-grid",
+      "label": "services-grid",
+      "kind": "module",
+      "signature": "module:services-grid",
+      "source": null,
+      "usedByTemplates": [
+        "index"
+      ],
+      "usedByPages": [
+        "index"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "services-grid",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "store-banner",
+      "label": "store-banner",
+      "kind": "module",
+      "signature": "module:store-banner",
+      "source": null,
+      "usedByTemplates": [
+        "index"
+      ],
+      "usedByPages": [
+        "index"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "store-banner",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "testimonial-carousel",
+      "label": "testimonial-carousel",
+      "kind": "module",
+      "signature": "module:testimonial-carousel",
+      "source": null,
+      "usedByTemplates": [
+        "index"
+      ],
+      "usedByPages": [
+        "index"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "testimonial-carousel",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "tools-carousel",
+      "label": "tools-carousel",
+      "kind": "module",
+      "signature": "module:tools-carousel",
+      "source": null,
+      "usedByTemplates": [
+        "index"
+      ],
+      "usedByPages": [
+        "index"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "tools-carousel",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "video-shorts",
+      "label": "video-shorts",
+      "kind": "module",
+      "signature": "module:video-shorts",
+      "source": null,
+      "usedByTemplates": [
+        "index"
+      ],
+      "usedByPages": [
+        "index"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "video-shorts",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    }
+  ]
+}

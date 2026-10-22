@@ -1,0 +1,148 @@
+/* Canon layer — values lifted from https://www.asianpaints.com/eds/styles/{styles,fonts}.css
+   (stardust/current/assets/css/styles_styles.css, styles_fonts.css). Shared by every archetype. */
+@font-face { font-family: Manrope; src: url('../fonts/Manrope-Light.ttf') format('truetype'); font-weight: 300; font-style: normal; font-display: swap; }
+@font-face { font-family: Manrope; src: url('../fonts/Manrope-Regular.ttf') format('truetype'); font-weight: 400; font-style: normal; font-display: swap; }
+@font-face { font-family: Manrope; src: url('../fonts/Manrope-Medium.ttf') format('truetype'); font-weight: 500; font-style: normal; font-display: swap; }
+@font-face { font-family: Manrope; src: url('../fonts/Manrope-SemiBold.ttf') format('truetype'); font-weight: 600; font-style: normal; font-display: swap; }
+@font-face { font-family: Manrope; src: url('../fonts/Manrope-Bold.ttf') format('truetype'); font-weight: 700; font-style: normal; font-display: swap; }
+@font-face { font-family: Manrope; src: url('../fonts/Manrope-ExtraBold.ttf') format('truetype'); font-weight: 800; font-style: normal; font-display: swap; }
+@font-face { font-family: HeaderFontIcons; src: url('../fonts/header-font-icons.woff2') format('woff2'); font-display: swap; unicode-range: U+E000-E00F; }
+@font-face {
+  font-family: manrope-fallback;
+  src: local('Arial'), local('Helvetica Neue'), local('Helvetica');
+  size-adjust: 102.13%;
+  ascent-override: 104.38%;
+  descent-override: 29.37%;
+  line-gap-override: 0%;
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+
+:root {
+  --background-color: #fff;
+  --light-color: #f8f8f8;
+  --dark-color: #232426;
+  --text-color: #222;
+  --link-color: #431a80;
+  --link-hover-color: #7345b3;
+  --primary-color: #431a80;
+  --primary-color-light: #7345b3;
+  --accent-color: #fcaf17;
+  --accent-color-hover: #e59d15;
+  --yellow: #fff4cc;
+  --grey: #f5f5f5;
+  --dark-grey: #6b6b6b;
+  --black: #000;
+  --navy-blue: #011c5f;
+  --cream-bg: #fefcf7;
+  --dark-cream-bg: #ece5d7;
+  --text-color-muted: #666;
+  --text-color-dark: #1a1a1a;
+  --gradient-brand: linear-gradient(270deg, rgb(248 161 46), rgb(190 42 29) 50.07%, rgb(69 33 108) 98.1%);
+  --body-font-family: 'Manrope', manrope-fallback, sans-serif;
+  --heading-font-family: 'Manrope', manrope-fallback, sans-serif;
+  --body-font-size-m: 22px;
+  --body-font-size-s: 19px;
+  --body-font-size-xs: 17px;
+  --heading-font-size-xxl: 55px;
+  --heading-font-size-xl: 44px;
+  --heading-font-size-l: 34px;
+  --heading-font-size-m: 27px;
+  --heading-font-size-s: 24px;
+  --heading-font-size-xs: 22px;
+  --nav-height: 126px;
+  --header-height: var(--nav-height);
+}
+
+@media (width >= 900px) {
+  :root {
+    --body-font-size-m: 18px;
+    --body-font-size-s: 16px;
+    --body-font-size-xs: 14px;
+    --heading-font-size-xxl: 45px;
+    --heading-font-size-xl: 36px;
+    --heading-font-size-l: 28px;
+    --heading-font-size-m: 22px;
+    --heading-font-size-s: 20px;
+    --heading-font-size-xs: 18px;
+  }
+}
+
+@media (width >= 992px) {
+  :root { --nav-height: 140px; }
+}
+
+body {
+  margin: 0;
+  background-color: var(--background-color);
+  color: rgb(33 37 41); /* computed on live: Bootstrap reboot body colour wins over --text-color */
+  font-family: var(--heading-font-family);
+  font-size: var(--body-font-size-m);
+  line-height: 1.6;
+}
+
+@media (width >= 992px) and (width <= 1099px) { body { zoom: 0.7; } }
+@media (width >= 1100px) and (width <= 1199px) { body { zoom: 0.75; } }
+@media (width >= 1200px) and (width <= 1279px) { body { zoom: 0.8; } }
+@media (width >= 1280px) and (width <= 1365px) { body { zoom: 0.85; } }
+@media (width >= 1366px) and (width <= 1439px) { body { zoom: 0.9; } }
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  height: var(--header-height);
+}
+
+main { margin-top: var(--header-height); }
+
+footer { min-height: 200px; }
+
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-family: var(--heading-font-family);
+  font-weight: 500;
+  line-height: 1.2;
+  scroll-margin: 40px;
+}
+
+h1 { font-size: calc(1.375rem + 1.5vw); }
+h2 { font-size: calc(1.325rem + 0.9vw); }
+h3 { font-size: calc(1.3rem + 0.6vw); }
+h4 { font-size: calc(1.275rem + 0.3vw); }
+h5 { font-size: 1.25rem; }
+h6 { font-size: 1rem; }
+
+@media (width >= 1200px) {
+  h1 { font-size: 2.5rem; }
+  h2 { font-size: 2rem; }
+  h3 { font-size: 1.75rem; }
+  h4 { font-size: 1.5rem; }
+}
+
+p, dl, ol, ul, pre, blockquote { margin-top: 0.8em; margin-bottom: 0.25em; }
+
+input, textarea, select, button { font: inherit; }
+
+button, input[type="button"], input[type="submit"], input[type="reset"] {
+  appearance: none;
+  border: none;
+  background: transparent;
+  color: inherit;
+  padding: 0;
+  margin: 0;
+  line-height: inherit;
+}
+
+a { color: #0d6efd; } /* computed live default link colour (Bootstrap reboot) */
+a:any-link { text-decoration: none; }
+a:hover { color: var(--link-hover-color); }
+
+main img { max-width: 100%; width: auto; height: auto; }
+
+main > .section { margin: 40px 0; }
+main > .section:first-of-type { margin-top: 0; }
+main .section.sectionpadding { padding-right: 4%; padding-left: 4%; }
