@@ -1,0 +1,15 @@
+{
+ "pages": 1,
+ "vendors": [
+  {
+   "host": "www.asianpaints.com",
+   "pages": 1,
+   "firstParty": true,
+   "role": null,
+   "class": null,
+   "inCsp": false
+  }
+ ],
+ "inline": {},
+ "cspHosts": []
+}

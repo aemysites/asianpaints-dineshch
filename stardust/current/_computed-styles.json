@@ -1,0 +1,5293 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:extract",
+    "writtenAt": "2026-10-19T16:47:12.685Z",
+    "script": "style-census.mjs",
+    "readArtifacts": [
+      "https://www.asianpaints.com/"
+    ],
+    "widths": [
+      1440,
+      360
+    ],
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36",
+    "synthesizedInputs": [],
+    "failed": []
+  },
+  "pages": {
+    "https://www.asianpaints.com/": {
+      "360": {
+        "title": "Trusted Wall Painting, Home Painting & Waterproofing in India - Asian Paints",
+        "viewport": {
+          "width": 360,
+          "height": 900
+        },
+        "elements": {
+          "total": 2558,
+          "visible": 720
+        },
+        "occluders": [],
+        "headings": [
+          {
+            "tag": "h2",
+            "text": "Transform your space",
+            "selector": "#transform-your-space",
+            "fontFamily": "Manrope, manrope-fallback, sans-serif",
+            "fontSize": "26px",
+            "fontWeight": "300",
+            "lineHeight": "50px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(223, 15, 41)"
+          },
+          {
+            "tag": "h3",
+            "text": "Colour of the years",
+            "selector": "#colour-of-the-years",
+            "fontFamily": "Manrope, manrope-fallback, sans-serif",
+            "fontSize": "24px",
+            "fontWeight": "800",
+            "lineHeight": "26.4px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(34, 34, 34)"
+          },
+          {
+            "tag": "h2",
+            "text": "Featured Products",
+            "selector": "main > div:nth-of-type(4) > div:nth-of-type(2) > div > div:nth-of-type(1) > h2",
+            "fontFamily": "Manrope, manrope-fallback, sans-serif",
+            "fontSize": "24px",
+            "fontWeight": "800",
+            "lineHeight": "28.8px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(0, 0, 0)"
+          },
+          {
+            "tag": "h2",
+            "text": "Everything a home needs",
+            "selector": "#everything-a-home-needs",
+            "fontFamily": "Manrope, manrope-fallback, sans-serif",
+            "fontSize": "32px",
+            "fontWeight": "800",
+            "lineHeight": "41px",
+            "letterSpacing": "-1px",
+            "textTransform": "none",
+            "color": "rgb(29, 29, 31)"
+          },
+          {
+            "tag": "h2",
+            "text": "Explore beyond colours",
+            "selector": "#explore-beyond-colours",
+            "fontFamily": "Manrope, manrope-fallback, sans-serif",
+            "fontSize": "24px",
+            "fontWeight": "700",
+            "lineHeight": "normal",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(34, 34, 34)"
+          },
+          {
+            "tag": "h3",
+            "text": "Textures",
+            "selector": "#textures-1",
+            "fontFamily": "Manrope, manrope-fallback, sans-serif",
+            "fontSize": "14px",
+            "fontWeight": "600",
+            "lineHeight": "21px",
+            "letterSpacing": "normal",
+            "textTransform": "uppercase",
+            "color": "rgb(46, 47, 50)"
+          },
+          {
+            "tag": "h3",
+            "text": "Wallpapers",
+            "selector": "#wallpapers-1",
+            "fontFamily": "Manrope, manrope-fallback, sans-serif",
+            "fontSize": "14px",
+            "fontWeight": "500",
+            "lineHeight": "21px",
+            "letterSpacing": "normal",
+            "textTransform": "uppercase",
+            "color": "rgb(106, 109, 112)"
+          },
+          {
+            "tag": "h2",
+            "text": "Colour Tools",
+            "selector": "#colour-tools",
+            "fontFamily": "Manrope, manrope-fallback, sans-serif",
+            "fontSize": "32px",
+            "fontWeight": "800",
+            "lineHeight": "35.2px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(241, 73, 80)"
+          },
+          {
+            "tag": "h2",
+            "text": "Designer collections",
+            "selector": "main > div:nth-of-type(8) > div:nth-of-type(2) > div > div:nth-of-type(1) > h2",
+            "fontFamily": "Manrope, Manrope, manrope-fallback, sans-serif",
+            "fontSize": "32px",
+            "fontWeight": "800",
+            "lineHeight": "30px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(0, 0, 0)"
+          },
+          {
+            "tag": "h3",
+            "text": "Royale Designer Palette",
+            "selector": "div:nth-of-type(2) > div > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div > div:nth-of-type(3) > h3",
+            "fontFamily": "Manrope, manrope-fallback, sans-serif",
+            "fontSize": "14px",
+            "fontWeight": "700",
+            "lineHeight": "21px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(93, 79, 67)"
+          },
+          {
+            "tag": "h3",
+            "text": "Lux Indica",
+            "selector": "div:nth-of-type(2) > div > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > div > div:nth-of-type(3) > h3",
+            "fontFamily": "Manrope, manrope-fallback, sans-serif",
+            "fontSize": "14px",
+            "fontWeight": "700",
+            "lineHeight": "21px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(93, 79, 67)"
+          },
+          {
+            "tag": "h3",
+            "text": "Shvet",
+            "selector": "div:nth-of-type(2) > div > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3) > div > div:nth-of-type(3) > h3",
+            "fontFamily": "Manrope, manrope-fallback, sans-serif",
+            "fontSize": "14px",
+            "fontWeight": "700",
+            "lineHeight": "21px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(93, 79, 67)"
+          },
+          {
+            "tag": "h3",
+            "text": "Insignia",
+            "selector": "div:nth-of-type(2) > div > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(4) > div > div:nth-of-type(3) > h3",
+            "fontFamily": "Manrope, manrope-fallback, sans-serif",
+            "fontSize": "14px",
+            "fontWeight": "700",
+            "lineHeight": "21px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(93, 79, 67)"
+          },
+          {
+            "tag": "h3",
+            "text": "One-stop shop for all things interiors",
+            "selector": "#one-stop-shop-for-all-things-interiors",
+            "fontFamily": "Manrope, manrope-fallback, sans-serif",
+            "fontSize": "32px",
+            "fontWeight": "800",
+            "lineHeight": "41.6px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(255, 255, 255)"
+          },
+          {
+            "tag": "h2",
+            "text": "What ourclients say about us!",
+            "selector": "main > div:nth-of-type(10) > div > div > div:nth-of-type(1) > div:nth-of-type(1) > h2",
+            "fontFamily": "Manrope, manrope-fallback, sans-serif",
+            "fontSize": "32px",
+            "fontWeight": "800",
+            "lineHeight": "41.6px",
+            "letterSpacing": "-0.5px",
+            "textTransform": "none",
+            "color": "rgb(0, 0, 0)"
+          },
+          {
+            "tag": "h2",
+            "text": "Inspiring ideas for you",
+            "selector": "#inspiring-ideas-for-you",
+            "fontFamily": "Manrope, manrope-fallback, sans-serif",
+            "fontSize": "22px",
+            "fontWeight": "700",
+            "lineHeight": "26.4px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(255, 255, 255)"
+          },
+          {
+            "tag": "h2",
+            "text": "FAQ's",
+            "selector": "#faqs",
+            "fontFamily": "Manrope, manrope-fallback, sans-serif",
+            "fontSize": "20px",
+            "fontWeight": "700",
+            "lineHeight": "28px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(34, 34, 34)"
+          },
+          {
+            "tag": "h3",
+            "text": "OUR GLOBAL PRESENCE",
+            "selector": "footer > div > div > div > section:nth-of-type(1) > div > div:nth-of-type(1) > h3",
+            "fontFamily": "Manrope, manrope-fallback, sans-serif",
+            "fontSize": "12px",
+            "fontWeight": "400",
+            "lineHeight": "16.8px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(254, 238, 207)"
+          },
+          {
+            "tag": "h3",
+            "text": "OUR DIVISIONS",
+            "selector": "footer > div > div > div > section:nth-of-type(2) > div > div:nth-of-type(1) > h3",
+            "fontFamily": "Manrope, manrope-fallback, sans-serif",
+            "fontSize": "12px",
+            "fontWeight": "400",
+            "lineHeight": "16.8px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(254, 238, 207)"
+          }
+        ],
+        "text": [
+          {
+            "tag": "p",
+            "text": "Explore and elevate your space with fea…",
+            "selector": "main > div:nth-of-type(2) > div > div > div:nth-of-type(1) > div:nth-of-type(1) > p:nth-of-type(2)",
+            "fontFamily": "Manrope, manrope-fallback, sans-serif",
+            "fontSize": "14px",
+            "fontWeight": "400",
+            "lineHeight": "22px",
+            "letterSpacing": "0.5px",
+            "textTransform": "none",
+            "color": "rgb(34, 34, 34)"
+          },
+          {
+            "tag": "p",
+            "text": "Bid goodbye to your home painting hassl…",
+            "selector": "main > div:nth-of-type(3) > div:nth-of-type(1) > div > div:nth-of-type(21) > div:nth-of-type(1) > div:nth-of-type(3) > p",
+            "fontFamily": "Manrope, manrope-fallback, sans-serif",
+            "fontSize": "14px",
+            "fontWeight": "500",
+            "lineHeight": "18px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(117, 120, 123)"
+          },
+          {
+            "tag": "p",
+            "text": "By proceeding, I authorize Asian Paints…",
+            "selector": "div:nth-of-type(3) > div:nth-of-type(1) > div > div:nth-of-type(21) > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(1) > p",
+            "fontFamily": "Manrope, manrope-fallback, sans-serif",
+            "fontSize": "12px",
+            "fontWeight": "400",
+            "lineHeight": "15px",
+            "letterSpacing": "0.5px",
+            "textTransform": "none",
+            "color": "rgb(140, 142, 144)"
+          },
+          {
+            "tag": "p",
+            "text": "One stop solution for all you need to k…",
+            "selector": "main > div:nth-of-type(5) > div > div > div:nth-of-type(1) > p",
+            "fontFamily": "Manrope, manrope-fallback, sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(0, 0, 0)"
+          },
+          {
+            "tag": "p",
+            "text": "Sabyasachi-inspired Designer colour Pal…",
+            "selector": "div:nth-of-type(2) > div > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div > div:nth-of-type(3) > p",
+            "fontFamily": "Manrope, manrope-fallback, sans-serif",
+            "fontSize": "12px",
+            "fontWeight": "400",
+            "lineHeight": "16.8px",
+            "letterSpacing": "0.5px",
+            "textTransform": "none",
+            "color": "rgb(93, 79, 67)"
+          },
+          {
+            "tag": "p",
+            "text": "Luxurious colour Shades inspired by Ind…",
+            "selector": "div:nth-of-type(2) > div > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > div > div:nth-of-type(3) > p",
+            "fontFamily": "Manrope, manrope-fallback, sans-serif",
+            "fontSize": "12px",
+            "fontWeight": "400",
+            "lineHeight": "16.8px",
+            "letterSpacing": "0.5px",
+            "textTransform": "none",
+            "color": "rgb(93, 79, 67)"
+          },
+          {
+            "tag": "p",
+            "text": "Indian whites and ivories colour palett…",
+            "selector": "div:nth-of-type(2) > div > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3) > div > div:nth-of-type(3) > p",
+            "fontFamily": "Manrope, manrope-fallback, sans-serif",
+            "fontSize": "12px",
+            "fontWeight": "400",
+            "lineHeight": "16.8px",
+            "letterSpacing": "0.5px",
+            "textTransform": "none",
+            "color": "rgb(93, 79, 67)"
+          },
+          {
+            "tag": "p",
+            "text": "Designer range of Italian wood finishes…",
+            "selector": "div:nth-of-type(2) > div > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(4) > div > div:nth-of-type(3) > p",
+            "fontFamily": "Manrope, manrope-fallback, sans-serif",
+            "fontSize": "12px",
+            "fontWeight": "400",
+            "lineHeight": "16.8px",
+            "letterSpacing": "0.5px",
+            "textTransform": "none",
+            "color": "rgb(93, 79, 67)"
+          },
+          {
+            "tag": "p",
+            "text": "We provide complete painting service, i…",
+            "selector": "main > div:nth-of-type(9) > div > div > div:nth-of-type(1) > div > p",
+            "fontFamily": "Manrope, manrope-fallback, sans-serif",
+            "fontSize": "14px",
+            "fontWeight": "400",
+            "lineHeight": "21px",
+            "letterSpacing": "0.5px",
+            "textTransform": "none",
+            "color": "rgb(238, 238, 239)"
+          },
+          {
+            "tag": "p",
+            "text": "Get home décor advice and interior desi…",
+            "selector": "div:nth-of-type(9) > div > div > div:nth-of-type(2) > div > div:nth-of-type(1) > div:nth-of-type(2) > p",
+            "fontFamily": "Manrope, manrope-fallback, sans-serif",
+            "fontSize": "14px",
+            "fontWeight": "500",
+            "lineHeight": "20px",
+            "letterSpacing": "0.5px",
+            "textTransform": "none",
+            "color": "rgb(176, 177, 179)"
+          },
+          {
+            "tag": "p",
+            "text": "Shape your dream kitchen with our diver…",
+            "selector": "div:nth-of-type(9) > div > div > div:nth-of-type(2) > div > div:nth-of-type(2) > div:nth-of-type(2) > p",
+            "fontFamily": "Manrope, manrope-fallback, sans-serif",
+            "fontSize": "14px",
+            "fontWeight": "500",
+            "lineHeight": "20px",
+            "letterSpacing": "0.5px",
+            "textTransform": "none",
+            "color": "rgb(176, 177, 179)"
+          },
+          {
+            "tag": "p",
+            "text": "Get expert painting with on-time comple…",
+            "selector": "div:nth-of-type(9) > div > div > div:nth-of-type(2) > div > div:nth-of-type(3) > div:nth-of-type(2) > p",
+            "fontFamily": "Manrope, manrope-fallback, sans-serif",
+            "fontSize": "14px",
+            "fontWeight": "500",
+            "lineHeight": "20px",
+            "letterSpacing": "0.5px",
+            "textTransform": "none",
+            "color": "rgb(176, 177, 179)"
+          }
+        ],
+        "buttons": [
+          {
+            "text": "Book Free Site Visit",
+            "selector": "header > div > div:nth-of-type(2) > div:nth-of-type(1) > div > div:nth-of-type(3) > a",
+            "count": 1,
+            "backgroundColor": "rgb(252, 175, 23)",
+            "color": "rgb(35, 36, 38)",
+            "borderRadius": "45px",
+            "padding": "10px 18px",
+            "border": "0px none rgb(35, 36, 38)",
+            "borderColor": "rgb(35, 36, 38)",
+            "boxShadow": "rgba(0, 0, 0, 0.22) 0px 6px 18px 0px",
+            "fontFamily": "Manrope, manrope-fallback, sans-serif",
+            "fontSize": "14px",
+            "fontWeight": "700",
+            "textTransform": "none",
+            "letterSpacing": "normal",
+            "hover": null
+          },
+          {
+            "text": "Explore colour catalogue",
+            "selector": "main > div:nth-of-type(1) > div:nth-of-type(2) > div > div:nth-of-type(1) > div:nth-of-type(1) > div > a:nth-of-type(2)",
+            "count": 1,
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(255, 255, 255)",
+            "borderRadius": "45px",
+            "padding": "6px 16px",
+            "border": "1px solid rgb(255, 255, 255)",
+            "borderColor": "rgb(255, 255, 255)",
+            "boxShadow": "none",
+            "fontFamily": "Manrope, manrope-fallback, sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "600",
+            "textTransform": "none",
+            "letterSpacing": "normal",
+            "hover": {
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(255, 255, 255)",
+              "borderColor": "rgb(255, 255, 255)",
+              "boxShadow": "none",
+              "changed": false
+            }
+          },
+          {
+            "text": "Book a free site visit",
+            "selector": "main > div:nth-of-type(1) > div:nth-of-type(2) > div > div:nth-of-type(1) > div:nth-of-type(2) > div > a:nth-of-type(2)",
+            "count": 1,
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(35, 36, 38)",
+            "borderRadius": "45px",
+            "padding": "6px 16px",
+            "border": "1px solid rgb(35, 36, 38)",
+            "borderColor": "rgb(35, 36, 38)",
+            "boxShadow": "none",
+            "fontFamily": "Manrope, manrope-fallback, sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "600",
+            "textTransform": "none",
+            "letterSpacing": "normal",
+            "hover": null
+          },
+          {
+            "text": "Watch video",
+            "selector": "main > div:nth-of-type(1) > div:nth-of-type(2) > div > div:nth-of-type(1) > div:nth-of-type(3) > div > a:nth-of-type(2)",
+            "count": 1,
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(255, 255, 255)",
+            "borderRadius": "45px",
+            "padding": "6px 16px",
+            "border": "1px solid rgb(255, 255, 255)",
+            "borderColor": "rgb(255, 255, 255)",
+            "boxShadow": "none",
+            "fontFamily": "Manrope, manrope-fallback, sans-serif",
+            "fontSize": "14px",
+            "fontWeight": "600",
+            "textTransform": "none",
+            "letterSpacing": "normal",
+            "hover": null
+          },
+          {
+            "text": "Explore now",
+            "selector": "main > div:nth-of-type(1) > div:nth-of-type(2) > div > div:nth-of-type(1) > div:nth-of-type(4) > div > a:nth-of-type(2)",
+            "count": 1,
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(35, 36, 38)",
+            "borderRadius": "45px",
+            "padding": "14px 20px",
+            "border": "1px solid rgb(35, 36, 38)",
+            "borderColor": "rgb(35, 36, 38)",
+            "boxShadow": "none",
+            "fontFamily": "Manrope, manrope-fallback, sans-serif",
+            "fontSize": "14px",
+            "fontWeight": "600",
+            "textTransform": "none",
+            "letterSpacing": "normal",
+            "hover": null
+          },
+          {
+            "text": "View colour catalogue",
+            "selector": "main > div:nth-of-type(2) > div > div > div:nth-of-type(2) > a",
+            "count": 1,
+            "backgroundColor": "rgb(255, 255, 255)",
+            "color": "rgb(0, 0, 0)",
+            "borderRadius": "45px",
+            "padding": "10px 28px",
+            "border": "1px solid rgb(35, 36, 38)",
+            "borderColor": "rgb(35, 36, 38)",
+            "boxShadow": "none",
+            "fontFamily": "Manrope, manrope-fallback, sans-serif",
+            "fontSize": "14px",
+            "fontWeight": "600",
+            "textTransform": "none",
+            "letterSpacing": "normal",
+            "hover": null
+          },
+          {
+            "text": "Book FREE Site Visit ↻",
+            "selector": "div:nth-of-type(3) > div:nth-of-type(1) > div > div:nth-of-type(21) > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(2) > button",
+            "count": 1,
+            "backgroundColor": "rgb(252, 175, 23)",
+            "color": "rgb(0, 0, 0)",
+            "borderRadius": "30px",
+            "padding": "8px 22px",
+            "border": "0px none rgb(0, 0, 0)",
+            "borderColor": "rgb(0, 0, 0)",
+            "boxShadow": "none",
+            "fontFamily": "Manrope, manrope-fallback, sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "700",
+            "textTransform": "none",
+            "letterSpacing": "normal",
+            "hover": null
+          },
+          {
+            "text": "Interior wall paint↗",
+            "selector": "main > div:nth-of-type(5) > div > div > div:nth-of-type(2) > div > a:nth-of-type(1)",
+            "count": 4,
+            "backgroundColor": "rgb(250, 246, 239)",
+            "color": "rgb(13, 110, 253)",
+            "borderRadius": "10px",
+            "padding": "15px 13px 18px",
+            "border": "0px none rgb(13, 110, 253)",
+            "borderColor": "rgb(13, 110, 253)",
+            "boxShadow": "none",
+            "fontFamily": "Manrope, manrope-fallback, sans-serif",
+            "fontSize": "22px",
+            "fontWeight": "400",
+            "textTransform": "none",
+            "letterSpacing": "normal",
+            "hover": null
+          },
+          {
+            "text": "View all textures",
+            "selector": "main > div:nth-of-type(6) > div:nth-of-type(2) > div > div > div:nth-of-type(2) > p:nth-of-type(5) > a",
+            "count": 1,
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(34, 34, 34)",
+            "borderRadius": "45px",
+            "padding": "7px 20px",
+            "border": "1px solid rgb(35, 36, 38)",
+            "borderColor": "rgb(35, 36, 38)",
+            "boxShadow": "none",
+            "fontFamily": "Manrope, manrope-fallback, sans-serif",
+            "fontSize": "14px",
+            "fontWeight": "700",
+            "textTransform": "none",
+            "letterSpacing": "normal",
+            "hover": null
+          },
+          {
+            "text": "Explore now",
+            "selector": "div:nth-of-type(9) > div > div > div:nth-of-type(2) > div > div:nth-of-type(1) > div:nth-of-type(2) > a",
+            "count": 3,
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(255, 255, 255)",
+            "borderRadius": "30px",
+            "padding": "8px 20px",
+            "border": "1px solid rgb(255, 255, 255)",
+            "borderColor": "rgb(255, 255, 255)",
+            "boxShadow": "none",
+            "fontFamily": "Manrope, manrope-fallback, sans-serif",
+            "fontSize": "14px",
+            "fontWeight": "600",
+            "textTransform": "none",
+            "letterSpacing": "normal",
+            "hover": null
+          },
+          {
+            "text": "VIEW ALL",
+            "selector": "main > div:nth-of-type(14) > div:nth-of-type(2) > div > button",
+            "count": 1,
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(0, 0, 0)",
+            "borderRadius": "45px",
+            "padding": "10px 16px",
+            "border": "1px solid rgb(0, 0, 0)",
+            "borderColor": "rgb(0, 0, 0)",
+            "boxShadow": "none",
+            "fontFamily": "Manrope, manrope-fallback, sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "700",
+            "textTransform": "none",
+            "letterSpacing": "0.86px",
+            "hover": null
+          },
+          {
+            "text": "WATCH NOW",
+            "selector": "footer > div > div > section:nth-of-type(2) > div:nth-of-type(3) > button",
+            "count": 1,
+            "backgroundColor": "rgba(255, 255, 255, 0.7)",
+            "color": "rgb(51, 51, 51)",
+            "borderRadius": "100px",
+            "padding": "10px",
+            "border": "1px solid rgb(255, 255, 255)",
+            "borderColor": "rgb(255, 255, 255)",
+            "boxShadow": "none",
+            "fontFamily": "Manrope, manrope-fallback, sans-serif",
+            "fontSize": "14px",
+            "fontWeight": "400",
+            "textTransform": "none",
+            "letterSpacing": "normal",
+            "hover": null
+          }
+        ],
+        "links": [
+          {
+            "text": "Painting services",
+            "selector": "main > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(2) > div > a:nth-of-type(1)",
+            "count": 11,
+            "color": "rgb(13, 110, 253)",
+            "textDecoration": "none",
+            "fontWeight": "400",
+            "hover": {
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(115, 69, 179)",
+              "borderColor": "rgb(115, 69, 179)",
+              "boxShadow": "none",
+              "changed": true
+            }
+          },
+          {
+            "text": "Terms & Conditions",
+            "selector": "div:nth-of-type(1) > div > div:nth-of-type(21) > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(1) > p > a:nth-of-type(1)",
+            "count": 2,
+            "color": "rgb(0, 0, 238)",
+            "textDecoration": "underline",
+            "fontWeight": "400",
+            "hover": {
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(0, 0, 238)",
+              "borderColor": "rgb(0, 0, 238)",
+              "boxShadow": "none",
+              "changed": true
+            }
+          },
+          {
+            "text": "Download PDF",
+            "selector": "div:nth-of-type(2) > div > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div > div:nth-of-type(4) > a",
+            "count": 4,
+            "color": "rgb(0, 0, 0)",
+            "textDecoration": "none",
+            "fontWeight": "700",
+            "hover": {
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(0, 0, 0)",
+              "borderColor": "rgb(0, 0, 0)",
+              "boxShadow": "none",
+              "changed": true
+            }
+          }
+        ],
+        "surfaces": [
+          {
+            "matched": "header",
+            "selector": "header",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 360,
+              "h": 126
+            },
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(33, 37, 41)",
+            "padding": "0px",
+            "maxWidth": "none",
+            "borderRadius": "0px",
+            "boxShadow": "none",
+            "position": "fixed",
+            "fontFamily": "Manrope, manrope-fallback, sans-serif",
+            "fontSize": "22px"
+          },
+          {
+            "matched": "nav",
+            "selector": "nav",
+            "rect": {
+              "x": 16,
+              "y": 8798,
+              "w": 328,
+              "h": 240
+            },
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(0, 0, 0)",
+            "padding": "0px",
+            "maxWidth": "none",
+            "borderRadius": "0px",
+            "boxShadow": "none",
+            "position": "static",
+            "fontFamily": "Manrope, manrope-fallback, sans-serif",
+            "fontSize": "14px"
+          },
+          {
+            "matched": "main",
+            "selector": "main",
+            "rect": {
+              "x": 0,
+              "y": 126,
+              "w": 360,
+              "h": 8291
+            },
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(33, 37, 41)",
+            "padding": "0px",
+            "maxWidth": "none",
+            "borderRadius": "0px",
+            "boxShadow": "none",
+            "position": "static",
+            "fontFamily": "Manrope, manrope-fallback, sans-serif",
+            "fontSize": "22px"
+          },
+          {
+            "matched": "footer",
+            "selector": "footer",
+            "rect": {
+              "x": 0,
+              "y": 8457,
+              "w": 360,
+              "h": 1794
+            },
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(33, 37, 41)",
+            "padding": "0px",
+            "maxWidth": "none",
+            "borderRadius": "0px",
+            "boxShadow": "none",
+            "position": "static",
+            "fontFamily": "Manrope, manrope-fallback, sans-serif",
+            "fontSize": "22px"
+          },
+          {
+            "matched": "main > *",
+            "selector": "main > div:nth-of-type(1)",
+            "rect": {
+              "x": 0,
+              "y": 126,
+              "w": 360,
+              "h": 804
+            },
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(33, 37, 41)",
+            "padding": "0px",
+            "maxWidth": "none",
+            "borderRadius": "0px",
+            "boxShadow": "none",
+            "position": "relative",
+            "fontFamily": "Manrope, manrope-fallback, sans-serif",
+            "fontSize": "22px"
+          },
+          {
+            "matched": "main > *",
+            "selector": "main > div:nth-of-type(2)",
+            "rect": {
+              "x": 0,
+              "y": 980,
+              "w": 360,
+              "h": 715
+            },
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(33, 37, 41)",
+            "padding": "0px",
+            "maxWidth": "none",
+            "borderRadius": "0px",
+            "boxShadow": "none",
+            "position": "static",
+            "fontFamily": "Manrope, manrope-fallback, sans-serif",
+            "fontSize": "22px"
+          },
+          {
+            "matched": "main > *",
+            "selector": "main > div:nth-of-type(3)",
+            "rect": {
+              "x": 0,
+              "y": 1735,
+              "w": 360,
+              "h": 808
+            },
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(33, 37, 41)",
+            "padding": "0px",
+            "maxWidth": "none",
+            "borderRadius": "0px",
+            "boxShadow": "none",
+            "position": "static",
+            "fontFamily": "Manrope, manrope-fallback, sans-serif",
+            "fontSize": "22px"
+          },
+          {
+            "matched": "main > *",
+            "selector": "main > div:nth-of-type(4)",
+            "rect": {
+              "x": 0,
+              "y": 2583,
+              "w": 360,
+              "h": 666
+            },
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(33, 37, 41)",
+            "padding": "40px 16px 30px",
+            "maxWidth": "none",
+            "borderRadius": "0px",
+            "boxShadow": "none",
+            "position": "static",
+            "fontFamily": "Manrope, manrope-fallback, sans-serif",
+            "fontSize": "22px"
+          }
+        ],
+        "radii": [
+          {
+            "value": "50%",
+            "count": 31,
+            "area": 14704,
+            "sources": [
+              "header > div > div:nth-of-type(2) > div:nth-of-type(1) > div > div:nth-of-type(2) > a:nth-of-type(3) > span:nth-of-type(1)",
+              "main > div:nth-of-type(1) > div:nth-of-type(2) > div > div:nth-of-type(2) > span:nth-of-type(3)",
+              "main > div:nth-of-type(1) > div:nth-of-type(2) > div > div:nth-of-type(2) > span:nth-of-type(4)"
+            ]
+          },
+          {
+            "value": "10px",
+            "count": 20,
+            "area": 1151953,
+            "sources": [
+              "div > div > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > a",
+              "div > div > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > a",
+              "div > div > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(3) > a"
+            ]
+          },
+          {
+            "value": "8px",
+            "count": 9,
+            "area": 265696,
+            "sources": [
+              "main > div:nth-of-type(1) > div:nth-of-type(3)",
+              "main > div:nth-of-type(2) > div > div > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > span:nth-of-type(1)",
+              "#enquire-name"
+            ]
+          },
+          {
+            "value": "12px",
+            "count": 8,
+            "area": 997756,
+            "sources": [
+              "main > div:nth-of-type(4) > div:nth-of-type(2) > div > div:nth-of-type(2) > div:nth-of-type(1)",
+              "#swiper-wrapper-a85ec27db40dbb67 > div:nth-of-type(1) > a",
+              "#swiper-wrapper-a85ec27db40dbb67 > div:nth-of-type(2) > a"
+            ]
+          },
+          {
+            "value": "45px",
+            "count": 8,
+            "area": 57441,
+            "sources": [
+              "header > div > div:nth-of-type(2) > div:nth-of-type(1) > div > div:nth-of-type(3) > a",
+              "main > div:nth-of-type(1) > div:nth-of-type(2) > div > div:nth-of-type(1) > div:nth-of-type(1) > div > a:nth-of-type(2)",
+              "main > div:nth-of-type(1) > div:nth-of-type(2) > div > div:nth-of-type(1) > div:nth-of-type(2) > div > a:nth-of-type(2)"
+            ]
+          },
+          {
+            "value": "20px",
+            "count": 6,
+            "area": 604837,
+            "sources": [
+              "main > div:nth-of-type(3) > div:nth-of-type(1) > div",
+              "main > div:nth-of-type(7) > div > div > div:nth-of-type(2) > div:nth-of-type(2) > div > a:nth-of-type(1)",
+              "main > div:nth-of-type(7) > div > div > div:nth-of-type(2) > div:nth-of-type(2) > div > a:nth-of-type(2)"
+            ]
+          },
+          {
+            "value": "30px",
+            "count": 6,
+            "area": 32234,
+            "sources": [
+              "main > div:nth-of-type(1) > div:nth-of-type(2) > div > div:nth-of-type(2)",
+              "main > div:nth-of-type(1) > div:nth-of-type(2) > div > div:nth-of-type(2) > span:nth-of-type(2)",
+              "div:nth-of-type(3) > div:nth-of-type(1) > div > div:nth-of-type(21) > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(2) > button"
+            ]
+          },
+          {
+            "value": "10px 10px 0px 0px",
+            "count": 4,
+            "area": 220723,
+            "sources": [
+              "div > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > a > div:nth-of-type(1)",
+              "div > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > a > div:nth-of-type(1)",
+              "div > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(3) > a > div:nth-of-type(1)"
+            ]
+          },
+          {
+            "value": "6px",
+            "count": 4,
+            "area": 43680,
+            "sources": [
+              "main > div:nth-of-type(5) > div > div > div:nth-of-type(2) > div > a:nth-of-type(1) > div:nth-of-type(1)",
+              "main > div:nth-of-type(5) > div > div > div:nth-of-type(2) > div > a:nth-of-type(2) > div:nth-of-type(1)",
+              "main > div:nth-of-type(5) > div > div > div:nth-of-type(2) > div > a:nth-of-type(3) > div:nth-of-type(1)"
+            ]
+          },
+          {
+            "value": "999px",
+            "count": 4,
+            "area": 200,
+            "sources": [
+              "main > div:nth-of-type(4) > div:nth-of-type(2) > div > div:nth-of-type(2) > div:nth-of-type(2) > span:nth-of-type(2)",
+              "main > div:nth-of-type(4) > div:nth-of-type(2) > div > div:nth-of-type(2) > div:nth-of-type(2) > span:nth-of-type(3)",
+              "main > div:nth-of-type(9) > div > div > div:nth-of-type(3) > span:nth-of-type(2)"
+            ]
+          },
+          {
+            "value": "16px",
+            "count": 3,
+            "area": 234465,
+            "sources": [
+              "main > div:nth-of-type(9) > div > div > div:nth-of-type(2) > div > div:nth-of-type(1) > div:nth-of-type(1)",
+              "main > div:nth-of-type(9) > div > div > div:nth-of-type(2) > div > div:nth-of-type(2) > div:nth-of-type(1)",
+              "main > div:nth-of-type(9) > div > div > div:nth-of-type(2) > div > div:nth-of-type(3) > div:nth-of-type(1)"
+            ]
+          },
+          {
+            "value": "4px 4px 0px 0px",
+            "count": 3,
+            "area": 13320,
+            "sources": [
+              "header > div > div:nth-of-type(1) > div > a:nth-of-type(1)",
+              "header > div > div:nth-of-type(1) > div > a:nth-of-type(2)",
+              "header > div > div:nth-of-type(1) > div > a:nth-of-type(3)"
+            ]
+          },
+          {
+            "value": "5px",
+            "count": 1,
+            "area": 243658,
+            "sources": [
+              "main > div:nth-of-type(9) > div > div"
+            ]
+          },
+          {
+            "value": "4px",
+            "count": 1,
+            "area": 78720,
+            "sources": [
+              "footer > div > div > section:nth-of-type(1) > div > div > div:nth-of-type(2)"
+            ]
+          },
+          {
+            "value": "8px 8px 0px 0px",
+            "count": 1,
+            "area": 39360,
+            "sources": [
+              "div > div > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div > div:nth-of-type(1) > div:nth-of-type(1)"
+            ]
+          },
+          {
+            "value": "100px",
+            "count": 1,
+            "area": 8321,
+            "sources": [
+              "footer > div > div > section:nth-of-type(2) > div:nth-of-type(3) > button"
+            ]
+          },
+          {
+            "value": "2px",
+            "count": 1,
+            "area": 225,
+            "sources": [
+              "div:nth-of-type(1) > div > div:nth-of-type(21) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > label > span:nth-of-type(1)"
+            ]
+          }
+        ],
+        "shadows": [
+          {
+            "value": "rgba(0, 0, 0, 0.08) 0px 12px 20px 0px",
+            "count": 1,
+            "sources": [
+              "main > div:nth-of-type(3) > div:nth-of-type(1) > div"
+            ]
+          },
+          {
+            "value": "rgba(0, 0, 0, 0.22) 0px 6px 18px 0px",
+            "count": 1,
+            "sources": [
+              "header > div > div:nth-of-type(2) > div:nth-of-type(1) > div > div:nth-of-type(3) > a"
+            ]
+          },
+          {
+            "value": "rgba(0, 0, 0, 0.5) 0px 0px 12px 0px",
+            "count": 1,
+            "sources": [
+              "#sprinklr-chat-placeholder > div > button"
+            ]
+          },
+          {
+            "value": "rgba(16, 24, 40, 0.1) 0px 4px 16px -2px",
+            "count": 1,
+            "sources": [
+              "main > div:nth-of-type(1) > div:nth-of-type(3)"
+            ]
+          },
+          {
+            "value": "rgba(16, 24, 40, 0.16) 1px 6px 25px -4px",
+            "count": 1,
+            "sources": [
+              "div:nth-of-type(10) > div > div > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div > div:nth-of-type(1)"
+            ]
+          }
+        ],
+        "gradients": [
+          {
+            "value": "linear-gradient(270.75deg, rgba(129, 122, 107, 0) -1.31%, rgba(91, 80, 68, 0.5) 65.3%)",
+            "count": 1,
+            "area": 180720,
+            "sources": [
+              "main > div:nth-of-type(1) > div:nth-of-type(2) > div > div:nth-of-type(1) > div:nth-of-type(1) > div > div:nth-of-type(2)"
+            ]
+          },
+          {
+            "value": "linear-gradient(rgb(0, 200, 83), rgb(3, 149, 63))",
+            "count": 1,
+            "area": 1444,
+            "sources": [
+              "#sprinklr-chat-placeholder > div > button"
+            ]
+          }
+        ],
+        "bgColors": [
+          {
+            "value": "rgb(0, 0, 0)",
+            "count": 19,
+            "area": 808105,
+            "sources": [
+              "header > div > div:nth-of-type(1)",
+              "main > div:nth-of-type(1) > div:nth-of-type(2) > div > div:nth-of-type(2) > span:nth-of-type(3)",
+              "main > div:nth-of-type(1) > div:nth-of-type(2) > div > div:nth-of-type(2) > span:nth-of-type(4)"
+            ]
+          },
+          {
+            "value": "rgb(255, 255, 255)",
+            "count": 11,
+            "area": 4460611,
+            "sources": [
+              "body",
+              "header > div > div:nth-of-type(1) > div > a:nth-of-type(1)",
+              "main > div:nth-of-type(1) > div:nth-of-type(2) > div > div:nth-of-type(2)"
+            ]
+          },
+          {
+            "value": "rgb(224, 224, 224)",
+            "count": 9,
+            "area": 961263,
+            "sources": [
+              "div > div > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > a",
+              "div > div > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > a",
+              "div > div > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(3) > a"
+            ]
+          },
+          {
+            "value": "rgb(250, 246, 239)",
+            "count": 4,
+            "area": 106704,
+            "sources": [
+              "main > div:nth-of-type(5) > div > div > div:nth-of-type(2) > div > a:nth-of-type(1)",
+              "main > div:nth-of-type(5) > div > div > div:nth-of-type(2) > div > a:nth-of-type(2)",
+              "main > div:nth-of-type(5) > div > div > div:nth-of-type(2) > div > a:nth-of-type(3)"
+            ]
+          },
+          {
+            "value": "rgb(77, 77, 77)",
+            "count": 3,
+            "area": 480,
+            "sources": [
+              "main > div:nth-of-type(2) > div > div > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > span:nth-of-type(1)",
+              "main > div:nth-of-type(4) > div:nth-of-type(2) > div > div:nth-of-type(2) > div:nth-of-type(2) > span:nth-of-type(1)",
+              "main > div:nth-of-type(8) > div:nth-of-type(2) > div > div:nth-of-type(2) > div:nth-of-type(2) > span:nth-of-type(1)"
+            ]
+          },
+          {
+            "value": "rgb(76, 78, 82)",
+            "count": 3,
+            "area": 248,
+            "sources": [
+              "main > div:nth-of-type(1) > div:nth-of-type(2) > div > div:nth-of-type(2) > span:nth-of-type(2)",
+              "main > div:nth-of-type(9) > div > div > div:nth-of-type(3) > span:nth-of-type(2)",
+              "main > div:nth-of-type(9) > div > div > div:nth-of-type(3) > span:nth-of-type(3)"
+            ]
+          },
+          {
+            "value": "rgba(128, 128, 128, 0.25)",
+            "count": 3,
+            "area": 192,
+            "sources": [
+              "main > div:nth-of-type(8) > div:nth-of-type(2) > div > div:nth-of-type(2) > div:nth-of-type(2) > span:nth-of-type(2)",
+              "main > div:nth-of-type(8) > div:nth-of-type(2) > div > div:nth-of-type(2) > div:nth-of-type(2) > span:nth-of-type(3)",
+              "main > div:nth-of-type(8) > div:nth-of-type(2) > div > div:nth-of-type(2) > div:nth-of-type(2) > span:nth-of-type(4)"
+            ]
+          },
+          {
+            "value": "rgb(253, 237, 214)",
+            "count": 2,
+            "area": 431556,
+            "sources": [
+              "footer > div > div > section:nth-of-type(1)",
+              "footer > div > div > section:nth-of-type(2)"
+            ]
+          },
+          {
+            "value": "rgb(254, 254, 253)",
+            "count": 2,
+            "area": 41040,
+            "sources": [
+              "header > div > div:nth-of-type(2)",
+              "header > div > div:nth-of-type(2) > div:nth-of-type(1)"
+            ]
+          },
+          {
+            "value": "rgb(35, 36, 38)",
+            "count": 2,
+            "area": 38661,
+            "sources": [
+              "header > div > div:nth-of-type(1) > a",
+              "footer > div > div > section:nth-of-type(3)"
+            ]
+          },
+          {
+            "value": "rgb(252, 175, 23)",
+            "count": 2,
+            "area": 17684,
+            "sources": [
+              "header > div > div:nth-of-type(2) > div:nth-of-type(1) > div > div:nth-of-type(3) > a",
+              "div:nth-of-type(3) > div:nth-of-type(1) > div > div:nth-of-type(21) > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(2) > button"
+            ]
+          },
+          {
+            "value": "rgb(201, 201, 201)",
+            "count": 2,
+            "area": 72,
+            "sources": [
+              "main > div:nth-of-type(4) > div:nth-of-type(2) > div > div:nth-of-type(2) > div:nth-of-type(2) > span:nth-of-type(2)",
+              "main > div:nth-of-type(4) > div:nth-of-type(2) > div > div:nth-of-type(2) > div:nth-of-type(2) > span:nth-of-type(3)"
+            ]
+          },
+          {
+            "value": "rgb(245, 240, 228)",
+            "count": 1,
+            "area": 225613,
+            "sources": [
+              "main > div:nth-of-type(8) > div:nth-of-type(2) > div"
+            ]
+          },
+          {
+            "value": "rgb(254, 242, 226)",
+            "count": 1,
+            "area": 52014,
+            "sources": [
+              "footer > div > div > section:nth-of-type(1) > div > div > div:nth-of-type(1) > div:nth-of-type(2)"
+            ]
+          },
+          {
+            "value": "rgb(245, 245, 245)",
+            "count": 1,
+            "area": 39360,
+            "sources": [
+              "div > div > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div > div:nth-of-type(1) > div:nth-of-type(1)"
+            ]
+          },
+          {
+            "value": "rgba(255, 255, 255, 0.7)",
+            "count": 1,
+            "area": 8321,
+            "sources": [
+              "footer > div > div > section:nth-of-type(2) > div:nth-of-type(3) > button"
+            ]
+          },
+          {
+            "value": "rgb(117, 120, 123)",
+            "count": 1,
+            "area": 225,
+            "sources": [
+              "div:nth-of-type(1) > div > div:nth-of-type(21) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > label > span:nth-of-type(1)"
+            ]
+          },
+          {
+            "value": "rgb(115, 69, 178)",
+            "count": 1,
+            "area": 144,
+            "sources": [
+              "header > div > div:nth-of-type(2) > div:nth-of-type(1) > div > div:nth-of-type(2) > a:nth-of-type(3) > span:nth-of-type(1)"
+            ]
+          }
+        ],
+        "textColors": [
+          {
+            "value": "rgb(35, 36, 38)",
+            "count": 30,
+            "sources": [
+              "header > div > div:nth-of-type(2) > div:nth-of-type(1) > div > div:nth-of-type(3) > a",
+              "main > div:nth-of-type(1) > div:nth-of-type(2) > div > div:nth-of-type(1) > div:nth-of-type(2) > div > a:nth-of-type(2)",
+              "main > div:nth-of-type(1) > div:nth-of-type(2) > div > div:nth-of-type(1) > div:nth-of-type(4) > div > a:nth-of-type(2)"
+            ]
+          },
+          {
+            "value": "rgb(0, 0, 0)",
+            "count": 24,
+            "sources": [
+              "main > div:nth-of-type(2) > div > div > div:nth-of-type(2) > a",
+              "div:nth-of-type(21) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > div > div:nth-of-type(1) > fieldset > legend",
+              "div:nth-of-type(21) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > div > div:nth-of-type(2) > fieldset > legend"
+            ]
+          },
+          {
+            "value": "rgb(34, 34, 34)",
+            "count": 17,
+            "sources": [
+              "main > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(2) > div > a:nth-of-type(1) > figure > figcaption",
+              "div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(2) > div > a:nth-of-type(1) > figure > figcaption > span",
+              "main > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(2) > div > a:nth-of-type(2) > figure > figcaption"
+            ]
+          },
+          {
+            "value": "rgb(93, 79, 67)",
+            "count": 14,
+            "sources": [
+              "div:nth-of-type(2) > div > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div > div:nth-of-type(3) > h3",
+              "div:nth-of-type(2) > div > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div > div:nth-of-type(3) > p",
+              "div:nth-of-type(2) > div > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > div > div:nth-of-type(3) > h3"
+            ]
+          },
+          {
+            "value": "rgb(255, 255, 255)",
+            "count": 11,
+            "sources": [
+              "header > div > div:nth-of-type(2) > div:nth-of-type(1) > div > div:nth-of-type(2) > a:nth-of-type(3) > span:nth-of-type(1)",
+              "main > div:nth-of-type(1) > div:nth-of-type(2) > div > div:nth-of-type(1) > div:nth-of-type(1) > div > a:nth-of-type(2)",
+              "main > div:nth-of-type(1) > div:nth-of-type(2) > div > div:nth-of-type(1) > div:nth-of-type(3) > div > a:nth-of-type(2)"
+            ]
+          },
+          {
+            "value": "rgb(250, 246, 239)",
+            "count": 8,
+            "sources": [
+              "div > div > div > section:nth-of-type(1) > div > div:nth-of-type(2) > a:nth-of-type(1) > span",
+              "div > div > div > section:nth-of-type(1) > div > div:nth-of-type(2) > a:nth-of-type(2) > span",
+              "div > div > div > section:nth-of-type(1) > div > div:nth-of-type(2) > a:nth-of-type(3) > span"
+            ]
+          },
+          {
+            "value": "rgb(238, 238, 239)",
+            "count": 6,
+            "sources": [
+              "div:nth-of-type(7) > div > div > div:nth-of-type(2) > div:nth-of-type(2) > div > a:nth-of-type(1) > div",
+              "div:nth-of-type(7) > div > div > div:nth-of-type(2) > div:nth-of-type(2) > div > a:nth-of-type(2) > div",
+              "div:nth-of-type(7) > div > div > div:nth-of-type(2) > div:nth-of-type(2) > div > a:nth-of-type(3) > div"
+            ]
+          },
+          {
+            "value": "rgb(50, 50, 50)",
+            "count": 5,
+            "sources": [
+              "div:nth-of-type(2) > div:nth-of-type(2) > div > div:nth-of-type(1) > fieldset > div > label:nth-of-type(1) > span:nth-of-type(2)",
+              "div:nth-of-type(2) > div:nth-of-type(2) > div > div:nth-of-type(1) > fieldset > div > label:nth-of-type(2) > span:nth-of-type(2)",
+              "div:nth-of-type(2) > div:nth-of-type(2) > div > div:nth-of-type(1) > fieldset > div > label:nth-of-type(3) > span:nth-of-type(2)"
+            ]
+          },
+          {
+            "value": "rgb(55, 55, 55)",
+            "count": 5,
+            "sources": [
+              "main > div:nth-of-type(14) > div:nth-of-type(2) > div > details:nth-of-type(1) > summary > span",
+              "main > div:nth-of-type(14) > div:nth-of-type(2) > div > details:nth-of-type(2) > summary > span",
+              "main > div:nth-of-type(14) > div:nth-of-type(2) > div > details:nth-of-type(3) > summary > span"
+            ]
+          },
+          {
+            "value": "rgb(83, 86, 90)",
+            "count": 5,
+            "sources": [
+              "main > div:nth-of-type(14) > div:nth-of-type(2) > div > details:nth-of-type(1) > div > p",
+              "main > div:nth-of-type(14) > div:nth-of-type(2) > div > details:nth-of-type(2) > div > p",
+              "main > div:nth-of-type(14) > div:nth-of-type(2) > div > details:nth-of-type(3) > div > p"
+            ]
+          },
+          {
+            "value": "rgb(176, 177, 179)",
+            "count": 3,
+            "sources": [
+              "div:nth-of-type(9) > div > div > div:nth-of-type(2) > div > div:nth-of-type(1) > div:nth-of-type(2) > p",
+              "div:nth-of-type(9) > div > div > div:nth-of-type(2) > div > div:nth-of-type(2) > div:nth-of-type(2) > p",
+              "div:nth-of-type(9) > div > div > div:nth-of-type(2) > div > div:nth-of-type(3) > div:nth-of-type(2) > p"
+            ]
+          },
+          {
+            "value": "rgb(0, 0, 238)",
+            "count": 2,
+            "sources": [
+              "div:nth-of-type(1) > div > div:nth-of-type(21) > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(1) > p > a:nth-of-type(1)",
+              "div:nth-of-type(1) > div > div:nth-of-type(21) > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(1) > p > a:nth-of-type(2)"
+            ]
+          },
+          {
+            "value": "rgb(237, 28, 36)",
+            "count": 2,
+            "sources": [
+              "div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > div > div:nth-of-type(1) > fieldset > legend > span",
+              "div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > div > div:nth-of-type(2) > fieldset > legend > span"
+            ]
+          },
+          {
+            "value": "rgb(241, 73, 80)",
+            "count": 2,
+            "sources": [
+              "main > div:nth-of-type(3) > div:nth-of-type(1) > div > div:nth-of-type(21) > div:nth-of-type(1) > div:nth-of-type(2) > p",
+              "#colour-tools"
+            ]
+          },
+          {
+            "value": "rgb(244, 120, 56)",
+            "count": 2,
+            "sources": [
+              "footer > div > div > section:nth-of-type(3) > div > div:nth-of-type(3) > a",
+              "footer > div > div > section:nth-of-type(3) > div > div:nth-of-type(3) > a > span"
+            ]
+          },
+          {
+            "value": "rgb(254, 238, 207)",
+            "count": 2,
+            "sources": [
+              "footer > div > div > div > section:nth-of-type(1) > div > div:nth-of-type(1) > h3",
+              "footer > div > div > div > section:nth-of-type(2) > div > div:nth-of-type(1) > h3"
+            ]
+          },
+          {
+            "value": "rgb(46, 47, 50)",
+            "count": 2,
+            "sources": [
+              "main > div:nth-of-type(3) > div:nth-of-type(1) > div > div:nth-of-type(21) > div:nth-of-type(1) > div:nth-of-type(1) > p",
+              "#textures-1"
+            ]
+          },
+          {
+            "value": "rgb(47, 47, 47)",
+            "count": 2,
+            "sources": [
+              "div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(3) > span:nth-of-type(1)",
+              "div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(3) > span:nth-of-type(2)"
+            ]
+          },
+          {
+            "value": "rgb(106, 109, 112)",
+            "count": 1,
+            "sources": [
+              "#wallpapers-1"
+            ]
+          },
+          {
+            "value": "rgb(117, 120, 123)",
+            "count": 1,
+            "sources": [
+              "main > div:nth-of-type(3) > div:nth-of-type(1) > div > div:nth-of-type(21) > div:nth-of-type(1) > div:nth-of-type(3) > p"
+            ]
+          },
+          {
+            "value": "rgb(140, 142, 144)",
+            "count": 1,
+            "sources": [
+              "div:nth-of-type(3) > div:nth-of-type(1) > div > div:nth-of-type(21) > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(1) > p"
+            ]
+          },
+          {
+            "value": "rgb(170, 170, 170)",
+            "count": 1,
+            "sources": [
+              "footer > div > div > section:nth-of-type(3) > div > div:nth-of-type(2)"
+            ]
+          },
+          {
+            "value": "rgb(223, 15, 41)",
+            "count": 1,
+            "sources": [
+              "#transform-your-space"
+            ]
+          },
+          {
+            "value": "rgb(29, 29, 31)",
+            "count": 1,
+            "sources": [
+              "#everything-a-home-needs"
+            ]
+          },
+          {
+            "value": "rgb(33, 37, 41)",
+            "count": 1,
+            "sources": [
+              "#interior--exterior-wall-paint-by-experts > strong"
+            ]
+          },
+          {
+            "value": "rgb(76, 78, 82)",
+            "count": 1,
+            "sources": [
+              "div:nth-of-type(1) > div > div:nth-of-type(21) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > label > span:nth-of-type(2)"
+            ]
+          },
+          {
+            "value": "rgb(77, 77, 77)",
+            "count": 1,
+            "sources": [
+              "div > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2)"
+            ]
+          }
+        ],
+        "borderColors": [
+          {
+            "value": "rgb(255, 255, 255)",
+            "count": 6,
+            "sources": [
+              "main > div:nth-of-type(1) > div:nth-of-type(2) > div > div:nth-of-type(1) > div:nth-of-type(1) > div > a:nth-of-type(2)",
+              "main > div:nth-of-type(1) > div:nth-of-type(2) > div > div:nth-of-type(1) > div:nth-of-type(3) > div > a:nth-of-type(2)",
+              "div:nth-of-type(9) > div > div > div:nth-of-type(2) > div > div:nth-of-type(1) > div:nth-of-type(2) > a"
+            ]
+          },
+          {
+            "value": "rgb(189, 189, 189)",
+            "count": 5,
+            "sources": [
+              "div:nth-of-type(2) > div:nth-of-type(2) > div > div:nth-of-type(1) > fieldset > div > label:nth-of-type(1) > span:nth-of-type(1)",
+              "div:nth-of-type(2) > div:nth-of-type(2) > div > div:nth-of-type(1) > fieldset > div > label:nth-of-type(2) > span:nth-of-type(1)",
+              "div:nth-of-type(2) > div:nth-of-type(2) > div > div:nth-of-type(1) > fieldset > div > label:nth-of-type(3) > span:nth-of-type(1)"
+            ]
+          },
+          {
+            "value": "rgb(202, 203, 204)",
+            "count": 5,
+            "sources": [
+              "main > div:nth-of-type(14) > div:nth-of-type(2) > div > details:nth-of-type(1)",
+              "main > div:nth-of-type(14) > div:nth-of-type(2) > div > details:nth-of-type(2)",
+              "main > div:nth-of-type(14) > div:nth-of-type(2) > div > details:nth-of-type(3)"
+            ]
+          },
+          {
+            "value": "rgb(35, 36, 38)",
+            "count": 5,
+            "sources": [
+              "main > div:nth-of-type(1) > div:nth-of-type(2) > div > div:nth-of-type(1) > div:nth-of-type(2) > div > a:nth-of-type(2)",
+              "main > div:nth-of-type(1) > div:nth-of-type(2) > div > div:nth-of-type(1) > div:nth-of-type(4) > div > a:nth-of-type(2)",
+              "main > div:nth-of-type(2) > div > div > div:nth-of-type(2) > a"
+            ]
+          },
+          {
+            "value": "rgb(223, 223, 223)",
+            "count": 4,
+            "sources": [
+              "#enquire-name",
+              "#enquire-email",
+              "#enquire-mobile"
+            ]
+          },
+          {
+            "value": "rgb(0, 0, 0)",
+            "count": 1,
+            "sources": [
+              "main > div:nth-of-type(14) > div:nth-of-type(2) > div > button"
+            ]
+          },
+          {
+            "value": "rgb(117, 120, 123)",
+            "count": 1,
+            "sources": [
+              "div:nth-of-type(1) > div > div:nth-of-type(21) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > label > span:nth-of-type(1)"
+            ]
+          },
+          {
+            "value": "rgb(226, 226, 226)",
+            "count": 1,
+            "sources": [
+              "main > div:nth-of-type(3) > div:nth-of-type(1) > div"
+            ]
+          },
+          {
+            "value": "rgb(254, 185, 64)",
+            "count": 1,
+            "sources": [
+              "#textures-1"
+            ]
+          },
+          {
+            "value": "rgba(255, 255, 255, 0.15)",
+            "count": 1,
+            "sources": [
+              "footer > div > div > section:nth-of-type(1) > div > div > div:nth-of-type(1)"
+            ]
+          }
+        ],
+        "customProps": {
+          "--background-color": {
+            "declared": "#fff",
+            "computed": "#fff"
+          },
+          "--light-color": {
+            "declared": "#f8f8f8",
+            "computed": "#f8f8f8"
+          },
+          "--dark-color": {
+            "declared": "#232426",
+            "computed": "#232426"
+          },
+          "--text-color": {
+            "declared": "#222",
+            "computed": "#222"
+          },
+          "--link-color": {
+            "declared": "#431a80",
+            "computed": "#431a80"
+          },
+          "--link-hover-color": {
+            "declared": "#7345b3",
+            "computed": "#7345b3"
+          },
+          "--primary-color": {
+            "declared": "#431a80",
+            "computed": "#431a80"
+          },
+          "--primary-color-light": {
+            "declared": "#7345b3",
+            "computed": "#7345b3"
+          },
+          "--accent-color": {
+            "declared": "#fcaf17",
+            "computed": "#fcaf17"
+          },
+          "--accent-color-hover": {
+            "declared": "#e59d15",
+            "computed": "#e59d15"
+          },
+          "--yellow": {
+            "declared": "#fff4cc",
+            "computed": "#fff4cc"
+          },
+          "--grey": {
+            "declared": "#f5f5f5",
+            "computed": "#f5f5f5"
+          },
+          "--dark-grey": {
+            "declared": "#6b6b6b",
+            "computed": "#6b6b6b"
+          },
+          "--black": {
+            "declared": "#000",
+            "computed": "#000"
+          },
+          "--navy-blue": {
+            "declared": "#011c5f",
+            "computed": "#011c5f"
+          },
+          "--cream-bg": {
+            "declared": "#fefcf7",
+            "computed": "#fefcf7"
+          },
+          "--dark-cream-bg": {
+            "declared": "#ece5d7",
+            "computed": "#ece5d7"
+          },
+          "--text-color-muted": {
+            "declared": "#666",
+            "computed": "#666"
+          },
+          "--text-color-dark": {
+            "declared": "#1a1a1a",
+            "computed": "#1a1a1a"
+          },
+          "--gradient-brand": {
+            "declared": "linear-gradient(270deg, rgb(248 161 46), rgb(190 42 29) 50.07%, rgb(69 33 108) 98.1%)",
+            "computed": "linear-gradient(270deg, rgb(248 161 46), rgb(190 42 29) 50.07%, rgb(69 33 108) 98.1%)"
+          },
+          "--body-font-family": {
+            "declared": "'Manrope', manrope-fallback, sans-serif",
+            "computed": "'Manrope', manrope-fallback, sans-serif"
+          },
+          "--heading-font-family": {
+            "declared": "'Manrope', manrope-fallback, sans-serif",
+            "computed": "'Manrope', manrope-fallback, sans-serif"
+          },
+          "--body-font-size-m": {
+            "declared": "18px",
+            "computed": "22px"
+          },
+          "--body-font-size-s": {
+            "declared": "16px",
+            "computed": "19px"
+          },
+          "--body-font-size-xs": {
+            "declared": "14px",
+            "computed": "17px"
+          },
+          "--heading-font-size-xxl": {
+            "declared": "45px",
+            "computed": "55px"
+          },
+          "--heading-font-size-xl": {
+            "declared": "36px",
+            "computed": "44px"
+          },
+          "--heading-font-size-l": {
+            "declared": "28px",
+            "computed": "34px"
+          },
+          "--heading-font-size-m": {
+            "declared": "22px",
+            "computed": "27px"
+          },
+          "--heading-font-size-s": {
+            "declared": "20px",
+            "computed": "24px"
+          },
+          "--heading-font-size-xs": {
+            "declared": "18px",
+            "computed": "22px"
+          },
+          "--nav-height": {
+            "declared": "140px",
+            "computed": "126px"
+          },
+          "--header-height": {
+            "declared": "var(--nav-height)",
+            "computed": "126px"
+          },
+          "--swiper-theme-color": {
+            "declared": "#007aff",
+            "computed": "#007aff"
+          },
+          "--swiper-navigation-size": {
+            "declared": "44px",
+            "computed": "44px"
+          }
+        },
+        "fonts": [
+          {
+            "family": "manrope-fallback",
+            "weight": "normal",
+            "style": "normal",
+            "status": "error"
+          },
+          {
+            "family": "Manrope",
+            "weight": "300",
+            "style": "normal",
+            "status": "loaded"
+          },
+          {
+            "family": "Manrope",
+            "weight": "400",
+            "style": "normal",
+            "status": "loaded"
+          },
+          {
+            "family": "Manrope",
+            "weight": "500",
+            "style": "normal",
+            "status": "loaded"
+          },
+          {
+            "family": "Manrope",
+            "weight": "600",
+            "style": "normal",
+            "status": "loaded"
+          },
+          {
+            "family": "Manrope",
+            "weight": "700",
+            "style": "normal",
+            "status": "loaded"
+          },
+          {
+            "family": "Manrope",
+            "weight": "800",
+            "style": "normal",
+            "status": "loaded"
+          },
+          {
+            "family": "HeaderFontIcons",
+            "weight": "normal",
+            "style": "normal",
+            "status": "loaded"
+          },
+          {
+            "family": "embeddedserviceiconfont",
+            "weight": "normal",
+            "style": "normal",
+            "status": "loaded"
+          }
+        ],
+        "logoCandidates": [
+          {
+            "tag": "img",
+            "selector": "div > div:nth-of-type(1) > div > a:nth-of-type(1) > span > span:nth-of-type(2) > picture > img",
+            "src": "https://www.asianpaints.com/media_1a702e78826046d802341deab37b7ea1d3e780c75.svg?width=750&format=webply&optimize=medium",
+            "inlineSvg": false,
+            "alt": "Asian Paints Home Page",
+            "ariaLabel": null,
+            "class": "",
+            "id": null,
+            "href": "/",
+            "inHomeLink": true,
+            "rect": {
+              "x": 5,
+              "y": 34,
+              "w": 121,
+              "h": 29
+            }
+          },
+          {
+            "tag": "img",
+            "selector": "div > div:nth-of-type(1) > div > a:nth-of-type(2) > span > span:nth-of-type(2) > picture > img",
+            "src": "https://www.asianpaints.com/media_1df6f00881bab3e6fe6a795673f0bc62c386812c8.webp?width=750&format=webply&optimize=medium",
+            "inlineSvg": false,
+            "alt": "Beautiful Homes with Asian Paints Home Page",
+            "ariaLabel": null,
+            "class": "",
+            "id": null,
+            "href": "https://www.beautifulhomes.asianpaints.com/?utm_source=ap-header&utm_medium=unification&utm_campaign=decor_organic",
+            "inHomeLink": false,
+            "rect": {
+              "x": 140,
+              "y": 30,
+              "w": 128,
+              "h": 38
+            }
+          },
+          {
+            "tag": "img",
+            "selector": "div > div:nth-of-type(1) > div > a:nth-of-type(3) > span > span:nth-of-type(2) > picture > img",
+            "src": "https://www.asianpaints.com/media_1e967c4bb9f2f6563bdc9ba788fb9e52f170e898c.png?width=750&format=webply&optimize=medium",
+            "inlineSvg": false,
+            "alt": "The White Teak Company Home Page",
+            "ariaLabel": null,
+            "class": "",
+            "id": null,
+            "href": "https://whiteteak.asianpaints.com/?utm_source=ap_header&utm_medium=unification&utm_campaign=white_teak",
+            "inHomeLink": false,
+            "rect": {
+              "x": 278,
+              "y": 21,
+              "w": 55,
+              "h": 55
+            }
+          },
+          {
+            "tag": "img",
+            "selector": "header > div > div:nth-of-type(1) > a > span > span:nth-of-type(2) > picture > img",
+            "src": "https://www.asianpaints.com/media_18154fa468cb1c232118b803a7835f2a4081841fc.png?width=750&format=webply&optimize=medium",
+            "inlineSvg": false,
+            "alt": "B2B logo",
+            "ariaLabel": null,
+            "class": "",
+            "id": null,
+            "href": "https://www.apassure.asianpaints.com/",
+            "inHomeLink": false,
+            "rect": {
+              "x": 125,
+              "y": 4,
+              "w": 110,
+              "h": 17
+            }
+          },
+          {
+            "tag": "img",
+            "selector": "header > div > div:nth-of-type(2) > div:nth-of-type(1) > div > div:nth-of-type(2) > a:nth-of-type(1) > img",
+            "src": "https://www.asianpaints.com/media_1719ceb5eda30471e449c8ff2c3c7238e5841f0a0.svg?width=750&format=svg&optimize=medium",
+            "inlineSvg": false,
+            "alt": "Find Contractor",
+            "ariaLabel": "Find Contractor",
+            "class": "",
+            "id": null,
+            "href": "/contractors/painting-contractors.html",
+            "inHomeLink": false,
+            "rect": {
+              "x": 165,
+              "y": 85,
+              "w": 24,
+              "h": 24
+            }
+          },
+          {
+            "tag": "img",
+            "selector": "header > div > div:nth-of-type(2) > div:nth-of-type(1) > div > div:nth-of-type(2) > a:nth-of-type(2) > img",
+            "src": "https://www.asianpaints.com/eds/icons/store-location-icon.svg",
+            "inlineSvg": false,
+            "alt": "Store Locator",
+            "ariaLabel": "Store Locator",
+            "class": "",
+            "id": null,
+            "href": "/store-locator.html",
+            "inHomeLink": false,
+            "rect": {
+              "x": 217,
+              "y": 88,
+              "w": 17,
+              "h": 21
+            }
+          },
+          {
+            "tag": "img",
+            "selector": "header > div > div:nth-of-type(2) > div:nth-of-type(1) > div > div:nth-of-type(2) > a:nth-of-type(3) > img",
+            "src": "https://www.asianpaints.com/media_1d9e5bf70cad744b6be2aec54de6da31f40260e66.svg?width=750&format=svg&optimize=medium",
+            "inlineSvg": false,
+            "alt": "Cart",
+            "ariaLabel": "Cart",
+            "class": "",
+            "id": null,
+            "href": "/",
+            "inHomeLink": true,
+            "rect": {
+              "x": 312,
+              "y": 85,
+              "w": 24,
+              "h": 24
+            }
+          }
+        ],
+        "iconFont": {
+          "families": [
+            "HeaderFontIcons",
+            "embeddedserviceiconfont"
+          ],
+          "glyphs": [
+            {
+              "class": "search-icon",
+              "pseudo": "::before",
+              "codepoint": "U+E005",
+              "fontFamily": "HeaderFontIcons"
+            },
+            {
+              "class": "mobile-search-btn",
+              "pseudo": "::before",
+              "codepoint": "U+E005",
+              "fontFamily": "HeaderFontIcons"
+            },
+            {
+              "class": "action-btn profile-btn profile-auth-link",
+              "pseudo": "::before",
+              "codepoint": "U+E004",
+              "fontFamily": "HeaderFontIcons"
+            },
+            {
+              "class": "embeddedServiceIcon",
+              "pseudo": "::before",
+              "codepoint": "U+E900",
+              "fontFamily": "embeddedserviceiconfont"
+            }
+          ]
+        },
+        "consent": {
+          "dismissed": null
+        },
+        "finalUrl": "https://www.asianpaints.com/"
+      },
+      "1440": {
+        "title": "Trusted Wall Painting, Home Painting & Waterproofing in India - Asian Paints",
+        "viewport": {
+          "width": 1440,
+          "height": 900
+        },
+        "elements": {
+          "total": 2569,
+          "visible": 823
+        },
+        "occluders": [
+          {
+            "tag": "dialog",
+            "id": null,
+            "class": "splash-dialog",
+            "coverage": 0.49,
+            "backgroundColor": "rgba(0, 0, 0, 0)"
+          }
+        ],
+        "headings": [
+          {
+            "tag": "h2",
+            "text": "Transform your space",
+            "selector": "#transform-your-space",
+            "fontFamily": "Manrope, manrope-fallback, sans-serif",
+            "fontSize": "60px",
+            "fontWeight": "300",
+            "lineHeight": "66px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(223, 15, 41)"
+          },
+          {
+            "tag": "h3",
+            "text": "Colour of the years",
+            "selector": "#colour-of-the-years",
+            "fontFamily": "Manrope, manrope-fallback, sans-serif",
+            "fontSize": "54px",
+            "fontWeight": "800",
+            "lineHeight": "59.4px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(34, 34, 34)"
+          },
+          {
+            "tag": "h2",
+            "text": "Featured Products",
+            "selector": "main > div:nth-of-type(4) > div:nth-of-type(2) > div > div:nth-of-type(1) > h2",
+            "fontFamily": "Manrope, manrope-fallback, sans-serif",
+            "fontSize": "40px",
+            "fontWeight": "800",
+            "lineHeight": "48px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(0, 0, 0)"
+          },
+          {
+            "tag": "h2",
+            "text": "Everything a home needs",
+            "selector": "#everything-a-home-needs",
+            "fontFamily": "Manrope, manrope-fallback, sans-serif",
+            "fontSize": "54px",
+            "fontWeight": "800",
+            "lineHeight": "60px",
+            "letterSpacing": "-2px",
+            "textTransform": "none",
+            "color": "rgb(29, 29, 31)"
+          },
+          {
+            "tag": "h2",
+            "text": "Explore beyond colours",
+            "selector": "#explore-beyond-colours",
+            "fontFamily": "Manrope, manrope-fallback, sans-serif",
+            "fontSize": "40px",
+            "fontWeight": "800",
+            "lineHeight": "54px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(34, 34, 34)"
+          },
+          {
+            "tag": "h3",
+            "text": "Textures",
+            "selector": "#textures",
+            "fontFamily": "Manrope, manrope-fallback, sans-serif",
+            "fontSize": "60px",
+            "fontWeight": "300",
+            "lineHeight": "66px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(48, 48, 48)"
+          },
+          {
+            "tag": "h3",
+            "text": "Wallpapers",
+            "selector": "#wallpapers",
+            "fontFamily": "Manrope, manrope-fallback, sans-serif",
+            "fontSize": "60px",
+            "fontWeight": "300",
+            "lineHeight": "66px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(48, 48, 48)"
+          },
+          {
+            "tag": "h2",
+            "text": "Colour Tools",
+            "selector": "#colour-tools",
+            "fontFamily": "Manrope, manrope-fallback, sans-serif",
+            "fontSize": "64px",
+            "fontWeight": "800",
+            "lineHeight": "70.4px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(241, 73, 80)"
+          },
+          {
+            "tag": "h2",
+            "text": "Designer collections",
+            "selector": "main > div:nth-of-type(8) > div:nth-of-type(2) > div > div:nth-of-type(1) > h2",
+            "fontFamily": "Manrope, Manrope, manrope-fallback, sans-serif",
+            "fontSize": "40px",
+            "fontWeight": "800",
+            "lineHeight": "48px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(0, 0, 0)"
+          },
+          {
+            "tag": "h3",
+            "text": "Royale Designer Palette",
+            "selector": "div:nth-of-type(2) > div > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div > div:nth-of-type(3) > h3",
+            "fontFamily": "Manrope, manrope-fallback, sans-serif",
+            "fontSize": "24px",
+            "fontWeight": "400",
+            "lineHeight": "24.6px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(93, 79, 67)"
+          },
+          {
+            "tag": "h3",
+            "text": "Lux Indica",
+            "selector": "div:nth-of-type(2) > div > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > div > div:nth-of-type(3) > h3",
+            "fontFamily": "Manrope, manrope-fallback, sans-serif",
+            "fontSize": "24px",
+            "fontWeight": "400",
+            "lineHeight": "24.6px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(93, 79, 67)"
+          },
+          {
+            "tag": "h3",
+            "text": "Shvet",
+            "selector": "div:nth-of-type(2) > div > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3) > div > div:nth-of-type(3) > h3",
+            "fontFamily": "Manrope, manrope-fallback, sans-serif",
+            "fontSize": "24px",
+            "fontWeight": "400",
+            "lineHeight": "24.6px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(93, 79, 67)"
+          },
+          {
+            "tag": "h3",
+            "text": "Insignia",
+            "selector": "div:nth-of-type(2) > div > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(4) > div > div:nth-of-type(3) > h3",
+            "fontFamily": "Manrope, manrope-fallback, sans-serif",
+            "fontSize": "24px",
+            "fontWeight": "400",
+            "lineHeight": "24.6px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(93, 79, 67)"
+          },
+          {
+            "tag": "h3",
+            "text": "One-stop shop for all things interiors",
+            "selector": "#one-stop-shop-for-all-things-interiors",
+            "fontFamily": "Manrope, manrope-fallback, sans-serif",
+            "fontSize": "54px",
+            "fontWeight": "800",
+            "lineHeight": "60px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(255, 255, 255)"
+          },
+          {
+            "tag": "h2",
+            "text": "What ourclients say about us!",
+            "selector": "main > div:nth-of-type(10) > div > div > div:nth-of-type(1) > div:nth-of-type(1) > h2",
+            "fontFamily": "Manrope, manrope-fallback, sans-serif",
+            "fontSize": "54px",
+            "fontWeight": "800",
+            "lineHeight": "60px",
+            "letterSpacing": "-0.5px",
+            "textTransform": "none",
+            "color": "rgb(0, 0, 0)"
+          },
+          {
+            "tag": "h2",
+            "text": "Inspiring ideas for you",
+            "selector": "#inspiring-ideas-for-you",
+            "fontFamily": "Manrope, manrope-fallback, sans-serif",
+            "fontSize": "30px",
+            "fontWeight": "700",
+            "lineHeight": "34px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(255, 255, 255)"
+          },
+          {
+            "tag": "h2",
+            "text": "FAQ's",
+            "selector": "#faqs",
+            "fontFamily": "Manrope, manrope-fallback, sans-serif",
+            "fontSize": "32px",
+            "fontWeight": "800",
+            "lineHeight": "38px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(34, 34, 34)"
+          },
+          {
+            "tag": "h3",
+            "text": "OUR GLOBAL PRESENCE",
+            "selector": "footer > div > div > div > section:nth-of-type(1) > div > div:nth-of-type(1) > h3",
+            "fontFamily": "Manrope, manrope-fallback, sans-serif",
+            "fontSize": "13px",
+            "fontWeight": "500",
+            "lineHeight": "15.6px",
+            "letterSpacing": "2px",
+            "textTransform": "none",
+            "color": "rgb(254, 238, 207)"
+          },
+          {
+            "tag": "h3",
+            "text": "OUR DIVISIONS",
+            "selector": "footer > div > div > div > section:nth-of-type(2) > div > div:nth-of-type(1) > h3",
+            "fontFamily": "Manrope, manrope-fallback, sans-serif",
+            "fontSize": "13px",
+            "fontWeight": "500",
+            "lineHeight": "15.6px",
+            "letterSpacing": "2px",
+            "textTransform": "none",
+            "color": "rgb(254, 238, 207)"
+          }
+        ],
+        "text": [
+          {
+            "tag": "p",
+            "text": "Explore and elevate your space with fea…",
+            "selector": "main > div:nth-of-type(2) > div > div > div:nth-of-type(1) > div:nth-of-type(1) > p:nth-of-type(2)",
+            "fontFamily": "Manrope, manrope-fallback, sans-serif",
+            "fontSize": "14px",
+            "fontWeight": "400",
+            "lineHeight": "22px",
+            "letterSpacing": "0.5px",
+            "textTransform": "none",
+            "color": "rgb(0, 0, 0)"
+          },
+          {
+            "tag": "p",
+            "text": "View colour catalogue",
+            "selector": "main > div:nth-of-type(2) > div > div > div:nth-of-type(1) > div:nth-of-type(1) > p:nth-of-type(3)",
+            "fontFamily": "Manrope, manrope-fallback, sans-serif",
+            "fontSize": "14px",
+            "fontWeight": "400",
+            "lineHeight": "22.4px",
+            "letterSpacing": "0.5px",
+            "textTransform": "none",
+            "color": "rgb(0, 0, 0)"
+          },
+          {
+            "tag": "p",
+            "text": "Bid goodbye to your home painting hassl…",
+            "selector": "main > div:nth-of-type(3) > div:nth-of-type(1) > div > div:nth-of-type(21) > div:nth-of-type(1) > div:nth-of-type(3) > p",
+            "fontFamily": "Manrope, manrope-fallback, sans-serif",
+            "fontSize": "18px",
+            "fontWeight": "400",
+            "lineHeight": "25.8px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(117, 120, 123)"
+          },
+          {
+            "tag": "p",
+            "text": "By proceeding, I authorize Asian Paints…",
+            "selector": "div:nth-of-type(3) > div:nth-of-type(1) > div > div:nth-of-type(21) > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(1) > p",
+            "fontFamily": "Manrope, manrope-fallback, sans-serif",
+            "fontSize": "12px",
+            "fontWeight": "400",
+            "lineHeight": "15px",
+            "letterSpacing": "0.5px",
+            "textTransform": "none",
+            "color": "rgb(140, 142, 144)"
+          },
+          {
+            "tag": "p",
+            "text": "One stop solution for all you need to k…",
+            "selector": "main > div:nth-of-type(5) > div > div > div:nth-of-type(1) > p",
+            "fontFamily": "Manrope, manrope-fallback, sans-serif",
+            "fontSize": "18px",
+            "fontWeight": "400",
+            "lineHeight": "28px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(0, 0, 0)"
+          },
+          {
+            "tag": "p",
+            "text": "Sabyasachi-inspired Designer colour Pal…",
+            "selector": "div:nth-of-type(2) > div > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div > div:nth-of-type(3) > p",
+            "fontFamily": "Manrope, manrope-fallback, sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "letterSpacing": "0.5px",
+            "textTransform": "none",
+            "color": "rgb(93, 79, 67)"
+          },
+          {
+            "tag": "p",
+            "text": "Luxurious colour Shades inspired by Ind…",
+            "selector": "div:nth-of-type(2) > div > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > div > div:nth-of-type(3) > p",
+            "fontFamily": "Manrope, manrope-fallback, sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "letterSpacing": "0.5px",
+            "textTransform": "none",
+            "color": "rgb(93, 79, 67)"
+          },
+          {
+            "tag": "p",
+            "text": "Indian whites and ivories colour palett…",
+            "selector": "div:nth-of-type(2) > div > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3) > div > div:nth-of-type(3) > p",
+            "fontFamily": "Manrope, manrope-fallback, sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "letterSpacing": "0.5px",
+            "textTransform": "none",
+            "color": "rgb(93, 79, 67)"
+          },
+          {
+            "tag": "p",
+            "text": "Designer range of Italian wood finishes…",
+            "selector": "div:nth-of-type(2) > div > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(4) > div > div:nth-of-type(3) > p",
+            "fontFamily": "Manrope, manrope-fallback, sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "letterSpacing": "0.5px",
+            "textTransform": "none",
+            "color": "rgb(93, 79, 67)"
+          },
+          {
+            "tag": "p",
+            "text": "We provide complete painting service, i…",
+            "selector": "main > div:nth-of-type(9) > div > div > div > div:nth-of-type(1) > div:nth-of-type(1) > p",
+            "fontFamily": "Manrope, manrope-fallback, sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(238, 238, 239)"
+          },
+          {
+            "tag": "p",
+            "text": "Get home décor advice and interior desi…",
+            "selector": "div:nth-of-type(9) > div > div > div > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > p",
+            "fontFamily": "Manrope, manrope-fallback, sans-serif",
+            "fontSize": "18px",
+            "fontWeight": "500",
+            "lineHeight": "25.2px",
+            "letterSpacing": "0.5px",
+            "textTransform": "none",
+            "color": "rgb(176, 177, 179)"
+          },
+          {
+            "tag": "p",
+            "text": "Shape your dream kitchen with our diver…",
+            "selector": "main > div:nth-of-type(9) > div > div > div > div:nth-of-type(2) > div:nth-of-type(2) > p",
+            "fontFamily": "Manrope, manrope-fallback, sans-serif",
+            "fontSize": "18px",
+            "fontWeight": "500",
+            "lineHeight": "25.2px",
+            "letterSpacing": "0.5px",
+            "textTransform": "none",
+            "color": "rgb(176, 177, 179)"
+          }
+        ],
+        "buttons": [
+          {
+            "text": "Book Free Site Visit",
+            "selector": "header > div > div:nth-of-type(2) > div:nth-of-type(1) > div > div:nth-of-type(3) > a",
+            "count": 1,
+            "backgroundColor": "rgb(252, 175, 23)",
+            "color": "rgb(35, 36, 38)",
+            "borderRadius": "45px",
+            "padding": "5.5px 20px",
+            "border": "0px none rgb(35, 36, 38)",
+            "borderColor": "rgb(35, 36, 38)",
+            "boxShadow": "none",
+            "fontFamily": "Manrope, manrope-fallback, sans-serif",
+            "fontSize": "14px",
+            "fontWeight": "700",
+            "textTransform": "none",
+            "letterSpacing": "normal",
+            "hover": null
+          },
+          {
+            "text": "Explore colour catalogue",
+            "selector": "main > div:nth-of-type(1) > div:nth-of-type(2) > div > div:nth-of-type(1) > div:nth-of-type(1) > div > a:nth-of-type(2)",
+            "count": 2,
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(255, 255, 255)",
+            "borderRadius": "45px",
+            "padding": "6px 16px",
+            "border": "1px solid rgb(255, 255, 255)",
+            "borderColor": "rgb(255, 255, 255)",
+            "boxShadow": "none",
+            "fontFamily": "Manrope, manrope-fallback, sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "600",
+            "textTransform": "none",
+            "letterSpacing": "normal",
+            "hover": null
+          },
+          {
+            "text": "Book a free site visit",
+            "selector": "main > div:nth-of-type(1) > div:nth-of-type(2) > div > div:nth-of-type(1) > div:nth-of-type(2) > div > a:nth-of-type(2)",
+            "count": 2,
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(35, 36, 38)",
+            "borderRadius": "45px",
+            "padding": "6px 16px",
+            "border": "1px solid rgb(35, 36, 38)",
+            "borderColor": "rgb(35, 36, 38)",
+            "boxShadow": "none",
+            "fontFamily": "Manrope, manrope-fallback, sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "600",
+            "textTransform": "none",
+            "letterSpacing": "normal",
+            "hover": null
+          },
+          {
+            "text": "View colour catalogue",
+            "selector": "main > div:nth-of-type(2) > div > div > div:nth-of-type(1) > div:nth-of-type(1) > p:nth-of-type(3) > a",
+            "count": 1,
+            "backgroundColor": "rgb(255, 255, 255)",
+            "color": "rgb(35, 36, 38)",
+            "borderRadius": "30px",
+            "padding": "8px 20px",
+            "border": "1px solid rgb(26, 26, 26)",
+            "borderColor": "rgb(26, 26, 26)",
+            "boxShadow": "none",
+            "fontFamily": "Manrope, manrope-fallback, sans-serif",
+            "fontSize": "14px",
+            "fontWeight": "700",
+            "textTransform": "none",
+            "letterSpacing": "0.5px",
+            "hover": null
+          },
+          {
+            "text": "Book FREE Site Visit ↻",
+            "selector": "div:nth-of-type(3) > div:nth-of-type(1) > div > div:nth-of-type(21) > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(2) > button",
+            "count": 1,
+            "backgroundColor": "rgb(252, 175, 23)",
+            "color": "rgb(0, 0, 0)",
+            "borderRadius": "30px",
+            "padding": "10px 16px",
+            "border": "0px none rgb(0, 0, 0)",
+            "borderColor": "rgb(0, 0, 0)",
+            "boxShadow": "none",
+            "fontFamily": "Manrope, manrope-fallback, sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "700",
+            "textTransform": "none",
+            "letterSpacing": "normal",
+            "hover": null
+          },
+          {
+            "text": "Interior wall paint↗",
+            "selector": "main > div:nth-of-type(5) > div > div > div:nth-of-type(2) > div > a:nth-of-type(1)",
+            "count": 4,
+            "backgroundColor": "rgb(250, 246, 239)",
+            "color": "rgb(0, 0, 238)",
+            "borderRadius": "10px",
+            "padding": "23px",
+            "border": "0px none rgb(0, 0, 238)",
+            "borderColor": "rgb(0, 0, 238)",
+            "boxShadow": "none",
+            "fontFamily": "Manrope, manrope-fallback, sans-serif",
+            "fontSize": "18px",
+            "fontWeight": "400",
+            "textTransform": "none",
+            "letterSpacing": "normal",
+            "hover": null
+          },
+          {
+            "text": "View all",
+            "selector": "main > div:nth-of-type(6) > div:nth-of-type(2) > div > div > div:nth-of-type(1) > p:nth-of-type(1) > a",
+            "count": 2,
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(34, 34, 34)",
+            "borderRadius": "45px",
+            "padding": "7px 20px",
+            "border": "1px solid rgb(35, 36, 38)",
+            "borderColor": "rgb(35, 36, 38)",
+            "boxShadow": "none",
+            "fontFamily": "Manrope, manrope-fallback, sans-serif",
+            "fontSize": "14px",
+            "fontWeight": "700",
+            "textTransform": "none",
+            "letterSpacing": "normal",
+            "hover": null
+          },
+          {
+            "text": "Explore now",
+            "selector": "div:nth-of-type(9) > div > div > div > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > a",
+            "count": 3,
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(255, 255, 255)",
+            "borderRadius": "30px",
+            "padding": "8px 20px",
+            "border": "1px solid rgb(255, 255, 255)",
+            "borderColor": "rgb(255, 255, 255)",
+            "boxShadow": "none",
+            "fontFamily": "Manrope, manrope-fallback, sans-serif",
+            "fontSize": "14px",
+            "fontWeight": "600",
+            "textTransform": "none",
+            "letterSpacing": "normal",
+            "hover": null
+          },
+          {
+            "text": "VIEW ALL",
+            "selector": "main > div:nth-of-type(14) > div:nth-of-type(2) > div > button",
+            "count": 1,
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(0, 0, 0)",
+            "borderRadius": "45px",
+            "padding": "10px 16px",
+            "border": "1px solid rgb(0, 0, 0)",
+            "borderColor": "rgb(0, 0, 0)",
+            "boxShadow": "none",
+            "fontFamily": "Manrope, manrope-fallback, sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "700",
+            "textTransform": "none",
+            "letterSpacing": "0.86px",
+            "hover": null
+          },
+          {
+            "text": "WATCH NOW",
+            "selector": "footer > div > div > section:nth-of-type(2) > div:nth-of-type(3) > button",
+            "count": 1,
+            "backgroundColor": "rgba(255, 255, 255, 0.7)",
+            "color": "rgb(51, 51, 51)",
+            "borderRadius": "100px",
+            "padding": "12px 18px",
+            "border": "1px solid rgb(255, 255, 255)",
+            "borderColor": "rgb(255, 255, 255)",
+            "boxShadow": "none",
+            "fontFamily": "Manrope, manrope-fallback, sans-serif",
+            "fontSize": "14px",
+            "fontWeight": "400",
+            "textTransform": "none",
+            "letterSpacing": "normal",
+            "hover": null
+          }
+        ],
+        "links": [
+          {
+            "text": "Painting services",
+            "selector": "main > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(2) > div > a:nth-of-type(1)",
+            "count": 11,
+            "color": "rgb(0, 0, 238)",
+            "textDecoration": "none",
+            "fontWeight": "400",
+            "hover": null
+          },
+          {
+            "text": "Terms & Conditions",
+            "selector": "div:nth-of-type(1) > div > div:nth-of-type(21) > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(1) > p > a:nth-of-type(1)",
+            "count": 2,
+            "color": "rgb(0, 0, 238)",
+            "textDecoration": "underline",
+            "fontWeight": "400",
+            "hover": null
+          },
+          {
+            "text": "Download PDF",
+            "selector": "div:nth-of-type(2) > div > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div > div:nth-of-type(4) > a",
+            "count": 4,
+            "color": "rgb(0, 0, 0)",
+            "textDecoration": "none",
+            "fontWeight": "700",
+            "hover": null
+          }
+        ],
+        "surfaces": [
+          {
+            "matched": "header",
+            "selector": "header",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 1440,
+              "h": 140
+            },
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(34, 34, 34)",
+            "padding": "0px",
+            "maxWidth": "none",
+            "borderRadius": "0px",
+            "boxShadow": "none",
+            "position": "fixed",
+            "fontFamily": "Manrope, manrope-fallback, sans-serif",
+            "fontSize": "18px"
+          },
+          {
+            "matched": "nav",
+            "selector": "nav",
+            "rect": {
+              "x": 17,
+              "y": 103,
+              "w": 733,
+              "h": 34
+            },
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(34, 34, 34)",
+            "padding": "0px",
+            "maxWidth": "none",
+            "borderRadius": "0px",
+            "boxShadow": "none",
+            "position": "static",
+            "fontFamily": "Manrope, manrope-fallback, sans-serif",
+            "fontSize": "18px"
+          },
+          {
+            "matched": "nav",
+            "selector": "nav",
+            "rect": {
+              "x": 750,
+              "y": 101,
+              "w": 690,
+              "h": 38
+            },
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(34, 34, 34)",
+            "padding": "0px",
+            "maxWidth": "none",
+            "borderRadius": "0px",
+            "boxShadow": "none",
+            "position": "static",
+            "fontFamily": "Manrope, manrope-fallback, sans-serif",
+            "fontSize": "18px"
+          },
+          {
+            "matched": "nav",
+            "selector": "nav",
+            "rect": {
+              "x": 243,
+              "y": 8025,
+              "w": 928,
+              "h": 434
+            },
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(0, 0, 0)",
+            "padding": "0px",
+            "maxWidth": "none",
+            "borderRadius": "0px",
+            "boxShadow": "none",
+            "position": "static",
+            "fontFamily": "Manrope, manrope-fallback, sans-serif",
+            "fontSize": "14px"
+          },
+          {
+            "matched": "main",
+            "selector": "main",
+            "rect": {
+              "x": 0,
+              "y": 140,
+              "w": 1440,
+              "h": 7845
+            },
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(34, 34, 34)",
+            "padding": "0px",
+            "maxWidth": "none",
+            "borderRadius": "0px",
+            "boxShadow": "none",
+            "position": "static",
+            "fontFamily": "Manrope, manrope-fallback, sans-serif",
+            "fontSize": "18px"
+          },
+          {
+            "matched": "footer",
+            "selector": "footer",
+            "rect": {
+              "x": 0,
+              "y": 8025,
+              "w": 1440,
+              "h": 1377
+            },
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(34, 34, 34)",
+            "padding": "0px",
+            "maxWidth": "none",
+            "borderRadius": "0px",
+            "boxShadow": "none",
+            "position": "static",
+            "fontFamily": "Manrope, manrope-fallback, sans-serif",
+            "fontSize": "18px"
+          },
+          {
+            "matched": "main > *",
+            "selector": "main > div:nth-of-type(1)",
+            "rect": {
+              "x": 0,
+              "y": 140,
+              "w": 1440,
+              "h": 600
+            },
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(34, 34, 34)",
+            "padding": "0px",
+            "maxWidth": "none",
+            "borderRadius": "0px",
+            "boxShadow": "none",
+            "position": "relative",
+            "fontFamily": "Manrope, manrope-fallback, sans-serif",
+            "fontSize": "18px"
+          },
+          {
+            "matched": "main > *",
+            "selector": "main > div:nth-of-type(2)",
+            "rect": {
+              "x": 0,
+              "y": 820,
+              "w": 1440,
+              "h": 638
+            },
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(34, 34, 34)",
+            "padding": "0px",
+            "maxWidth": "none",
+            "borderRadius": "0px",
+            "boxShadow": "none",
+            "position": "static",
+            "fontFamily": "Manrope, manrope-fallback, sans-serif",
+            "fontSize": "18px"
+          },
+          {
+            "matched": "main > *",
+            "selector": "main > div:nth-of-type(3)",
+            "rect": {
+              "x": 0,
+              "y": 1538,
+              "w": 1440,
+              "h": 385
+            },
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(34, 34, 34)",
+            "padding": "0px 40px",
+            "maxWidth": "none",
+            "borderRadius": "0px",
+            "boxShadow": "none",
+            "position": "static",
+            "fontFamily": "Manrope, manrope-fallback, sans-serif",
+            "fontSize": "18px"
+          },
+          {
+            "matched": "main > *",
+            "selector": "main > div:nth-of-type(4)",
+            "rect": {
+              "x": 0,
+              "y": 1963,
+              "w": 1440,
+              "h": 718
+            },
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(34, 34, 34)",
+            "padding": "50px 40px",
+            "maxWidth": "none",
+            "borderRadius": "0px",
+            "boxShadow": "none",
+            "position": "static",
+            "fontFamily": "Manrope, manrope-fallback, sans-serif",
+            "fontSize": "18px"
+          }
+        ],
+        "radii": [
+          {
+            "value": "50%",
+            "count": 29,
+            "area": 32212,
+            "sources": [
+              "header > div > div:nth-of-type(2) > div:nth-of-type(1) > div > div:nth-of-type(2) > a:nth-of-type(3) > span:nth-of-type(1)",
+              "main > div:nth-of-type(1) > div:nth-of-type(2) > div > div:nth-of-type(2) > span:nth-of-type(3)",
+              "main > div:nth-of-type(1) > div:nth-of-type(2) > div > div:nth-of-type(2) > span:nth-of-type(4)"
+            ]
+          },
+          {
+            "value": "8px",
+            "count": 26,
+            "area": 1486977,
+            "sources": [
+              "main > div:nth-of-type(1) > div:nth-of-type(3)",
+              "#enquire-name",
+              "#enquire-email"
+            ]
+          },
+          {
+            "value": "10px",
+            "count": 17,
+            "area": 3052405,
+            "sources": [
+              "div > div > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > a",
+              "div > div > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > a",
+              "div > div > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(3) > a"
+            ]
+          },
+          {
+            "value": "45px",
+            "count": 8,
+            "area": 50382,
+            "sources": [
+              "header > div > div:nth-of-type(2) > div:nth-of-type(1) > div > div:nth-of-type(3) > a",
+              "main > div:nth-of-type(1) > div:nth-of-type(2) > div > div:nth-of-type(1) > div:nth-of-type(1) > div > a:nth-of-type(2)",
+              "main > div:nth-of-type(1) > div:nth-of-type(2) > div > div:nth-of-type(1) > div:nth-of-type(2) > div > a:nth-of-type(2)"
+            ]
+          },
+          {
+            "value": "16px",
+            "count": 7,
+            "area": 3380499,
+            "sources": [
+              "main > div:nth-of-type(4) > div:nth-of-type(2) > div > div:nth-of-type(2) > div:nth-of-type(1)",
+              "div:nth-of-type(4) > div:nth-of-type(2) > div > div:nth-of-type(2) > div:nth-of-type(1) > div > div:nth-of-type(1) > a",
+              "div:nth-of-type(4) > div:nth-of-type(2) > div > div:nth-of-type(2) > div:nth-of-type(1) > div > div:nth-of-type(2) > a"
+            ]
+          },
+          {
+            "value": "30px",
+            "count": 7,
+            "area": 44076,
+            "sources": [
+              "main > div:nth-of-type(1) > div:nth-of-type(2) > div > div:nth-of-type(2)",
+              "main > div:nth-of-type(1) > div:nth-of-type(2) > div > div:nth-of-type(2) > span:nth-of-type(2)",
+              "main > div:nth-of-type(2) > div > div > div:nth-of-type(1) > div:nth-of-type(1) > p:nth-of-type(3) > a"
+            ]
+          },
+          {
+            "value": "20px",
+            "count": 6,
+            "area": 1027303,
+            "sources": [
+              "main > div:nth-of-type(3) > div:nth-of-type(1) > div",
+              "main > div:nth-of-type(7) > div > div > div:nth-of-type(2) > div:nth-of-type(2) > div > a:nth-of-type(1)",
+              "main > div:nth-of-type(7) > div > div > div:nth-of-type(2) > div:nth-of-type(2) > div > a:nth-of-type(2)"
+            ]
+          },
+          {
+            "value": "10px 10px 0px 0px",
+            "count": 6,
+            "area": 583770,
+            "sources": [
+              "div > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > a > div:nth-of-type(1)",
+              "div > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > a > div:nth-of-type(1)",
+              "div > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(3) > a > div:nth-of-type(1)"
+            ]
+          },
+          {
+            "value": "12px",
+            "count": 4,
+            "area": 456048,
+            "sources": [
+              "div:nth-of-type(2) > div > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div > div:nth-of-type(2) > video",
+              "div:nth-of-type(2) > div > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > div > div:nth-of-type(2) > video",
+              "div:nth-of-type(2) > div > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3) > div > div:nth-of-type(2) > video"
+            ]
+          },
+          {
+            "value": "5px",
+            "count": 4,
+            "area": 34112,
+            "sources": [
+              "main > div:nth-of-type(5) > div > div > div:nth-of-type(2) > div > a:nth-of-type(1) > div:nth-of-type(1)",
+              "main > div:nth-of-type(5) > div > div > div:nth-of-type(2) > div > a:nth-of-type(2) > div:nth-of-type(1)",
+              "main > div:nth-of-type(5) > div > div > div:nth-of-type(2) > div > a:nth-of-type(3) > div:nth-of-type(1)"
+            ]
+          },
+          {
+            "value": "4px 4px 0px 0px",
+            "count": 3,
+            "area": 15480,
+            "sources": [
+              "header > div > div:nth-of-type(1) > div > a:nth-of-type(1)",
+              "header > div > div:nth-of-type(1) > div > a:nth-of-type(2)",
+              "header > div > div:nth-of-type(1) > div > a:nth-of-type(3)"
+            ]
+          },
+          {
+            "value": "0px 0px 20px 20px",
+            "count": 1,
+            "area": 402793,
+            "sources": [
+              "footer > div > div > section:nth-of-type(1) > div > div > div:nth-of-type(2)"
+            ]
+          },
+          {
+            "value": "8px 8px 0px 0px",
+            "count": 1,
+            "area": 73125,
+            "sources": [
+              "div > div > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div > div:nth-of-type(1) > div:nth-of-type(1)"
+            ]
+          },
+          {
+            "value": "100px",
+            "count": 1,
+            "area": 25802,
+            "sources": [
+              "footer > div > div > section:nth-of-type(2) > div:nth-of-type(3) > button"
+            ]
+          },
+          {
+            "value": "2px",
+            "count": 1,
+            "area": 225,
+            "sources": [
+              "div:nth-of-type(1) > div > div:nth-of-type(21) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > label > span:nth-of-type(1)"
+            ]
+          }
+        ],
+        "shadows": [
+          {
+            "value": "rgba(16, 24, 40, 0.1) 0px 4px 16px -2px",
+            "count": 2,
+            "sources": [
+              "#nav",
+              "main > div:nth-of-type(1) > div:nth-of-type(3)"
+            ]
+          },
+          {
+            "value": "rgba(0, 0, 0, 0.5) 0px 0px 12px 0px",
+            "count": 1,
+            "sources": [
+              "#sprinklr-chat-placeholder > div > button"
+            ]
+          },
+          {
+            "value": "rgba(16, 24, 40, 0.16) 1px 6px 25px -4px",
+            "count": 1,
+            "sources": [
+              "div:nth-of-type(10) > div > div > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div > div:nth-of-type(1)"
+            ]
+          }
+        ],
+        "gradients": [
+          {
+            "value": "linear-gradient(270.75deg, rgba(129, 122, 107, 0) -1.31%, rgba(91, 80, 68, 0.5) 65.3%)",
+            "count": 1,
+            "area": 864000,
+            "sources": [
+              "main > div:nth-of-type(1) > div:nth-of-type(2) > div > div:nth-of-type(1) > div:nth-of-type(1) > div > div:nth-of-type(2)"
+            ]
+          },
+          {
+            "value": "linear-gradient(rgb(0, 200, 83), rgb(3, 149, 63))",
+            "count": 1,
+            "area": 3136,
+            "sources": [
+              "#sprinklr-chat-placeholder > div > button"
+            ]
+          }
+        ],
+        "bgColors": [
+          {
+            "value": "rgb(0, 0, 0)",
+            "count": 13,
+            "area": 3315674,
+            "sources": [
+              "header > div > div:nth-of-type(1)",
+              "main > div:nth-of-type(1) > div:nth-of-type(2) > div > div:nth-of-type(2) > span:nth-of-type(3)",
+              "main > div:nth-of-type(1) > div:nth-of-type(2) > div > div:nth-of-type(2) > span:nth-of-type(4)"
+            ]
+          },
+          {
+            "value": "rgb(255, 255, 255)",
+            "count": 11,
+            "area": 15516027,
+            "sources": [
+              "body",
+              "header > div > div:nth-of-type(1) > div > a:nth-of-type(1)",
+              "main > div:nth-of-type(1) > div:nth-of-type(2) > div > div:nth-of-type(2)"
+            ]
+          },
+          {
+            "value": "rgb(224, 224, 224)",
+            "count": 9,
+            "area": 1509750,
+            "sources": [
+              "div > div > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > a",
+              "div > div > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > a",
+              "div > div > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(3) > a"
+            ]
+          },
+          {
+            "value": "rgb(35, 36, 38)",
+            "count": 6,
+            "area": 599040,
+            "sources": [
+              "main > div:nth-of-type(7) > div > div > div:nth-of-type(2) > div:nth-of-type(2) > div > a:nth-of-type(1)",
+              "main > div:nth-of-type(7) > div > div > div:nth-of-type(2) > div:nth-of-type(2) > div > a:nth-of-type(2)",
+              "main > div:nth-of-type(7) > div > div > div:nth-of-type(2) > div:nth-of-type(2) > div > a:nth-of-type(3)"
+            ]
+          },
+          {
+            "value": "rgb(250, 246, 239)",
+            "count": 4,
+            "area": 266100,
+            "sources": [
+              "main > div:nth-of-type(5) > div > div > div:nth-of-type(2) > div > a:nth-of-type(1)",
+              "main > div:nth-of-type(5) > div > div > div:nth-of-type(2) > div > a:nth-of-type(2)",
+              "main > div:nth-of-type(5) > div > div > div:nth-of-type(2) > div > a:nth-of-type(3)"
+            ]
+          },
+          {
+            "value": "rgb(254, 254, 253)",
+            "count": 3,
+            "area": 288000,
+            "sources": [
+              "header > div > div:nth-of-type(2)",
+              "header > div > div:nth-of-type(2) > div:nth-of-type(1)",
+              "#nav"
+            ]
+          },
+          {
+            "value": "rgb(253, 237, 214)",
+            "count": 2,
+            "area": 1443668,
+            "sources": [
+              "footer > div > div > section:nth-of-type(1)",
+              "footer > div > div > section:nth-of-type(2)"
+            ]
+          },
+          {
+            "value": "rgb(252, 175, 23)",
+            "count": 2,
+            "area": 15557,
+            "sources": [
+              "header > div > div:nth-of-type(2) > div:nth-of-type(1) > div > div:nth-of-type(3) > a",
+              "div:nth-of-type(3) > div:nth-of-type(1) > div > div:nth-of-type(21) > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(2) > button"
+            ]
+          },
+          {
+            "value": "rgb(245, 240, 228)",
+            "count": 1,
+            "area": 1152113,
+            "sources": [
+              "main > div:nth-of-type(8) > div:nth-of-type(2) > div"
+            ]
+          },
+          {
+            "value": "rgb(245, 245, 245)",
+            "count": 1,
+            "area": 73125,
+            "sources": [
+              "div > div > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div > div:nth-of-type(1) > div:nth-of-type(1)"
+            ]
+          },
+          {
+            "value": "rgb(254, 242, 226)",
+            "count": 1,
+            "area": 43841,
+            "sources": [
+              "footer > div > div > section:nth-of-type(1) > div > div > div:nth-of-type(1) > div:nth-of-type(2)"
+            ]
+          },
+          {
+            "value": "rgba(255, 255, 255, 0.7)",
+            "count": 1,
+            "area": 25802,
+            "sources": [
+              "footer > div > div > section:nth-of-type(2) > div:nth-of-type(3) > button"
+            ]
+          },
+          {
+            "value": "rgb(117, 120, 123)",
+            "count": 1,
+            "area": 225,
+            "sources": [
+              "div:nth-of-type(1) > div > div:nth-of-type(21) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > label > span:nth-of-type(1)"
+            ]
+          },
+          {
+            "value": "rgb(115, 69, 178)",
+            "count": 1,
+            "area": 144,
+            "sources": [
+              "header > div > div:nth-of-type(2) > div:nth-of-type(1) > div > div:nth-of-type(2) > a:nth-of-type(3) > span:nth-of-type(1)"
+            ]
+          },
+          {
+            "value": "rgb(76, 78, 82)",
+            "count": 1,
+            "area": 144,
+            "sources": [
+              "main > div:nth-of-type(1) > div:nth-of-type(2) > div > div:nth-of-type(2) > span:nth-of-type(2)"
+            ]
+          }
+        ],
+        "textColors": [
+          {
+            "value": "rgb(0, 0, 0)",
+            "count": 55,
+            "sources": [
+              "main > div:nth-of-type(2) > div > div > div:nth-of-type(1) > div:nth-of-type(1) > p:nth-of-type(2)",
+              "div:nth-of-type(21) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > div > div:nth-of-type(1) > fieldset > legend",
+              "div:nth-of-type(21) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > div > div:nth-of-type(2) > fieldset > legend"
+            ]
+          },
+          {
+            "value": "rgb(35, 36, 38)",
+            "count": 31,
+            "sources": [
+              "header > div > div:nth-of-type(2) > div:nth-of-type(1) > div > div:nth-of-type(3) > a",
+              "main > div:nth-of-type(1) > div:nth-of-type(2) > div > div:nth-of-type(1) > div:nth-of-type(2) > div > a:nth-of-type(2)",
+              "main > div:nth-of-type(1) > div:nth-of-type(2) > div > div:nth-of-type(1) > div:nth-of-type(4) > div > a:nth-of-type(2)"
+            ]
+          },
+          {
+            "value": "rgb(34, 34, 34)",
+            "count": 18,
+            "sources": [
+              "#interior--exterior-wall-paint-by-experts > strong",
+              "main > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(2) > div > a:nth-of-type(1) > figure > figcaption",
+              "div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(2) > div > a:nth-of-type(1) > figure > figcaption > span"
+            ]
+          },
+          {
+            "value": "rgb(47, 47, 47)",
+            "count": 13,
+            "sources": [
+              "nav > ul > li:nth-of-type(2) > a",
+              "nav > ul > li:nth-of-type(3) > a",
+              "nav > ul > li:nth-of-type(4) > a"
+            ]
+          },
+          {
+            "value": "rgb(255, 255, 255)",
+            "count": 11,
+            "sources": [
+              "header > div > div:nth-of-type(2) > div:nth-of-type(1) > div > div:nth-of-type(2) > a:nth-of-type(3) > span:nth-of-type(1)",
+              "main > div:nth-of-type(1) > div:nth-of-type(2) > div > div:nth-of-type(1) > div:nth-of-type(1) > div > a:nth-of-type(2)",
+              "main > div:nth-of-type(1) > div:nth-of-type(2) > div > div:nth-of-type(1) > div:nth-of-type(3) > div > a:nth-of-type(2)"
+            ]
+          },
+          {
+            "value": "rgb(204, 204, 204)",
+            "count": 8,
+            "sources": [
+              "div > div > div > section:nth-of-type(1) > div > div:nth-of-type(2) > a:nth-of-type(1) > span",
+              "div > div > div > section:nth-of-type(1) > div > div:nth-of-type(2) > a:nth-of-type(2) > span",
+              "div > div > div > section:nth-of-type(1) > div > div:nth-of-type(2) > a:nth-of-type(3) > span"
+            ]
+          },
+          {
+            "value": "rgb(93, 79, 67)",
+            "count": 8,
+            "sources": [
+              "div:nth-of-type(2) > div > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div > div:nth-of-type(3) > h3",
+              "div:nth-of-type(2) > div > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div > div:nth-of-type(3) > p",
+              "div:nth-of-type(2) > div > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > div > div:nth-of-type(3) > h3"
+            ]
+          },
+          {
+            "value": "rgb(238, 238, 239)",
+            "count": 6,
+            "sources": [
+              "div:nth-of-type(7) > div > div > div:nth-of-type(2) > div:nth-of-type(2) > div > a:nth-of-type(1) > div",
+              "div:nth-of-type(7) > div > div > div:nth-of-type(2) > div:nth-of-type(2) > div > a:nth-of-type(2) > div",
+              "div:nth-of-type(7) > div > div > div:nth-of-type(2) > div:nth-of-type(2) > div > a:nth-of-type(3) > div"
+            ]
+          },
+          {
+            "value": "rgb(50, 50, 50)",
+            "count": 5,
+            "sources": [
+              "div:nth-of-type(2) > div:nth-of-type(2) > div > div:nth-of-type(1) > fieldset > div > label:nth-of-type(1) > span:nth-of-type(2)",
+              "div:nth-of-type(2) > div:nth-of-type(2) > div > div:nth-of-type(1) > fieldset > div > label:nth-of-type(2) > span:nth-of-type(2)",
+              "div:nth-of-type(2) > div:nth-of-type(2) > div > div:nth-of-type(1) > fieldset > div > label:nth-of-type(3) > span:nth-of-type(2)"
+            ]
+          },
+          {
+            "value": "rgb(55, 55, 55)",
+            "count": 5,
+            "sources": [
+              "main > div:nth-of-type(14) > div:nth-of-type(2) > div > details:nth-of-type(1) > summary > span",
+              "main > div:nth-of-type(14) > div:nth-of-type(2) > div > details:nth-of-type(2) > summary > span",
+              "main > div:nth-of-type(14) > div:nth-of-type(2) > div > details:nth-of-type(3) > summary > span"
+            ]
+          },
+          {
+            "value": "rgb(83, 86, 90)",
+            "count": 5,
+            "sources": [
+              "main > div:nth-of-type(14) > div:nth-of-type(2) > div > details:nth-of-type(1) > div > p",
+              "main > div:nth-of-type(14) > div:nth-of-type(2) > div > details:nth-of-type(2) > div > p",
+              "main > div:nth-of-type(14) > div:nth-of-type(2) > div > details:nth-of-type(3) > div > p"
+            ]
+          },
+          {
+            "value": "rgb(176, 177, 179)",
+            "count": 3,
+            "sources": [
+              "div:nth-of-type(9) > div > div > div > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > p",
+              "main > div:nth-of-type(9) > div > div > div > div:nth-of-type(2) > div:nth-of-type(2) > p",
+              "main > div:nth-of-type(9) > div > div > div > div:nth-of-type(3) > div:nth-of-type(2) > p"
+            ]
+          },
+          {
+            "value": "rgb(0, 0, 238)",
+            "count": 2,
+            "sources": [
+              "div:nth-of-type(1) > div > div:nth-of-type(21) > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(1) > p > a:nth-of-type(1)",
+              "div:nth-of-type(1) > div > div:nth-of-type(21) > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(1) > p > a:nth-of-type(2)"
+            ]
+          },
+          {
+            "value": "rgb(237, 28, 36)",
+            "count": 2,
+            "sources": [
+              "div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > div > div:nth-of-type(1) > fieldset > legend > span",
+              "div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > div > div:nth-of-type(2) > fieldset > legend > span"
+            ]
+          },
+          {
+            "value": "rgb(241, 73, 80)",
+            "count": 2,
+            "sources": [
+              "main > div:nth-of-type(3) > div:nth-of-type(1) > div > div:nth-of-type(21) > div:nth-of-type(1) > div:nth-of-type(2) > p",
+              "#colour-tools"
+            ]
+          },
+          {
+            "value": "rgb(244, 120, 56)",
+            "count": 2,
+            "sources": [
+              "footer > div > div > section:nth-of-type(3) > div > div:nth-of-type(3) > a",
+              "footer > div > div > section:nth-of-type(3) > div > div:nth-of-type(3) > a > span"
+            ]
+          },
+          {
+            "value": "rgb(254, 238, 207)",
+            "count": 2,
+            "sources": [
+              "footer > div > div > div > section:nth-of-type(1) > div > div:nth-of-type(1) > h3",
+              "footer > div > div > div > section:nth-of-type(2) > div > div:nth-of-type(1) > h3"
+            ]
+          },
+          {
+            "value": "rgb(48, 48, 48)",
+            "count": 2,
+            "sources": [
+              "#textures",
+              "#wallpapers"
+            ]
+          },
+          {
+            "value": "rgb(117, 120, 123)",
+            "count": 1,
+            "sources": [
+              "main > div:nth-of-type(3) > div:nth-of-type(1) > div > div:nth-of-type(21) > div:nth-of-type(1) > div:nth-of-type(3) > p"
+            ]
+          },
+          {
+            "value": "rgb(140, 142, 144)",
+            "count": 1,
+            "sources": [
+              "div:nth-of-type(3) > div:nth-of-type(1) > div > div:nth-of-type(21) > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(1) > p"
+            ]
+          },
+          {
+            "value": "rgb(170, 170, 170)",
+            "count": 1,
+            "sources": [
+              "footer > div > div > section:nth-of-type(3) > div > div:nth-of-type(2)"
+            ]
+          },
+          {
+            "value": "rgb(223, 15, 41)",
+            "count": 1,
+            "sources": [
+              "#transform-your-space"
+            ]
+          },
+          {
+            "value": "rgb(29, 29, 31)",
+            "count": 1,
+            "sources": [
+              "#everything-a-home-needs"
+            ]
+          },
+          {
+            "value": "rgb(76, 76, 76)",
+            "count": 1,
+            "sources": [
+              "main > div:nth-of-type(3) > div:nth-of-type(1) > div > div:nth-of-type(21) > div:nth-of-type(1) > div:nth-of-type(1) > p"
+            ]
+          },
+          {
+            "value": "rgb(76, 78, 82)",
+            "count": 1,
+            "sources": [
+              "div:nth-of-type(1) > div > div:nth-of-type(21) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > label > span:nth-of-type(2)"
+            ]
+          },
+          {
+            "value": "rgb(77, 77, 77)",
+            "count": 1,
+            "sources": [
+              "div > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2)"
+            ]
+          }
+        ],
+        "borderColors": [
+          {
+            "value": "rgb(255, 255, 255)",
+            "count": 6,
+            "sources": [
+              "main > div:nth-of-type(1) > div:nth-of-type(2) > div > div:nth-of-type(1) > div:nth-of-type(1) > div > a:nth-of-type(2)",
+              "main > div:nth-of-type(1) > div:nth-of-type(2) > div > div:nth-of-type(1) > div:nth-of-type(3) > div > a:nth-of-type(2)",
+              "div:nth-of-type(9) > div > div > div > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > a"
+            ]
+          },
+          {
+            "value": "rgb(189, 189, 189)",
+            "count": 5,
+            "sources": [
+              "div:nth-of-type(2) > div:nth-of-type(2) > div > div:nth-of-type(1) > fieldset > div > label:nth-of-type(1) > span:nth-of-type(1)",
+              "div:nth-of-type(2) > div:nth-of-type(2) > div > div:nth-of-type(1) > fieldset > div > label:nth-of-type(2) > span:nth-of-type(1)",
+              "div:nth-of-type(2) > div:nth-of-type(2) > div > div:nth-of-type(1) > fieldset > div > label:nth-of-type(3) > span:nth-of-type(1)"
+            ]
+          },
+          {
+            "value": "rgb(202, 203, 204)",
+            "count": 5,
+            "sources": [
+              "main > div:nth-of-type(14) > div:nth-of-type(2) > div > details:nth-of-type(1)",
+              "main > div:nth-of-type(14) > div:nth-of-type(2) > div > details:nth-of-type(2)",
+              "main > div:nth-of-type(14) > div:nth-of-type(2) > div > details:nth-of-type(3)"
+            ]
+          },
+          {
+            "value": "rgb(35, 36, 38)",
+            "count": 5,
+            "sources": [
+              "main > div:nth-of-type(1) > div:nth-of-type(2) > div > div:nth-of-type(1) > div:nth-of-type(2) > div > a:nth-of-type(2)",
+              "main > div:nth-of-type(1) > div:nth-of-type(2) > div > div:nth-of-type(1) > div:nth-of-type(4) > div > a:nth-of-type(2)",
+              "main > div:nth-of-type(6) > div:nth-of-type(2) > div > div > div:nth-of-type(1) > p:nth-of-type(1) > a"
+            ]
+          },
+          {
+            "value": "rgb(176, 177, 179)",
+            "count": 4,
+            "sources": [
+              "header > div > div:nth-of-type(2) > div:nth-of-type(1) > div > div:nth-of-type(1)",
+              "nav > div:nth-of-type(3) > div > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div",
+              "nav > div:nth-of-type(3) > div > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div"
+            ]
+          },
+          {
+            "value": "rgb(223, 223, 223)",
+            "count": 4,
+            "sources": [
+              "#enquire-name",
+              "#enquire-email",
+              "#enquire-mobile"
+            ]
+          },
+          {
+            "value": "rgb(0, 0, 0)",
+            "count": 1,
+            "sources": [
+              "main > div:nth-of-type(14) > div:nth-of-type(2) > div > button"
+            ]
+          },
+          {
+            "value": "rgb(117, 120, 123)",
+            "count": 1,
+            "sources": [
+              "div:nth-of-type(1) > div > div:nth-of-type(21) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > label > span:nth-of-type(1)"
+            ]
+          },
+          {
+            "value": "rgb(207, 207, 207)",
+            "count": 1,
+            "sources": [
+              "main > div:nth-of-type(3) > div:nth-of-type(1) > div"
+            ]
+          },
+          {
+            "value": "rgb(239, 239, 239)",
+            "count": 1,
+            "sources": [
+              "#nav"
+            ]
+          },
+          {
+            "value": "rgb(26, 26, 26)",
+            "count": 1,
+            "sources": [
+              "main > div:nth-of-type(2) > div > div > div:nth-of-type(1) > div:nth-of-type(1) > p:nth-of-type(3) > a"
+            ]
+          }
+        ],
+        "customProps": {
+          "--background-color": {
+            "declared": "#fff",
+            "computed": "#fff"
+          },
+          "--light-color": {
+            "declared": "#f8f8f8",
+            "computed": "#f8f8f8"
+          },
+          "--dark-color": {
+            "declared": "#232426",
+            "computed": "#232426"
+          },
+          "--text-color": {
+            "declared": "#222",
+            "computed": "#222"
+          },
+          "--link-color": {
+            "declared": "#431a80",
+            "computed": "#431a80"
+          },
+          "--link-hover-color": {
+            "declared": "#7345b3",
+            "computed": "#7345b3"
+          },
+          "--primary-color": {
+            "declared": "#431a80",
+            "computed": "#431a80"
+          },
+          "--primary-color-light": {
+            "declared": "#7345b3",
+            "computed": "#7345b3"
+          },
+          "--accent-color": {
+            "declared": "#fcaf17",
+            "computed": "#fcaf17"
+          },
+          "--accent-color-hover": {
+            "declared": "#e59d15",
+            "computed": "#e59d15"
+          },
+          "--yellow": {
+            "declared": "#fff4cc",
+            "computed": "#fff4cc"
+          },
+          "--grey": {
+            "declared": "#f5f5f5",
+            "computed": "#f5f5f5"
+          },
+          "--dark-grey": {
+            "declared": "#6b6b6b",
+            "computed": "#6b6b6b"
+          },
+          "--black": {
+            "declared": "#000",
+            "computed": "#000"
+          },
+          "--navy-blue": {
+            "declared": "#011c5f",
+            "computed": "#011c5f"
+          },
+          "--cream-bg": {
+            "declared": "#fefcf7",
+            "computed": "#fefcf7"
+          },
+          "--dark-cream-bg": {
+            "declared": "#ece5d7",
+            "computed": "#ece5d7"
+          },
+          "--text-color-muted": {
+            "declared": "#666",
+            "computed": "#666"
+          },
+          "--text-color-dark": {
+            "declared": "#1a1a1a",
+            "computed": "#1a1a1a"
+          },
+          "--gradient-brand": {
+            "declared": "linear-gradient(270deg, rgb(248 161 46), rgb(190 42 29) 50.07%, rgb(69 33 108) 98.1%)",
+            "computed": "linear-gradient(270deg, rgb(248 161 46), rgb(190 42 29) 50.07%, rgb(69 33 108) 98.1%)"
+          },
+          "--body-font-family": {
+            "declared": "'Manrope', manrope-fallback, sans-serif",
+            "computed": "'Manrope', manrope-fallback, sans-serif"
+          },
+          "--heading-font-family": {
+            "declared": "'Manrope', manrope-fallback, sans-serif",
+            "computed": "'Manrope', manrope-fallback, sans-serif"
+          },
+          "--body-font-size-m": {
+            "declared": "18px",
+            "computed": "18px"
+          },
+          "--body-font-size-s": {
+            "declared": "16px",
+            "computed": "16px"
+          },
+          "--body-font-size-xs": {
+            "declared": "14px",
+            "computed": "14px"
+          },
+          "--heading-font-size-xxl": {
+            "declared": "45px",
+            "computed": "45px"
+          },
+          "--heading-font-size-xl": {
+            "declared": "36px",
+            "computed": "36px"
+          },
+          "--heading-font-size-l": {
+            "declared": "28px",
+            "computed": "28px"
+          },
+          "--heading-font-size-m": {
+            "declared": "22px",
+            "computed": "22px"
+          },
+          "--heading-font-size-s": {
+            "declared": "20px",
+            "computed": "20px"
+          },
+          "--heading-font-size-xs": {
+            "declared": "18px",
+            "computed": "18px"
+          },
+          "--nav-height": {
+            "declared": "140px",
+            "computed": "140px"
+          },
+          "--header-height": {
+            "declared": "var(--nav-height)",
+            "computed": "140px"
+          },
+          "--swiper-theme-color": {
+            "declared": "#007aff",
+            "computed": "#007aff"
+          },
+          "--swiper-navigation-size": {
+            "declared": "44px",
+            "computed": "44px"
+          },
+          "--saVideoTilePosition": {
+            "declared": "auto 15px 15px auto",
+            "computed": "auto 15px 15px auto"
+          },
+          "--sa-color-light": {
+            "declared": "#fbfbfb",
+            "computed": "#fbfbfb"
+          },
+          "--sa-color-dark": {
+            "declared": "#393939",
+            "computed": "#393939"
+          }
+        },
+        "fonts": [
+          {
+            "family": "manrope-fallback",
+            "weight": "normal",
+            "style": "normal",
+            "status": "error"
+          },
+          {
+            "family": "Manrope",
+            "weight": "300",
+            "style": "normal",
+            "status": "loaded"
+          },
+          {
+            "family": "Manrope",
+            "weight": "400",
+            "style": "normal",
+            "status": "loaded"
+          },
+          {
+            "family": "Manrope",
+            "weight": "500",
+            "style": "normal",
+            "status": "loaded"
+          },
+          {
+            "family": "Manrope",
+            "weight": "600",
+            "style": "normal",
+            "status": "loaded"
+          },
+          {
+            "family": "Manrope",
+            "weight": "700",
+            "style": "normal",
+            "status": "loaded"
+          },
+          {
+            "family": "Manrope",
+            "weight": "800",
+            "style": "normal",
+            "status": "loaded"
+          },
+          {
+            "family": "HeaderFontIcons",
+            "weight": "normal",
+            "style": "normal",
+            "status": "loaded"
+          },
+          {
+            "family": "embeddedserviceiconfont",
+            "weight": "normal",
+            "style": "normal",
+            "status": "loaded"
+          },
+          {
+            "family": "swiper-icons",
+            "weight": "400",
+            "style": "normal",
+            "status": "loaded"
+          },
+          {
+            "family": "Roboto",
+            "weight": "100",
+            "style": "italic",
+            "status": "unloaded"
+          },
+          {
+            "family": "Roboto",
+            "weight": "300",
+            "style": "italic",
+            "status": "unloaded"
+          },
+          {
+            "family": "Roboto",
+            "weight": "400",
+            "style": "italic",
+            "status": "unloaded"
+          },
+          {
+            "family": "Roboto",
+            "weight": "500",
+            "style": "italic",
+            "status": "unloaded"
+          },
+          {
+            "family": "Roboto",
+            "weight": "700",
+            "style": "italic",
+            "status": "unloaded"
+          },
+          {
+            "family": "Roboto",
+            "weight": "900",
+            "style": "italic",
+            "status": "unloaded"
+          },
+          {
+            "family": "Roboto",
+            "weight": "100",
+            "style": "normal",
+            "status": "unloaded"
+          },
+          {
+            "family": "Roboto",
+            "weight": "300",
+            "style": "normal",
+            "status": "unloaded"
+          },
+          {
+            "family": "Roboto",
+            "weight": "400",
+            "style": "normal",
+            "status": "unloaded"
+          },
+          {
+            "family": "Roboto",
+            "weight": "500",
+            "style": "normal",
+            "status": "unloaded"
+          },
+          {
+            "family": "Roboto",
+            "weight": "700",
+            "style": "normal",
+            "status": "unloaded"
+          },
+          {
+            "family": "Roboto",
+            "weight": "900",
+            "style": "normal",
+            "status": "unloaded"
+          },
+          {
+            "family": "Montserrat",
+            "weight": "400",
+            "style": "normal",
+            "status": "unloaded"
+          }
+        ],
+        "logoCandidates": [
+          {
+            "tag": "img",
+            "selector": "div > div:nth-of-type(1) > div > a:nth-of-type(1) > span > span:nth-of-type(1) > picture > img",
+            "src": "https://www.asianpaints.com/media_1a702e78826046d802341deab37b7ea1d3e780c75.svg?width=2000&format=webply&optimize=medium",
+            "inlineSvg": false,
+            "alt": "Asian Paints Home Page",
+            "ariaLabel": null,
+            "class": "",
+            "id": null,
+            "href": "/",
+            "inHomeLink": true,
+            "rect": {
+              "x": 509,
+              "y": 4,
+              "w": 129,
+              "h": 31
+            }
+          },
+          {
+            "tag": "img",
+            "selector": "div > div:nth-of-type(1) > div > a:nth-of-type(2) > span > span:nth-of-type(1) > picture > img",
+            "src": "https://www.asianpaints.com/media_1df6f00881bab3e6fe6a795673f0bc62c386812c8.webp?width=2000&format=webply&optimize=medium",
+            "inlineSvg": false,
+            "alt": "Beautiful Homes with Asian Paints Home Page",
+            "ariaLabel": null,
+            "class": "",
+            "id": null,
+            "href": "https://www.beautifulhomes.asianpaints.com/?utm_source=ap-header&utm_medium=unification&utm_campaign=decor_organic",
+            "inHomeLink": false,
+            "rect": {
+              "x": 663,
+              "y": 1,
+              "w": 129,
+              "h": 38
+            }
+          },
+          {
+            "tag": "img",
+            "selector": "div > div:nth-of-type(1) > div > a:nth-of-type(3) > span > span:nth-of-type(1) > picture > img",
+            "src": "https://www.asianpaints.com/media_1d5a80cc7d95a4d943a9a605875549a5892643014.svg?width=2000&format=webply&optimize=medium",
+            "inlineSvg": false,
+            "alt": "The White Teak Company Home Page",
+            "ariaLabel": null,
+            "class": "",
+            "id": null,
+            "href": "https://whiteteak.asianpaints.com/?utm_source=ap_header&utm_medium=unification&utm_campaign=white_teak",
+            "inHomeLink": false,
+            "rect": {
+              "x": 802,
+              "y": -1,
+              "w": 129,
+              "h": 43
+            }
+          },
+          {
+            "tag": "img",
+            "selector": "header > div > div:nth-of-type(1) > a > span > span:nth-of-type(1) > picture > img",
+            "src": "https://www.asianpaints.com/media_1c4da8404ff27e7dc3a9cd824a8c100e802563a6a.png?width=2000&format=webply&optimize=medium",
+            "inlineSvg": false,
+            "alt": "B2B logo",
+            "ariaLabel": null,
+            "class": "",
+            "id": null,
+            "href": "https://www.apassure.asianpaints.com/",
+            "inHomeLink": false,
+            "rect": {
+              "x": 1259,
+              "y": 8,
+              "w": 141,
+              "h": 24
+            }
+          },
+          {
+            "tag": "img",
+            "selector": "header > div > div:nth-of-type(2) > div:nth-of-type(1) > div > a:nth-of-type(1) > img",
+            "src": "https://www.asianpaints.com/media_1dcd412f481b999aea34fb73f65d1958071af7b4a.webp?width=750&format=webp&optimize=medium",
+            "inlineSvg": false,
+            "alt": "Asian Paints Home Page",
+            "ariaLabel": null,
+            "class": "",
+            "id": null,
+            "href": "/",
+            "inHomeLink": true,
+            "rect": {
+              "x": 40,
+              "y": 54,
+              "w": 160,
+              "h": 32
+            }
+          },
+          {
+            "tag": "img",
+            "selector": "header > div > div:nth-of-type(2) > div:nth-of-type(1) > div > div:nth-of-type(2) > a:nth-of-type(1) > img",
+            "src": "https://www.asianpaints.com/media_1719ceb5eda30471e449c8ff2c3c7238e5841f0a0.svg?width=750&format=svg&optimize=medium",
+            "inlineSvg": false,
+            "alt": "Find Contractor",
+            "ariaLabel": "Find Contractor",
+            "class": "",
+            "id": null,
+            "href": "/contractors/painting-contractors.html",
+            "inHomeLink": false,
+            "rect": {
+              "x": 1015,
+              "y": 58,
+              "w": 19,
+              "h": 24
+            }
+          },
+          {
+            "tag": "img",
+            "selector": "header > div > div:nth-of-type(2) > div:nth-of-type(1) > div > div:nth-of-type(2) > a:nth-of-type(2) > img",
+            "src": "https://www.asianpaints.com/eds/icons/store-location-icon.svg",
+            "inlineSvg": false,
+            "alt": "Store Locator",
+            "ariaLabel": "Store Locator",
+            "class": "",
+            "id": null,
+            "href": "/store-locator.html",
+            "inHomeLink": false,
+            "rect": {
+              "x": 1072,
+              "y": 61,
+              "w": 17,
+              "h": 21
+            }
+          },
+          {
+            "tag": "img",
+            "selector": "header > div > div:nth-of-type(2) > div:nth-of-type(1) > div > div:nth-of-type(2) > a:nth-of-type(3) > img",
+            "src": "https://www.asianpaints.com/media_1d9e5bf70cad744b6be2aec54de6da31f40260e66.svg?width=750&format=svg&optimize=medium",
+            "inlineSvg": false,
+            "alt": "Cart",
+            "ariaLabel": "Cart",
+            "class": "",
+            "id": null,
+            "href": "/",
+            "inHomeLink": true,
+            "rect": {
+              "x": 1179,
+              "y": 58,
+              "w": 24,
+              "h": 24
+            }
+          }
+        ],
+        "iconFont": {
+          "families": [
+            "HeaderFontIcons",
+            "embeddedserviceiconfont",
+            "swiper-icons"
+          ],
+          "glyphs": [
+            {
+              "class": "search-icon",
+              "pseudo": "::before",
+              "codepoint": "U+E005",
+              "fontFamily": "HeaderFontIcons"
+            },
+            {
+              "class": "mobile-search-btn",
+              "pseudo": "::before",
+              "codepoint": "U+E005",
+              "fontFamily": "HeaderFontIcons"
+            },
+            {
+              "class": "action-btn profile-btn profile-auth-link",
+              "pseudo": "::before",
+              "codepoint": "U+E004",
+              "fontFamily": "HeaderFontIcons"
+            },
+            {
+              "class": "embeddedServiceIcon",
+              "pseudo": "::before",
+              "codepoint": "U+E900",
+              "fontFamily": "embeddedserviceiconfont"
+            }
+          ]
+        },
+        "consent": {
+          "dismissed": null
+        },
+        "finalUrl": "https://www.asianpaints.com/"
+      }
+    }
+  },
+  "aggregate": {
+    "counts": {
+      "pages": 1,
+      "widths": [
+        360,
+        1440
+      ],
+      "measurements": 2
+    },
+    "colors": [
+      {
+        "hex": "#232426",
+        "values": [
+          "rgb(35, 36, 38)",
+          "rgb(34, 34, 34)",
+          "rgb(47, 47, 47)",
+          "rgb(46, 47, 50)",
+          "rgb(26, 26, 26)",
+          "rgb(29, 29, 31)",
+          "rgb(33, 37, 41)"
+        ],
+        "weight": 163,
+        "bgArea": 637701,
+        "by": {
+          "text": 116,
+          "background": 8,
+          "border": 11,
+          "button-text": 10,
+          "button-border": 9,
+          "heading": 9
+        },
+        "roles": [
+          "text",
+          "heading"
+        ],
+        "sources": [
+          {
+            "url": "https://www.asianpaints.com/",
+            "selector": "header > div > div:nth-of-type(2) > div:nth-of-type(1) > div > div:nth-of-type(3) > a",
+            "prop": "text"
+          },
+          {
+            "url": "https://www.asianpaints.com/",
+            "selector": "#interior--exterior-wall-paint-by-experts > strong",
+            "prop": "text"
+          },
+          {
+            "url": "https://www.asianpaints.com/",
+            "selector": "main > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(2) > div > a:nth-of-type(1) > figure > figcaption",
+            "prop": "text"
+          },
+          {
+            "url": "https://www.asianpaints.com/",
+            "selector": "nav > ul > li:nth-of-type(2) > a",
+            "prop": "text"
+          },
+          {
+            "url": "https://www.asianpaints.com/",
+            "selector": "main > div:nth-of-type(7) > div > div > div:nth-of-type(2) > div:nth-of-type(2) > div > a:nth-of-type(1)",
+            "prop": "background"
+          }
+        ]
+      },
+      {
+        "hex": "#000000",
+        "values": [
+          "rgb(0, 0, 0)"
+        ],
+        "weight": 134,
+        "bgArea": 4123779,
+        "by": {
+          "text": 79,
+          "background": 32,
+          "link": 8,
+          "border": 2,
+          "button-border": 2,
+          "button-text": 5,
+          "heading": 6
+        },
+        "roles": [
+          "surface"
+        ],
+        "sources": [
+          {
+            "url": "https://www.asianpaints.com/",
+            "selector": "main > div:nth-of-type(2) > div > div > div:nth-of-type(1) > div:nth-of-type(1) > p:nth-of-type(2)",
+            "prop": "text"
+          },
+          {
+            "url": "https://www.asianpaints.com/",
+            "selector": "main > div:nth-of-type(2) > div > div > div:nth-of-type(2) > a",
+            "prop": "text"
+          },
+          {
+            "url": "https://www.asianpaints.com/",
+            "selector": "header > div > div:nth-of-type(1)",
+            "prop": "background"
+          },
+          {
+            "url": "https://www.asianpaints.com/",
+            "selector": "div:nth-of-type(2) > div > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div > div:nth-of-type(4) > a",
+            "prop": "link"
+          },
+          {
+            "url": "https://www.asianpaints.com/",
+            "selector": "main > div:nth-of-type(14) > div:nth-of-type(2) > div > button",
+            "prop": "border"
+          }
+        ]
+      },
+      {
+        "hex": "#ffffff",
+        "values": [
+          "rgb(255, 255, 255)",
+          "rgb(254, 254, 253)",
+          "rgb(245, 245, 245)"
+        ],
+        "weight": 91,
+        "bgArea": 20418163,
+        "by": {
+          "background": 29,
+          "text": 22,
+          "border": 12,
+          "button-border": 12,
+          "button-text": 10,
+          "button-background": 2,
+          "heading": 4
+        },
+        "roles": [
+          "background",
+          "border"
+        ],
+        "sources": [
+          {
+            "url": "https://www.asianpaints.com/",
+            "selector": "body",
+            "prop": "background"
+          },
+          {
+            "url": "https://www.asianpaints.com/",
+            "selector": "header > div > div:nth-of-type(2) > div:nth-of-type(1) > div > div:nth-of-type(2) > a:nth-of-type(3) > span:nth-of-type(1)",
+            "prop": "text"
+          },
+          {
+            "url": "https://www.asianpaints.com/",
+            "selector": "main > div:nth-of-type(1) > div:nth-of-type(2) > div > div:nth-of-type(1) > div:nth-of-type(1) > div > a:nth-of-type(2)",
+            "prop": "border"
+          },
+          {
+            "url": "https://www.asianpaints.com/",
+            "selector": "header > div > div:nth-of-type(2)",
+            "prop": "background"
+          },
+          {
+            "url": "https://www.asianpaints.com/",
+            "selector": "div:nth-of-type(9) > div > div > div > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > a",
+            "prop": "button-border"
+          }
+        ]
+      },
+      {
+        "hex": "#faf6ef",
+        "values": [
+          "rgb(250, 246, 239)",
+          "rgb(238, 238, 239)",
+          "rgb(245, 240, 228)",
+          "rgb(239, 239, 239)"
+        ],
+        "weight": 39,
+        "bgArea": 1750530,
+        "by": {
+          "text": 20,
+          "background": 10,
+          "button-background": 8,
+          "border": 1
+        },
+        "roles": [
+          "primary"
+        ],
+        "sources": [
+          {
+            "url": "https://www.asianpaints.com/",
+            "selector": "div > div > div > section:nth-of-type(1) > div > div:nth-of-type(2) > a:nth-of-type(1) > span",
+            "prop": "text"
+          },
+          {
+            "url": "https://www.asianpaints.com/",
+            "selector": "div:nth-of-type(7) > div > div > div:nth-of-type(2) > div:nth-of-type(2) > div > a:nth-of-type(1) > div",
+            "prop": "text"
+          },
+          {
+            "url": "https://www.asianpaints.com/",
+            "selector": "main > div:nth-of-type(5) > div > div > div:nth-of-type(2) > div > a:nth-of-type(1)",
+            "prop": "background"
+          },
+          {
+            "url": "https://www.asianpaints.com/",
+            "selector": "main > div:nth-of-type(5) > div > div > div:nth-of-type(2) > div > a:nth-of-type(1)",
+            "prop": "button-background"
+          },
+          {
+            "url": "https://www.asianpaints.com/",
+            "selector": "main > div:nth-of-type(8) > div:nth-of-type(2) > div",
+            "prop": "background"
+          }
+        ]
+      },
+      {
+        "hex": "#0000ee",
+        "values": [
+          "rgb(0, 0, 238)"
+        ],
+        "weight": 23,
+        "by": {
+          "link": 15,
+          "button-text": 4,
+          "text": 4
+        },
+        "roles": [
+          "accent"
+        ],
+        "sources": [
+          {
+            "url": "https://www.asianpaints.com/",
+            "selector": "main > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(2) > div > a:nth-of-type(1)",
+            "prop": "link"
+          },
+          {
+            "url": "https://www.asianpaints.com/",
+            "selector": "main > div:nth-of-type(5) > div > div > div:nth-of-type(2) > div > a:nth-of-type(1)",
+            "prop": "button-text"
+          },
+          {
+            "url": "https://www.asianpaints.com/",
+            "selector": "div:nth-of-type(1) > div > div:nth-of-type(21) > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(1) > p > a:nth-of-type(1)",
+            "prop": "link"
+          },
+          {
+            "url": "https://www.asianpaints.com/",
+            "selector": "div:nth-of-type(1) > div > div:nth-of-type(21) > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(1) > p > a:nth-of-type(1)",
+            "prop": "text"
+          }
+        ]
+      },
+      {
+        "hex": "#fcaf17",
+        "values": [
+          "rgb(252, 175, 23)"
+        ],
+        "weight": 8,
+        "bgArea": 33241,
+        "by": {
+          "background": 4,
+          "button-background": 4
+        },
+        "roles": [
+          "secondary"
+        ],
+        "sources": [
+          {
+            "url": "https://www.asianpaints.com/",
+            "selector": "header > div > div:nth-of-type(2) > div:nth-of-type(1) > div > div:nth-of-type(3) > a",
+            "prop": "background"
+          },
+          {
+            "url": "https://www.asianpaints.com/",
+            "selector": "div:nth-of-type(3) > div:nth-of-type(1) > div > div:nth-of-type(21) > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(2) > button",
+            "prop": "button-background"
+          },
+          {
+            "url": "https://www.asianpaints.com/",
+            "selector": "header > div > div:nth-of-type(2) > div:nth-of-type(1) > div > div:nth-of-type(3) > a",
+            "prop": "button-background"
+          }
+        ]
+      },
+      {
+        "hex": "#5d4f43",
+        "values": [
+          "rgb(93, 79, 67)"
+        ],
+        "weight": 30,
+        "by": {
+          "text": 22,
+          "heading": 8
+        },
+        "roles": [],
+        "sources": [
+          {
+            "url": "https://www.asianpaints.com/",
+            "selector": "div:nth-of-type(2) > div > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div > div:nth-of-type(3) > h3",
+            "prop": "text"
+          },
+          {
+            "url": "https://www.asianpaints.com/",
+            "selector": "div:nth-of-type(2) > div > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div > div:nth-of-type(3) > h3",
+            "prop": "heading"
+          },
+          {
+            "url": "https://www.asianpaints.com/",
+            "selector": "div:nth-of-type(2) > div > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > div > div:nth-of-type(3) > h3",
+            "prop": "heading"
+          },
+          {
+            "url": "https://www.asianpaints.com/",
+            "selector": "div:nth-of-type(2) > div > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3) > div > div:nth-of-type(3) > h3",
+            "prop": "heading"
+          },
+          {
+            "url": "https://www.asianpaints.com/",
+            "selector": "div:nth-of-type(2) > div > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(4) > div > div:nth-of-type(3) > h3",
+            "prop": "heading"
+          }
+        ]
+      },
+      {
+        "hex": "#e0e0e0",
+        "values": [
+          "rgb(224, 224, 224)",
+          "rgb(223, 223, 223)",
+          "rgb(226, 226, 226)"
+        ],
+        "weight": 27,
+        "bgArea": 2471013,
+        "by": {
+          "background": 18,
+          "border": 9
+        },
+        "roles": [],
+        "sources": [
+          {
+            "url": "https://www.asianpaints.com/",
+            "selector": "div > div > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > a",
+            "prop": "background"
+          },
+          {
+            "url": "https://www.asianpaints.com/",
+            "selector": "#enquire-name",
+            "prop": "border"
+          },
+          {
+            "url": "https://www.asianpaints.com/",
+            "selector": "main > div:nth-of-type(3) > div:nth-of-type(1) > div",
+            "prop": "border"
+          }
+        ]
+      },
+      {
+        "hex": "#323232",
+        "values": [
+          "rgb(50, 50, 50)",
+          "rgb(55, 55, 55)",
+          "rgb(48, 48, 48)",
+          "rgb(51, 51, 51)"
+        ],
+        "weight": 26,
+        "by": {
+          "text": 22,
+          "heading": 2,
+          "button-text": 2
+        },
+        "roles": [],
+        "sources": [
+          {
+            "url": "https://www.asianpaints.com/",
+            "selector": "div:nth-of-type(2) > div:nth-of-type(2) > div > div:nth-of-type(1) > fieldset > div > label:nth-of-type(1) > span:nth-of-type(2)",
+            "prop": "text"
+          },
+          {
+            "url": "https://www.asianpaints.com/",
+            "selector": "main > div:nth-of-type(14) > div:nth-of-type(2) > div > details:nth-of-type(1) > summary > span",
+            "prop": "text"
+          },
+          {
+            "url": "https://www.asianpaints.com/",
+            "selector": "#textures",
+            "prop": "text"
+          },
+          {
+            "url": "https://www.asianpaints.com/",
+            "selector": "#textures",
+            "prop": "heading"
+          },
+          {
+            "url": "https://www.asianpaints.com/",
+            "selector": "#wallpapers",
+            "prop": "heading"
+          }
+        ]
+      },
+      {
+        "hex": "#cccccc",
+        "values": [
+          "rgb(204, 204, 204)",
+          "rgb(202, 203, 204)",
+          "rgb(201, 201, 201)",
+          "rgb(207, 207, 207)"
+        ],
+        "weight": 21,
+        "bgArea": 72,
+        "by": {
+          "text": 8,
+          "border": 11,
+          "background": 2
+        },
+        "roles": [],
+        "sources": [
+          {
+            "url": "https://www.asianpaints.com/",
+            "selector": "div > div > div > section:nth-of-type(1) > div > div:nth-of-type(2) > a:nth-of-type(1) > span",
+            "prop": "text"
+          },
+          {
+            "url": "https://www.asianpaints.com/",
+            "selector": "main > div:nth-of-type(14) > div:nth-of-type(2) > div > details:nth-of-type(1)",
+            "prop": "border"
+          },
+          {
+            "url": "https://www.asianpaints.com/",
+            "selector": "main > div:nth-of-type(4) > div:nth-of-type(2) > div > div:nth-of-type(2) > div:nth-of-type(2) > span:nth-of-type(2)",
+            "prop": "background"
+          },
+          {
+            "url": "https://www.asianpaints.com/",
+            "selector": "main > div:nth-of-type(3) > div:nth-of-type(1) > div",
+            "prop": "border"
+          }
+        ]
+      },
+      {
+        "hex": "#53565a",
+        "values": [
+          "rgb(83, 86, 90)",
+          "rgb(76, 78, 82)"
+        ],
+        "weight": 16,
+        "bgArea": 392,
+        "by": {
+          "text": 12,
+          "background": 4
+        },
+        "roles": [],
+        "sources": [
+          {
+            "url": "https://www.asianpaints.com/",
+            "selector": "main > div:nth-of-type(14) > div:nth-of-type(2) > div > details:nth-of-type(1) > div > p",
+            "prop": "text"
+          },
+          {
+            "url": "https://www.asianpaints.com/",
+            "selector": "main > div:nth-of-type(1) > div:nth-of-type(2) > div > div:nth-of-type(2) > span:nth-of-type(2)",
+            "prop": "background"
+          },
+          {
+            "url": "https://www.asianpaints.com/",
+            "selector": "div:nth-of-type(1) > div > div:nth-of-type(21) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > label > span:nth-of-type(2)",
+            "prop": "text"
+          }
+        ]
+      },
+      {
+        "hex": "#0d6efd",
+        "values": [
+          "rgb(13, 110, 253)"
+        ],
+        "weight": 15,
+        "by": {
+          "link": 11,
+          "button-text": 4
+        },
+        "roles": [],
+        "sources": [
+          {
+            "url": "https://www.asianpaints.com/",
+            "selector": "main > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(2) > div > a:nth-of-type(1)",
+            "prop": "link"
+          },
+          {
+            "url": "https://www.asianpaints.com/",
+            "selector": "main > div:nth-of-type(5) > div > div > div:nth-of-type(2) > div > a:nth-of-type(1)",
+            "prop": "button-text"
+          }
+        ]
+      },
+      {
+        "hex": "#fdedd6",
+        "values": [
+          "rgb(253, 237, 214)",
+          "rgb(254, 238, 207)",
+          "rgb(254, 242, 226)"
+        ],
+        "weight": 14,
+        "bgArea": 1971079,
+        "by": {
+          "background": 6,
+          "text": 4,
+          "heading": 4
+        },
+        "roles": [],
+        "sources": [
+          {
+            "url": "https://www.asianpaints.com/",
+            "selector": "footer > div > div > section:nth-of-type(1)",
+            "prop": "background"
+          },
+          {
+            "url": "https://www.asianpaints.com/",
+            "selector": "footer > div > div > div > section:nth-of-type(1) > div > div:nth-of-type(1) > h3",
+            "prop": "text"
+          },
+          {
+            "url": "https://www.asianpaints.com/",
+            "selector": "footer > div > div > section:nth-of-type(1) > div > div > div:nth-of-type(1) > div:nth-of-type(2)",
+            "prop": "background"
+          },
+          {
+            "url": "https://www.asianpaints.com/",
+            "selector": "footer > div > div > div > section:nth-of-type(1) > div > div:nth-of-type(1) > h3",
+            "prop": "heading"
+          },
+          {
+            "url": "https://www.asianpaints.com/",
+            "selector": "footer > div > div > div > section:nth-of-type(2) > div > div:nth-of-type(1) > h3",
+            "prop": "heading"
+          }
+        ]
+      },
+      {
+        "hex": "#b0b1b3",
+        "values": [
+          "rgb(176, 177, 179)",
+          "rgb(170, 170, 170)"
+        ],
+        "weight": 12,
+        "by": {
+          "border": 4,
+          "text": 8
+        },
+        "roles": [],
+        "sources": [
+          {
+            "url": "https://www.asianpaints.com/",
+            "selector": "header > div > div:nth-of-type(2) > div:nth-of-type(1) > div > div:nth-of-type(1)",
+            "prop": "border"
+          },
+          {
+            "url": "https://www.asianpaints.com/",
+            "selector": "div:nth-of-type(9) > div > div > div > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > p",
+            "prop": "text"
+          },
+          {
+            "url": "https://www.asianpaints.com/",
+            "selector": "div:nth-of-type(9) > div > div > div:nth-of-type(2) > div > div:nth-of-type(1) > div:nth-of-type(2) > p",
+            "prop": "text"
+          },
+          {
+            "url": "https://www.asianpaints.com/",
+            "selector": "footer > div > div > section:nth-of-type(3) > div > div:nth-of-type(2)",
+            "prop": "text"
+          }
+        ]
+      },
+      {
+        "hex": "#bdbdbd",
+        "values": [
+          "rgb(189, 189, 189)"
+        ],
+        "weight": 10,
+        "by": {
+          "border": 10
+        },
+        "roles": [],
+        "sources": [
+          {
+            "url": "https://www.asianpaints.com/",
+            "selector": "div:nth-of-type(2) > div:nth-of-type(2) > div > div:nth-of-type(1) > fieldset > div > label:nth-of-type(1) > span:nth-of-type(1)",
+            "prop": "border"
+          }
+        ]
+      },
+      {
+        "hex": "#75787b",
+        "values": [
+          "rgb(117, 120, 123)",
+          "rgb(106, 109, 112)"
+        ],
+        "weight": 8,
+        "bgArea": 450,
+        "by": {
+          "background": 2,
+          "heading": 1,
+          "text": 3,
+          "border": 2
+        },
+        "roles": [],
+        "sources": [
+          {
+            "url": "https://www.asianpaints.com/",
+            "selector": "div:nth-of-type(1) > div > div:nth-of-type(21) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > label > span:nth-of-type(1)",
+            "prop": "background"
+          },
+          {
+            "url": "https://www.asianpaints.com/",
+            "selector": "#wallpapers-1",
+            "prop": "heading"
+          },
+          {
+            "url": "https://www.asianpaints.com/",
+            "selector": "#wallpapers-1",
+            "prop": "text"
+          },
+          {
+            "url": "https://www.asianpaints.com/",
+            "selector": "div:nth-of-type(1) > div > div:nth-of-type(21) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > label > span:nth-of-type(1)",
+            "prop": "border"
+          },
+          {
+            "url": "https://www.asianpaints.com/",
+            "selector": "main > div:nth-of-type(3) > div:nth-of-type(1) > div > div:nth-of-type(21) > div:nth-of-type(1) > div:nth-of-type(3) > p",
+            "prop": "text"
+          }
+        ]
+      },
+      {
+        "hex": "#4d4d4d",
+        "values": [
+          "rgb(77, 77, 77)",
+          "rgb(76, 76, 76)"
+        ],
+        "weight": 6,
+        "bgArea": 480,
+        "by": {
+          "background": 3,
+          "text": 3
+        },
+        "roles": [],
+        "sources": [
+          {
+            "url": "https://www.asianpaints.com/",
+            "selector": "main > div:nth-of-type(2) > div > div > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > span:nth-of-type(1)",
+            "prop": "background"
+          },
+          {
+            "url": "https://www.asianpaints.com/",
+            "selector": "main > div:nth-of-type(3) > div:nth-of-type(1) > div > div:nth-of-type(21) > div:nth-of-type(1) > div:nth-of-type(1) > p",
+            "prop": "text"
+          },
+          {
+            "url": "https://www.asianpaints.com/",
+            "selector": "div > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2)",
+            "prop": "text"
+          }
+        ]
+      },
+      {
+        "hex": "#f14950",
+        "values": [
+          "rgb(241, 73, 80)"
+        ],
+        "weight": 6,
+        "by": {
+          "text": 4,
+          "heading": 2
+        },
+        "roles": [],
+        "sources": [
+          {
+            "url": "https://www.asianpaints.com/",
+            "selector": "main > div:nth-of-type(3) > div:nth-of-type(1) > div > div:nth-of-type(21) > div:nth-of-type(1) > div:nth-of-type(2) > p",
+            "prop": "text"
+          },
+          {
+            "url": "https://www.asianpaints.com/",
+            "selector": "#colour-tools",
+            "prop": "heading"
+          }
+        ]
+      },
+      {
+        "hex": "#df0f29",
+        "values": [
+          "rgb(223, 15, 41)"
+        ],
+        "weight": 4,
+        "by": {
+          "heading": 2,
+          "text": 2
+        },
+        "roles": [],
+        "sources": [
+          {
+            "url": "https://www.asianpaints.com/",
+            "selector": "#transform-your-space",
+            "prop": "heading"
+          },
+          {
+            "url": "https://www.asianpaints.com/",
+            "selector": "#transform-your-space",
+            "prop": "text"
+          }
+        ]
+      },
+      {
+        "hex": "#ed1c24",
+        "values": [
+          "rgb(237, 28, 36)"
+        ],
+        "weight": 4,
+        "by": {
+          "text": 4
+        },
+        "roles": [],
+        "sources": [
+          {
+            "url": "https://www.asianpaints.com/",
+            "selector": "div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > div > div:nth-of-type(1) > fieldset > legend > span",
+            "prop": "text"
+          }
+        ]
+      },
+      {
+        "hex": "#f47838",
+        "values": [
+          "rgb(244, 120, 56)"
+        ],
+        "weight": 4,
+        "by": {
+          "text": 4
+        },
+        "roles": [],
+        "sources": [
+          {
+            "url": "https://www.asianpaints.com/",
+            "selector": "footer > div > div > section:nth-of-type(3) > div > div:nth-of-type(3) > a",
+            "prop": "text"
+          }
+        ]
+      },
+      {
+        "hex": "#ffffffb3",
+        "values": [
+          "rgba(255, 255, 255, 0.7)"
+        ],
+        "weight": 4,
+        "bgArea": 34123,
+        "by": {
+          "background": 2,
+          "button-background": 2
+        },
+        "roles": [],
+        "sources": [
+          {
+            "url": "https://www.asianpaints.com/",
+            "selector": "footer > div > div > section:nth-of-type(2) > div:nth-of-type(3) > button",
+            "prop": "background"
+          },
+          {
+            "url": "https://www.asianpaints.com/",
+            "selector": "footer > div > div > section:nth-of-type(2) > div:nth-of-type(3) > button",
+            "prop": "button-background"
+          }
+        ]
+      },
+      {
+        "hex": "#80808040",
+        "values": [
+          "rgba(128, 128, 128, 0.25)"
+        ],
+        "weight": 3,
+        "bgArea": 192,
+        "by": {
+          "background": 3
+        },
+        "roles": [],
+        "sources": [
+          {
+            "url": "https://www.asianpaints.com/",
+            "selector": "main > div:nth-of-type(8) > div:nth-of-type(2) > div > div:nth-of-type(2) > div:nth-of-type(2) > span:nth-of-type(2)",
+            "prop": "background"
+          }
+        ]
+      },
+      {
+        "hex": "#7345b2",
+        "values": [
+          "rgb(115, 69, 178)"
+        ],
+        "weight": 2,
+        "bgArea": 288,
+        "by": {
+          "background": 2
+        },
+        "roles": [],
+        "sources": [
+          {
+            "url": "https://www.asianpaints.com/",
+            "selector": "header > div > div:nth-of-type(2) > div:nth-of-type(1) > div > div:nth-of-type(2) > a:nth-of-type(3) > span:nth-of-type(1)",
+            "prop": "background"
+          }
+        ]
+      },
+      {
+        "hex": "#8c8e90",
+        "values": [
+          "rgb(140, 142, 144)"
+        ],
+        "weight": 2,
+        "by": {
+          "text": 2
+        },
+        "roles": [],
+        "sources": [
+          {
+            "url": "https://www.asianpaints.com/",
+            "selector": "div:nth-of-type(3) > div:nth-of-type(1) > div > div:nth-of-type(21) > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(1) > p",
+            "prop": "text"
+          }
+        ]
+      },
+      {
+        "hex": "#feb940",
+        "values": [
+          "rgb(254, 185, 64)"
+        ],
+        "weight": 1,
+        "by": {
+          "border": 1
+        },
+        "roles": [],
+        "sources": [
+          {
+            "url": "https://www.asianpaints.com/",
+            "selector": "#textures-1",
+            "prop": "border"
+          }
+        ]
+      },
+      {
+        "hex": "#ffffff26",
+        "values": [
+          "rgba(255, 255, 255, 0.15)"
+        ],
+        "weight": 1,
+        "by": {
+          "border": 1
+        },
+        "roles": [],
+        "sources": [
+          {
+            "url": "https://www.asianpaints.com/",
+            "selector": "footer > div > div > section:nth-of-type(1) > div > div > div:nth-of-type(1)",
+            "prop": "border"
+          }
+        ]
+      }
+    ],
+    "type": {
+      "families": [
+        {
+          "family": "Manrope",
+          "count": 97,
+          "headings": 38,
+          "text": 24,
+          "buttons": 35
+        }
+      ],
+      "headingFamily": "Manrope",
+      "bodyFamily": "Manrope",
+      "sizes": [
+        {
+          "px": 64,
+          "count": 1,
+          "headings": 1,
+          "text": 0,
+          "buttons": 0
+        },
+        {
+          "px": 60,
+          "count": 3,
+          "headings": 3,
+          "text": 0,
+          "buttons": 0
+        },
+        {
+          "px": 54,
+          "count": 4,
+          "headings": 4,
+          "text": 0,
+          "buttons": 0
+        },
+        {
+          "px": 40,
+          "count": 3,
+          "headings": 3,
+          "text": 0,
+          "buttons": 0
+        },
+        {
+          "px": 32,
+          "count": 6,
+          "headings": 6,
+          "text": 0,
+          "buttons": 0
+        },
+        {
+          "px": 30,
+          "count": 1,
+          "headings": 1,
+          "text": 0,
+          "buttons": 0
+        },
+        {
+          "px": 26,
+          "count": 1,
+          "headings": 1,
+          "text": 0,
+          "buttons": 0
+        },
+        {
+          "px": 24,
+          "count": 7,
+          "headings": 7,
+          "text": 0,
+          "buttons": 0
+        },
+        {
+          "px": 22,
+          "count": 5,
+          "headings": 1,
+          "text": 0,
+          "buttons": 4
+        },
+        {
+          "px": 20,
+          "count": 1,
+          "headings": 1,
+          "text": 0,
+          "buttons": 0
+        },
+        {
+          "px": 18,
+          "count": 8,
+          "headings": 0,
+          "text": 4,
+          "buttons": 4
+        },
+        {
+          "px": 16,
+          "count": 16,
+          "headings": 0,
+          "text": 6,
+          "buttons": 10
+        },
+        {
+          "px": 14,
+          "count": 31,
+          "headings": 6,
+          "text": 8,
+          "buttons": 17
+        },
+        {
+          "px": 13,
+          "count": 2,
+          "headings": 2,
+          "text": 0,
+          "buttons": 0
+        },
+        {
+          "px": 12,
+          "count": 8,
+          "headings": 2,
+          "text": 6,
+          "buttons": 0
+        }
+      ],
+      "weights": [
+        {
+          "weight": "400",
+          "count": 34,
+          "headings": 6,
+          "text": 18,
+          "buttons": 10
+        },
+        {
+          "weight": "700",
+          "count": 18,
+          "headings": 8,
+          "text": 0,
+          "buttons": 10
+        },
+        {
+          "weight": "600",
+          "count": 16,
+          "headings": 1,
+          "text": 0,
+          "buttons": 15
+        },
+        {
+          "weight": "800",
+          "count": 16,
+          "headings": 16,
+          "text": 0,
+          "buttons": 0
+        },
+        {
+          "weight": "500",
+          "count": 9,
+          "headings": 3,
+          "text": 6,
+          "buttons": 0
+        },
+        {
+          "weight": "300",
+          "count": 4,
+          "headings": 4,
+          "text": 0,
+          "buttons": 0
+        }
+      ],
+      "levels": {
+        "h2": {
+          "fontSize": 54,
+          "fontWeight": "800",
+          "count": 2,
+          "score": 152.74
+        },
+        "h3": {
+          "fontSize": 54,
+          "fontWeight": "800",
+          "count": 2,
+          "score": 152.74
+        }
+      }
+    },
+    "motifs": {
+      "radius": {
+        "mode": "10px",
+        "areaMode": "10px",
+        "pill": "50%",
+        "values": [
+          {
+            "value": "50%",
+            "count": 60,
+            "area": 46916,
+            "sources": [
+              {
+                "url": "https://www.asianpaints.com/",
+                "selector": "header > div > div:nth-of-type(2) > div:nth-of-type(1) > div > div:nth-of-type(2) > a:nth-of-type(3) > span:nth-of-type(1)"
+              },
+              {
+                "url": "https://www.asianpaints.com/",
+                "selector": "main > div:nth-of-type(1) > div:nth-of-type(2) > div > div:nth-of-type(2) > span:nth-of-type(3)"
+              },
+              {
+                "url": "https://www.asianpaints.com/",
+                "selector": "main > div:nth-of-type(1) > div:nth-of-type(2) > div > div:nth-of-type(2) > span:nth-of-type(4)"
+              }
+            ]
+          },
+          {
+            "value": "10px",
+            "count": 37,
+            "area": 4204358,
+            "sources": [
+              {
+                "url": "https://www.asianpaints.com/",
+                "selector": "div > div > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > a"
+              },
+              {
+                "url": "https://www.asianpaints.com/",
+                "selector": "div > div > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > a"
+              },
+              {
+                "url": "https://www.asianpaints.com/",
+                "selector": "div > div > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(3) > a"
+              }
+            ]
+          },
+          {
+            "value": "8px",
+            "count": 35,
+            "area": 1752673,
+            "sources": [
+              {
+                "url": "https://www.asianpaints.com/",
+                "selector": "main > div:nth-of-type(1) > div:nth-of-type(3)"
+              },
+              {
+                "url": "https://www.asianpaints.com/",
+                "selector": "main > div:nth-of-type(2) > div > div > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > span:nth-of-type(1)"
+              },
+              {
+                "url": "https://www.asianpaints.com/",
+                "selector": "#enquire-name"
+              },
+              {
+                "url": "https://www.asianpaints.com/",
+                "selector": "#enquire-email"
+              }
+            ]
+          },
+          {
+            "value": "45px",
+            "count": 16,
+            "area": 107823,
+            "sources": [
+              {
+                "url": "https://www.asianpaints.com/",
+                "selector": "header > div > div:nth-of-type(2) > div:nth-of-type(1) > div > div:nth-of-type(3) > a"
+              },
+              {
+                "url": "https://www.asianpaints.com/",
+                "selector": "main > div:nth-of-type(1) > div:nth-of-type(2) > div > div:nth-of-type(1) > div:nth-of-type(1) > div > a:nth-of-type(2)"
+              },
+              {
+                "url": "https://www.asianpaints.com/",
+                "selector": "main > div:nth-of-type(1) > div:nth-of-type(2) > div > div:nth-of-type(1) > div:nth-of-type(2) > div > a:nth-of-type(2)"
+              }
+            ]
+          },
+          {
+            "value": "30px",
+            "count": 13,
+            "area": 76310,
+            "sources": [
+              {
+                "url": "https://www.asianpaints.com/",
+                "selector": "main > div:nth-of-type(1) > div:nth-of-type(2) > div > div:nth-of-type(2)"
+              },
+              {
+                "url": "https://www.asianpaints.com/",
+                "selector": "main > div:nth-of-type(1) > div:nth-of-type(2) > div > div:nth-of-type(2) > span:nth-of-type(2)"
+              },
+              {
+                "url": "https://www.asianpaints.com/",
+                "selector": "div:nth-of-type(3) > div:nth-of-type(1) > div > div:nth-of-type(21) > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(2) > button"
+              },
+              {
+                "url": "https://www.asianpaints.com/",
+                "selector": "main > div:nth-of-type(2) > div > div > div:nth-of-type(1) > div:nth-of-type(1) > p:nth-of-type(3) > a"
+              }
+            ]
+          },
+          {
+            "value": "12px",
+            "count": 12,
+            "area": 1453804,
+            "sources": [
+              {
+                "url": "https://www.asianpaints.com/",
+                "selector": "main > div:nth-of-type(4) > div:nth-of-type(2) > div > div:nth-of-type(2) > div:nth-of-type(1)"
+              },
+              {
+                "url": "https://www.asianpaints.com/",
+                "selector": "#swiper-wrapper-a85ec27db40dbb67 > div:nth-of-type(1) > a"
+              },
+              {
+                "url": "https://www.asianpaints.com/",
+                "selector": "#swiper-wrapper-a85ec27db40dbb67 > div:nth-of-type(2) > a"
+              },
+              {
+                "url": "https://www.asianpaints.com/",
+                "selector": "div:nth-of-type(2) > div > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div > div:nth-of-type(2) > video"
+              },
+              {
+                "url": "https://www.asianpaints.com/",
+                "selector": "div:nth-of-type(2) > div > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > div > div:nth-of-type(2) > video"
+              }
+            ]
+          },
+          {
+            "value": "20px",
+            "count": 12,
+            "area": 1632140,
+            "sources": [
+              {
+                "url": "https://www.asianpaints.com/",
+                "selector": "main > div:nth-of-type(3) > div:nth-of-type(1) > div"
+              },
+              {
+                "url": "https://www.asianpaints.com/",
+                "selector": "main > div:nth-of-type(7) > div > div > div:nth-of-type(2) > div:nth-of-type(2) > div > a:nth-of-type(1)"
+              },
+              {
+                "url": "https://www.asianpaints.com/",
+                "selector": "main > div:nth-of-type(7) > div > div > div:nth-of-type(2) > div:nth-of-type(2) > div > a:nth-of-type(2)"
+              }
+            ]
+          },
+          {
+            "value": "10px 10px 0px 0px",
+            "count": 10,
+            "area": 804493,
+            "sources": [
+              {
+                "url": "https://www.asianpaints.com/",
+                "selector": "div > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > a > div:nth-of-type(1)"
+              },
+              {
+                "url": "https://www.asianpaints.com/",
+                "selector": "div > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > a > div:nth-of-type(1)"
+              },
+              {
+                "url": "https://www.asianpaints.com/",
+                "selector": "div > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(3) > a > div:nth-of-type(1)"
+              }
+            ]
+          },
+          {
+            "value": "16px",
+            "count": 10,
+            "area": 3614964,
+            "sources": [
+              {
+                "url": "https://www.asianpaints.com/",
+                "selector": "main > div:nth-of-type(9) > div > div > div:nth-of-type(2) > div > div:nth-of-type(1) > div:nth-of-type(1)"
+              },
+              {
+                "url": "https://www.asianpaints.com/",
+                "selector": "main > div:nth-of-type(9) > div > div > div:nth-of-type(2) > div > div:nth-of-type(2) > div:nth-of-type(1)"
+              },
+              {
+                "url": "https://www.asianpaints.com/",
+                "selector": "main > div:nth-of-type(9) > div > div > div:nth-of-type(2) > div > div:nth-of-type(3) > div:nth-of-type(1)"
+              },
+              {
+                "url": "https://www.asianpaints.com/",
+                "selector": "main > div:nth-of-type(4) > div:nth-of-type(2) > div > div:nth-of-type(2) > div:nth-of-type(1)"
+              },
+              {
+                "url": "https://www.asianpaints.com/",
+                "selector": "div:nth-of-type(4) > div:nth-of-type(2) > div > div:nth-of-type(2) > div:nth-of-type(1) > div > div:nth-of-type(1) > a"
+              }
+            ]
+          },
+          {
+            "value": "4px 4px 0px 0px",
+            "count": 6,
+            "area": 28800,
+            "sources": [
+              {
+                "url": "https://www.asianpaints.com/",
+                "selector": "header > div > div:nth-of-type(1) > div > a:nth-of-type(1)"
+              },
+              {
+                "url": "https://www.asianpaints.com/",
+                "selector": "header > div > div:nth-of-type(1) > div > a:nth-of-type(2)"
+              },
+              {
+                "url": "https://www.asianpaints.com/",
+                "selector": "header > div > div:nth-of-type(1) > div > a:nth-of-type(3)"
+              }
+            ]
+          },
+          {
+            "value": "5px",
+            "count": 5,
+            "area": 277770,
+            "sources": [
+              {
+                "url": "https://www.asianpaints.com/",
+                "selector": "main > div:nth-of-type(9) > div > div"
+              },
+              {
+                "url": "https://www.asianpaints.com/",
+                "selector": "main > div:nth-of-type(5) > div > div > div:nth-of-type(2) > div > a:nth-of-type(1) > div:nth-of-type(1)"
+              },
+              {
+                "url": "https://www.asianpaints.com/",
+                "selector": "main > div:nth-of-type(5) > div > div > div:nth-of-type(2) > div > a:nth-of-type(2) > div:nth-of-type(1)"
+              },
+              {
+                "url": "https://www.asianpaints.com/",
+                "selector": "main > div:nth-of-type(5) > div > div > div:nth-of-type(2) > div > a:nth-of-type(3) > div:nth-of-type(1)"
+              }
+            ]
+          },
+          {
+            "value": "6px",
+            "count": 4,
+            "area": 43680,
+            "sources": [
+              {
+                "url": "https://www.asianpaints.com/",
+                "selector": "main > div:nth-of-type(5) > div > div > div:nth-of-type(2) > div > a:nth-of-type(1) > div:nth-of-type(1)"
+              },
+              {
+                "url": "https://www.asianpaints.com/",
+                "selector": "main > div:nth-of-type(5) > div > div > div:nth-of-type(2) > div > a:nth-of-type(2) > div:nth-of-type(1)"
+              },
+              {
+                "url": "https://www.asianpaints.com/",
+                "selector": "main > div:nth-of-type(5) > div > div > div:nth-of-type(2) > div > a:nth-of-type(3) > div:nth-of-type(1)"
+              }
+            ]
+          },
+          {
+            "value": "999px",
+            "count": 4,
+            "area": 200,
+            "sources": [
+              {
+                "url": "https://www.asianpaints.com/",
+                "selector": "main > div:nth-of-type(4) > div:nth-of-type(2) > div > div:nth-of-type(2) > div:nth-of-type(2) > span:nth-of-type(2)"
+              },
+              {
+                "url": "https://www.asianpaints.com/",
+                "selector": "main > div:nth-of-type(4) > div:nth-of-type(2) > div > div:nth-of-type(2) > div:nth-of-type(2) > span:nth-of-type(3)"
+              },
+              {
+                "url": "https://www.asianpaints.com/",
+                "selector": "main > div:nth-of-type(9) > div > div > div:nth-of-type(3) > span:nth-of-type(2)"
+              }
+            ]
+          },
+          {
+            "value": "100px",
+            "count": 2,
+            "area": 34123,
+            "sources": [
+              {
+                "url": "https://www.asianpaints.com/",
+                "selector": "footer > div > div > section:nth-of-type(2) > div:nth-of-type(3) > button"
+              }
+            ]
+          },
+          {
+            "value": "2px",
+            "count": 2,
+            "area": 450,
+            "sources": [
+              {
+                "url": "https://www.asianpaints.com/",
+                "selector": "div:nth-of-type(1) > div > div:nth-of-type(21) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > label > span:nth-of-type(1)"
+              }
+            ]
+          },
+          {
+            "value": "8px 8px 0px 0px",
+            "count": 2,
+            "area": 112485,
+            "sources": [
+              {
+                "url": "https://www.asianpaints.com/",
+                "selector": "div > div > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div > div:nth-of-type(1) > div:nth-of-type(1)"
+              }
+            ]
+          },
+          {
+            "value": "0px 0px 20px 20px",
+            "count": 1,
+            "area": 402793,
+            "sources": [
+              {
+                "url": "https://www.asianpaints.com/",
+                "selector": "footer > div > div > section:nth-of-type(1) > div > div > div:nth-of-type(2)"
+              }
+            ]
+          },
+          {
+            "value": "4px",
+            "count": 1,
+            "area": 78720,
+            "sources": [
+              {
+                "url": "https://www.asianpaints.com/",
+                "selector": "footer > div > div > section:nth-of-type(1) > div > div > div:nth-of-type(2)"
+              }
+            ]
+          }
+        ]
+      },
+      "shadows": [
+        {
+          "value": "rgba(16, 24, 40, 0.1) 0px 4px 16px -2px",
+          "count": 3,
+          "sources": [
+            {
+              "url": "https://www.asianpaints.com/",
+              "selector": "main > div:nth-of-type(1) > div:nth-of-type(3)"
+            },
+            {
+              "url": "https://www.asianpaints.com/",
+              "selector": "#nav"
+            }
+          ]
+        },
+        {
+          "value": "rgba(0, 0, 0, 0.5) 0px 0px 12px 0px",
+          "count": 2,
+          "sources": [
+            {
+              "url": "https://www.asianpaints.com/",
+              "selector": "#sprinklr-chat-placeholder > div > button"
+            }
+          ]
+        },
+        {
+          "value": "rgba(16, 24, 40, 0.16) 1px 6px 25px -4px",
+          "count": 2,
+          "sources": [
+            {
+              "url": "https://www.asianpaints.com/",
+              "selector": "div:nth-of-type(10) > div > div > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div > div:nth-of-type(1)"
+            }
+          ]
+        }
+      ],
+      "gradients": [
+        {
+          "value": "linear-gradient(270.75deg, rgba(129, 122, 107, 0) -1.31%, rgba(91, 80, 68, 0.5) 65.3%)",
+          "count": 2,
+          "area": 1044720,
+          "sources": [
+            {
+              "url": "https://www.asianpaints.com/",
+              "selector": "main > div:nth-of-type(1) > div:nth-of-type(2) > div > div:nth-of-type(1) > div:nth-of-type(1) > div > div:nth-of-type(2)"
+            }
+          ]
+        },
+        {
+          "value": "linear-gradient(rgb(0, 200, 83), rgb(3, 149, 63))",
+          "count": 2,
+          "area": 4580,
+          "sources": [
+            {
+              "url": "https://www.asianpaints.com/",
+              "selector": "#sprinklr-chat-placeholder > div > button"
+            }
+          ]
+        }
+      ]
+    },
+    "hover": [
+      {
+        "kind": "link",
+        "from": {
+          "color": "rgb(13, 110, 253)"
+        },
+        "to": {
+          "color": "rgb(115, 69, 179)"
+        },
+        "count": 1,
+        "sources": [
+          {
+            "url": "https://www.asianpaints.com/",
+            "selector": "main > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(2) > div > a:nth-of-type(1)"
+          }
+        ]
+      }
+    ],
+    "logo": {
+      "source": "none",
+      "url": null,
+      "selector": null
+    },
+    "iconFont": {
+      "families": [
+        "HeaderFontIcons",
+        "embeddedserviceiconfont",
+        "swiper-icons"
+      ],
+      "glyphs": [
+        {
+          "class": "action-btn profile-btn profile-auth-link",
+          "pseudo": "::before",
+          "codepoint": "U+E004",
+          "fontFamily": "HeaderFontIcons",
+          "count": 2,
+          "sources": [
+            "https://www.asianpaints.com/",
+            "https://www.asianpaints.com/"
+          ]
+        },
+        {
+          "class": "embeddedServiceIcon",
+          "pseudo": "::before",
+          "codepoint": "U+E900",
+          "fontFamily": "embeddedserviceiconfont",
+          "count": 2,
+          "sources": [
+            "https://www.asianpaints.com/",
+            "https://www.asianpaints.com/"
+          ]
+        },
+        {
+          "class": "mobile-search-btn",
+          "pseudo": "::before",
+          "codepoint": "U+E005",
+          "fontFamily": "HeaderFontIcons",
+          "count": 2,
+          "sources": [
+            "https://www.asianpaints.com/",
+            "https://www.asianpaints.com/"
+          ]
+        },
+        {
+          "class": "search-icon",
+          "pseudo": "::before",
+          "codepoint": "U+E005",
+          "fontFamily": "HeaderFontIcons",
+          "count": 2,
+          "sources": [
+            "https://www.asianpaints.com/",
+            "https://www.asianpaints.com/"
+          ]
+        }
+      ]
+    }
+  }
+}

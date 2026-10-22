@@ -1,0 +1,574 @@
+{
+ "_provenance": {
+  "writtenBy": "stardust:dynamics plan",
+  "writtenAt": "2026-10-19T16:48:33.300Z",
+  "input": "stardust/current/_dynamics.json",
+  "target": "https://main--03cd0138--aemcoder.aem.page",
+  "migrated": null,
+  "knowledge": null,
+  "chrome": null
+ },
+ "rows": [
+  {
+   "id": "a-unknown-third-party-host-vtiles-saleassist-ai",
+   "class": "A",
+   "feature": "unknown third-party host vtiles.saleassist.ai",
+   "pages": 1,
+   "probed": 1,
+   "reach": null,
+   "evidence": [
+    "vtiles.saleassist.ai"
+   ],
+   "pattern": "inspect",
+   "disposition": "static-snapshot",
+   "reproducibility": "needs-human-capture",
+   "status": "pending",
+   "phase": "detect",
+   "decision": "inspect the XHR, add a vendor row"
+  },
+  {
+   "id": "a-first-party-api-get-apcolourcatalogue-detect-location",
+   "class": "A",
+   "feature": "first-party API GET /apcolourcatalogue/detect-location",
+   "pages": 1,
+   "probed": 1,
+   "reach": {
+    "pages": 1,
+    "of": 1
+   },
+   "evidence": [
+    "GET /apcolourcatalogue/detect-location?_ → 200"
+   ],
+   "pattern": "off-origin-data",
+   "disposition": "data-fed",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "off-origin data",
+   "decision": "which tier for the target host; consumer on the migrated pages?",
+   "hostBound": "dead on target (404)"
+  },
+  {
+   "id": "a-cms-app-settings-object-digitaldata",
+   "class": "A",
+   "feature": "CMS / app settings object digitalData",
+   "pages": 1,
+   "probed": 1,
+   "reach": null,
+   "evidence": [],
+   "pattern": "read-settings",
+   "disposition": "static-snapshot",
+   "reproducibility": "self",
+   "status": "pending",
+   "phase": "detect",
+   "decision": "— (keys name endpoints, ids, vendors)"
+  },
+  {
+   "id": "a-cms-app-settings-object-datalayer",
+   "class": "A",
+   "feature": "CMS / app settings object dataLayer",
+   "pages": 1,
+   "probed": 1,
+   "reach": null,
+   "evidence": [],
+   "pattern": "read-settings",
+   "disposition": "static-snapshot",
+   "reproducibility": "self",
+   "status": "pending",
+   "phase": "detect",
+   "decision": "— (keys name endpoints, ids, vendors)"
+  },
+  {
+   "id": "a-cms-app-settings-object-adobedatalayer",
+   "class": "A",
+   "feature": "CMS / app settings object adobeDataLayer",
+   "pages": 1,
+   "probed": 1,
+   "reach": null,
+   "evidence": [],
+   "pattern": "read-settings",
+   "disposition": "static-snapshot",
+   "reproducibility": "self",
+   "status": "pending",
+   "phase": "detect",
+   "decision": "— (keys name endpoints, ids, vendors)"
+  },
+  {
+   "id": "cr-main-empty-at-load-filled-after-client-rendered-page",
+   "class": "CR",
+   "feature": "main empty at load, filled after (client-rendered page)",
+   "pages": 1,
+   "probed": 1,
+   "reach": null,
+   "evidence": [
+    "text at load 0 → settled 11225"
+   ],
+   "pattern": "client-rendered-page",
+   "disposition": "static-snapshot",
+   "reproducibility": "needs-human-capture",
+   "status": "pending",
+   "phase": "capture",
+   "decision": "human-browser capture; never migrate blank"
+  },
+  {
+   "id": "d-first-party-data-file-get-eds-configs-site-config-json",
+   "class": "D",
+   "feature": "first-party data file GET /eds/configs/site-config.json",
+   "pages": 1,
+   "probed": 1,
+   "reach": {
+    "pages": 1,
+    "of": 1
+   },
+   "evidence": [
+    "GET /eds/configs/site-config.json → 200"
+   ],
+   "pattern": "sheet-sync",
+   "disposition": "data-fed",
+   "reproducibility": "self",
+   "status": "pending",
+   "phase": "data",
+   "decision": "none (sync from the source origin)",
+   "hostBound": "dead on target (404)"
+  },
+  {
+   "id": "d-first-party-data-file-get-apcolourcatalogue-commerce-minic",
+   "class": "D",
+   "feature": "first-party data file GET /apcolourcatalogue/commerce/miniCart.json",
+   "pages": 1,
+   "probed": 1,
+   "reach": {
+    "pages": 1,
+    "of": 1
+   },
+   "evidence": [
+    "GET /apcolourcatalogue/commerce/miniCart.json?_ → 200"
+   ],
+   "pattern": "sheet-sync",
+   "disposition": "data-fed",
+   "reproducibility": "self",
+   "status": "pending",
+   "phase": "data",
+   "decision": "none (sync from the source origin)",
+   "hostBound": "dead on target (404)"
+  },
+  {
+   "id": "f-form-less-control-group-in-input-form-input-4-controls",
+   "class": "F",
+   "feature": "form-less control group in input.form-input (4 controls)",
+   "pages": 1,
+   "probed": 1,
+   "reach": null,
+   "evidence": [
+    "ENQUIRE_NAME,ENQUIRE_EMAIL,ENQUIRE_MOBILE,ENQUIRE_PINCODE"
+   ],
+   "pattern": "client-compute",
+   "disposition": "client-only",
+   "reproducibility": "self",
+   "status": "pending",
+   "phase": "client tools",
+   "decision": "none"
+  },
+  {
+   "id": "f-form-less-control-group-in-input-form-radio-input-field-5-",
+   "class": "F",
+   "feature": "form-less control group in input.form-radio-input__field (5 controls)",
+   "pages": 1,
+   "probed": 1,
+   "reach": null,
+   "evidence": [
+    "NEW_CUSTOM_CHECKBOX_customer_response_one,NEW_CUSTOM_CHECKBOX_customer_response_one,NEW_CUSTOM_CHECKBOX_customer_response_one,NEW_CUSTOM_CHECKBOX_customer_response_two,NEW_CUSTOM_CHECKBOX_customer_response_two"
+   ],
+   "pattern": "client-compute",
+   "disposition": "client-only",
+   "reproducibility": "self",
+   "status": "pending",
+   "phase": "client tools",
+   "decision": "none"
+  },
+  {
+   "id": "i18n-locale-variants-en-en",
+   "class": "I18N",
+   "feature": "locale variants en,en",
+   "pages": 1,
+   "probed": 1,
+   "reach": null,
+   "evidence": [
+    "https://www.asianpaintsarabia.com/en/home.html",
+    "https://www.scibpaints.com/en/home.html"
+   ],
+   "pattern": "locale-tree",
+   "disposition": "rebuild-native",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "locale wave",
+   "decision": "scope of the locale trees"
+  },
+  {
+   "id": "l-listing-candidate-swiper-wrapper-color-gallery-carousel-tr",
+   "class": "L",
+   "feature": "listing candidate swiper-wrapper color-gallery-carousel-track (9 cards)",
+   "pages": 1,
+   "probed": 1,
+   "reach": null,
+   "evidence": [],
+   "pattern": "listing-index-backed",
+   "disposition": "index-backed",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "listings",
+   "decision": "index-driven or editorially curated?"
+  },
+  {
+   "id": "l-listing-candidate-swiper-wrapper-sa-shorts-parent-video-co",
+   "class": "L",
+   "feature": "listing candidate swiper-wrapper sa-shorts-parent-video-container (10 cards)",
+   "pages": 1,
+   "probed": 1,
+   "reach": null,
+   "evidence": [],
+   "pattern": "listing-index-backed",
+   "disposition": "index-backed",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "listings",
+   "decision": "index-driven or editorially curated?"
+  },
+  {
+   "id": "m-modal-trigger-trigger-book-free-site-visit-modal-chrome-on",
+   "class": "M",
+   "feature": "modal trigger trigger-book-free-site-visit-modal (chrome only) → target outside DOM at capture",
+   "pages": 1,
+   "probed": 1,
+   "reach": {
+    "pages": 1,
+    "of": 1
+   },
+   "evidence": [
+    "https://www.asianpaints.com/eds/forms/book-free-site-visit"
+   ],
+   "pattern": "chrome-interaction",
+   "disposition": "rebuild-native",
+   "reproducibility": "self",
+   "status": "pending",
+   "phase": "interactive",
+   "decision": "none (the header contract is the spec)"
+  },
+  {
+   "id": "m-modal-trigger-cart-modal-shop-chrome-only-target-outside-d",
+   "class": "M",
+   "feature": "modal trigger cart-modal-shop (chrome only) → target outside DOM at capture",
+   "pages": 1,
+   "probed": 1,
+   "reach": {
+    "pages": 1,
+    "of": 1
+   },
+   "evidence": [
+    "https://www.asianpaints.com/paint-products.html"
+   ],
+   "pattern": "chrome-interaction",
+   "disposition": "rebuild-native",
+   "reproducibility": "self",
+   "status": "pending",
+   "phase": "interactive",
+   "decision": "none (the header contract is the spec)"
+  },
+  {
+   "id": "m-modal-trigger-login-modal-action-chrome-only-target-outsid",
+   "class": "M",
+   "feature": "modal trigger login-modal-action (chrome only) → target outside DOM at capture",
+   "pages": 1,
+   "probed": 1,
+   "reach": {
+    "pages": 2,
+    "of": 1
+   },
+   "evidence": [
+    "Login",
+    "Continue as guest"
+   ],
+   "pattern": "chrome-interaction",
+   "disposition": "rebuild-native",
+   "reproducibility": "self",
+   "status": "pending",
+   "phase": "interactive",
+   "decision": "none (the header contract is the spec)"
+  },
+  {
+   "id": "m-modal-trigger-aria-haspopup-chrome-only-button-content",
+   "class": "M",
+   "feature": "modal trigger aria-haspopup (chrome only) → button:content",
+   "pages": 1,
+   "probed": 1,
+   "reach": null,
+   "evidence": [
+    "Filter Icon"
+   ],
+   "pattern": "chrome-interaction",
+   "disposition": "rebuild-native",
+   "reproducibility": "self",
+   "status": "pending",
+   "phase": "interactive",
+   "decision": "none (the header contract is the spec)"
+  },
+  {
+   "id": "t-tag-manager-adobe-launch",
+   "class": "T",
+   "feature": "tag manager: Adobe Launch",
+   "pages": 1,
+   "probed": 1,
+   "reach": null,
+   "evidence": [
+    "assets.adobedtm.com"
+   ],
+   "pattern": "consent-gated-tags",
+   "disposition": "embed-passthrough",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "tags",
+   "decision": "which tags run on the new host; property ids"
+  },
+  {
+   "id": "t-unknown-third-party-host-www-facebook-com",
+   "class": "T",
+   "feature": "unknown third-party host www.facebook.com",
+   "pages": 1,
+   "probed": 1,
+   "reach": null,
+   "evidence": [
+    "www.facebook.com"
+   ],
+   "pattern": "consent-gated-tags",
+   "disposition": "embed-passthrough",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "tags",
+   "decision": "which tags run on the new host; property ids"
+  },
+  {
+   "id": "t-marketing-ad-retargeting-pixel",
+   "class": "T",
+   "feature": "marketing: ad / retargeting pixel",
+   "pages": 1,
+   "probed": 1,
+   "reach": null,
+   "evidence": [
+    "googleads.g.doubleclick.net",
+    "ad.doubleclick.net"
+   ],
+   "pattern": "consent-gated-tags",
+   "disposition": "embed-passthrough",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "tags",
+   "decision": "which tags run on the new host; property ids"
+  },
+  {
+   "id": "t-analytics-google-analytics-ads",
+   "class": "T",
+   "feature": "analytics: Google Analytics / Ads",
+   "pages": 1,
+   "probed": 1,
+   "reach": null,
+   "evidence": [
+    "www.google-analytics.com"
+   ],
+   "pattern": "consent-gated-tags",
+   "disposition": "embed-passthrough",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "tags",
+   "decision": "which tags run on the new host; property ids"
+  },
+  {
+   "id": "t-tag-manager-google-tag-manager",
+   "class": "T",
+   "feature": "tag manager: Google Tag Manager",
+   "pages": 1,
+   "probed": 1,
+   "reach": null,
+   "evidence": [
+    "www.googletagmanager.com"
+   ],
+   "pattern": "consent-gated-tags",
+   "disposition": "embed-passthrough",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "tags",
+   "decision": "which tags run on the new host; property ids"
+  },
+  {
+   "id": "t-analytics-adobe-analytics-experience-cloud-id",
+   "class": "T",
+   "feature": "analytics: Adobe Analytics / Experience Cloud ID",
+   "pages": 1,
+   "probed": 1,
+   "reach": null,
+   "evidence": [
+    "edge.adobedc.net",
+    "apl.data.adobedc.net"
+   ],
+   "pattern": "consent-gated-tags",
+   "disposition": "embed-passthrough",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "tags",
+   "decision": "which tags run on the new host; property ids"
+  },
+  {
+   "id": "t-unknown-third-party-host-static-saleassist-ai",
+   "class": "T",
+   "feature": "unknown third-party host static.saleassist.ai",
+   "pages": 1,
+   "probed": 1,
+   "reach": null,
+   "evidence": [
+    "static.saleassist.ai"
+   ],
+   "pattern": "consent-gated-tags",
+   "disposition": "embed-passthrough",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "tags",
+   "decision": "which tags run on the new host; property ids"
+  },
+  {
+   "id": "t-unknown-third-party-host-cdn-socket-io",
+   "class": "T",
+   "feature": "unknown third-party host cdn.socket.io",
+   "pages": 1,
+   "probed": 1,
+   "reach": null,
+   "evidence": [
+    "cdn.socket.io"
+   ],
+   "pattern": "consent-gated-tags",
+   "disposition": "embed-passthrough",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "tags",
+   "decision": "which tags run on the new host; property ids"
+  },
+  {
+   "id": "t-unknown-third-party-host-cdn-gumlytics-com",
+   "class": "T",
+   "feature": "unknown third-party host cdn.gumlytics.com",
+   "pages": 1,
+   "probed": 1,
+   "reach": null,
+   "evidence": [
+    "cdn.gumlytics.com"
+   ],
+   "pattern": "consent-gated-tags",
+   "disposition": "embed-passthrough",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "tags",
+   "decision": "which tags run on the new host; property ids"
+  },
+  {
+   "id": "t-unknown-third-party-host-client-static-saleassist-ai",
+   "class": "T",
+   "feature": "unknown third-party host client-static.saleassist.ai",
+   "pages": 1,
+   "probed": 1,
+   "reach": null,
+   "evidence": [
+    "client-static.saleassist.ai"
+   ],
+   "pattern": "consent-gated-tags",
+   "disposition": "embed-passthrough",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "tags",
+   "decision": "which tags run on the new host; property ids"
+  },
+  {
+   "id": "t-consent-onetrust",
+   "class": "T",
+   "feature": "consent: OneTrust",
+   "pages": 1,
+   "probed": 1,
+   "reach": null,
+   "evidence": [
+    "cdn.cookielaw.org",
+    "geolocation.onetrust.com"
+   ],
+   "pattern": "consent-gated-tags",
+   "disposition": "embed-passthrough",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "tags",
+   "decision": "CMP domain script reuse on the new host"
+  },
+  {
+   "id": "t-analytics-session-replay",
+   "class": "T",
+   "feature": "analytics: session replay",
+   "pages": 1,
+   "probed": 1,
+   "reach": null,
+   "evidence": [
+    "www.clarity.ms",
+    "c.clarity.ms",
+    "scripts.clarity.ms",
+    "b.clarity.ms"
+   ],
+   "pattern": "consent-gated-tags",
+   "disposition": "embed-passthrough",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "tags",
+   "decision": "which tags run on the new host; property ids"
+  },
+  {
+   "id": "t-unknown-third-party-host-c-bing-com",
+   "class": "T",
+   "feature": "unknown third-party host c.bing.com",
+   "pages": 1,
+   "probed": 1,
+   "reach": null,
+   "evidence": [
+    "c.bing.com"
+   ],
+   "pattern": "consent-gated-tags",
+   "disposition": "embed-passthrough",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "tags",
+   "decision": "which tags run on the new host; property ids"
+  },
+  {
+   "id": "v-iframe-without-src-runtime-injected-embed",
+   "class": "V",
+   "feature": "iframe without src (runtime-injected embed)",
+   "pages": 1,
+   "probed": 1,
+   "reach": null,
+   "evidence": [
+    "onetrust-text-resize"
+   ],
+   "pattern": "embed-passthrough",
+   "disposition": "embed-passthrough",
+   "reproducibility": "needs-human-capture",
+   "status": "pending",
+   "phase": "embeds",
+   "decision": "resolve the runtime src from a rendered capture"
+  },
+  {
+   "id": "x-commerce-signals-cart-true-prices-0",
+   "class": "X",
+   "feature": "commerce signals (cart: true, prices: 0)",
+   "pages": 1,
+   "probed": 1,
+   "reach": null,
+   "evidence": [],
+   "pattern": "decided-out",
+   "disposition": "decided-out",
+   "reproducibility": "needs-backend",
+   "status": "pending",
+   "phase": "register",
+   "decision": "auth / commerce on the new host?"
+  }
+ ]
+}

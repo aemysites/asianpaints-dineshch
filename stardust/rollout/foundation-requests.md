@@ -1,0 +1,1 @@
+- [applied C-final] archetype-landing | footer promo banner rendition: delivered 2000×705 webp vs source 2886×1018 avif — 1440 lower footer band crop 3.17 % (> 2 %) | gates/index-1440/crop-ftr-b-pub2.png, measure 'footer picture img' | landing

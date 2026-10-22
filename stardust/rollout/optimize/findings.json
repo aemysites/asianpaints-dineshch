@@ -1,0 +1,118 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:rollout/findings",
+    "writtenAt": "2026-10-19T20:25:55.751Z",
+    "stardustVersion": "0.0.0"
+  },
+  "runs": [
+    {
+      "id": "run-1",
+      "at": "2026-10-19T20:20:55.853Z",
+      "scopePages": [
+        "index"
+      ],
+      "layersRun": [
+        "accessibility",
+        "seo",
+        "ai-search",
+        "cross-page"
+      ],
+      "trigger": "deliver",
+      "source": "https://main--03cd0138--aemcoder.aem.live"
+    },
+    {
+      "id": "run-2",
+      "at": "2026-10-19T20:24:40.323Z",
+      "scopePages": [
+        "index"
+      ],
+      "layersRun": [
+        "accessibility",
+        "seo",
+        "ai-search",
+        "cross-page"
+      ],
+      "trigger": "deliver",
+      "source": "https://main--03cd0138--aemcoder.aem.live"
+    },
+    {
+      "id": "run-3",
+      "at": "2026-10-19T20:25:43.479Z",
+      "scopePages": [
+        "index"
+      ],
+      "layersRun": [
+        "accessibility",
+        "seo",
+        "ai-search",
+        "cross-page"
+      ],
+      "trigger": "deliver",
+      "source": "https://main--03cd0138--aemcoder.aem.live"
+    }
+  ],
+  "findings": [
+    {
+      "id": "f-54be5a397f",
+      "source": "rollout:baseline",
+      "layer": "ai-search",
+      "check": "jsonld",
+      "severity": "P2",
+      "fixability": "platform-migration",
+      "scope": {
+        "level": "page",
+        "ids": [
+          "index"
+        ]
+      },
+      "evidence": "no JSON-LD structured data",
+      "recommendedMove": "Emit page-type JSON-LD in the head (metadata-and-jsonld).",
+      "autofix": {
+        "available": true,
+        "target": "aem-eds",
+        "strategy": "eds-jsonld",
+        "kind": "manual",
+        "status": "pending",
+        "appliedBy": null,
+        "at": null,
+        "detail": null
+      },
+      "status": "fixed",
+      "firstSeenRun": "run-1",
+      "resolvedBy": {
+        "phase": "deploy",
+        "at": "2026-10-19T20:25:43.479Z",
+        "note": "no longer detected on delivered page"
+      }
+    },
+    {
+      "id": "f-d01fa77b14",
+      "source": "rollout:baseline",
+      "layer": "seo",
+      "check": "title-length",
+      "severity": "P3",
+      "fixability": "platform-migration",
+      "scope": {
+        "level": "page",
+        "ids": [
+          "index"
+        ]
+      },
+      "evidence": "<title> is 81 chars (\"Trusted Wall Painting, Home Painting &#x\")",
+      "recommendedMove": "Aim for ~50-60 chars: brand + primary keyword (deploy #34).",
+      "autofix": {
+        "available": true,
+        "target": "aem-eds",
+        "strategy": "eds-metadata-title",
+        "kind": "content-draft",
+        "status": "pending",
+        "appliedBy": null,
+        "at": null,
+        "detail": null
+      },
+      "status": "accepted",
+      "firstSeenRun": "run-1",
+      "resolvedBy": null
+    }
+  ]
+}

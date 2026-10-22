@@ -1,0 +1,1136 @@
+{
+ "_provenance": {
+  "writtenBy": "stardust:dynamics detect",
+  "writtenAt": "2026-10-19T16:48:08.188Z",
+  "settleMs": 5000,
+  "width": 1440,
+  "urls": [
+   "https://www.asianpaints.com/"
+  ],
+  "reachSource": "stardust/current/pages"
+ },
+ "pages": {
+  "/": {
+   "url": "https://www.asianpaints.com/",
+   "status": 200,
+   "host": "www.asianpaints.com",
+   "title": "Trusted Wall Painting, Home Painting & Waterproofing in India - Asian Paints",
+   "forms": [],
+   "controlGroups": [
+    {
+     "container": "input.form-input",
+     "controls": 4,
+     "names": [
+      "ENQUIRE_NAME",
+      "ENQUIRE_EMAIL",
+      "ENQUIRE_MOBILE",
+      "ENQUIRE_PINCODE"
+     ],
+     "submit": null
+    },
+    {
+     "container": "input.form-radio-input__field",
+     "controls": 5,
+     "names": [
+      "NEW_CUSTOM_CHECKBOX_customer_response_one",
+      "NEW_CUSTOM_CHECKBOX_customer_response_one",
+      "NEW_CUSTOM_CHECKBOX_customer_response_one",
+      "NEW_CUSTOM_CHECKBOX_customer_response_two",
+      "NEW_CUSTOM_CHECKBOX_customer_response_two"
+     ],
+     "submit": null
+    }
+   ],
+   "triggers": [
+    {
+     "text": "Book Free Site Visit",
+     "href": "https://www.asianpaints.com/eds/forms/book-free-site-visit",
+     "marker": "trigger-book-free-site-visit-modal",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": null
+    },
+    {
+     "text": "Shop now",
+     "href": "https://www.asianpaints.com/paint-products.html",
+     "marker": "cart-modal-shop",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": null
+    },
+    {
+     "text": "Login",
+     "href": null,
+     "marker": "login-modal-action",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": null
+    },
+    {
+     "text": "Continue as guest",
+     "href": null,
+     "marker": "login-modal-action",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": null
+    },
+    {
+     "text": "Filter Icon",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "button",
+      "heading": "",
+      "textLen": 11,
+      "hasForm": false,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    }
+   ],
+   "dialogs": [
+    {
+     "role": "div",
+     "heading": "Your cart is empty",
+     "textLen": 43,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "div",
+     "heading": "Your cart is empty",
+     "textLen": 43,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "h4",
+     "heading": "",
+     "textLen": 18,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "div",
+     "heading": "Get recommendations for Colour inspiration, Textures, Wallpapers, Interior Desig",
+     "textLen": 372,
+     "hasForm": true,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "div",
+     "heading": "Get recommendations for Colour inspiration, Textures, Wallpapers, Interior Desig",
+     "textLen": 372,
+     "hasForm": true,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "div",
+     "heading": "Welcome User",
+     "textLen": 35,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "div",
+     "heading": "Welcome User",
+     "textLen": 35,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "div",
+     "heading": "Welcome User",
+     "textLen": 13,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "h2",
+     "heading": "",
+     "textLen": 12,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "div",
+     "heading": "",
+     "textLen": 22,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "dialog",
+     "heading": "Trending Queries",
+     "textLen": 171,
+     "hasForm": true,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "dialog",
+     "heading": "",
+     "textLen": 126,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    }
+   ],
+   "dialogCount": 21,
+   "media": [
+    {
+     "tag": "video",
+     "src": "https://www.asianpaints.com/content/dam/asian_paints/home-ph2/banner/desktop/banner-video-desktop.webm",
+     "account": null,
+     "player": null,
+     "videoId": null,
+     "inDialog": false
+    },
+    {
+     "tag": "video",
+     "src": "https://static.asianpaints.com//content/dam/asian_paints/shade-tool/royalee-new.webm",
+     "account": null,
+     "player": null,
+     "videoId": null,
+     "inDialog": false
+    },
+    {
+     "tag": "video",
+     "src": "https://static.asianpaints.com//content/dam/asian_paints/shade-tool/luxx-neww.webm",
+     "account": null,
+     "player": null,
+     "videoId": null,
+     "inDialog": false
+    },
+    {
+     "tag": "video",
+     "src": "https://static.asianpaints.com//content/dam/asian_paints/shade-tool/shvet-new.webm",
+     "account": null,
+     "player": null,
+     "videoId": null,
+     "inDialog": false
+    },
+    {
+     "tag": "video",
+     "src": "https://static.asianpaints.com//content/dam/asian_paints/shade-tool/insignia-new.webm",
+     "account": null,
+     "player": null,
+     "videoId": null,
+     "inDialog": false
+    }
+   ],
+   "iframes": [
+    {
+     "src": null,
+     "title": "onetrust-text-resize",
+     "w": 0,
+     "h": 0
+    }
+   ],
+   "mounts": [],
+   "auth": [],
+   "commerce": {
+    "cart": true,
+    "prices": 0
+   },
+   "locale": {
+    "lang": "en",
+    "hreflang": [],
+    "switcher": [
+     "https://www.asianpaintsarabia.com/en/home.html",
+     "https://www.scibpaints.com/en/home.html"
+    ]
+   },
+   "cms": {
+    "digitalData": [
+     "page",
+     "utmValues",
+     "product",
+     "skuCodeList",
+     "device",
+     "user",
+     "event"
+    ],
+    "dataLayer": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7",
+     "8",
+     "push"
+    ],
+    "adobeDataLayer": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "version",
+     "push",
+     "getState",
+     "addEventListener",
+     "removeEventListener"
+    ]
+   },
+   "framework": null,
+   "globals": [
+    "_satellite",
+    "OneTrust",
+    "Optanon",
+    "google_tag_manager",
+    "clarity"
+   ],
+   "clientRendered": [],
+   "listingCandidates": [
+    {
+     "cls": "swiper-wrapper",
+     "cards": 4,
+     "sameSite": 4,
+     "hasDate": false
+    },
+    {
+     "cls": "swiper-wrapper color-gallery-carousel-track",
+     "cards": 9,
+     "sameSite": 9,
+     "hasDate": false
+    },
+    {
+     "cls": "swiper-wrapper",
+     "cards": 3,
+     "sameSite": 3,
+     "hasDate": false
+    },
+    {
+     "cls": "swiper-wrapper sa-shorts-parent-video-container",
+     "cards": 10,
+     "sameSite": 10,
+     "hasDate": false
+    }
+   ],
+   "inlineScripts": 1,
+   "inlineFetch": false,
+   "mainText": 11225,
+   "domAddedAfterLoad": 303,
+   "hosts": {
+    "www.asianpaints.com": 190,
+    "assets.adobedtm.com": 1,
+    "www.facebook.com": 1,
+    "googleads.g.doubleclick.net": 1,
+    "www.google-analytics.com": 1,
+    "ad.doubleclick.net": 2,
+    "www.googletagmanager.com": 2,
+    "edge.adobedc.net": 4,
+    "apl.data.adobedc.net": 2,
+    "static.asianpaints.com": 6,
+    "cdn.jsdelivr.net": 2,
+    "auth.asianpaints.com": 3,
+    "static.saleassist.ai": 1,
+    "cdn.socket.io": 1,
+    "cdnjs.cloudflare.com": 1,
+    "fonts.googleapis.com": 2,
+    "vtiles.saleassist.ai": 1,
+    "cdn.gumlytics.com": 3,
+    "client-static.saleassist.ai": 21,
+    "fonts.gstatic.com": 2,
+    "cdn.cookielaw.org": 9,
+    "geolocation.onetrust.com": 1,
+    "www.clarity.ms": 1,
+    "c.clarity.ms": 2,
+    "scripts.clarity.ms": 1,
+    "c.bing.com": 1,
+    "b.clarity.ms": 1
+   },
+   "thirdPartyHosts": [
+    "assets.adobedtm.com",
+    "www.facebook.com",
+    "googleads.g.doubleclick.net",
+    "www.google-analytics.com",
+    "ad.doubleclick.net",
+    "www.googletagmanager.com",
+    "edge.adobedc.net",
+    "apl.data.adobedc.net",
+    "cdn.jsdelivr.net",
+    "static.saleassist.ai",
+    "cdn.socket.io",
+    "cdnjs.cloudflare.com",
+    "fonts.googleapis.com",
+    "vtiles.saleassist.ai",
+    "cdn.gumlytics.com",
+    "client-static.saleassist.ai",
+    "fonts.gstatic.com",
+    "cdn.cookielaw.org",
+    "geolocation.onetrust.com",
+    "www.clarity.ms",
+    "c.clarity.ms",
+    "scripts.clarity.ms",
+    "c.bing.com",
+    "b.clarity.ms"
+   ],
+   "scripts": [
+    "https://www.asianpaints.com/eds/scripts/aem.js",
+    "https://www.asianpaints.com/eds/scripts/scripts.js",
+    "https://www.asianpaints.com/eds/scripts/analytics_1.js",
+    "https://www.asianpaints.com/eds/scripts/pre-load-image.js",
+    "https://www.asianpaints.com/eds/scripts/auth-callback-suppression.js",
+    "https://www.asianpaints.com/eds/scripts/environment.js",
+    "https://www.asianpaints.com/eds/blocks/sr-only/sr-only.js",
+    "https://www.asianpaints.com/eds/blocks/carousel-hero-banner/carousel-hero-banner.js",
+    "https://www.asianpaints.com/eds/blocks/homepage-icons-container/homepage-icons-container.js",
+    "https://www.asianpaints.com/eds/blocks/footer/footer.js",
+    "https://www.asianpaints.com/eds/blocks/header/header.js",
+    "https://www.asianpaints.com/eds/blocks/form/form.js",
+    "https://www.asianpaints.com/eds/scripts/crypto.js",
+    "https://www.asianpaints.com/eds/scripts/third-party-pixels.js",
+    "https://www.asianpaints.com/eds/blocks/services-grid/services-grid.js",
+    "https://www.asianpaints.com/eds/blocks/explore-split/explore-split.js",
+    "https://www.asianpaints.com/eds/blocks/designer-collections/designer-collections.js",
+    "https://www.asianpaints.com/eds/blocks/testimonial-carousel/testimonial-carousel.js",
+    "https://www.asianpaints.com/eds/blocks/store-banner/store-banner.js",
+    "https://assets.adobedtm.com/ef0f7eb243a4/50bf6aad1917/launch-aa461fb6c86d.min.js",
+    "https://www.asianpaints.com/eds/blocks/form-configs/form-configs.js",
+    "https://www.asianpaints.com/eds/blocks/featured-products/featured-products.js",
+    "https://www.asianpaints.com/eds/blocks/interiors-shop/interiors-shop.js",
+    "https://www.asianpaints.com/eds/scripts/vendor/alloy.min.js",
+    "https://www.asianpaints.com/eds/blocks/color-gallery/color-gallery.js",
+    "https://www.asianpaints.com/eds/blocks/tools-carousel/tools-carousel.js",
+    "https://www.asianpaints.com/eds/blocks/video-shorts/video-shorts.js",
+    "https://www.asianpaints.com/eds/blocks/accordion/accordion.js",
+    "https://www.asianpaints.com/eds/scripts/configs.js",
+    "https://www.googletagmanager.com/gtm.js?id=GTM-MP96GBBF",
+    "https://www.asianpaints.com/eds/scripts/swiper.js",
+    "https://www.asianpaints.com/eds/scripts/form-submit-common.js",
+    "https://www.asianpaints.com/eds/scripts/aesUtil.module.js",
+    "https://www.googletagmanager.com/gtag/js?id=G-24N7L31LL9&cx=c&gtm=4e6ag1h2",
+    "https://cdn.jsdelivr.net/npm/keycloak-js@22.0.3/dist/keycloak.min.js",
+    "https://www.asianpaints.com/eds/scripts/jquery.min.js",
+    "https://www.asianpaints.com/eds/blocks/splash-popup/splash-popup.js",
+    "https://static.saleassist.ai/vtiles/swidget.min.js",
+    "https://cdn.jsdelivr.net/npm/swiper@9.4.1/swiper-bundle.min.js",
+    "https://cdn.socket.io/4.7.2/socket.io.min.js",
+    "https://cdnjs.cloudflare.com/ajax/libs/hls.js/1.4.5/hls.light.min.js",
+    "https://cdn.gumlytics.com/insights/3.0/main.mjs",
+    "https://cdn.gumlytics.com/insights/3.0/Logger-FQ_b9tIh.mjs",
+    "https://cdn.gumlytics.com/insights/3.0/Utils-BmxlvWMb.mjs",
+    "https://www.asianpaints.com/eds/scripts/delayed.js",
+    "https://cdn.cookielaw.org/scripttemplates/otSDKStub.js",
+    "https://cdn.cookielaw.org/scripttemplates/202208.1.0/otBannerSdk.js",
+    "https://www.clarity.ms/tag/scmwsisrlt",
+    "https://scripts.clarity.ms/0.8.75-beta/clarity.js"
+   ],
+   "firstPartyApi": [
+    {
+     "method": "GET",
+     "host": "www.asianpaints.com",
+     "path": "/eds/blocks/testimonial-carousel/testimonial-carousel.css",
+     "query": [],
+     "status": 200,
+     "contentType": "text/css",
+     "example": "https://www.asianpaints.com/eds/blocks/testimonial-carousel/testimonial-carousel.css"
+    },
+    {
+     "method": "GET",
+     "host": "www.asianpaints.com",
+     "path": "/eds/blocks/services-grid/services-grid.css",
+     "query": [],
+     "status": 200,
+     "contentType": "text/css",
+     "example": "https://www.asianpaints.com/eds/blocks/services-grid/services-grid.css"
+    },
+    {
+     "method": "GET",
+     "host": "www.asianpaints.com",
+     "path": "/eds/blocks/form/form.css",
+     "query": [],
+     "status": 200,
+     "contentType": "text/css",
+     "example": "https://www.asianpaints.com/eds/blocks/form/form.css"
+    },
+    {
+     "method": "GET",
+     "host": "www.asianpaints.com",
+     "path": "/eds/blocks/designer-collections/designer-collections.css",
+     "query": [],
+     "status": 200,
+     "contentType": "text/css",
+     "example": "https://www.asianpaints.com/eds/blocks/designer-collections/designer-collections.css"
+    },
+    {
+     "method": "GET",
+     "host": "www.asianpaints.com",
+     "path": "/eds/blocks/footer/footer.css",
+     "query": [],
+     "status": 200,
+     "contentType": "text/css",
+     "example": "https://www.asianpaints.com/eds/blocks/footer/footer.css"
+    },
+    {
+     "method": "GET",
+     "host": "www.asianpaints.com",
+     "path": "/eds/blocks/tools-carousel/tools-carousel.css",
+     "query": [],
+     "status": 200,
+     "contentType": "text/css",
+     "example": "https://www.asianpaints.com/eds/blocks/tools-carousel/tools-carousel.css"
+    },
+    {
+     "method": "GET",
+     "host": "www.asianpaints.com",
+     "path": "/eds/blocks/video-shorts/video-shorts.css",
+     "query": [],
+     "status": 200,
+     "contentType": "text/css",
+     "example": "https://www.asianpaints.com/eds/blocks/video-shorts/video-shorts.css"
+    },
+    {
+     "method": "GET",
+     "host": "www.asianpaints.com",
+     "path": "/eds/blocks/form-configs/form-configs.css",
+     "query": [],
+     "status": 200,
+     "contentType": "text/css",
+     "example": "https://www.asianpaints.com/eds/blocks/form-configs/form-configs.css"
+    },
+    {
+     "method": "GET",
+     "host": "www.asianpaints.com",
+     "path": "/eds/blocks/store-banner/store-banner.css",
+     "query": [],
+     "status": 200,
+     "contentType": "text/css",
+     "example": "https://www.asianpaints.com/eds/blocks/store-banner/store-banner.css"
+    },
+    {
+     "method": "GET",
+     "host": "www.asianpaints.com",
+     "path": "/eds/blocks/color-gallery/color-gallery.css",
+     "query": [],
+     "status": 200,
+     "contentType": "text/css",
+     "example": "https://www.asianpaints.com/eds/blocks/color-gallery/color-gallery.css"
+    },
+    {
+     "method": "GET",
+     "host": "www.asianpaints.com",
+     "path": "/eds/blocks/interiors-shop/interiors-shop.css",
+     "query": [],
+     "status": 200,
+     "contentType": "text/css",
+     "example": "https://www.asianpaints.com/eds/blocks/interiors-shop/interiors-shop.css"
+    },
+    {
+     "method": "GET",
+     "host": "www.asianpaints.com",
+     "path": "/eds/blocks/featured-products/featured-products.css",
+     "query": [],
+     "status": 200,
+     "contentType": "text/css",
+     "example": "https://www.asianpaints.com/eds/blocks/featured-products/featured-products.css"
+    },
+    {
+     "method": "GET",
+     "host": "www.asianpaints.com",
+     "path": "/eds/blocks/explore-split/explore-split.css",
+     "query": [],
+     "status": 200,
+     "contentType": "text/css",
+     "example": "https://www.asianpaints.com/eds/blocks/explore-split/explore-split.css"
+    },
+    {
+     "method": "GET",
+     "host": "www.asianpaints.com",
+     "path": "/eds/blocks/accordion/accordion.css",
+     "query": [],
+     "status": 200,
+     "contentType": "text/css",
+     "example": "https://www.asianpaints.com/eds/blocks/accordion/accordion.css"
+    },
+    {
+     "method": "GET",
+     "host": "www.asianpaints.com",
+     "path": "/eds/configs/site-config.json",
+     "query": [],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://www.asianpaints.com/eds/configs/site-config.json"
+    },
+    {
+     "method": "GET",
+     "host": "www.asianpaints.com",
+     "path": "/nav.plain.html",
+     "query": [],
+     "status": 200,
+     "contentType": "text/html",
+     "example": "https://www.asianpaints.com/nav.plain.html"
+    },
+    {
+     "method": "GET",
+     "host": "www.asianpaints.com",
+     "path": "/footer.plain.html",
+     "query": [],
+     "status": 200,
+     "contentType": "text/html",
+     "example": "https://www.asianpaints.com/footer.plain.html"
+    },
+    {
+     "method": "GET",
+     "host": "www.asianpaints.com",
+     "path": "/eds/fragments/splash-popup.plain.html",
+     "query": [],
+     "status": 200,
+     "contentType": "text/html",
+     "example": "https://www.asianpaints.com/eds/fragments/splash-popup.plain.html"
+    },
+    {
+     "method": "GET",
+     "host": "www.asianpaints.com",
+     "path": "/apcolourcatalogue/detect-location",
+     "query": [
+      "_"
+     ],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://www.asianpaints.com/apcolourcatalogue/detect-location"
+    },
+    {
+     "method": "GET",
+     "host": "www.asianpaints.com",
+     "path": "/apcolourcatalogue/commerce/miniCart.json",
+     "query": [
+      "_"
+     ],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://www.asianpaints.com/apcolourcatalogue/commerce/miniCart.json"
+    }
+   ],
+   "thirdPartyXhr": [
+    "POST edge.adobedc.net/ee/v1/identity/acquire",
+    "POST edge.adobedc.net/ee/or2/v1/identity/acquire",
+    "POST edge.adobedc.net/ee/or2/v1/interact",
+    "POST apl.data.adobedc.net/ee/or2/v1/interact",
+    "GET vtiles.saleassist.ai/source/12b7c69d-67cb-4a7f-baba-11fbbd1d9c84/shorts",
+    "GET cdn.cookielaw.org/consent/433d1cae-89f6-480b-a880-b80ddb341a2c/433d1cae-89f6-480b-a880-b80ddb341a",
+    "GET geolocation.onetrust.com/cookieconsentpub/v1/geo/location",
+    "GET cdn.cookielaw.org/consent/433d1cae-89f6-480b-a880-b80ddb341a2c/1d820f2a-a1b3-4fcb-aeda-7ecba6708c",
+    "GET cdn.cookielaw.org/scripttemplates/202208.1.0/assets/otFlat.json",
+    "GET cdn.cookielaw.org/scripttemplates/202208.1.0/assets/v2/otPcCenter.json",
+    "GET cdn.cookielaw.org/scripttemplates/202208.1.0/assets/otCommonStyles.css",
+    "POST b.clarity.ms/collect"
+   ],
+   "postBodies": [
+    {
+     "url": "https://edge.adobedc.net/ee/v1/identity/acquire?configId=b1c04e90-7e5a-4cf7-b97f-341ac97dec1d&requestId=741f5b80-4c51-4727-9777-f66901d9364f",
+     "body": "{\"query\":{\"identity\":{\"fetch\":[\"ECID\"]}},\"meta\":{\"state\":{\"domain\":\"asianpaints.com\",\"cookiesEnabled\":true}}}"
+    },
+    {
+     "url": "https://edge.adobedc.net/ee/or2/v1/identity/acquire?configId=b1c04e90-7e5a-4cf7-b97f-341ac97dec1d&requestId=e592cc84-e978-4325-9fa1-045020dba39c",
+     "body": "{\"query\":{\"identity\":{\"fetch\":[\"ECID\"]}},\"meta\":{\"state\":{\"domain\":\"asianpaints.com\",\"cookiesEnabled\":true,\"entries\":[{\"key\":\"kndctr_5FFF4CAB563CB2507F000101_AdobeOrg_identity\",\"value\":\"CiY3NTQ1NzY0MjA1NTk1NjA3NjcyMjUxMTE4OTY2MzAyNzA1MTI1NFISCPv6wKiVNBABGAEqA09SMjAA8AH7-sColTQ=\"},{\"key\":\"kndctr_5FFF4CAB563CB2507F000101_AdobeOrg_cluster\",\"value\":\"or2\"}]}}}"
+    },
+    {
+     "url": "https://edge.adobedc.net/ee/or2/v1/interact?configId=b1c04e90-7e5a-4cf7-b97f-341ac97dec1d&requestId=1d230dcd-ba87-441c-a2ef-25ff2ec4a0e0",
+     "body": "{\"events\":[{\"xdm\":{\"web\":{\"webPageDetails\":{\"URL\":\"https://www.asianpaints.com/\"},\"webReferrer\":{\"URL\":\"\"}},\"device\":{\"screenHeight\":900,\"screenWidth\":1440,\"screenOrientation\":\"landscape\"},\"environment\":{\"type\":\"browser\",\"browserDetails\":{\"viewportWidth\":1440,\"viewportHeight\":900}},\"placeContext\":{\"localTimezoneOffset\":0,\"localTime\":\"2026-10-19T16:48:10.087+00:00\",\"ianaTimezone\":\"UTC\"},\"timestamp\""
+    },
+    {
+     "url": "https://apl.data.adobedc.net/ee/or2/v1/interact?configId=a1a44315-9bad-4b66-bcff-8fca622eed97&requestId=8307b5f8-df91-469d-8b8f-34acfe90ac95",
+     "body": "{\"events\":[{\"xdm\":{\"eventType\":\"decisioning.propositionFetch\",\"web\":{\"webPageDetails\":{\"URL\":\"https://www.asianpaints.com/\"}},\"device\":{\"screenHeight\":900,\"screenWidth\":1440,\"screenOrientation\":\"landscape\"},\"environment\":{\"type\":\"browser\",\"browserDetails\":{\"viewportWidth\":1440,\"viewportHeight\":900}},\"placeContext\":{\"localTimezoneOffset\":0,\"localTime\":\"2026-10-19T16:48:10.456+00:00\",\"ianaTimezone\":"
+    },
+    {
+     "url": "https://apl.data.adobedc.net/ee/or2/v1/interact?configId=a1a44315-9bad-4b66-bcff-8fca622eed97&requestId=2cdd04a8-bf7f-457f-bd3e-f5c280b994d7",
+     "body": "{\"events\":[{\"xdm\":{\"eventType\":\"web.webpagedetails.pageViews\",\"web\":{\"webPageDetails\":{\"URL\":\"https://www.asianpaints.com/\",\"name\":\"in::\",\"pageViews\":{\"value\":1}}},\"device\":{\"screenHeight\":900,\"screenWidth\":1440,\"screenOrientation\":\"landscape\"},\"environment\":{\"type\":\"browser\",\"browserDetails\":{\"viewportWidth\":1440,\"viewportHeight\":900}},\"placeContext\":{\"localTimezoneOffset\":0,\"localTime\":\"2026-10-"
+    },
+    {
+     "url": "https://edge.adobedc.net/ee/or2/v1/interact?configId=b1c04e90-7e5a-4cf7-b97f-341ac97dec1d&requestId=6ce18919-9e09-41ae-934c-19932ea90172",
+     "body": "{\"events\":[{\"xdm\":{\"web\":{\"webPageDetails\":{\"URL\":\"https://www.asianpaints.com/\"},\"webReferrer\":{\"URL\":\"\"}},\"device\":{\"screenHeight\":900,\"screenWidth\":1440,\"screenOrientation\":\"landscape\"},\"environment\":{\"type\":\"browser\",\"browserDetails\":{\"viewportWidth\":1440,\"viewportHeight\":900}},\"placeContext\":{\"localTimezoneOffset\":0,\"localTime\":\"2026-10-19T16:48:17.201+00:00\",\"ianaTimezone\":\"UTC\"},\"timestamp\""
+    },
+    {
+     "url": "https://b.clarity.ms/collect",
+     "body": "\u001f�\b\u0000\u0000\u0000\u0000\u0000\u0000\u0003�UQo�6\u0010�+h\u001e�;i��\u0001��}ʥR�twm��J,:͂!N\f^a�M\u001a�~{e�]�Ҵ}he���|�<63�#HX\u0017��,\\��V:\u0002�ȐG\u001c�V��*;h\u0007\b<��_����^4iu �\u0001����z����!YE��T�lX�n\t%\u0002��(x�\u0019�$a�g)/�HR�|F\u0018;\u0000Q��%\u0004F9r�\u0002�\u0004c�I�\u0013=F���Ðg�q���TKN\u0002�u\u0004�W\u0019���<�y�\u0005�����\u001f.\u0000\u000b`����=�\u0014\u0005|6(�i)B\u0016����\u001f�O�\u001f��,��&o���N�+����Rī0N�7\u001f�_~���V�2�YV��mp~=�N.�HC�GpA\r\rj^\u0002%r,���b,�r\u0018��upEZ\u0007�y��[\fޛN���\u000f�\u001599�\u0006c\u001a?W}�\u0015\u0005����\u001e�\u0016JL��Wv\u0003\u0004�V:\u001bRm��v݌znkL������Z9<s5Tɭ1�a/�'��Tu�?�T۰\rk"
+    },
+    {
+     "url": "https://b.clarity.ms/collect",
+     "body": "\u001f�\b\u0000\u0000\u0000\u0000\u0000\u0000\u0003ܽ\ts�8�0�W�9��ƉdQ\u0014uخ컠.˶dK>���\u0014EB\u0014-�TH�r*��+�\u0017H��dg��g<I�\u000bh4\u001a�F�?����\u001fG�I�^-N�-\u001e\u0015�B�+\u0017*�J�Ȓ\u0016\u001bK�L�>*\u001c�\u001b���¡��muZ��\n�\u0002��f����J��fs\"Z��/EU��\u0013�X���,\u001c�Gg�Q��\u0002_(\u0017�<�\u0016N\u001b5�7�-�?�J���ן�?�\n�/�q49�4�T����:��}�\u0016��)�\u0016*�r����B�P�\u0014Nѣj�Z�\u001a\u0005����g�h����{��/��..ෙ�Ў\nG��DS�����pd�,\u001b.��B\u0019�~q߿>*\u001ci��|��Q�H\u0016m��Veh\u0014��a�V�6Ei��Jqb�t��m����4\u0013�a\u0017E]�v�*Y�w,{��oE���\u0019\\���\u0019�\u0019����3�Þ����=�\u0010�\u001f\u0015�B�pt�\u0006hD_�o��X�\u0016*\u0005�p����p�"
+    }
+   ],
+   "textAtLoad": 0,
+   "mainEmptyAtLoad": true
+  }
+ },
+ "findings": [
+  {
+   "id": "a-unknown-third-party-host-vtiles-saleassist-ai",
+   "class": "A",
+   "feature": "unknown third-party host vtiles.saleassist.ai",
+   "hint": "inspect",
+   "evidence": [
+    "vtiles.saleassist.ai"
+   ],
+   "pages": [
+    "/"
+   ]
+  },
+  {
+   "id": "a-first-party-api-get-apcolourcatalogue-detect-location",
+   "class": "A",
+   "feature": "first-party API GET /apcolourcatalogue/detect-location",
+   "api": {
+    "method": "GET",
+    "path": "/apcolourcatalogue/detect-location"
+   },
+   "hint": "api",
+   "evidence": [
+    "GET /apcolourcatalogue/detect-location?_ → 200"
+   ],
+   "pages": [
+    "/"
+   ],
+   "reach": {
+    "pages": 1,
+    "of": 1
+   }
+  },
+  {
+   "id": "a-cms-app-settings-object-digitaldata",
+   "class": "A",
+   "feature": "CMS / app settings object digitalData",
+   "hint": "settings",
+   "evidence": [],
+   "pages": [
+    "/"
+   ]
+  },
+  {
+   "id": "a-cms-app-settings-object-datalayer",
+   "class": "A",
+   "feature": "CMS / app settings object dataLayer",
+   "hint": "settings",
+   "evidence": [],
+   "pages": [
+    "/"
+   ]
+  },
+  {
+   "id": "a-cms-app-settings-object-adobedatalayer",
+   "class": "A",
+   "feature": "CMS / app settings object adobeDataLayer",
+   "hint": "settings",
+   "evidence": [],
+   "pages": [
+    "/"
+   ]
+  },
+  {
+   "id": "cr-main-empty-at-load-filled-after-client-rendered-page",
+   "class": "CR",
+   "feature": "main empty at load, filled after (client-rendered page)",
+   "hint": "client-rendered-page",
+   "evidence": [
+    "text at load 0 → settled 11225"
+   ],
+   "pages": [
+    "/"
+   ]
+  },
+  {
+   "id": "d-first-party-data-file-get-eds-configs-site-config-json",
+   "class": "D",
+   "feature": "first-party data file GET /eds/configs/site-config.json",
+   "api": {
+    "method": "GET",
+    "path": "/eds/configs/site-config.json"
+   },
+   "hint": "data",
+   "evidence": [
+    "GET /eds/configs/site-config.json → 200"
+   ],
+   "pages": [
+    "/"
+   ],
+   "reach": {
+    "pages": 1,
+    "of": 1
+   }
+  },
+  {
+   "id": "d-first-party-data-file-get-apcolourcatalogue-commerce-minic",
+   "class": "D",
+   "feature": "first-party data file GET /apcolourcatalogue/commerce/miniCart.json",
+   "api": {
+    "method": "GET",
+    "path": "/apcolourcatalogue/commerce/miniCart.json"
+   },
+   "hint": "data",
+   "evidence": [
+    "GET /apcolourcatalogue/commerce/miniCart.json?_ → 200"
+   ],
+   "pages": [
+    "/"
+   ],
+   "reach": {
+    "pages": 1,
+    "of": 1
+   }
+  },
+  {
+   "id": "f-form-less-control-group-in-input-form-input-4-controls",
+   "class": "F",
+   "feature": "form-less control group in input.form-input (4 controls)",
+   "hint": "client-compute?",
+   "evidence": [
+    "ENQUIRE_NAME,ENQUIRE_EMAIL,ENQUIRE_MOBILE,ENQUIRE_PINCODE"
+   ],
+   "pages": [
+    "/"
+   ]
+  },
+  {
+   "id": "f-form-less-control-group-in-input-form-radio-input-field-5-",
+   "class": "F",
+   "feature": "form-less control group in input.form-radio-input__field (5 controls)",
+   "hint": "client-compute?",
+   "evidence": [
+    "NEW_CUSTOM_CHECKBOX_customer_response_one,NEW_CUSTOM_CHECKBOX_customer_response_one,NEW_CUSTOM_CHECKBOX_customer_response_one,NEW_CUSTOM_CHECKBOX_customer_response_two,NEW_CUSTOM_CHECKBOX_customer_response_two"
+   ],
+   "pages": [
+    "/"
+   ]
+  },
+  {
+   "id": "i18n-locale-variants-en-en",
+   "class": "I18N",
+   "feature": "locale variants en,en",
+   "hint": "locale",
+   "evidence": [
+    "https://www.asianpaintsarabia.com/en/home.html",
+    "https://www.scibpaints.com/en/home.html"
+   ],
+   "pages": [
+    "/"
+   ]
+  },
+  {
+   "id": "l-listing-candidate-swiper-wrapper-color-gallery-carousel-tr",
+   "class": "L",
+   "feature": "listing candidate swiper-wrapper color-gallery-carousel-track (9 cards)",
+   "hint": "listings",
+   "evidence": [],
+   "pages": [
+    "/"
+   ]
+  },
+  {
+   "id": "l-listing-candidate-swiper-wrapper-sa-shorts-parent-video-co",
+   "class": "L",
+   "feature": "listing candidate swiper-wrapper sa-shorts-parent-video-container (10 cards)",
+   "hint": "listings",
+   "evidence": [],
+   "pages": [
+    "/"
+   ]
+  },
+  {
+   "id": "m-modal-trigger-trigger-book-free-site-visit-modal-chrome-on",
+   "class": "M",
+   "feature": "modal trigger trigger-book-free-site-visit-modal (chrome only) → target outside DOM at capture",
+   "hint": "chrome-interaction",
+   "evidence": [
+    "https://www.asianpaints.com/eds/forms/book-free-site-visit"
+   ],
+   "pages": [
+    "/"
+   ],
+   "reach": {
+    "pages": 1,
+    "of": 1
+   }
+  },
+  {
+   "id": "m-modal-trigger-cart-modal-shop-chrome-only-target-outside-d",
+   "class": "M",
+   "feature": "modal trigger cart-modal-shop (chrome only) → target outside DOM at capture",
+   "hint": "chrome-interaction",
+   "evidence": [
+    "https://www.asianpaints.com/paint-products.html"
+   ],
+   "pages": [
+    "/"
+   ],
+   "reach": {
+    "pages": 1,
+    "of": 1
+   }
+  },
+  {
+   "id": "m-modal-trigger-login-modal-action-chrome-only-target-outsid",
+   "class": "M",
+   "feature": "modal trigger login-modal-action (chrome only) → target outside DOM at capture",
+   "hint": "chrome-interaction",
+   "evidence": [
+    "Login",
+    "Continue as guest"
+   ],
+   "pages": [
+    "/"
+   ],
+   "reach": {
+    "pages": 2,
+    "of": 1
+   }
+  },
+  {
+   "id": "m-modal-trigger-aria-haspopup-chrome-only-button-content",
+   "class": "M",
+   "feature": "modal trigger aria-haspopup (chrome only) → button:content",
+   "hint": "chrome-interaction",
+   "evidence": [
+    "Filter Icon"
+   ],
+   "pages": [
+    "/"
+   ]
+  },
+  {
+   "id": "t-tag-manager-adobe-launch",
+   "class": "T",
+   "feature": "tag manager: Adobe Launch",
+   "role": "tag manager: Adobe Launch",
+   "hint": "tags",
+   "evidence": [
+    "assets.adobedtm.com"
+   ],
+   "pages": [
+    "/"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-www-facebook-com",
+   "class": "T",
+   "feature": "unknown third-party host www.facebook.com",
+   "hint": "inspect",
+   "evidence": [
+    "www.facebook.com"
+   ],
+   "pages": [
+    "/"
+   ]
+  },
+  {
+   "id": "t-marketing-ad-retargeting-pixel",
+   "class": "T",
+   "feature": "marketing: ad / retargeting pixel",
+   "role": "marketing: ad / retargeting pixel",
+   "hint": "tags",
+   "evidence": [
+    "googleads.g.doubleclick.net",
+    "ad.doubleclick.net"
+   ],
+   "pages": [
+    "/"
+   ]
+  },
+  {
+   "id": "t-analytics-google-analytics-ads",
+   "class": "T",
+   "feature": "analytics: Google Analytics / Ads",
+   "role": "analytics: Google Analytics / Ads",
+   "hint": "tags",
+   "evidence": [
+    "www.google-analytics.com"
+   ],
+   "pages": [
+    "/"
+   ]
+  },
+  {
+   "id": "t-tag-manager-google-tag-manager",
+   "class": "T",
+   "feature": "tag manager: Google Tag Manager",
+   "role": "tag manager: Google Tag Manager",
+   "hint": "tags",
+   "evidence": [
+    "www.googletagmanager.com"
+   ],
+   "pages": [
+    "/"
+   ]
+  },
+  {
+   "id": "t-analytics-adobe-analytics-experience-cloud-id",
+   "class": "T",
+   "feature": "analytics: Adobe Analytics / Experience Cloud ID",
+   "role": "analytics: Adobe Analytics / Experience Cloud ID",
+   "hint": "tags",
+   "evidence": [
+    "edge.adobedc.net",
+    "apl.data.adobedc.net"
+   ],
+   "pages": [
+    "/"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-static-saleassist-ai",
+   "class": "T",
+   "feature": "unknown third-party host static.saleassist.ai",
+   "hint": "inspect",
+   "evidence": [
+    "static.saleassist.ai"
+   ],
+   "pages": [
+    "/"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-cdn-socket-io",
+   "class": "T",
+   "feature": "unknown third-party host cdn.socket.io",
+   "hint": "inspect",
+   "evidence": [
+    "cdn.socket.io"
+   ],
+   "pages": [
+    "/"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-cdn-gumlytics-com",
+   "class": "T",
+   "feature": "unknown third-party host cdn.gumlytics.com",
+   "hint": "inspect",
+   "evidence": [
+    "cdn.gumlytics.com"
+   ],
+   "pages": [
+    "/"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-client-static-saleassist-ai",
+   "class": "T",
+   "feature": "unknown third-party host client-static.saleassist.ai",
+   "hint": "inspect",
+   "evidence": [
+    "client-static.saleassist.ai"
+   ],
+   "pages": [
+    "/"
+   ]
+  },
+  {
+   "id": "t-consent-onetrust",
+   "class": "T",
+   "feature": "consent: OneTrust",
+   "role": "consent: OneTrust",
+   "hint": "tags",
+   "evidence": [
+    "cdn.cookielaw.org",
+    "geolocation.onetrust.com"
+   ],
+   "pages": [
+    "/"
+   ]
+  },
+  {
+   "id": "t-analytics-session-replay",
+   "class": "T",
+   "feature": "analytics: session replay",
+   "role": "analytics: session replay",
+   "hint": "tags",
+   "evidence": [
+    "www.clarity.ms",
+    "c.clarity.ms",
+    "scripts.clarity.ms",
+    "b.clarity.ms"
+   ],
+   "pages": [
+    "/"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-c-bing-com",
+   "class": "T",
+   "feature": "unknown third-party host c.bing.com",
+   "hint": "inspect",
+   "evidence": [
+    "c.bing.com"
+   ],
+   "pages": [
+    "/"
+   ]
+  },
+  {
+   "id": "v-iframe-without-src-runtime-injected-embed",
+   "class": "V",
+   "feature": "iframe without src (runtime-injected embed)",
+   "hint": "embed-runtime",
+   "evidence": [
+    "onetrust-text-resize"
+   ],
+   "pages": [
+    "/"
+   ]
+  },
+  {
+   "id": "x-commerce-signals-cart-true-prices-0",
+   "class": "X",
+   "feature": "commerce signals (cart: true, prices: 0)",
+   "hint": "decided-out",
+   "evidence": [],
+   "pages": [
+    "/"
+   ]
+  }
+ ],
+ "reach": {
+  "pagesWithEvidence": 1,
+  "of": 1,
+  "endpoints": {
+   "GET www.asianpaints.com/eds/blocks/footer/footer.css": 1,
+   "GET www.asianpaints.com/eds/blocks/color-gallery/color-gallery.css": 1,
+   "GET www.asianpaints.com/eds/blocks/featured-products/featured-products.css": 1,
+   "GET www.asianpaints.com/eds/blocks/video-shorts/video-shorts.css": 1,
+   "GET www.asianpaints.com/eds/blocks/form/form.css": 1,
+   "GET www.asianpaints.com/eds/blocks/testimonial-carousel/testimonial-carousel.css": 1,
+   "GET www.asianpaints.com/eds/blocks/form-configs/form-configs.css": 1,
+   "GET www.asianpaints.com/eds/blocks/services-grid/services-grid.css": 1,
+   "GET www.asianpaints.com/eds/blocks/accordion/accordion.css": 1,
+   "GET www.asianpaints.com/eds/blocks/interiors-shop/interiors-shop.css": 1,
+   "GET www.asianpaints.com/eds/blocks/tools-carousel/tools-carousel.css": 1,
+   "GET www.asianpaints.com/eds/blocks/store-banner/store-banner.css": 1,
+   "GET www.asianpaints.com/eds/blocks/explore-split/explore-split.css": 1,
+   "GET www.asianpaints.com/eds/blocks/designer-collections/designer-collections.css": 1,
+   "POST edge.adobedc.net/ee/v1/identity/acquire": 1,
+   "POST edge.adobedc.net/ee/or2/v1/identity/acquire": 1,
+   "POST edge.adobedc.net/ee/or2/v1/interact": 1,
+   "GET www.asianpaints.com/eds/configs/site-config.json": 1,
+   "POST apl.data.adobedc.net/ee/or2/v1/interact": 1,
+   "GET www.asianpaints.com/nav.plain.html": 1,
+   "GET www.asianpaints.com/footer.plain.html": 1,
+   "GET www.asianpaints.com/apcolourcatalogue/commerce/miniCart.json": 1,
+   "GET www.asianpaints.com/apcolourcatalogue/detect-location": 1,
+   "GET vtiles.saleassist.ai/source/{uuid}/shorts": 1
+  },
+  "searchFormPages": 0,
+  "formPages": 0,
+  "triggerPages": {
+   "trigger-book-free-site-visit-modal": 1,
+   "cart-modal-shop": 1,
+   "login-modal-action": 2
+  }
+ }
+}

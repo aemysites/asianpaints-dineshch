@@ -1,0 +1,44 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:rollout/inventory",
+    "writtenAt": "2026-10-19T17:48:32.838Z",
+    "readArtifacts": [
+      "stardust/migrated",
+      "stardust/state.json"
+    ],
+    "stardustVersion": "0.0.0"
+  },
+  "generatedAt": "2026-10-19T19:40:02.706Z",
+  "templates": [
+    {
+      "id": "index",
+      "representativeSlug": "index",
+      "pages": [
+        "index"
+      ],
+      "pageCount": 1,
+      "blocks": [
+        "accordion",
+        "carousel-hero-banner",
+        "color-gallery",
+        "designer-collections",
+        "explore-split",
+        "featured-products",
+        "form",
+        "homepage-icons-container",
+        "interiors-shop",
+        "services-grid",
+        "store-banner",
+        "testimonial-carousel",
+        "tools-carousel",
+        "video-shorts"
+      ],
+      "delivery": {
+        "verified": 1,
+        "deployed": 0,
+        "contentPending": 0,
+        "pending": 0
+      }
+    }
+  ]
+}

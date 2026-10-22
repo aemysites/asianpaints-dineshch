@@ -1,0 +1,205 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:dynamics",
+    "writtenAt": "2026-10-19T19:40:00Z"
+  },
+  "method": "single-page replica: features rebuilt natively in EDS blocks from the captured page; checks replayed against the published aem.live origin",
+  "features": [
+    {
+      "id": "hero-carousel",
+      "feature": "hero banner carousel (fade, autoplay)",
+      "class": "M",
+      "pages": 1,
+      "disposition": "rebuild-native",
+      "reproducibility": "self",
+      "status": "done",
+      "verifiedBy": "4 slides, 4 bullets; slide video playing",
+      "checks": [
+        {
+          "type": "dom-count",
+          "path": "/",
+          "selector": ".carousel-hero-banner .hero-slide",
+          "min": 4
+        },
+        {
+          "type": "video-plays",
+          "path": "/",
+          "videoSelector": ".carousel-hero-banner video"
+        }
+      ]
+    },
+    {
+      "id": "content-carousels",
+      "feature": "colour gallery / featured products / designer collections / testimonial / tools carousels",
+      "class": "L",
+      "pages": 1,
+      "disposition": "rebuild-native",
+      "reproducibility": "self",
+      "status": "done",
+      "verifiedBy": "slides 9 / 3 / 4 / 34 / 5; designer-collection videos are click-to-play on the source (motion observe: autoplay false) and on the delivered page",
+      "checks": [
+        {
+          "type": "dom-count",
+          "path": "/",
+          "selector": ".color-gallery .color-gallery-slide",
+          "min": 9
+        },
+        {
+          "type": "dom-count",
+          "path": "/",
+          "selector": ".featured-products .featured-products-slide",
+          "min": 3
+        },
+        {
+          "type": "dom-count",
+          "path": "/",
+          "selector": ".designer-collections .designer-collections-card",
+          "min": 4
+        },
+        {
+          "type": "dom-count",
+          "path": "/",
+          "selector": ".testimonial-carousel .testimonial-slide",
+          "min": 34
+        },
+        {
+          "type": "dom-count",
+          "path": "/",
+          "selector": ".tools-carousel .tools-carousel-slide",
+          "min": 5
+        }
+      ]
+    },
+    {
+      "id": "lead-form",
+      "feature": "Painting Service lead form",
+      "class": "F",
+      "pages": 1,
+      "disposition": "client-only",
+      "reproducibility": "needs-business-decision",
+      "status": "scaffolded-awaiting-owner",
+      "verifiedBy": "4 fields, 5 service radios, submit button rendered; no submission endpoint on the new host",
+      "owner": "choose the submission endpoint for the lead form on the new host (the source posts to an Asian Paints backend)",
+      "checks": [
+        {
+          "type": "dom-count",
+          "path": "/",
+          "selector": ".form .form-field",
+          "min": 4
+        },
+        {
+          "type": "dom-count",
+          "path": "/",
+          "selector": ".form .form-radio-input",
+          "min": 5
+        }
+      ]
+    },
+    {
+      "id": "faq-accordion",
+      "feature": "FAQ accordion",
+      "class": "M",
+      "pages": 1,
+      "disposition": "rebuild-native",
+      "reproducibility": "self",
+      "status": "done",
+      "verifiedBy": "19 items, 1 open, view-all toggle",
+      "checks": [
+        {
+          "type": "dom-count",
+          "path": "/",
+          "selector": ".accordion .accordion-item",
+          "min": 19
+        }
+      ]
+    },
+    {
+      "id": "video-shorts",
+      "feature": "Inspiring ideas video shorts",
+      "class": "V",
+      "pages": 1,
+      "disposition": "embed-passthrough",
+      "reproducibility": "needs-business-decision",
+      "status": "interim",
+      "verifiedBy": "10 tiles; first 3 videos playing: t 0.14→1.65 s, 0.07→1.58 s, 0.10→1.62 s over 1.5 s (paused false, duration 3.0 s, loop)",
+      "owner": "SaleAssist account / embed on the new host",
+      "checks": [
+        {
+          "type": "dom-count",
+          "path": "/",
+          "selector": ".video-shorts .vs-tile",
+          "min": 10
+        },
+        {
+          "type": "video-plays",
+          "path": "/",
+          "videoSelector": ".video-shorts video"
+        }
+      ],
+      "environmentLimit": "video-plays samples straddle the loop restart of the 3 s clips (Δt -2.25 s = wrap, paused false): an instrument limit for sub-sampling-interval loops, not a playback defect"
+    },
+    {
+      "id": "page-errors",
+      "feature": "no uncaught exceptions",
+      "class": "M",
+      "pages": 1,
+      "disposition": "rebuild-native",
+      "reproducibility": "self",
+      "status": "done",
+      "verifiedBy": "home page loads without uncaught exceptions",
+      "checks": [
+        {
+          "type": "no-page-errors",
+          "paths": [
+            "/"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "header-modals",
+      "feature": "header modals, cart, login",
+      "class": "M",
+      "pages": 1,
+      "disposition": "rebuild-native",
+      "reproducibility": "self",
+      "status": "scaffolded-awaiting-owner",
+      "owner": "cart and login backends on the new host",
+      "verifiedBy": "UI per header contract",
+      "checks": []
+    },
+    {
+      "id": "host-bound-apis",
+      "feature": "detect-location, site-config, miniCart, commerce",
+      "class": "A",
+      "pages": 1,
+      "disposition": "static-snapshot",
+      "reproducibility": "needs-backend",
+      "status": "scaffolded-awaiting-owner",
+      "owner": "host-bound Asian Paints APIs (location, site config, mini cart) on the new host",
+      "checks": []
+    },
+    {
+      "id": "other-3p",
+      "feature": "cdn.socket.io, cdn.gumlytics.com",
+      "class": "T",
+      "pages": 1,
+      "disposition": "static-snapshot",
+      "reproducibility": "needs-business-decision",
+      "status": "scaffolded-awaiting-owner",
+      "owner": "whether to carry these third-party scripts",
+      "checks": []
+    },
+    {
+      "id": "locale",
+      "feature": "locale variants",
+      "class": "I18N",
+      "pages": 1,
+      "disposition": "static-snapshot",
+      "reproducibility": "needs-business-decision",
+      "status": "decided-out",
+      "owner": "single-page scope: no locale trees",
+      "checks": []
+    }
+  ]
+}

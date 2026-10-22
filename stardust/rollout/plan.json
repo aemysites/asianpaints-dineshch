@@ -1,0 +1,83 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:rollout/plan",
+    "writtenAt": "2026-10-19T17:48:37.707Z",
+    "readArtifacts": [
+      "stardust/rollout/coverage"
+    ],
+    "stardustVersion": "0.0.0"
+  },
+  "generatedAt": "2026-10-19T17:48:37.707Z",
+  "fragments": [],
+  "deliveryOrder": [
+    "index"
+  ],
+  "steps": [
+    {
+      "slug": "index",
+      "path": "/",
+      "templateId": "index",
+      "status": "pending",
+      "isRepresentative": true,
+      "convert": [
+        {
+          "id": "carousel-hero-banner",
+          "edsBlockName": "carousel-hero-banner"
+        },
+        {
+          "id": "homepage-icons-container",
+          "edsBlockName": "homepage-icons-container-block"
+        },
+        {
+          "id": "color-gallery",
+          "edsBlockName": "color-gallery"
+        },
+        {
+          "id": "form",
+          "edsBlockName": "form"
+        },
+        {
+          "id": "featured-products",
+          "edsBlockName": "featured-products"
+        },
+        {
+          "id": "services-grid",
+          "edsBlockName": "services-grid"
+        },
+        {
+          "id": "explore-split",
+          "edsBlockName": "explore-split"
+        },
+        {
+          "id": "tools-carousel",
+          "edsBlockName": "tools-carousel"
+        },
+        {
+          "id": "designer-collections",
+          "edsBlockName": "designer-collections"
+        },
+        {
+          "id": "interiors-shop",
+          "edsBlockName": "interiors-shop"
+        },
+        {
+          "id": "testimonial-carousel",
+          "edsBlockName": "testimonial-carousel"
+        },
+        {
+          "id": "store-banner",
+          "edsBlockName": "store-banner"
+        },
+        {
+          "id": "video-shorts",
+          "edsBlockName": "video-shorts"
+        },
+        {
+          "id": "accordion",
+          "edsBlockName": "accordion"
+        }
+      ],
+      "reuse": []
+    }
+  ]
+}

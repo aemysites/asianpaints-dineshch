@@ -1,0 +1,380 @@
+{
+ "tool": "chrome-compare",
+ "at": "2026-10-19T20:19:24.679Z",
+ "source": "https://www.asianpaints.com/",
+ "build": "https://main--03cd0138--aemcoder.aem.live/",
+ "profile": "replica",
+ "bar": 0.02,
+ "widths": [
+  360,
+  1440
+ ],
+ "counts": {
+  "error": 9,
+  "warn": 32,
+  "decided": 0
+ },
+ "findings": [
+  {
+   "key": "link-missing@360 link",
+   "width": 360,
+   "path": "link",
+   "id": "link-missing",
+   "severity": "warn",
+   "detail": "top-level link / not in the build header"
+  },
+  {
+   "key": "link-missing@360 link",
+   "width": 360,
+   "path": "link",
+   "id": "link-missing",
+   "severity": "warn",
+   "detail": "top-level link /?utm_source=ap-header&utm_medium=unification&utm_campaign=decor_organic not in the build header"
+  },
+  {
+   "key": "link-missing@360 link",
+   "width": 360,
+   "path": "link",
+   "id": "link-missing",
+   "severity": "warn",
+   "detail": "top-level link /?utm_source=ap_header&utm_medium=unification&utm_campaign=white_teak not in the build header"
+  },
+  {
+   "key": "link-missing@360 link",
+   "width": 360,
+   "path": "link",
+   "id": "link-missing",
+   "severity": "warn",
+   "detail": "top-level link / not in the build header"
+  },
+  {
+   "key": "state-extra@360 Open navigation [key]",
+   "width": 360,
+   "path": "Open navigation",
+   "action": "key",
+   "id": "state-extra",
+   "severity": "warn",
+   "detail": "opens on key on the build only"
+  },
+  {
+   "key": "link-missing@1440 link",
+   "width": 1440,
+   "path": "link",
+   "id": "link-missing",
+   "severity": "warn",
+   "detail": "top-level link / not in the build header"
+  },
+  {
+   "key": "link-missing@1440 link",
+   "width": 1440,
+   "path": "link",
+   "id": "link-missing",
+   "severity": "warn",
+   "detail": "top-level link /?utm_source=ap-header&utm_medium=unification&utm_campaign=decor_organic not in the build header"
+  },
+  {
+   "key": "link-missing@1440 link",
+   "width": 1440,
+   "path": "link",
+   "id": "link-missing",
+   "severity": "warn",
+   "detail": "top-level link /?utm_source=ap_header&utm_medium=unification&utm_campaign=white_teak not in the build header"
+  },
+  {
+   "key": "link-missing@1440 link",
+   "width": 1440,
+   "path": "link",
+   "id": "link-missing",
+   "severity": "warn",
+   "detail": "top-level link / not in the build header"
+  },
+  {
+   "key": "state-extra@1440 Search by image [hover]",
+   "width": 1440,
+   "path": "Search by image",
+   "action": "hover",
+   "id": "state-extra",
+   "severity": "warn",
+   "detail": "opens on hover on the build only"
+  },
+  {
+   "key": "state-extra@1440 Colours [hover]",
+   "width": 1440,
+   "path": "Colours",
+   "action": "hover",
+   "id": "state-extra",
+   "severity": "warn",
+   "detail": "opens on hover on the build only"
+  },
+  {
+   "key": "state-extra@1440 Colours [click]",
+   "width": 1440,
+   "path": "Colours",
+   "action": "click",
+   "id": "state-extra",
+   "severity": "warn",
+   "detail": "opens on click on the build only"
+  },
+  {
+   "key": "state-extra@1440 Colours [key]",
+   "width": 1440,
+   "path": "Colours",
+   "action": "key",
+   "id": "state-extra",
+   "severity": "warn",
+   "detail": "opens on key on the build only"
+  },
+  {
+   "key": "state-extra@1440 Products [hover]",
+   "width": 1440,
+   "path": "Products",
+   "action": "hover",
+   "id": "state-extra",
+   "severity": "warn",
+   "detail": "opens on hover on the build only"
+  },
+  {
+   "key": "panel-content@1440 Products [click]",
+   "width": 1440,
+   "path": "Products",
+   "action": "click",
+   "id": "panel-content",
+   "severity": "error",
+   "detail": "1 of 19 links missing (https://www.apassure.asianpaints.com/)"
+  },
+  {
+   "key": "link-href@1440 Products [click]",
+   "width": 1440,
+   "path": "Products",
+   "action": "click",
+   "id": "link-href",
+   "severity": "warn",
+   "detail": "2 link(s) point elsewhere: Paints: /paint-products/interior-wall-paints → /paint-products/exterior-wall-paints; Textures: /paint-products/interior-wall-paints/royale-play → /texture-paints/exterior-textures"
+  },
+  {
+   "key": "panel-content@1440 Products [click]",
+   "width": 1440,
+   "path": "Products",
+   "action": "click",
+   "id": "panel-content",
+   "severity": "warn",
+   "detail": "the source panel shows 1 image(s), the build none"
+  },
+  {
+   "key": "state-extra@1440 Products [key]",
+   "width": 1440,
+   "path": "Products",
+   "action": "key",
+   "id": "state-extra",
+   "severity": "warn",
+   "detail": "opens on key on the build only"
+  },
+  {
+   "key": "state-extra@1440 Services [hover]",
+   "width": 1440,
+   "path": "Services",
+   "action": "hover",
+   "id": "state-extra",
+   "severity": "warn",
+   "detail": "opens on hover on the build only"
+  },
+  {
+   "key": "state-extra@1440 Services [click]",
+   "width": 1440,
+   "path": "Services",
+   "action": "click",
+   "id": "state-extra",
+   "severity": "warn",
+   "detail": "opens on click on the build only"
+  },
+  {
+   "key": "state-extra@1440 Services [key]",
+   "width": 1440,
+   "path": "Services",
+   "action": "key",
+   "id": "state-extra",
+   "severity": "warn",
+   "detail": "opens on key on the build only"
+  },
+  {
+   "key": "panel-content@1440 Calculators [hover]",
+   "width": 1440,
+   "path": "Calculators",
+   "action": "hover",
+   "id": "panel-content",
+   "severity": "error",
+   "detail": "22 of 27 links missing (https://www.asianpaints.com/, https://www.beautifulhomes.asianpaints.com/?utm_source=ap-header&utm_medium=unification&utm_campaign=decor_organic, https://whiteteak.asianpaints.com/?utm_source=ap_header&utm_medium=unification&utm_campaign=white_teak, https://www.apassure.asianpaints.com/, https://www.asianpaints.com/, Find Contractor, …); the source panel has an input, the build none"
+  },
+  {
+   "key": "panel-content@1440 Calculators [hover]",
+   "width": 1440,
+   "path": "Calculators",
+   "action": "hover",
+   "id": "panel-content",
+   "severity": "warn",
+   "detail": "the source panel shows 8 image(s), the build none"
+  },
+  {
+   "key": "motion@1440 Calculators [hover]",
+   "width": 1440,
+   "path": "Calculators",
+   "action": "hover",
+   "id": "motion",
+   "severity": "error",
+   "detail": "opacity: 300ms on the source, 200ms on the build"
+  },
+  {
+   "key": "motion@1440 Calculators [hover]",
+   "width": 1440,
+   "path": "Calculators",
+   "action": "hover",
+   "id": "motion",
+   "severity": "warn",
+   "detail": "the source animates background-color; the build does not"
+  },
+  {
+   "key": "state-extra@1440 Calculators [click]",
+   "width": 1440,
+   "path": "Calculators",
+   "action": "click",
+   "id": "state-extra",
+   "severity": "warn",
+   "detail": "opens on click on the build only"
+  },
+  {
+   "key": "state-extra@1440 Calculators [key]",
+   "width": 1440,
+   "path": "Calculators",
+   "action": "key",
+   "id": "state-extra",
+   "severity": "warn",
+   "detail": "opens on key on the build only"
+  },
+  {
+   "key": "state-extra@1440 Professionals [hover]",
+   "width": 1440,
+   "path": "Professionals",
+   "action": "hover",
+   "id": "state-extra",
+   "severity": "warn",
+   "detail": "opens on hover on the build only"
+  },
+  {
+   "key": "state-extra@1440 Professionals [click]",
+   "width": 1440,
+   "path": "Professionals",
+   "action": "click",
+   "id": "state-extra",
+   "severity": "warn",
+   "detail": "opens on click on the build only"
+  },
+  {
+   "key": "state-extra@1440 Professionals [key]",
+   "width": 1440,
+   "path": "Professionals",
+   "action": "key",
+   "id": "state-extra",
+   "severity": "warn",
+   "detail": "opens on key on the build only"
+  },
+  {
+   "key": "state-extra@1440 More... [hover]",
+   "width": 1440,
+   "path": "More...",
+   "action": "hover",
+   "id": "state-extra",
+   "severity": "warn",
+   "detail": "opens on hover on the build only"
+  },
+  {
+   "key": "state-extra@1440 More... [click]",
+   "width": 1440,
+   "path": "More...",
+   "action": "click",
+   "id": "state-extra",
+   "severity": "warn",
+   "detail": "opens on click on the build only"
+  },
+  {
+   "key": "panel-content@1440 More... [key]",
+   "width": 1440,
+   "path": "More...",
+   "action": "key",
+   "id": "panel-content",
+   "severity": "error",
+   "detail": "21 of 22 links missing (https://www.asianpaints.com/, https://www.beautifulhomes.asianpaints.com/?utm_source=ap-header&utm_medium=unification&utm_campaign=decor_organic, https://whiteteak.asianpaints.com/?utm_source=ap_header&utm_medium=unification&utm_campaign=white_teak, https://www.apassure.asianpaints.com/, https://www.asianpaints.com/, Store Locator, …); the source panel has an input, the build none"
+  },
+  {
+   "key": "panel-content@1440 More... [key]",
+   "width": 1440,
+   "path": "More...",
+   "action": "key",
+   "id": "panel-content",
+   "severity": "warn",
+   "detail": "the source panel shows 8 image(s), the build none"
+  },
+  {
+   "key": "motion@1440 More... [key]",
+   "width": 1440,
+   "path": "More...",
+   "action": "key",
+   "id": "motion",
+   "severity": "warn",
+   "detail": "the build animates transform, opacity; the source does not"
+  },
+  {
+   "key": "state-missing@1440 Careers [hover]",
+   "width": 1440,
+   "path": "Careers",
+   "action": "hover",
+   "id": "state-missing",
+   "severity": "error",
+   "detail": "opens on hover on the source (1 links); the build control is a plain link to /"
+  },
+  {
+   "key": "state-missing@1440 search [type]",
+   "width": 1440,
+   "path": "search",
+   "id": "state-missing",
+   "action": "type",
+   "severity": "error",
+   "detail": "typing \"search\" shows 13 suggestion(s) on the source, none on the build"
+  },
+  {
+   "key": "link-href@1440 search [submit]",
+   "width": 1440,
+   "path": "search",
+   "id": "link-href",
+   "action": "submit",
+   "severity": "warn",
+   "detail": "submits to /{q}result?q=earch on the source, /searchresult?q={q} on the build"
+  },
+  {
+   "key": "panel-visual@1440 Products [click]",
+   "width": 1440,
+   "path": "Products",
+   "action": "click",
+   "id": "panel-visual",
+   "severity": "error",
+   "detail": "open-state crop differs by 71.5% (bar 2%; source 1440×481, build 704×357; texture 85% thick)"
+  },
+  {
+   "key": "panel-visual@1440 Calculators [hover]",
+   "width": 1440,
+   "path": "Calculators",
+   "action": "hover",
+   "id": "panel-visual",
+   "severity": "error",
+   "detail": "open-state crop differs by 96.9% (bar 2%; source 1360×850, build 306×250; texture 94% thick)"
+  },
+  {
+   "key": "panel-visual@1440 More... [key]",
+   "width": 1440,
+   "path": "More...",
+   "action": "key",
+   "id": "panel-visual",
+   "severity": "error",
+   "detail": "open-state crop differs by 95.9% (bar 2%; source 1440×140, build 229×357; texture 94% thick)"
+  }
+ ]
+}

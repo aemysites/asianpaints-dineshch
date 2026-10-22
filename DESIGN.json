@@ -1,0 +1,299 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:replica",
+    "mode": "bounded-single",
+    "writtenAt": "2026-10-19T16:47:45.522Z",
+    "synthesizedFrom": [
+      "stardust/current/pages/index.json",
+      "stardust/replica/tokens.json"
+    ]
+  },
+  "name": "Asian Paints — home (bounded-single descriptive spec)",
+  "colors": {
+    "background": "#fff",
+    "light": "#f8f8f8",
+    "dark": "#232426",
+    "text": "#222",
+    "link": "#431a80",
+    "linkHover": "#7345b3",
+    "primary": "#431a80",
+    "primaryLight": "#7345b3",
+    "accent": "#fcaf17",
+    "accentHover": "#e59d15",
+    "yellow": "#fff4cc",
+    "grey": "#f5f5f5",
+    "darkGrey": "#6b6b6b",
+    "black": "#000",
+    "navyBlue": "#011c5f",
+    "creamBg": "#fefcf7",
+    "darkCreamBg": "#ece5d7",
+    "textMuted": "#666",
+    "textDark": "#1a1a1a",
+    "censusSurfaceCream": "#faf6ef",
+    "censusHeading": "#232426",
+    "gradientBrand": "linear-gradient(270deg, rgb(248 161 46), rgb(190 42 29) 50.07%, rgb(69 33 108) 98.1%)"
+  },
+  "typography": {
+    "fontFamily": {
+      "body": "Manrope, manrope-fallback, sans-serif",
+      "heading": "Manrope, manrope-fallback, sans-serif"
+    },
+    "ramp": {
+      "mobile": {
+        "bodyM": "22px",
+        "bodyS": "19px",
+        "bodyXS": "17px",
+        "xxl": "55px",
+        "xl": "44px",
+        "l": "34px",
+        "m": "27px",
+        "s": "24px",
+        "xs": "22px"
+      },
+      "min-width:900px": {
+        "bodyM": "18px",
+        "bodyS": "16px",
+        "bodyXS": "14px",
+        "xxl": "45px",
+        "xl": "36px",
+        "l": "28px",
+        "m": "22px",
+        "s": "20px",
+        "xs": "18px"
+      },
+      "headings": {
+        "weight": 500,
+        "lineHeight": 1.2,
+        "marginBottom": "0.5rem"
+      },
+      "body": {
+        "lineHeight": 1.6
+      },
+      "censusHeadingSizes1440": [
+        64,
+        60,
+        54,
+        40,
+        32,
+        30,
+        26,
+        24,
+        22,
+        20
+      ]
+    }
+  },
+  "rounded": {
+    "mode": "10px",
+    "pill": "50%"
+  },
+  "spacing": {},
+  "components": {},
+  "extensions": {
+    "breakpoints": {
+      "containerMaxWidth": null,
+      "probeWidth": 3038,
+      "shellMaxWidth": null,
+      "caps": [
+        {
+          "kind": "module",
+          "px": 2430,
+          "via": "fixed",
+          "selector": "div.video-shorts.block > div > div.swiper.sa_shorts_parentSwiper > div.swiper-wrapper",
+          "pages": [
+            "https://www.asianpaints.com/"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 1200,
+          "via": "max-width",
+          "selector": "body.appear.splash-open > main > div.section.sectionpadding > div.default-content-wrapper",
+          "pages": [
+            "https://www.asianpaints.com/"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 602,
+          "via": "fixed",
+          "selector": "#interior--exterior-wall-paint-by-experts > strong",
+          "pages": [
+            "https://www.asianpaints.com/"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 406,
+          "via": "fixed",
+          "selector": "div.designer-collections-wrapper > div.designer-collections.block > div.designer-collections-header > h2.designer-collections-title",
+          "pages": [
+            "https://www.asianpaints.com/"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 373,
+          "via": "fixed",
+          "selector": "#swiper-wrapper-4e3ce6b85fa52ae7 > div.swiper-slide.swiper-slide-visible > div.hero-media > div.hero-image",
+          "pages": [
+            "https://www.asianpaints.com/"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 331,
+          "via": "fixed",
+          "selector": "div.new-questions-wrapper > div.new-disclaimer-questions > div.disclaimer-ques-one.disclaimer-group > fieldset",
+          "pages": [
+            "https://www.asianpaints.com/"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 298,
+          "via": "other",
+          "selector": "#swiper-wrapper-4e3ce6b85fa52ae7 > div.swiper-slide.swiper-slide-visible > div.hero-media > a.hero-cta",
+          "pages": [
+            "https://www.asianpaints.com/"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 261,
+          "via": "fixed",
+          "selector": "div.designer-collections-card.swiper-slide > div.designer-collections-card-inner > div.designer-collections-logo > div.designer-collections-logo-image",
+          "pages": [
+            "https://www.asianpaints.com/"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 240,
+          "via": "fixed",
+          "selector": "#textures",
+          "pages": [
+            "https://www.asianpaints.com/"
+          ]
+        }
+      ],
+      "modules": [
+        {
+          "url": "https://www.asianpaints.com/",
+          "section": 0,
+          "selector": "body.appear.splash-open > main > div.section.sr-only-container",
+          "px": 602
+        },
+        {
+          "url": "https://www.asianpaints.com/",
+          "section": 1,
+          "selector": "body.appear.splash-open > main > div.section.color-gallery-container",
+          "px": 305
+        },
+        {
+          "url": "https://www.asianpaints.com/",
+          "section": 2,
+          "selector": "body.appear.splash-open > main > div.section.form-container",
+          "px": 331
+        },
+        {
+          "url": "https://www.asianpaints.com/",
+          "section": 3,
+          "selector": "body.appear.splash-open > main > div.section.featured-products-container",
+          "px": 365
+        },
+        {
+          "url": "https://www.asianpaints.com/",
+          "section": 4,
+          "selector": "body.appear.splash-open > main > div.section.services-grid-container",
+          "px": null
+        },
+        {
+          "url": "https://www.asianpaints.com/",
+          "section": 5,
+          "selector": "body.appear.splash-open > main > div.section.explore-split-container",
+          "px": 300
+        },
+        {
+          "url": "https://www.asianpaints.com/",
+          "section": 6,
+          "selector": "body.appear.splash-open > main > div.section.tools-carousel-container",
+          "px": 280
+        },
+        {
+          "url": "https://www.asianpaints.com/",
+          "section": 7,
+          "selector": "body.appear.splash-open > main > div.section.designer-collections-container",
+          "px": 406
+        },
+        {
+          "url": "https://www.asianpaints.com/",
+          "section": 8,
+          "selector": "body.appear.splash-open > main > div.section.interiors-shop-container",
+          "px": null
+        },
+        {
+          "url": "https://www.asianpaints.com/",
+          "section": 9,
+          "selector": "body.appear.splash-open > main > div.section.testimonial-carousel-container",
+          "px": 325
+        },
+        {
+          "url": "https://www.asianpaints.com/",
+          "section": 10,
+          "selector": "body.appear.splash-open > main > div.section.store-banner-container",
+          "px": null
+        },
+        {
+          "url": "https://www.asianpaints.com/",
+          "section": 11,
+          "selector": "body.appear.splash-open > main > div.section.video-shorts-container",
+          "px": 2430
+        },
+        {
+          "url": "https://www.asianpaints.com/",
+          "section": 12,
+          "selector": "body.appear.splash-open > main > div.section.sectionpadding",
+          "px": 1200
+        }
+      ],
+      "capRegister": [],
+      "capProvenance": {
+        "writtenBy": "skills/replica/scripts/cap-probe.mjs",
+        "writtenAt": "2026-10-19T16:45:40.217Z",
+        "baseWidth": 1440,
+        "urls": [
+          "https://www.asianpaints.com/"
+        ]
+      }
+    },
+    "layout": {
+      "headerHeight": {
+        "mobile": "126px",
+        "min-width:992px": "140px"
+      },
+      "bodyZoom": {
+        "992-1099": 0.7,
+        "1100-1199": 0.75,
+        "1200-1279": 0.8,
+        "1280-1365": 0.85,
+        "1366-1439": 0.9,
+        "1440+": 1
+      },
+      "container": "fluid (cap-probe: containerMaxWidth null)",
+      "boxSizing": "border-box (global *)"
+    },
+    "fonts": {
+      "body": "Manrope, manrope-fallback, sans-serif",
+      "heading": "Manrope, manrope-fallback, sans-serif",
+      "files": "Manrope TTF 300-800 (OFL, self-hostable) from /eds/fonts/manrope/; HeaderFontIcons woff2 U+E000-E00F",
+      "fallbackFace": {
+        "src": "local(Arial)",
+        "sizeAdjust": "102.13%",
+        "ascentOverride": "104.38%",
+        "descentOverride": "29.37%",
+        "lineGapOverride": "0%"
+      }
+    }
+  }
+}

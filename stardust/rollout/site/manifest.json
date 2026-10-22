@@ -1,0 +1,23 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:rollout/assemble",
+    "writtenAt": "2026-10-19T19:32:49.440Z",
+    "stardustVersion": "0.0.0"
+  },
+  "generatedAt": "2026-10-19T19:32:49.440Z",
+  "host": "https://main--03cd0138--aemcoder.aem.live",
+  "sitemap": "stardust/rollout/site/sitemap.xml",
+  "robots": "stardust/rollout/site/robots.txt",
+  "fragments": [],
+  "servedSitemap": {
+    "origin": "https://main--03cd0138--aemcoder.aem.live",
+    "url": "https://main--03cd0138--aemcoder.aem.live/sitemap.xml",
+    "checkedAt": "2026-10-19T19:32:49.439Z",
+    "match": true,
+    "error": null,
+    "count": 1,
+    "assembled": 1,
+    "extra": [],
+    "missing": []
+  }
+}

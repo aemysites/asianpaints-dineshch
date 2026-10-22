@@ -1,0 +1,179 @@
+{
+ "_provenance": {
+  "writtenBy": "stardust:dynamics check",
+  "writtenAt": "2026-10-19T19:39:42.841Z",
+  "origin": "https://main--03cd0138--aemcoder.aem.live",
+  "parity": "stardust/dynamics/parity.json",
+  "contract": "stardust/martech-contract.json"
+ },
+ "results": [
+  {
+   "feature": "hero banner carousel (fade, autoplay)",
+   "id": "hero-carousel",
+   "class": "M",
+   "status": "done",
+   "type": "dom-count",
+   "pass": true,
+   "detail": "4 × .carousel-hero-banner .hero-slide (min 4)",
+   "thirdParty": "",
+   "ms": 6565,
+   "environmentLimit": null
+  },
+  {
+   "feature": "hero banner carousel (fade, autoplay)",
+   "id": "hero-carousel",
+   "class": "M",
+   "status": "done",
+   "type": "video-plays",
+   "pass": true,
+   "detail": "iframe/video: false · video playing (Δt 0.81s)",
+   "thirdParty": "",
+   "ms": 10235,
+   "environmentLimit": null
+  },
+  {
+   "feature": "colour gallery / featured products / designer collections / testimonial / tools carousels",
+   "id": "content-carousels",
+   "class": "L",
+   "status": "done",
+   "type": "dom-count",
+   "pass": true,
+   "detail": "9 × .color-gallery .color-gallery-slide (min 9)",
+   "thirdParty": "",
+   "ms": 6059,
+   "environmentLimit": null
+  },
+  {
+   "feature": "colour gallery / featured products / designer collections / testimonial / tools carousels",
+   "id": "content-carousels",
+   "class": "L",
+   "status": "done",
+   "type": "dom-count",
+   "pass": true,
+   "detail": "3 × .featured-products .featured-products-slide (min 3)",
+   "thirdParty": "",
+   "ms": 4474,
+   "environmentLimit": null
+  },
+  {
+   "feature": "colour gallery / featured products / designer collections / testimonial / tools carousels",
+   "id": "content-carousels",
+   "class": "L",
+   "status": "done",
+   "type": "dom-count",
+   "pass": true,
+   "detail": "4 × .designer-collections .designer-collections-card (min 4)",
+   "thirdParty": "",
+   "ms": 7614,
+   "environmentLimit": null
+  },
+  {
+   "feature": "colour gallery / featured products / designer collections / testimonial / tools carousels",
+   "id": "content-carousels",
+   "class": "L",
+   "status": "done",
+   "type": "dom-count",
+   "pass": true,
+   "detail": "34 × .testimonial-carousel .testimonial-slide (min 34)",
+   "thirdParty": "",
+   "ms": 7574,
+   "environmentLimit": null
+  },
+  {
+   "feature": "colour gallery / featured products / designer collections / testimonial / tools carousels",
+   "id": "content-carousels",
+   "class": "L",
+   "status": "done",
+   "type": "dom-count",
+   "pass": true,
+   "detail": "5 × .tools-carousel .tools-carousel-slide (min 5)",
+   "thirdParty": "",
+   "ms": 4676,
+   "environmentLimit": null
+  },
+  {
+   "feature": "Painting Service lead form",
+   "id": "lead-form",
+   "class": "F",
+   "status": "scaffolded-awaiting-owner",
+   "type": "dom-count",
+   "pass": true,
+   "detail": "4 × .form .form-field (min 4)",
+   "thirdParty": "",
+   "ms": 5189,
+   "environmentLimit": null
+  },
+  {
+   "feature": "Painting Service lead form",
+   "id": "lead-form",
+   "class": "F",
+   "status": "scaffolded-awaiting-owner",
+   "type": "dom-count",
+   "pass": true,
+   "detail": "5 × .form .form-radio-input (min 5)",
+   "thirdParty": "",
+   "ms": 4563,
+   "environmentLimit": null
+  },
+  {
+   "feature": "FAQ accordion",
+   "id": "faq-accordion",
+   "class": "M",
+   "status": "done",
+   "type": "dom-count",
+   "pass": true,
+   "detail": "19 × .accordion .accordion-item (min 19)",
+   "thirdParty": "",
+   "ms": 6427,
+   "environmentLimit": null
+  },
+  {
+   "feature": "Inspiring ideas video shorts",
+   "id": "video-shorts",
+   "class": "V",
+   "status": "interim",
+   "type": "dom-count",
+   "pass": true,
+   "detail": "10 × .video-shorts .vs-tile (min 10)",
+   "thirdParty": "",
+   "ms": 4911,
+   "environmentLimit": "video-plays samples straddle the loop restart of the 3 s clips (Δt -2.25 s = wrap, paused false): an instrument limit for sub-sampling-interval loops, not a playback defect"
+  },
+  {
+   "feature": "Inspiring ideas video shorts",
+   "id": "video-shorts",
+   "class": "V",
+   "status": "interim",
+   "type": "video-plays",
+   "pass": true,
+   "detail": "iframe/video: false · video playing (Δt 0.81s)",
+   "thirdParty": "",
+   "ms": 10321,
+   "environmentLimit": "video-plays samples straddle the loop restart of the 3 s clips (Δt -2.25 s = wrap, paused false): an instrument limit for sub-sampling-interval loops, not a playback defect"
+  },
+  {
+   "feature": "no uncaught exceptions",
+   "id": "page-errors",
+   "class": "M",
+   "status": "done",
+   "type": "no-page-errors",
+   "pass": true,
+   "detail": "none on 1 page(s)",
+   "thirdParty": "",
+   "ms": 7967,
+   "environmentLimit": null
+  },
+  {
+   "feature": "martech: consent + tag routing",
+   "id": "martech",
+   "class": "T",
+   "status": "scaffolded-off",
+   "type": "martech",
+   "pass": true,
+   "detail": "no tag host requested (4 gated · 0 cross-site host(s) blocked)",
+   "thirdParty": "",
+   "ms": 6468,
+   "environmentLimit": null
+  }
+ ]
+}

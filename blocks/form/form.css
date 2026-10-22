@@ -1,0 +1,518 @@
+/* stylelint-disable no-descending-specificity, no-duplicate-selectors */
+
+/* form — prototype section CSS (stardust/prototypes/css/index-*.css) scoped to the block,
+   then the EDS adaptation (authored nodes moved into the prototype slots). */
+
+.section.form-container {
+  padding: 0 10px;
+}
+
+.form-container .form {
+  position: relative;
+  overflow: hidden;
+  background-color: #fff;
+  border: 1px solid #e2e2e2;
+  border-radius: 20px;
+  padding: 20px 12px 20px 16px;
+  box-shadow: 0 12px 20px 0 #00000014;
+  font-size: var(--body-font-size-m);
+  line-height: 1.6;
+  color: #222;
+}
+
+.form-container .form-row {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin: 0;
+}
+
+.form-container .form-description-cell {
+  text-align: left;
+  align-self: flex-start;
+}
+
+.form-container .form-description-cell p {
+  margin: 0;
+}
+
+.form-container .form-title-small p {
+  color: #2e2f32;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 28px;
+}
+
+.form-container .form-title-large p {
+  margin-top: 25.6px;
+  color: #f14950;
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 41.6px;
+}
+
+.form-container .form-subtitle {
+  width: 305px;
+}
+
+.form-container .form-subtitle p {
+  margin-top: 11.2px;
+  color: #75787b;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+}
+
+.form-container .form-fields-area {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  width: 100%;
+}
+
+.form-container .form-inputs-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 15px;
+  width: 100%;
+}
+
+.form-container .form-input-cell {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  width: 100%;
+  min-height: 57px;
+}
+
+.form-container .form-field {
+  position: relative;
+  width: 100%;
+}
+
+.form-container .form-field-label {
+  display: flex;
+  gap: 2px;
+  position: absolute;
+  top: -9px;
+  left: 15px;
+  padding: 0 4px;
+  background: #fff;
+  color: #b0b1b3;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 18px;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity .2s;
+}
+
+.form-container .form-field:focus-within .form-field-label {
+  opacity: 1;
+}
+
+.form-container .form-input {
+  display: block;
+  width: 100%;
+  height: 52px;
+  padding: 18px;
+  border: 1px solid #dfdfdf;
+  border-radius: 8px;
+  background: transparent;
+  color: #232426;
+  font-size: 16px;
+  line-height: 24px;
+  outline: none;
+}
+
+.form-container .form-input::placeholder {
+  color: #53565a;
+  opacity: 1;
+}
+
+.form-container .form-input:focus {
+  border-color: #53565a;
+}
+
+.form-container .form-field-error {
+  color: #ff2343;
+  font-size: 11px;
+  line-height: 14px;
+  min-height: 0;
+}
+
+.form-container .form-consent-area {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  margin-top: 4px;
+  padding-top: 18px;
+}
+
+.form-container .new-questions-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  width: 100%;
+}
+
+.form-container .form-whatsapp-consent {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  user-select: none;
+  order: 1;
+}
+
+.form-container .form-checkbox-input,
+.form-container .form-radio-input {
+  position: absolute;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.form-container .form-checkbox-custom {
+  position: relative;
+  flex: 0 0 15px;
+  width: 15px;
+  height: 15px;
+  border: 1px solid #b0b1b3;
+  border-radius: 2px;
+}
+
+.form-container .form-checkbox-input:checked + .form-checkbox-custom {
+  background: #75787b;
+  border-color: #75787b;
+}
+
+.form-container .form-checkbox-input:checked + .form-checkbox-custom::after {
+  content: '';
+  position: absolute;
+  top: 2px;
+  left: 4px;
+  width: 5px;
+  height: 8px;
+  border-right: 2px solid #fff;
+  border-bottom: 2px solid #fff;
+  transform: rotate(45deg);
+}
+
+.form-container .form-whatsapp-consent .form-custom-label-text {
+  color: #4c4e52;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 19px;
+}
+
+.form-container .new-disclaimer-questions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 18px;
+}
+
+.form-container .disclaimer-group {
+  display: flex;
+  flex: 1;
+  min-width: 220px;
+}
+
+.form-container .disclaimer-group fieldset {
+  margin: 0;
+  padding: 0;
+  border: none;
+  min-width: min-content;
+}
+
+.form-container .disclaimer-group legend {
+  padding: 0;
+  margin-bottom: 6px;
+  color: #000;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.3;
+}
+
+.form-container .form-required {
+  color: #ed1c24;
+}
+
+.form-container .radio-options-wrapper {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  gap: 8px 12px;
+}
+
+.form-container .radio-options-wrapper li {
+  display: inline-flex;
+  align-items: center;
+  flex-shrink: 0;
+  gap: 6px;
+  cursor: pointer;
+  user-select: none;
+  white-space: nowrap;
+  line-height: 19px;
+}
+
+.form-container .form-radio-custom {
+  position: relative;
+  flex: 0 0 16px;
+  width: 16px;
+  height: 16px;
+  border: 1.5px solid #bdbdbd;
+  border-radius: 50%;
+}
+
+.form-container .form-radio-input:checked + .form-radio-custom {
+  border-color: #f47838;
+}
+
+.form-container .form-radio-input:checked + .form-radio-custom::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #f47838;
+}
+
+.form-container .disclaimer-group .form-custom-label-text {
+  color: #323232;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 19px;
+  opacity: .6;
+}
+
+.form-container .form-bhps-footer {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 100%;
+  margin-top: 25px;
+}
+
+.form-container .form-consent-note {
+  color: #8c8e90;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: .5px;
+  max-width: 99%;
+}
+
+.form-container .form-consent-note p {
+  margin: 9.6px 0 3px;
+}
+
+.form-container .form-consent-note-link {
+  color: #00e;
+  text-decoration: underline;
+}
+
+.form-container .form-button-cell {
+  display: flex;
+  margin-top: 14px;
+}
+
+.form-container .form-submit {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  width: 100%;
+  height: 40px;
+  padding: 8px 22px;
+  background: #fcaf17;
+  color: #000;
+  border-radius: 30px;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  cursor: pointer;
+}
+
+.form-container .form-submit:hover {
+  background: #e59d15;
+}
+
+.form-container .form-submit-label {
+  display: flex;
+  letter-spacing: .86px;
+}
+
+.form-container .form-submit-arrow {
+  display: flex;
+  width: 20px;
+  height: 18px;
+  background: url('/icons/a-arrow-icon-new.svg') no-repeat center / 20px 20px;
+  filter: invert(1);
+}
+
+.form-container .form-status {
+  margin: 0;
+  font-size: 12px;
+  line-height: 15px;
+  color: #4c4e52;
+}
+
+@media (width >= 992px) {
+  .section.form-container {
+    padding: 0 40px;
+  }
+
+  .form-container .form {
+    padding: 0;
+    border-color: #cfcfcf;
+    box-shadow: none;
+  }
+
+  .form-container .form-row {
+    flex-direction: row;
+    gap: 7%;
+    padding: 35px 7%;
+  }
+
+  .form-container .form-description-cell {
+    flex: 0 1 30%;
+    align-self: center;
+  }
+
+  .form-container .form-fields-area {
+    flex: 1 1 0;
+  }
+
+  .form-container .form-title-small p {
+    color: #4c4c4c;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+  }
+
+  .form-container .form-title-large {
+    margin-bottom: 15px;
+    max-width: 90%;
+  }
+
+  .form-container .form-title-large p {
+    margin: 0;
+    font-size: 57px;
+    line-height: 56.4px;
+    letter-spacing: -1.14px;
+    max-width: 93%;
+  }
+
+  .form-container .form-subtitle {
+    width: auto;
+  }
+
+  .form-container .form-subtitle p {
+    margin: 0;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25.8px;
+    max-width: 91%;
+  }
+
+  .form-container .form-inputs-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 15px 6%;
+  }
+
+  .form-container .form-input {
+    padding: 0 0 0 15px;
+    font-size: 14px;
+  }
+
+  .form-container .form-field-label {
+    font-size: 12px;
+  }
+
+  .form-container .form-consent-area {
+    gap: 4px;
+    margin-top: 0;
+    padding-top: 4px;
+  }
+
+  .form-container .new-questions-wrapper {
+    gap: 20px;
+  }
+
+  .form-container .form-whatsapp-consent {
+    order: 0;
+  }
+
+  .form-container .form-whatsapp-consent .form-custom-label-text {
+    font-weight: 500;
+  }
+
+  .form-container .new-disclaimer-questions {
+    gap: 24px 22px;
+  }
+
+  .form-container .radio-options-wrapper {
+    gap: 10px 16px;
+  }
+
+  .form-container .disclaimer-group .form-custom-label-text {
+    font-size: 13px;
+  }
+
+  .form-container .form-bhps-footer {
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px;
+  }
+
+  .form-container .form-consent-note {
+    flex: 1;
+    max-width: 49%;
+    align-self: center;
+  }
+
+  .form-container .form-button-cell {
+    margin-top: 0;
+  }
+
+  .form-container .form-submit {
+    width: auto;
+    height: 44px;
+    padding: 10px 16px;
+  }
+
+  .form-container .form-status {
+    flex-basis: 100%;
+    text-align: right;
+  }
+}
+
+/* ---- EDS adaptation ---- */
+
+.form .form-field-label p,
+.form legend p,
+.form .form-custom-label-text p,
+.form .form-submit-label p {
+  display: inline;
+  margin: 0;
+}
+
+.form .radio-options-wrapper ul {
+  display: contents;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.form .radio-options-wrapper li {
+  color: #323232;
+  font-size: 12px;
+  line-height: 19px;
+}
+
+.form .radio-options-wrapper li .form-radio-input + .form-radio-custom {
+  flex: none;
+}
