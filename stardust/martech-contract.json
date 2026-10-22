@@ -13,12 +13,12 @@
    "vendor": "OneTrust",
    "src": "https://cdn.cookielaw.org/scripttemplates/otSDKStub.js",
    "attrs": {
-    "data-domain-script": null
+    "data-domain-script": "433d1cae-89f6-480b-a880-b80ddb341a2c"
    },
    "groups": "OnetrustActiveGroups",
    "event": "OneTrustGroupsUpdated",
    "viaTagManager": false,
-   "enabled": false
+   "enabled": true
   },
   "model": "owner-decision",
   "categories": [],
@@ -33,7 +33,7 @@
    "boot": null,
    "category": null,
    "cmpGroups": [],
-   "enabled": false
+   "enabled": true
   },
   {
    "id": "google-tag-manager",
@@ -42,7 +42,7 @@
    "boot": "gtm",
    "category": null,
    "cmpGroups": [],
-   "enabled": false
+   "enabled": true
   }
  ],
  "otherTags": [
@@ -58,7 +58,1806 @@
   "dataLayer",
   "digitalData"
  ],
- "tagNotes": {},
+ "tagNotes": {
+  "Adobe Launch": {
+   "rules": [
+    {
+     "name": "XDM : data pushed : 50 : Squarecross Click",
+     "events": [
+      "squarecross_click"
+     ],
+     "from": "launch-aa461fb6c86d.min.js: rule RL003fcde858ff4236a5d1856ac552059c"
+    },
+    {
+     "name": "XDM : data pushed : 50 : Login Successful",
+     "events": [
+      "login_successful"
+     ],
+     "from": "launch-aa461fb6c86d.min.js: rule RL004df6c0fa794f2eacc385775764b58f"
+    },
+    {
+     "name": "XDM : data pushed : 50 : Store Locator Click DCR",
+     "events": [
+      "store_locator_click_dcr"
+     ],
+     "from": "launch-aa461fb6c86d.min.js: rule RL00517e30f90c40afb612ac2336fd0f70"
+    },
+    {
+     "name": "WebSDK - MCVID - setting",
+     "events": [
+      "Library Loaded"
+     ],
+     "from": "launch-aa461fb6c86d.min.js: rule RL01e26b4d60d248ec8b36ab2d9a40078e"
+    },
+    {
+     "name": "XDM : data pushed : 50 : Custom CTA Click",
+     "events": [
+      "custom_cta_click"
+     ],
+     "from": "launch-aa461fb6c86d.min.js: rule RL02527d627386407c8007ef7e23024149"
+    },
+    {
+     "name": "XDM : data pushed : 50 : Home Colour Guide Submit",
+     "events": [
+      "HCG_submit"
+     ],
+     "from": "launch-aa461fb6c86d.min.js: rule RL02ab2ba0ee4945c5b146bdf82f150788"
+    },
+    {
+     "name": "XDM : data pushed : 50 : App Store click",
+     "events": [
+      "appstore_click"
+     ],
+     "from": "launch-aa461fb6c86d.min.js: rule RL03676d5a4be14097af2aa25bbe5411e2"
+    },
+    {
+     "name": "XDM : data pushed : 50 : QR Download",
+     "events": [
+      "qr_download"
+     ],
+     "from": "launch-aa461fb6c86d.min.js: rule RL04aa01ae108245a6b5429755ae23f17f"
+    },
+    {
+     "name": "XDM : data pushed : 50 : Wood Finish Restart",
+     "events": [
+      "WF_restart"
+     ],
+     "from": "launch-aa461fb6c86d.min.js: rule RL05077409d1c14808a626917ed99a6da4"
+    },
+    {
+     "name": "XDM : data pushed : 50 : Popular Tag Click",
+     "events": [
+      "popular_tag_click"
+     ],
+     "from": "launch-aa461fb6c86d.min.js: rule RL084e853943c54e9fa7a37819309bac2b"
+    },
+    {
+     "name": "XDM : data pushed : 50 : Search Bar Close",
+     "events": [
+      "search_bar_close"
+     ],
+     "from": "launch-aa461fb6c86d.min.js: rule RL090053432822464a9f5174ffa0f69649"
+    },
+    {
+     "name": "XDM : data pushed : 50 : Get App Send Link Click",
+     "events": [
+      "get_app_send_link_click"
+     ],
+     "from": "launch-aa461fb6c86d.min.js: rule RL099d852944fe4f49a100a2650d56f0dd"
+    },
+    {
+     "name": "XDM : data pushed : 50 :Blog Fav Click",
+     "events": [
+      "blog_fav_click"
+     ],
+     "from": "launch-aa461fb6c86d.min.js: rule RL0b4284dbde8f48ad84fd51ae86142d47"
+    },
+    {
+     "name": "XDM : data pushed : 50 : Warranty Doc Uploaded",
+     "events": [
+      "warranty_doc_uploaded"
+     ],
+     "from": "launch-aa461fb6c86d.min.js: rule RL10038314c24d494abd3aa88c61722727"
+    },
+    {
+     "name": "XDM : data pushed : 50 : Footer Country",
+     "events": [
+      "footer_country"
+     ],
+     "from": "launch-aa461fb6c86d.min.js: rule RL1155ed8833424079bce8aaca01ebf045"
+    },
+    {
+     "name": "XDM : data pushed : 50 : Login Continue",
+     "events": [
+      "login_continue"
+     ],
+     "from": "launch-aa461fb6c86d.min.js: rule RL13dcd03fe61a479e87d713b00655d984"
+    },
+    {
+     "name": "XDM : data pushed : 50 : Registration Error",
+     "events": [
+      "Registration_error"
+     ],
+     "from": "launch-aa461fb6c86d.min.js: rule RL14862d7515d8483ba6d5b7b47820f74c"
+    },
+    {
+     "name": "XDM : data pushed : 50 : Calculator Recalculate",
+     "events": [
+      "calct_recalculate"
+     ],
+     "from": "launch-aa461fb6c86d.min.js: rule RL153206d39e3443718a1ebc6682dd984e"
+    },
+    {
+     "name": "XDM : data pushed : 50 : Auto Appointment Phone Number Validation",
+     "events": [
+      "BHS_AA_Phoneno"
+     ],
+     "from": "launch-aa461fb6c86d.min.js: rule RL1532be2f78d242ba89e99970151aa9c1"
+    },
+    {
+     "name": "XDM : data pushed : 50 : File Upload Successful",
+     "events": [
+      "File_upload_successful"
+     ],
+     "from": "launch-aa461fb6c86d.min.js: rule RL1604d619ee284e6f9ec79ecb2401f8fb"
+    },
+    {
+     "name": "XDM : data pushed : 50 : Kitchen Calculator Step2",
+     "events": [
+      "kcc_step2"
+     ],
+     "from": "launch-aa461fb6c86d.min.js: rule RL17fffbf7f9174d40a4017b53b787696b"
+    },
+    {
+     "name": "XDM : data pushed : 50 : Search Icon",
+     "events": [
+      "search_icon"
+     ],
+     "from": "launch-aa461fb6c86d.min.js: rule RL18669f2559524a40b553b5064254c2ca"
+    },
+    {
+     "name": "XDM : data pushed : 50 : Exit Intent Impression",
+     "events": [
+      "exit_intent_impression"
+     ],
+     "from": "launch-aa461fb6c86d.min.js: rule RL19ef5328e42044b68dae350ef158c99e"
+    },
+    {
+     "name": "XDM : data pushed : 50 : Form Submit copy",
+     "events": [
+      "form_submit"
+     ],
+     "from": "launch-aa461fb6c86d.min.js: rule RL1bfeb9434504450c913ca66c955246ee"
+    },
+    {
+     "name": "XDM : data pushed : 50 : Login Icon",
+     "events": [
+      "login_icon"
+     ],
+     "from": "launch-aa461fb6c86d.min.js: rule RL1c0ac1a4523648b6bd78461e92148c9c"
+    },
+    {
+     "name": "XDM : data pushed : 50 : Short Video Shop",
+     "events": [
+      "short_video_shop"
+     ],
+     "from": "launch-aa461fb6c86d.min.js: rule RL1c97313ef70140feaa69eed5179e5b78"
+    },
+    {
+     "name": "XDM : data pushed : 50 :apHomes listed service  click dcr",
+     "events": [
+      "apHomes_listed_service _click_dcr"
+     ],
+     "from": "launch-aa461fb6c86d.min.js: rule RL1ca89dcd35644fd0b2c03716e25e21e7"
+    },
+    {
+     "name": "XDM : data pushed : 50 : Wood Finish Start",
+     "events": [
+      "WF_start"
+     ],
+     "from": "launch-aa461fb6c86d.min.js: rule RL1cd081f24a7f4d2fa592283d13cd2b45"
+    },
+    {
+     "name": "XDM : data pushed : 50 : File Upload Complete",
+     "events": [
+      "File_upload_successful"
+     ],
+     "from": "launch-aa461fb6c86d.min.js: rule RL1ec3e350c68c45b2b5d8ac270ced6534"
+    },
+    {
+     "name": "XDM : data pushed : 50 : Calculator Download",
+     "events": [
+      "calct_download"
+     ],
+     "from": "launch-aa461fb6c86d.min.js: rule RL21433d4ec563419aab1c6e07ceb9d813"
+    },
+    {
+     "name": "XDM : data pushed : 50 : Download Form pdf",
+     "events": [
+      "download_form_pdf"
+     ],
+     "from": "launch-aa461fb6c86d.min.js: rule RL2221d14ffe414a4292848ecde244f2ad"
+    },
+    {
+     "name": "XDM : data pushed : 50 : Contractor Share",
+     "events": [
+      "contractor_share"
+     ],
+     "from": "launch-aa461fb6c86d.min.js: rule RL2a593606a910436a859a34b28a93a855"
+    },
+    {
+     "name": "XDM : data pushed : 50 : Warranty Complete",
+     "events": [
+      "warranty_complete"
+     ],
+     "from": "launch-aa461fb6c86d.min.js: rule RL2cbbee3eb83e4115885d455492c94aa7"
+    },
+    {
+     "name": "XDM : data pushed : 50 : Store Locator Click",
+     "events": [
+      "store_locator_click"
+     ],
+     "from": "launch-aa461fb6c86d.min.js: rule RL2e234c40b753429a815962584b2cf3c7"
+    },
+    {
+     "name": "XDM : data pushed : 50 : Testimonial Open",
+     "events": [
+      "test_open"
+     ],
+     "from": "launch-aa461fb6c86d.min.js: rule RL2ef4dbc100984938a7a0fb6db098c3a8"
+    },
+    {
+     "name": "XDM : data pushed : 50 : Warranty Form Submit",
+     "events": [
+      "warranty_formsubmit"
+     ],
+     "from": "launch-aa461fb6c86d.min.js: rule RL2f854439caaa4861b540178b6b2d3ccc"
+    },
+    {
+     "name": "XDM : data pushed : 50 : UB Search Autoclick",
+     "events": [
+      "ub_search_autoclick"
+     ],
+     "from": "launch-aa461fb6c86d.min.js: rule RL2faf32ab74474a0c8f0711013c75e653"
+    },
+    {
+     "name": "XDM : data pushed : 50 : Store Locator Direction DCR",
+     "events": [
+      "store_locator_direction_dcr"
+     ],
+     "from": "launch-aa461fb6c86d.min.js: rule RL308fab0833ac4266abf693529e83e5cc"
+    },
+    {
+     "name": "XDM : data pushed : 50 : Home Colour Guide Start",
+     "events": [
+      "HCG_start"
+     ],
+     "from": "launch-aa461fb6c86d.min.js: rule RL330dd3a9f82e4b699d05f2963b083e23"
+    },
+    {
+     "name": "XDM : data pushed : 50 : Search Start",
+     "events": [
+      "search_start"
+     ],
+     "from": "launch-aa461fb6c86d.min.js: rule RL36763959093c42ce8c6e8b6d41acdc73"
+    },
+    {
+     "name": "XDM : data pushed : 50 : Sort By",
+     "events": [
+      "sort_by"
+     ],
+     "from": "launch-aa461fb6c86d.min.js: rule RL3708c3f509f04c338320e3d91ae71d0e"
+    },
+    {
+     "name": "XDM : data pushed : 50 : QR Scan Click",
+     "events": [
+      "qrscan_Click"
+     ],
+     "from": "launch-aa461fb6c86d.min.js: rule RL374aa6b7c9704a8bad89b770bf92a0a9"
+    },
+    {
+     "name": "XDM : data pushed : 50 : Texture Tool Recalculate",
+     "events": [
+      "Texturetool_recalculate"
+     ],
+     "from": "launch-aa461fb6c86d.min.js: rule RL39eeef5e2d0c4b568254f1ecea4d9675"
+    },
+    {
+     "name": "XDM : data pushed : 50 : UB Search Enter",
+     "events": [
+      "ub_search_enter"
+     ],
+     "from": "launch-aa461fb6c86d.min.js: rule RL3adcf5b6d5e94ecca08b049d2c31fc78"
+    },
+    {
+     "name": "XDM : data pushed : 50 : Find Shade Start",
+     "events": [
+      "findshade_start"
+     ],
+     "from": "launch-aa461fb6c86d.min.js: rule RL3c27946b7276460ea489c517aeaa78df"
+    },
+    {
+     "name": "XDM : data pushed : 50 : Carousel Banner Click",
+     "events": [
+      "carousel_banner_click"
+     ],
+     "from": "launch-aa461fb6c86d.min.js: rule RL3d030daccec1485799544ad75adab8b6"
+    },
+    {
+     "name": "XDM : data pushed : 50 : Contractors Results",
+     "events": [
+      "contractors_results"
+     ],
+     "from": "launch-aa461fb6c86d.min.js: rule RL3f38a39ca53b44c6b9a774ee230353ab"
+    },
+    {
+     "name": "XDM : data pushed : 50 : contractor callback",
+     "events": [
+      "contractor_callback"
+     ],
+     "from": "launch-aa461fb6c86d.min.js: rule RL3fe7a9cdc7324c26b6eb47848369fcf6"
+    },
+    {
+     "name": "XDM : data pushed : 50 : Rolls Calculator Reset",
+     "events": [
+      "RC_restart"
+     ],
+     "from": "launch-aa461fb6c86d.min.js: rule RL41cb83e964d34fc3a3ab23b15216746b"
+    },
+    {
+     "name": "XDM : data pushed : 50 : Decor Blog",
+     "events": [
+      "decor-blog"
+     ],
+     "from": "launch-aa461fb6c86d.min.js: rule RL41e18b3e4156461d928b84b05ad1912a"
+    },
+    {
+     "name": "XDM : data pushed : 50 : Add To Cart Fail",
+     "events": [
+      "add_to_cart_fail"
+     ],
+     "from": "launch-aa461fb6c86d.min.js: rule RL428681776fc64d898c7a4ae511f064f0"
+    },
+    {
+     "name": "XDM : data pushed : 50 : Product Tile Click",
+     "events": [
+      "product_tile_click"
+     ],
+     "from": "launch-aa461fb6c86d.min.js: rule RL441bb0554cc7496d9e7a3e4ec9ec1b9b"
+    },
+    {
+     "name": "XDM : data pushed : 50 : Colour Tab Click",
+     "events": [
+      "colour_tab_click"
+     ],
+     "from": "launch-aa461fb6c86d.min.js: rule RL458f5bfb24de4986a14e74e0a7d0eb74"
+    },
+    {
+     "name": "XDM : data pushed : 50 : Tool Step2",
+     "events": [
+      "tool_step2"
+     ],
+     "from": "launch-aa461fb6c86d.min.js: rule RL459c850126d2465386db4098d470de2a"
+    },
+    {
+     "name": "XDM : data pushed : 50 : Contact Us Click Whatsapp",
+     "events": [
+      "contact_us_click_whatsapp"
+     ],
+     "from": "launch-aa461fb6c86d.min.js: rule RL4601fe3bc0db4a9b9083a011b02ef373"
+    },
+    {
+     "name": "XDM : data pushed : 50 : Paint Finish Tool Submit",
+     "events": [
+      "pt_submit"
+     ],
+     "from": "launch-aa461fb6c86d.min.js: rule RL46a421a69fa240568aae4c9bd3f26ea8"
+    },
+    {
+     "name": "XDM : data pushed : 50 :Chat Bot Click",
+     "events": [
+      "ask_aparna_chat_click"
+     ],
+     "from": "launch-aa461fb6c86d.min.js: rule RL46cc97ff2fa541c5a12159697c9b7a51"
+    },
+    {
+     "name": "XDM : data pushed : 50 : Netcore Pop-up Impressions",
+     "events": [
+      "nc_pop_impressions"
+     ],
+     "from": "launch-aa461fb6c86d.min.js: rule RL4a47bb8bd3db4cce98213aa781728693"
+    },
+    {
+     "name": "XDM : data pushed : 50 : Curated Foryou",
+     "events": [
+      "curated_foryou"
+     ],
+     "from": "launch-aa461fb6c86d.min.js: rule RL4c8d1e0e175d41389e48a0d39bc2260a"
+    },
+    {
+     "name": "XDM : data pushed : 50 :article dislike",
+     "events": [
+      "article_dislike"
+     ],
+     "from": "launch-aa461fb6c86d.min.js: rule RL4d2f63c77b214f9a8281b28fd5733771"
+    },
+    {
+     "name": "XDM : data pushed : 50 : Warranty Step2",
+     "events": [
+      "warranty_step2"
+     ],
+     "from": "launch-aa461fb6c86d.min.js: rule RL4dd25d56e8eb4339bc72ae729a3ef83c"
+    },
+    {
+     "name": "XDM : data pushed : 50 : Calculator Submit",
+     "events": [
+      "calct_submit"
+     ],
+     "from": "launch-aa461fb6c86d.min.js: rule RL4e4bbc027f62472e95a7ba6b0c82ead5"
+    },
+    {
+     "name": "XDM : data pushed : 50 : Warranty Step1",
+     "events": [
+      "warranty_step1"
+     ],
+     "from": "launch-aa461fb6c86d.min.js: rule RL4e694e471e8648d096fa9e0acb7f77f5"
+    },
+    {
+     "name": "XDM : data pushed : 50 : eComm Shop Checkout Payment Pay Now click",
+     "events": [
+      "shop_checkout_payment_pay_now_click"
+     ],
+     "from": "launch-aa461fb6c86d.min.js: rule RL4e91e487838940289cfa94f020f1ab02"
+    },
+    {
+     "name": "XDM : data pushed : 50 : Target Carousel",
+     "events": [
+      "target_carousel"
+     ],
+     "from": "launch-aa461fb6c86d.min.js: rule RL52c9aab9c4da4b83b3828075267a26ad"
+    },
+    {
+     "name": "XDM : data pushed : 50 : Footer Socialicons",
+     "events": [
+      "footer_socialicons"
+     ],
+     "from": "launch-aa461fb6c86d.min.js: rule RL57330dcabb75458f8f4920fd6d72930f"
+    },
+    {
+     "name": "XDM : data pushed : 50 : Netcore Pop-up Click",
+     "events": [
+      "nc_pop_click"
+     ],
+     "from": "launch-aa461fb6c86d.min.js: rule RL5e40f7795a9641259ca51cdd2cf3512e"
+    },
+    {
+     "name": "XDM : data pushed : 50 : Jumplink",
+     "events": [
+      "jumplink"
+     ],
+     "from": "launch-aa461fb6c86d.min.js: rule RL617cc8cee3784b9aa1c3ae66c541fc0f"
+    },
+    {
+     "name": "XDM : data pushed : 50 : Pop-up close Click",
+     "events": [
+      "popup_exit"
+     ],
+     "from": "launch-aa461fb6c86d.min.js: rule RL623c181f50d941e69afc95561c97c470"
+    },
+    {
+     "name": "XDM : data pushed : 50 : Video Play Click",
+     "events": [
+      "video_playbotton_click"
+     ],
+     "from": "launch-aa461fb6c86d.min.js: rule RL62afeda081fc4bd48df60839a2e3c447"
+    },
+    {
+     "name": "XDM : data pushed : 50 : eComm Mini Cart Add Click",
+     "events": [
+      "mini_cart_item_plus_click"
+     ],
+     "from": "launch-aa461fb6c86d.min.js: rule RL633766d22c00485f8edbe1c4a7537b9d"
+    },
+    {
+     "name": "XDM : data pushed : 50 : Nav Component Click",
+     "events": [
+      "nav_component_click"
+     ],
+     "from": "launch-aa461fb6c86d.min.js: rule RL64978f566f154727a5747fae6577d855"
+    },
+    {
+     "name": "XDM : data pushed : 50 : BHS Recalculate",
+     "events": [
+      "bhs_recalculate"
+     ],
+     "from": "launch-aa461fb6c86d.min.js: rule RL661b53e1c6b34a05b58110e874bc3c39"
+    },
+    {
+     "name": "XDM : data pushed : 50 : Rolls Calculator Start",
+     "events": [
+      "RC_start"
+     ],
+     "from": "launch-aa461fb6c86d.min.js: rule RL69d1164f635d4e45a6bd3926428deee3"
+    },
+    {
+     "name": "XDM : data pushed : 50 : Look Book Inspiration Carousel",
+     "events": [
+      "look_book_inspiration_carousel"
+     ],
+     "from": "launch-aa461fb6c86d.min.js: rule RL6a39c201db1f4dd59176a49aa5eb9663"
+    },
+    {
+     "name": "XDM : data pushed : 50 : UB Image Search Close",
+     "events": [
+      "ub_imagesearch_close"
+     ],
+     "from": "launch-aa461fb6c86d.min.js: rule RL6b6dcc50db9242d39b4923be5741453f"
+    },
+    {
+     "name": "XDM : data pushed : 50 : Since You Liked",
+     "events": [
+      "since_you_liked"
+     ],
+     "from": "launch-aa461fb6c86d.min.js: rule RL6d4ba6e9c0fb4026852570e5229db443"
+    },
+    {
+     "name": "XDM : data pushed : 50 : Form Start",
+     "events": [
+      "form_start"
+     ],
+     "from": "launch-aa461fb6c86d.min.js: rule RL6ffdffbd215e4653a7ee5dcfe6c0f717"
+    },
+    {
+     "name": "XDM : data pushed : 50 : Guestuser Favourite Click",
+     "events": [
+      "guestuser_favourite_click"
+     ],
+     "from": "launch-aa461fb6c86d.min.js: rule RL70395c1d43fd4c99adcccc24aa081bc0"
+    },
+    {
+     "name": "XDM : data pushed : 50 : ask aparna chat click",
+     "events": [
+      "ask_aparna_chat_click"
+     ],
+     "from": "launch-aa461fb6c86d.min.js: rule RL742f98a067504508829d5bd750927038"
+    },
+    {
+     "name": "XDM : data pushed : 50 :brandIcon click dcr",
+     "events": [
+      "brandIcon_click_dcr"
+     ],
+     "from": "launch-aa461fb6c86d.min.js: rule RL75aa64a3293f4903b988e5b566041cd3"
+    },
+    {
+     "name": "XDM : data pushed : 50 : Hotspot Click",
+     "events": [
+      "hotspot_click"
+     ],
+     "from": "launch-aa461fb6c86d.min.js: rule RL768fb5c9503f488b8bb2af09ba8fd199"
+    },
+    {
+     "name": "XDM : data pushed : 50 : Registration Start",
+     "events": [
+      "registration_start"
+     ],
+     "from": "launch-aa461fb6c86d.min.js: rule RL76bc4f1dfb034515a16c89870d95c5ed"
+    },
+    {
+     "name": "XDM : data pushed : 50 : CC Shades click",
+     "events": [
+      "shades_click"
+     ],
+     "from": "launch-aa461fb6c86d.min.js: rule RL77fa3346e74446cfbcf9282c70b10c63"
+    },
+    {
+     "name": "XDM : data pushed : 50 eComm Mini cart checkout",
+     "events": [
+      "Mini_cart_checkout"
+     ],
+     "from": "launch-aa461fb6c86d.min.js: rule RL786d6b7621b544f7916bafe800072af0"
+    },
+    {
+     "name": "XDM : data pushed : 50 : BHS AA Available",
+     "events": [
+      "BHS_AA_Available"
+     ],
+     "from": "launch-aa461fb6c86d.min.js: rule RL7873560c17b843deaaa3d4d34f28be0e"
+    },
+    {
+     "name": "XDM : data pushed : 50 : Sitesection Click",
+     "events": [
+      "sitesection_click"
+     ],
+     "from": "launch-aa461fb6c86d.min.js: rule RL7a397f8e818241d387d94d8cbd5852a0"
+    },
+    {
+     "name": "XDM : data pushed : 50 : Home Colour Guide Do It Again",
+     "events": [
+      "HCG_doitagain"
+     ],
+     "from": "launch-aa461fb6c86d.min.js: rule RL7b251753c8fe435da814c81c9709cd9c"
+    },
+    {
+     "name": "XDM : data pushed : 50 :article like",
+     "events": [
+      "article_like"
+     ],
+     "from": "launch-aa461fb6c86d.min.js: rule RL7ba0fac52eeb40bba5662f88075f4dd4"
+    },
+    {
+     "name": "XDM : data pushed : 50 : Buy Now Fail",
+     "events": [
+      "buy_now_fail"
+     ],
+     "from": "launch-aa461fb6c86d.min.js: rule RL7bb7ce2084394917ad8e604615e201b3"
+    },
+    {
+     "name": "XDM : data pushed : 50 : Domain Tab Switch",
+     "events": [
+      "domain_swicth"
+     ],
+     "from": "launch-aa461fb6c86d.min.js: rule RL826ec1005e674f228f8c56e83687cb06"
+    },
+    {
+     "name": "XDM : data pushed : 50 : No Result",
+     "events": [
+      "no_result"
+     ],
+     "from": "launch-aa461fb6c86d.min.js: rule RL829e9fbc6d7d43c9b39aaea9fd3765fc"
+    },
+    {
+     "name": "XDM : data pushed : 50 : Subsection Two Click",
+     "events": [
+      "subsection_two_click"
+     ],
+     "from": "launch-aa461fb6c86d.min.js: rule RL845711e3b8484dcebe9b615842e2b379"
+    },
+    {
+     "name": "XDM : data pushed : 50 :blog page download",
+     "events": [
+      "blog_page_download"
+     ],
+     "from": "launch-aa461fb6c86d.min.js: rule RL849e6cb429954f57ae676d831cded32a"
+    },
+    {
+     "name": "XDM : data pushed : 50 : Tool Step4",
+     "events": [
+      "tool_step4"
+     ],
+     "from": "launch-aa461fb6c86d.min.js: rule RL8524888f65bc4674a939f72118953253"
+    },
+    {
+     "name": "XDM : data pushed : 50 : Shade Pallets",
+     "events": [
+      "shade_pallets"
+     ],
+     "from": "launch-aa461fb6c86d.min.js: rule RL8537537ea6c742808aca4780de04af4e"
+    },
+    {
+     "name": "XDM : data pushed : 50 : Contractor View Details Click",
+     "events": [
+      "contractor_viewdetails_click"
+     ],
+     "from": "launch-aa461fb6c86d.min.js: rule RL8593aeba62884d02983c4b57fe48a3ce"
+    },
+    {
+     "name": "XDM : data pushed : 50 : Rolls Calculator Submit",
+     "events": [
+      "RC_submit"
+     ],
+     "from": "launch-aa461fb6c86d.min.js: rule RL86af5418828e4b4e8da6f8b1eea35b77"
+    },
+    {
+     "name": "XDM : data pushed : 50 : Calculator Start",
+     "events": [
+      "calc_start"
+     ],
+     "from": "launch-aa461fb6c86d.min.js: rule RL8a29521aa31c4d178f5ba076759bd138"
+    },
+    {
+     "name": "XDM : data pushed : 50 : Compare Brands click",
+     "events": [
+      "compare_brands_pop_up"
+     ],
+     "from": "launch-aa461fb6c86d.min.js: rule RL8b49fda35e3044a2afb1e8447599d589"
+    },
+    {
+     "name": "XDM : data pushed : 50 : Registration Submit",
+     "events": [
+      "registration_submit"
+     ],
+     "from": "launch-aa461fb6c86d.min.js: rule RL8c3966914ab64904b25ba09a4f7e5af8"
+    },
+    {
+     "name": "XDM : data pushed : 50 : Tool Step5",
+     "events": [
+      "tool_step5"
+     ],
+     "from": "launch-aa461fb6c86d.min.js: rule RL8e49b6bd3a6d4ddd9550f51c585f3c77"
+    },
+    {
+     "name": "XDM : data pushed : 50 : PLP Product click",
+     "events": [
+      "plp_product_click"
+     ],
+     "from": "launch-aa461fb6c86d.min.js: rule RL8f3b9309ad8f427aae36862857384a76"
+    },
+    {
+     "name": "XDM : data pushed : 50 : Kitchen Calculator Step3",
+     "events": [
+      "kcc_step3"
+     ],
+     "from": "launch-aa461fb6c86d.min.js: rule RL90e1cfc32db4499fa7f7c85f2cd3092f"
+    },
+    {
+     "name": "XDM : data pushed : 50 : Footer Email Click",
+     "events": [
+      "footer_email_click"
+     ],
+     "from": "launch-aa461fb6c86d.min.js: rule RL911e28a08abe4af8b0c60b3b4aa2ee6b"
+    },
+    {
+     "name": "XDM : data pushed : 50 : Login Error",
+     "events": [
+      "login_error"
+     ],
+     "from": "launch-aa461fb6c86d.min.js: rule RL938919731b8d40d2a2164b9b606183c3"
+    },
+    {
+     "name": "XDM : data pushed : 50 : Circle Filter Click",
+     "events": [
+      "circle_filter_click"
+     ],
+     "from": "launch-aa461fb6c86d.min.js: rule RL94c76cb652c3430ba4d1e447510d6edb"
+    },
+    {
+     "name": "XDM : data pushed : 50 : Contractor Profile Download",
+     "events": [
+      "contractor_profile_download"
+     ],
+     "from": "launch-aa461fb6c86d.min.js: rule RL94ef46e69ee54ac79fab80b45b34ce99"
+    },
+    {
+     "name": "XDM : data pushed : 50 : eComm Mini Cart Minus Click",
+     "events": [
+      "mini_cart_item_minus_click"
+     ],
+     "from": "launch-aa461fb6c86d.min.js: rule RL95ea5e130b2046728d3f8b860c8007ec"
+    },
+    {
+     "name": "XDM : data pushed : 50 : Kitchen Calculator Start",
+     "events": [
+      "kcc_start"
+     ],
+     "from": "launch-aa461fb6c86d.min.js: rule RL96eaa9280d7c4d83bce70b9f98bd07a1"
+    },
+    {
+     "name": "XDM : data pushed : 50 : Explore Colour Swatch Click",
+     "events": [
+      "explore_colour_swatch_click"
+     ],
+     "from": "launch-aa461fb6c86d.min.js: rule RL97871c458451489ca448515495d0d2a3"
+    },
+    {
+     "name": "XDM : data pushed : 50 : Form Submit",
+     "events": [
+      "form_submit"
+     ],
+     "from": "launch-aa461fb6c86d.min.js: rule RL9d0953312fb04a65af0f0f9336849027"
+    },
+    {
+     "name": "XDM : data pushed : 50 : Blog Click Target",
+     "events": [
+      "blog_click_target"
+     ],
+     "from": "launch-aa461fb6c86d.min.js: rule RLa1eb2ecfda05475690a440a27dc0155b"
+    },
+    {
+     "name": "XDM : data pushed : 50 : Swatch Click",
+     "events": [
+      "swatch_click"
+     ],
+     "from": "launch-aa461fb6c86d.min.js: rule RLa23bc6da89d844d6ae04a560ba8a6575"
+    },
+    {
+     "name": "XDM : data pushed : 50 : Warranty Add Product",
+     "events": [
+      "warranty_add_product"
+     ],
+     "from": "launch-aa461fb6c86d.min.js: rule RLa29cbea894754d2f81cef9f8eb5c2d62"
+    },
+    {
+     "name": "XDM : data pushed : 50 : Waterproof Construction Filter",
+     "events": [
+      "waterproof_construction_filter"
+     ],
+     "from": "launch-aa461fb6c86d.min.js: rule RLa3661c906804445082e8c8ebf858a66d"
+    },
+    {
+     "name": "XDM : data pushed : 50 :colourpro click",
+     "events": [
+      "colourpro_click"
+     ],
+     "from": "launch-aa461fb6c86d.min.js: rule RLa3bf7ffe6988408a808226f0d78267cb"
+    },
+    {
+     "name": "XDM : data pushed : 50 : FAQ Click",
+     "events": [
+      "faq_click"
+     ],
+     "from": "launch-aa461fb6c86d.min.js: rule RLa604a1d470fe4124baa94049503699e1"
+    },
+    {
+     "name": "XDM : data pushed : 50 : eComm Mini Cart Icon Click",
+     "events": [
+      "mini_cart_icon_click"
+     ],
+     "from": "launch-aa461fb6c86d.min.js: rule RLa6859c72574d45d19c839f10dbeefa19"
+    },
+    {
+     "name": "XDM : data pushed : 50 : Custom Link click",
+     "events": [
+      "cta_link_text"
+     ],
+     "from": "launch-aa461fb6c86d.min.js: rule RLa7c21542ffbf4720bb9c75c985d36f59"
+    },
+    {
+     "name": "XDM : data pushed : 50 : Contractor Filter",
+     "events": [
+      "contractor_filter"
+     ],
+     "from": "launch-aa461fb6c86d.min.js: rule RLa8b4afaf0cbe487094fe12a82867c4e4"
+    },
+    {
+     "name": "XDM : data pushed : 50 : UB Image Search Complete",
+     "events": [
+      "ub_imagesearch_complete"
+     ],
+     "from": "launch-aa461fb6c86d.min.js: rule RLa8c68daeaa5643f0a4d41748c28a21f7"
+    },
+    {
+     "name": "XDM : data pushed : 50 : Sticky Cta  Click",
+     "events": [
+      "sticky_cta_click"
+     ],
+     "from": "launch-aa461fb6c86d.min.js: rule RLad3d3150491a4db09ee4ac9a726a429a"
+    },
+    {
+     "name": "XDM : data pushed : 50 : Blog Click",
+     "events": [
+      "blog_click"
+     ],
+     "from": "launch-aa461fb6c86d.min.js: rule RLaea281b1c382491285a2de1d87065bad"
+    },
+    {
+     "name": "XDM : data pushed : 50 : eComm Add To Cart",
+     "events": [
+      "add_to_cart_cta_click"
+     ],
+     "from": "launch-aa461fb6c86d.min.js: rule RLafe57a8504b84b6d889e6911c663926c"
+    },
+    {
+     "name": "XDM : data pushed : 50 : UB Image Search Start",
+     "events": [
+      "ub_imagesearch_start"
+     ],
+     "from": "launch-aa461fb6c86d.min.js: rule RLb08fb2bacec446f59d7a6ab0bc35587c"
+    },
+    {
+     "name": "XDM : data pushed : 50 : BHS Calculator Submit",
+     "events": [
+      "bhs_submit"
+     ],
+     "from": "launch-aa461fb6c86d.min.js: rule RLb407f635057644f4b4deb9282ff78f0b"
+    },
+    {
+     "name": "XDM : data pushed : 50 : Store Locator View Details",
+     "events": [
+      "store_locator_view_details"
+     ],
+     "from": "launch-aa461fb6c86d.min.js: rule RLb453542cc0464694b2c0a2fdc6b7d183"
+    },
+    {
+     "name": "XDM : data pushed : 50 : Youtube Play",
+     "events": [
+      "youtube_play"
+     ],
+     "from": "launch-aa461fb6c86d.min.js: rule RLb4ce8e44a5774d2cbafde0e713af6da6"
+    },
+    {
+     "name": "XDM : data pushed : 50 : Find a store",
+     "events": [
+      "find a store"
+     ],
+     "from": "launch-aa461fb6c86d.min.js: rule RLb4d63b3298114752afac89a60e1577d2"
+    },
+    {
+     "name": "XDM : data pushed : 50 : Add to Compare",
+     "events": [
+      "add_to_compare_click"
+     ],
+     "from": "launch-aa461fb6c86d.min.js: rule RLb54b861f34f245f7a8237c86d1a49515"
+    },
+    {
+     "name": "XDM : data pushed : 50 : Kitchen Calculator Recalculate",
+     "events": [
+      "kcc_recalculate"
+     ],
+     "from": "launch-aa461fb6c86d.min.js: rule RLbb4062260b1f4c80968da5712fd24cdb"
+    },
+    {
+     "name": "XDM : data pushed : 50 : Wishlist Like Click",
+     "events": [
+      "wishlist_like"
+     ],
+     "from": "launch-aa461fb6c86d.min.js: rule RLbde221665f234c31bdbe4d33d99a6204"
+    },
+    {
+     "name": "XDM : data pushed : 50 : Contractor Search",
+     "events": [
+      "contractor_search"
+     ],
+     "from": "launch-aa461fb6c86d.min.js: rule RLbed1bc1609e845ada7e34d8e33c98ba5"
+    },
+    {
+     "name": "XDM : data pushed : 50 : Short Video Play copy 3",
+     "events": [
+      "short_video_play"
+     ],
+     "from": "launch-aa461fb6c86d.min.js: rule RLbf6bf3851ffc4f73b490c4b4b29f5018"
+    },
+    {
+     "name": "XDM : data pushed : 50 : Page Load",
+     "events": [
+      "pageLoad"
+     ],
+     "from": "launch-aa461fb6c86d.min.js: rule RLbfc6cb38f2684de9a84d6344a6f47867"
+    },
+    {
+     "name": "XDM : data pushed : 50 : Tool Step1",
+     "events": [
+      "tool_step1"
+     ],
+     "from": "launch-aa461fb6c86d.min.js: rule RLc3563a02042347b4b5cbddfe96cc7ff0"
+    },
+    {
+     "name": "XDM : data pushed : 50 : Download Search",
+     "events": [
+      "download_search"
+     ],
+     "from": "launch-aa461fb6c86d.min.js: rule RLc46004c046964e06bf39f015efd13641"
+    },
+    {
+     "name": "XDM : data pushed : 50 : Waterproofing Categories Filter",
+     "events": [
+      "waterproofing_categories_filter"
+     ],
+     "from": "launch-aa461fb6c86d.min.js: rule RLc4cc97e68ded4dac9969179fa5dd81ab"
+    },
+    {
+     "name": "XDM : data pushed : 50 : BHS AA Home Condition",
+     "events": [
+      "BHS_AA_HomeCondition"
+     ],
+     "from": "launch-aa461fb6c86d.min.js: rule RLc52b166c73444618a76e71ed1d4fa761"
+    },
+    {
+     "name": "XDM : data pushed : 50 : Rolls Calculator Open",
+     "events": [
+      "RC_open"
+     ],
+     "from": "launch-aa461fb6c86d.min.js: rule RLc638f51068a2455f9d54a5cf1471d082"
+    },
+    {
+     "name": "XDM : data pushed : 50 : Tool Step3",
+     "events": [
+      "tool_step3"
+     ],
+     "from": "launch-aa461fb6c86d.min.js: rule RLc6e1cc00520440b3bbf89b091dd1c1f1"
+    },
+    {
+     "name": "XDM : data pushed : 50 : Footer Tab",
+     "events": [
+      "footer_tab"
+     ],
+     "from": "launch-aa461fb6c86d.min.js: rule RLc6fd710a33f04e438d8cde5930012380"
+    },
+    {
+     "name": "XDM : data pushed : 50 : Paint Finish Tool Continue",
+     "events": [
+      "pt_continue"
+     ],
+     "from": "launch-aa461fb6c86d.min.js: rule RLc8e4a1d3567f4781bd7f799d47e2d57b"
+    },
+    {
+     "name": "XDM : data pushed : 50 : BHS Continue",
+     "events": [
+      "bhs_continue"
+     ],
+     "from": "launch-aa461fb6c86d.min.js: rule RLc9059da0128a466899ab717195d23ca9"
+    },
+    {
+     "name": "XDM : data pushed : 50 : blog fav click guest",
+     "events": [
+      "blog_fav_click_guest"
+     ],
+     "from": "launch-aa461fb6c86d.min.js: rule RLca70dc4f893344428c5595030143396c"
+    },
+    {
+     "name": "XDM : data pushed : 50 : MWS - Find Shade",
+     "events": [
+      "findshade_start"
+     ],
+     "from": "launch-aa461fb6c86d.min.js: rule RLce2590f24f694445af4d0213701d6e94"
+    },
+    {
+     "name": "XDM : data pushed : 50 : NC Pop Close",
+     "events": [
+      "nc_pop_close"
+     ],
+     "from": "launch-aa461fb6c86d.min.js: rule RLd1d70f7cf26a4079915136338cd4eb16"
+    },
+    {
+     "name": "XDM : data pushed : 50 : Wood Finish Submit",
+     "events": [
+      "WF_submit"
+     ],
+     "from": "launch-aa461fb6c86d.min.js: rule RLd3209502aacf4db3885d214c8f74a55a"
+    },
+    {
+     "name": "XDM : data pushed : 50 : Navigation",
+     "events": [
+      "Navigation"
+     ],
+     "from": "launch-aa461fb6c86d.min.js: rule RLd5eca11d731b480a877a435536f63c0e"
+    },
+    {
+     "name": "XDM : Target Page Load",
+     "events": [
+      "Library Loaded"
+     ],
+     "from": "launch-aa461fb6c86d.min.js: rule RLd631e777aabc48a0b9131d3665986539"
+    },
+    {
+     "name": "XDM : data pushed : 50 : Store Locator",
+     "events": [
+      "store_locator"
+     ],
+     "from": "launch-aa461fb6c86d.min.js: rule RLd7052ed0c9204e9cbad16fdffb0aada7"
+    },
+    {
+     "name": "XDM : data pushed : 50 : Short Video Click",
+     "events": [
+      "short_video_click"
+     ],
+     "from": "launch-aa461fb6c86d.min.js: rule RLd79885c5d609435f8d04483e99843e8c"
+    },
+    {
+     "name": "XDM : data pushed : 50 : Subsection One Click",
+     "events": [
+      "subsection_one_click"
+     ],
+     "from": "launch-aa461fb6c86d.min.js: rule RLd9fe8edc3070450486cf6fbf9005f531"
+    },
+    {
+     "name": "XDM : data pushed : 50 : BHS Start",
+     "events": [
+      "bhs_start"
+     ],
+     "from": "launch-aa461fb6c86d.min.js: rule RLdc0bf32d5b59430896623c4c926d50f5"
+    },
+    {
+     "name": "XDM : data pushed : 50 : Cta Link Click",
+     "events": [
+      "cta_link_click"
+     ],
+     "from": "launch-aa461fb6c86d.min.js: rule RLddc4b719dbbf494eb21d508e47ca37b0"
+    },
+    {
+     "name": "XDM : data pushed : 50 : Kitchen Calculator Download",
+     "events": [
+      "kcc_download"
+     ],
+     "from": "launch-aa461fb6c86d.min.js: rule RLddf8bee0bc3b43498cc42dab10be5c53"
+    },
+    {
+     "name": "XDM : data pushed : 50 : Download Multiple pdf",
+     "events": [
+      "download_multiple_pdf"
+     ],
+     "from": "launch-aa461fb6c86d.min.js: rule RLdf39c8e5c828455bbec8ec26eda9384f"
+    },
+    {
+     "name": "XDM : data pushed : 50 : Contractor Number Search",
+     "events": [
+      "contractor_number_search"
+     ],
+     "from": "launch-aa461fb6c86d.min.js: rule RLdfb9454f27b24e468097f37aad7993dc"
+    },
+    {
+     "name": "XDM : data pushed : 50 : BHS Download",
+     "events": [
+      "bhs_download"
+     ],
+     "from": "launch-aa461fb6c86d.min.js: rule RLe03445b4d00e4c50b0d0c50a1fffac3d"
+    },
+    {
+     "name": "XDM : data pushed : 50 : Decor Stories Filter Selection",
+     "events": [
+      "decor_stories_filter_selection"
+     ],
+     "from": "launch-aa461fb6c86d.min.js: rule RLe650779cbda3411397f31740bf57ead8"
+    },
+    {
+     "name": "XDM : data pushed : 50 : Login Start",
+     "events": [
+      "login_start"
+     ],
+     "from": "launch-aa461fb6c86d.min.js: rule RLe6e741df74e9449e8c1fb3698b95c44e"
+    },
+    {
+     "name": "XDM : data pushed : 50 : Wishlist Delete Click",
+     "events": [
+      "wishlist_product_delete"
+     ],
+     "from": "launch-aa461fb6c86d.min.js: rule RLe74a0b0be4ed4d4b9bbfdc0e119cc47d"
+    },
+    {
+     "name": "XDM : data pushed : 50 : Paint Finish Tool Start",
+     "events": [
+      "pt_start"
+     ],
+     "from": "launch-aa461fb6c86d.min.js: rule RLec912b10d9354a01b603e592552ff443"
+    },
+    {
+     "name": "XDM : data pushed : 50 : Natural Wood Shade Click",
+     "events": [
+      "natural_wood_shade_click"
+     ],
+     "from": "launch-aa461fb6c86d.min.js: rule RLef0e7fcb99504b43baee7af177605396"
+    },
+    {
+     "name": "XDM : data pushed : 50 : eComm Shop Checkout Cart Continue click",
+     "events": [
+      "shop_checkout_cart_continue_click"
+     ],
+     "from": "launch-aa461fb6c86d.min.js: rule RLef84aa79c0b64f488c2fa10a8fc1c481"
+    },
+    {
+     "name": "XDM : data pushed : 50 : Filter Click",
+     "events": [
+      "filter_click"
+     ],
+     "from": "launch-aa461fb6c86d.min.js: rule RLf003bbe7a22c41a0811d9610959e8817"
+    },
+    {
+     "name": "XDM : data pushed : 50 : eComm Shop checkout address continue click",
+     "events": [
+      "shop_checkout_address_continue_click"
+     ],
+     "from": "launch-aa461fb6c86d.min.js: rule RLf01c4365526e4d7ca31f9eef3ffc0cc7"
+    },
+    {
+     "name": "XDM : data pushed : 50 : Texture Tool Submit",
+     "events": [
+      "Texturetool_submit"
+     ],
+     "from": "launch-aa461fb6c86d.min.js: rule RLf143d53e0f3747889c006e5505d6f640"
+    },
+    {
+     "name": "XDM : data pushed : 50 : Auto Appointment OTP Validation",
+     "events": [
+      "BHS_AA_OTP"
+     ],
+     "from": "launch-aa461fb6c86d.min.js: rule RLf20fba3b0d754abb9a83d524816ec593"
+    },
+    {
+     "name": "XDM : data pushed : 50 : Wallpaper Listing",
+     "events": [
+      "wallpaper_listing"
+     ],
+     "from": "launch-aa461fb6c86d.min.js: rule RLf34b99e5865143e99482b134d7de0042"
+    },
+    {
+     "name": "XDM : data pushed : 50 : Form thank you pop-up",
+     "events": [
+      "Form_thank_you_pop_up"
+     ],
+     "from": "launch-aa461fb6c86d.min.js: rule RLf3959f43379b482192e0ea68b9906222"
+    },
+    {
+     "name": "XDM : data pushed : 50 : Compare Button click",
+     "events": [
+      "compare_button_click"
+     ],
+     "from": "launch-aa461fb6c86d.min.js: rule RLf47747f113d04305ab9800ce224c2259"
+    },
+    {
+     "name": "XDM : data pushed : 50 : Splash Close",
+     "events": [
+      "splash_close"
+     ],
+     "from": "launch-aa461fb6c86d.min.js: rule RLf499293e455148eeba2001762fd1c104"
+    },
+    {
+     "name": "XDM : data pushed : 50 : eComm checkout",
+     "events": [
+      "shop_checkout_load"
+     ],
+     "from": "launch-aa461fb6c86d.min.js: rule RLf64019c948c24166bd39aea7048c1235"
+    },
+    {
+     "name": "XDM : data pushed : 50 : Contractor Contact Now",
+     "events": [
+      "contractor_contact_now"
+     ],
+     "from": "launch-aa461fb6c86d.min.js: rule RLf6daa0122430433693e136a523aff71c"
+    },
+    {
+     "name": "XDM : data pushed : 50 : Calculator Product View",
+     "events": [
+      "calct_product_view"
+     ],
+     "from": "launch-aa461fb6c86d.min.js: rule RLfafda921fcd54d16a47d6ef63f7d37e4"
+    },
+    {
+     "name": "XDM : data pushed : 50 : Texture Tool Start",
+     "events": [
+      "Texturetool_start"
+     ],
+     "from": "launch-aa461fb6c86d.min.js: rule RLfb70107f3cf74a14ad42203a5546fcb8"
+    },
+    {
+     "name": "XDM : data pushed : 50 : footer phone number click",
+     "events": [
+      "footer_phone_number_click"
+     ],
+     "from": "launch-aa461fb6c86d.min.js: rule RLfb7de7b028c84f65a4c95163dba3b611"
+    },
+    {
+     "name": "XDM : data pushed : 50 : Kitchen Calculator Submit",
+     "events": [
+      "kcc_submit"
+     ],
+     "from": "launch-aa461fb6c86d.min.js: rule RLfc0ac23834f043debadc587f76778804"
+    },
+    {
+     "name": "XDM : data pushed : 50 : Waterproofing Categories",
+     "events": [
+      "waterproofing_categories"
+     ],
+     "from": "launch-aa461fb6c86d.min.js: rule RLfcf9ec7c06914c5a84b59fe31d30bbe9"
+    },
+    {
+     "name": "XDM : data pushed : 50 : Header Icons Click",
+     "events": [
+      "header_icons"
+     ],
+     "from": "launch-aa461fb6c86d.min.js: rule RLfd7f83a077444dc793f26d3b30ae918f"
+    },
+    {
+     "name": "XDM : data pushed : 50 : eComm Buy Now CTA Click",
+     "events": [
+      "buy_now_cta_click"
+     ],
+     "from": "launch-aa461fb6c86d.min.js: rule RLff70291642004dc4ac762d95c0bc83ac"
+    },
+    {
+     "name": "XDM : data pushed : 50 : Calculator Continue",
+     "events": [
+      "calc_continue"
+     ],
+     "from": "launch-aa461fb6c86d.min.js: rule RLffe6df43ef234732b6780861620cf461"
+    }
+   ],
+   "dataElements": [
+    {
+     "name": "UserFlow",
+     "source": "eventInfo.userFlow",
+     "from": "launch-aa461fb6c86d.min.js: data element \"UserFlow\" (customCode.js)"
+    },
+    {
+     "name": "Parent Title",
+     "source": "eventInfo.parentTitle",
+     "from": "launch-aa461fb6c86d.min.js: data element \"Parent Title\" (customCode.js)"
+    },
+    {
+     "name": "Param 1",
+     "source": "eventInfo.param1",
+     "from": "launch-aa461fb6c86d.min.js: data element \"Param 1\" (customCode.js)"
+    },
+    {
+     "name": "Form Landmark",
+     "source": "form",
+     "from": "launch-aa461fb6c86d.min.js: data element \"Form Landmark\" (customCode.js)"
+    },
+    {
+     "name": "Product Coat",
+     "source": "product.productInfo",
+     "from": "launch-aa461fb6c86d.min.js: data element \"Product Coat\" (customCode.js)"
+    },
+    {
+     "name": "Form User Type",
+     "source": "form.userType",
+     "from": "launch-aa461fb6c86d.min.js: data element \"Form User Type\" (customCode.js)"
+    },
+    {
+     "name": "Product Quantity",
+     "source": "product.productInfo",
+     "from": "launch-aa461fb6c86d.min.js: data element \"Product Quantity\" (customCode.js)"
+    },
+    {
+     "name": "Result Count",
+     "source": "eventInfo.resultCount",
+     "from": "launch-aa461fb6c86d.min.js: data element \"Result Count\" (customCode.js)"
+    },
+    {
+     "name": "Form Defect",
+     "source": "form",
+     "from": "launch-aa461fb6c86d.min.js: data element \"Form Defect\" (customCode.js)"
+    },
+    {
+     "name": "Form Selected Services",
+     "source": "form",
+     "from": "launch-aa461fb6c86d.min.js: data element \"Form Selected Services\" (customCode.js)"
+    },
+    {
+     "name": "UTM Campaign",
+     "source": "utmValues.campaign",
+     "from": "launch-aa461fb6c86d.min.js: data element \"UTM Campaign\" (customCode.js)"
+    },
+    {
+     "name": "Location",
+     "source": "eventInfo.location",
+     "from": "launch-aa461fb6c86d.min.js: data element \"Location\" (customCode.js)"
+    },
+    {
+     "name": "Login Type",
+     "source": "login.loginType",
+     "from": "launch-aa461fb6c86d.min.js: data element \"Login Type\" (customCode.js)"
+    },
+    {
+     "name": "SubFlow",
+     "source": "eventInfo.subFlow",
+     "from": "launch-aa461fb6c86d.min.js: data element \"SubFlow\" (datalayerComputedState.js)"
+    },
+    {
+     "name": "Pop-up Name",
+     "source": "eventInfo.PopupNumber",
+     "from": "launch-aa461fb6c86d.min.js: data element \"Pop-up Name\" (customCode.js)"
+    },
+    {
+     "name": "Form Shop Address",
+     "source": "form",
+     "from": "launch-aa461fb6c86d.min.js: data element \"Form Shop Address\" (customCode.js)"
+    },
+    {
+     "name": "Pincode",
+     "source": "form.pincode",
+     "from": "launch-aa461fb6c86d.min.js: data element \"Pincode\" (datalayerComputedState.js)"
+    },
+    {
+     "name": "Login Registration Source",
+     "source": "login.registrationSource",
+     "from": "launch-aa461fb6c86d.min.js: data element \"Login Registration Source\" (customCode.js)"
+    },
+    {
+     "name": "Product SKU",
+     "source": "product.productInfo",
+     "from": "launch-aa461fb6c86d.min.js: data element \"Product SKU\" (customCode.js)"
+    },
+    {
+     "name": "PDF Name",
+     "source": "eventInfo.pdfName",
+     "from": "launch-aa461fb6c86d.min.js: data element \"PDF Name\" (customCode.js)"
+    },
+    {
+     "name": "Login Function",
+     "source": "user.loginFunction",
+     "from": "launch-aa461fb6c86d.min.js: data element \"Login Function\" (customCode.js)"
+    },
+    {
+     "name": "Product Time",
+     "source": "product",
+     "from": "launch-aa461fb6c86d.min.js: data element \"Product Time\" (customCode.js)"
+    },
+    {
+     "name": "Product Code",
+     "source": "product.productInfo",
+     "from": "launch-aa461fb6c86d.min.js: data element \"Product Code\" (customCode.js)"
+    },
+    {
+     "name": "Address 1",
+     "source": "form",
+     "from": "launch-aa461fb6c86d.min.js: data element \"Address 1\" (customCode.js)"
+    },
+    {
+     "name": "Form Selected Time",
+     "source": "form",
+     "from": "launch-aa461fb6c86d.min.js: data element \"Form Selected Time\" (customCode.js)"
+    },
+    {
+     "name": "Product Price",
+     "source": "product.productInfo",
+     "from": "launch-aa461fb6c86d.min.js: data element \"Product Price\" (customCode.js)"
+    },
+    {
+     "name": "Whatsapp Optin",
+     "source": "form.whatsappOptIn",
+     "from": "launch-aa461fb6c86d.min.js: data element \"Whatsapp Optin\" (customCode.js)"
+    },
+    {
+     "name": "Section 3",
+     "source": "page.section3",
+     "from": "launch-aa461fb6c86d.min.js: data element \"Section 3\" (customCode.js)"
+    },
+    {
+     "name": "Login Step Number",
+     "source": "login.stepNumber",
+     "from": "launch-aa461fb6c86d.min.js: data element \"Login Step Number\" (customCode.js)"
+    },
+    {
+     "name": "Product Date",
+     "source": "product",
+     "from": "launch-aa461fb6c86d.min.js: data element \"Product Date\" (customCode.js)"
+    },
+    {
+     "name": "Form Error",
+     "source": "form",
+     "from": "launch-aa461fb6c86d.min.js: data element \"Form Error\" (customCode.js)"
+    },
+    {
+     "name": "IP Address copy 2",
+     "source": "user.ipAddress",
+     "from": "launch-aa461fb6c86d.min.js: data element \"IP Address copy 2\" (datalayerComputedState.js)"
+    },
+    {
+     "name": "Product Details",
+     "source": "product",
+     "from": "launch-aa461fb6c86d.min.js: data element \"Product Details\" (customCode.js)"
+    },
+    {
+     "name": "FlowType",
+     "source": "eventInfo.flowType",
+     "from": "launch-aa461fb6c86d.min.js: data element \"FlowType\" (customCode.js)"
+    },
+    {
+     "name": "Product Promo Code",
+     "source": "product",
+     "from": "launch-aa461fb6c86d.min.js: data element \"Product Promo Code\" (customCode.js)"
+    },
+    {
+     "name": "Rating",
+     "source": "eventInfo.rating",
+     "from": "launch-aa461fb6c86d.min.js: data element \"Rating\" (customCode.js)"
+    },
+    {
+     "name": "Login Status",
+     "source": "user.loginStatus",
+     "from": "launch-aa461fb6c86d.min.js: data element \"Login Status\" (customCode.js)"
+    },
+    {
+     "name": "Device Type",
+     "source": "device.deviceType",
+     "from": "launch-aa461fb6c86d.min.js: data element \"Device Type\" (customCode.js)"
+    },
+    {
+     "name": "Form UserType",
+     "source": "form.userType",
+     "from": "launch-aa461fb6c86d.min.js: data element \"Form UserType\" (customCode.js)"
+    },
+    {
+     "name": "Form Pincode",
+     "source": "form",
+     "from": "launch-aa461fb6c86d.min.js: data element \"Form Pincode\" (customCode.js)"
+    },
+    {
+     "name": "Form Data Destination",
+     "source": "form",
+     "from": "launch-aa461fb6c86d.min.js: data element \"Form Data Destination\" (customCode.js)"
+    },
+    {
+     "name": "ErrorCode",
+     "source": "eventInfo.errorCode",
+     "from": "launch-aa461fb6c86d.min.js: data element \"ErrorCode\" (customCode.js)"
+    },
+    {
+     "name": "App OS",
+     "source": "eventInfo.appDownloads",
+     "from": "launch-aa461fb6c86d.min.js: data element \"App OS\" (customCode.js)"
+    },
+    {
+     "name": "Form GST No",
+     "source": "form.gstNo",
+     "from": "launch-aa461fb6c86d.min.js: data element \"Form GST No\" (customCode.js)"
+    },
+    {
+     "name": "Product Category",
+     "source": "product.productInfo",
+     "from": "launch-aa461fb6c86d.min.js: data element \"Product Category\" (customCode.js)"
+    },
+    {
+     "name": "Form Name",
+     "source": "form.formName",
+     "from": "launch-aa461fb6c86d.min.js: data element \"Form Name\" (customCode.js)"
+    },
+    {
+     "name": "UTM source",
+     "source": "utmValues.source",
+     "from": "launch-aa461fb6c86d.min.js: data element \"UTM source\" (customCode.js)"
+    },
+    {
+     "name": "Login ID",
+     "source": "user.loginId",
+     "from": "launch-aa461fb6c86d.min.js: data element \"Login ID\" (datalayerComputedState.js)"
+    },
+    {
+     "name": "destinationUrl",
+     "source": "eventInfo.destinationUrl",
+     "from": "launch-aa461fb6c86d.min.js: data element \"destinationUrl\" (customCode.js)"
+    },
+    {
+     "name": "Form Address2",
+     "source": "form",
+     "from": "launch-aa461fb6c86d.min.js: data element \"Form Address2\" (customCode.js)"
+    },
+    {
+     "name": "Page Name",
+     "source": "page.pageName",
+     "from": "launch-aa461fb6c86d.min.js: data element \"Page Name\" (customCode.js)"
+    },
+    {
+     "name": "Timestamp",
+     "source": "page.timestamp",
+     "from": "launch-aa461fb6c86d.min.js: data element \"Timestamp\" (customCode.js)"
+    },
+    {
+     "name": "Login Method",
+     "source": "login.loginMethod",
+     "from": "launch-aa461fb6c86d.min.js: data element \"Login Method\" (customCode.js)"
+    },
+    {
+     "name": "Shade Title",
+     "source": "eventInfo.shadeTitle",
+     "from": "launch-aa461fb6c86d.min.js: data element \"Shade Title\" (customCode.js)"
+    },
+    {
+     "name": "Login User Type",
+     "source": "login.userType",
+     "from": "launch-aa461fb6c86d.min.js: data element \"Login User Type\" (customCode.js)"
+    },
+    {
+     "name": "Product Name",
+     "source": "product.productInfo",
+     "from": "launch-aa461fb6c86d.min.js: data element \"Product Name\" (customCode.js)"
+    },
+    {
+     "name": "Form Construction",
+     "source": "form",
+     "from": "launch-aa461fb6c86d.min.js: data element \"Form Construction\" (customCode.js)"
+    },
+    {
+     "name": "Option",
+     "source": "eventInfo.Option",
+     "from": "launch-aa461fb6c86d.min.js: data element \"Option\" (customCode.js)"
+    },
+    {
+     "name": "Login Step Name",
+     "source": "login.stepName",
+     "from": "launch-aa461fb6c86d.min.js: data element \"Login Step Name\" (customCode.js)"
+    },
+    {
+     "name": "Section 4",
+     "source": "page.section4",
+     "from": "launch-aa461fb6c86d.min.js: data element \"Section 4\" (customCode.js)"
+    },
+    {
+     "name": "Section 1",
+     "source": "page.section1",
+     "from": "launch-aa461fb6c86d.min.js: data element \"Section 1\" (customCode.js)"
+    },
+    {
+     "name": "Platform/ Channel",
+     "source": "device.channel",
+     "from": "launch-aa461fb6c86d.min.js: data element \"Platform/ Channel\" (customCode.js)"
+    },
+    {
+     "name": "Login UserId",
+     "source": "login.userId",
+     "from": "launch-aa461fb6c86d.min.js: data element \"Login UserId\" (customCode.js)"
+    },
+    {
+     "name": "Form Address1",
+     "source": "form",
+     "from": "launch-aa461fb6c86d.min.js: data element \"Form Address1\" (customCode.js)"
+    },
+    {
+     "name": "Section 2",
+     "source": "page.section2",
+     "from": "launch-aa461fb6c86d.min.js: data element \"Section 2\" (customCode.js)"
+    },
+    {
+     "name": "Error Messgae",
+     "source": "eventInfo.errorMessage",
+     "from": "launch-aa461fb6c86d.min.js: data element \"Error Messgae\" (datalayerComputedState.js)"
+    },
+    {
+     "name": "GA ID",
+     "source": "user.gaID",
+     "from": "launch-aa461fb6c86d.min.js: data element \"GA ID\" (datalayerComputedState.js)"
+    },
+    {
+     "name": "Product List",
+     "source": "product",
+     "from": "launch-aa461fb6c86d.min.js: data element \"Product List\" (customCode.js)"
+    },
+    {
+     "name": "Form Painter",
+     "source": "form.localPainter",
+     "from": "launch-aa461fb6c86d.min.js: data element \"Form Painter\" (customCode.js)"
+    },
+    {
+     "name": "Form Campaign ID",
+     "source": "form.formCampaignId",
+     "from": "launch-aa461fb6c86d.min.js: data element \"Form Campaign ID\" (customCode.js)"
+    },
+    {
+     "name": "Category",
+     "source": "eventInfo.category",
+     "from": "launch-aa461fb6c86d.min.js: data element \"Category\" (customCode.js)"
+    },
+    {
+     "name": "Shade Name",
+     "source": "eventInfo.shadeName",
+     "from": "launch-aa461fb6c86d.min.js: data element \"Shade Name\" (customCode.js)"
+    },
+    {
+     "name": "Output",
+     "source": "eventInfo.output",
+     "from": "launch-aa461fb6c86d.min.js: data element \"Output\" (customCode.js)"
+    },
+    {
+     "name": "Shade Code",
+     "source": "eventInfo.shadeCode",
+     "from": "launch-aa461fb6c86d.min.js: data element \"Shade Code\" (customCode.js)"
+    },
+    {
+     "name": "Page Type",
+     "source": "page.pageType",
+     "from": "launch-aa461fb6c86d.min.js: data element \"Page Type\" (customCode.js)"
+    },
+    {
+     "name": "Product TransactionId",
+     "source": "product",
+     "from": "launch-aa461fb6c86d.min.js: data element \"Product TransactionId\" (customCode.js)"
+    },
+    {
+     "name": "Product",
+     "source": "product",
+     "from": "launch-aa461fb6c86d.min.js: data element \"Product\" (customCode.js)"
+    },
+    {
+     "name": "Form Selected Date",
+     "source": "form",
+     "from": "launch-aa461fb6c86d.min.js: data element \"Form Selected Date\" (customCode.js)"
+    },
+    {
+     "name": "shareType",
+     "source": "eventInfo.shareType",
+     "from": "launch-aa461fb6c86d.min.js: data element \"shareType\" (customCode.js)"
+    },
+    {
+     "name": "Referring Url",
+     "source": "page.referringUrl",
+     "from": "launch-aa461fb6c86d.min.js: data element \"Referring Url\" (customCode.js)"
+    },
+    {
+     "name": "Filter",
+     "source": "eventInfo.filter",
+     "from": "launch-aa461fb6c86d.min.js: data element \"Filter\" (customCode.js)"
+    },
+    {
+     "name": "Form ShopAddress",
+     "source": "form.shopAddress",
+     "from": "launch-aa461fb6c86d.min.js: data element \"Form ShopAddress\" (datalayerComputedState.js)"
+    },
+    {
+     "name": "Form Language",
+     "source": "form.language",
+     "from": "launch-aa461fb6c86d.min.js: data element \"Form Language\" (customCode.js)"
+    },
+    {
+     "name": "Tool Type",
+     "source": "eventInfo.toolType",
+     "from": "launch-aa461fb6c86d.min.js: data element \"Tool Type\" (customCode.js)"
+    },
+    {
+     "name": "Product Sub Product",
+     "source": "product.productInfo",
+     "from": "launch-aa461fb6c86d.min.js: data element \"Product Sub Product\" (customCode.js)"
+    },
+    {
+     "name": "Selected Value",
+     "source": "eventInfo.selectedValue",
+     "from": "launch-aa461fb6c86d.min.js: data element \"Selected Value\" (customCode.js)"
+    },
+    {
+     "name": "Address 2",
+     "source": "form",
+     "from": "launch-aa461fb6c86d.min.js: data element \"Address 2\" (customCode.js)"
+    },
+    {
+     "name": "Sub Product",
+     "source": "product.productInfo[].subProduct",
+     "from": "launch-aa461fb6c86d.min.js: data element \"Sub Product\" (datalayerComputedState.js)"
+    },
+    {
+     "name": "Status",
+     "source": "eventInfo.status",
+     "from": "launch-aa461fb6c86d.min.js: data element \"Status\" (customCode.js)"
+    },
+    {
+     "name": "Product Total Price",
+     "source": "product",
+     "from": "launch-aa461fb6c86d.min.js: data element \"Product Total Price\" (customCode.js)"
+    },
+    {
+     "name": "Blog Name",
+     "source": "eventInfo.blogname",
+     "from": "launch-aa461fb6c86d.min.js: data element \"Blog Name\" (customCode.js)"
+    },
+    {
+     "name": "Product Top Products",
+     "source": "product",
+     "from": "launch-aa461fb6c86d.min.js: data element \"Product Top Products\" (customCode.js)"
+    },
+    {
+     "name": "Product Url",
+     "source": "product",
+     "from": "launch-aa461fb6c86d.min.js: data element \"Product Url\" (customCode.js)"
+    },
+    {
+     "name": "Title",
+     "source": "eventInfo.title",
+     "from": "launch-aa461fb6c86d.min.js: data element \"Title\" (customCode.js)"
+    },
+    {
+     "name": "Page Url",
+     "source": "page.pageURL",
+     "from": "launch-aa461fb6c86d.min.js: data element \"Page Url\" (customCode.js)"
+    },
+    {
+     "name": "Error Message",
+     "source": "eventInfo.errorMessage",
+     "from": "launch-aa461fb6c86d.min.js: data element \"Error Message\" (customCode.js)"
+    },
+    {
+     "name": "Detail2",
+     "source": "eventInfo.detail2",
+     "from": "launch-aa461fb6c86d.min.js: data element \"Detail2\" (customCode.js)"
+    },
+    {
+     "name": "Search Term",
+     "source": "eventInfo.searchTerm",
+     "from": "launch-aa461fb6c86d.min.js: data element \"Search Term\" (customCode.js)"
+    }
+   ],
+   "notes": [
+    "Property \"Asian Paints WebSDK\" (https://assets.adobedtm.com/ef0f7eb243a4/50bf6aad1917/launch-aa461fb6c86d.min.js): extensions Core, Adobe Client Data Layer, Adobe Experience Platform Web SDK.",
+    "Rule events: Library Loaded, Data Pushed, Data Layer Computed State, Query String Parameter; actions: Send event, Update variable, Custom Code.",
+    "Rules start on the `pageLoad` push to `adobeDataLayer` (rule \"XDM : data pushed : 50 : Page Load\" sends `web.webpagedetails.pageViews` on the Launch-managed `alloy` instance) — without that push the library loads and sends nothing.",
+    "Interaction rules listen for one `adobeDataLayer` event each (custom_cta_click, scroll_depth, form_start/form_submit, login, chat, …); the pushes come from the blocks — see the tagging plan."
+   ]
+  },
+  "Google Tag Manager": {
+   "rules": [],
+   "dataElements": [],
+   "notes": [
+    "GTM-MP96GBBF (https://www.googletagmanager.com/gtm.js?id=GTM-MP96GBBF): rules were not parsed.",
+    "On the source it is loaded by /eds/scripts/third-party-pixels.js (fireGTM) right after a `dataLayer` `page_view` push (`page_location`, `page_referrer`, `page_title`)."
+   ]
+  }
+ },
  "rewrite": {
   "library": null,
   "rules": [],
@@ -78,23 +1877,36 @@
    ]
   },
   "config": {
-   "orgId": null,
-   "datastreamId": null,
-   "alloyInstanceName": "alloy",
-   "edgeDomain": null,
-   "defaultConsent": null,
-   "launchUrls": [
-    "https://assets.adobedtm.com/ef0f7eb243a4/50bf6aad1917/launch-aa461fb6c86d.min.js"
-   ]
+   "orgId": "5FFF4CAB563CB2507F000101@AdobeOrg",
+   "datastreamId": "b1c04e90-7e5a-4cf7-b97f-341ac97dec1d",
+   "alloyInstanceName": "alloy1",
+   "edgeDomain": "edge.adobedc.net",
+   "defaultConsent": "in",
+   "launchUrls": [],
+   "webSdk": {
+    "idMigrationEnabled": true,
+    "thirdPartyCookiesEnabled": false,
+    "clickCollectionEnabled": true,
+    "targetMigrationEnabled": false,
+    "personalizationStorageEnabled": false
+   },
+   "options": {
+    "dataLayer": false
+   },
+   "beforeSend": "scripts/martech-analytics.js"
   },
   "candidates": {
-   "datastreamId": [],
-   "stagingDatastreamId": []
+   "datastreamId": [
+    "b1c04e90-7e5a-4cf7-b97f-341ac97dec1d"
+   ],
+   "stagingDatastreamId": [
+    "eab18d73-1507-436b-9655-52c600b63d9e"
+   ]
   },
   "extension": null,
   "missingExtensions": [],
   "category": null,
-  "enabled": false
+  "enabled": true
  },
  "target": null
 }

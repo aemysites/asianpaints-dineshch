@@ -8,3 +8,7 @@ test/*
 sync-block-collection.sh
 stardust/
 content/
+plugins/martech/test/
+plugins/martech/scripts/
+plugins/martech/*.jpg
+plugins/martech/vitest.config.js

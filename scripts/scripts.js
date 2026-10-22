@@ -185,6 +185,8 @@ async function loadEager(doc) {
  * @param {Element} doc The container element
  */
 async function loadLazy(doc) {
+  // page-level data layer pushes, before the tag managers load in loadDelayed()
+  import('./datalayer.js').then((m) => m.pushPageData());
   loadHeader(doc.querySelector('body > header'));
 
   const main = doc.querySelector('main');
@@ -195,6 +197,7 @@ async function loadLazy(doc) {
   if (hash && element) element.scrollIntoView();
 
   loadFooter(doc.querySelector('body > footer'));
+  import('./martech.js').then((m) => m.loadAnalytics());
 
   loadCSS(`${window.hlx.codeBasePath}/styles/lazy-styles.css`);
   loadFonts();

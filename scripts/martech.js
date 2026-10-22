@@ -4,15 +4,53 @@ const CONFIG = {
     'www.asianpaints.com',
   ],
   cmp: {
-    enabled: false,
+    enabled: true,
     src: 'https://cdn.cookielaw.org/scripttemplates/otSDKStub.js',
     attrs: {
-      'data-domain-script': null,
+      'data-domain-script': '433d1cae-89f6-480b-a880-b80ddb341a2c',
     },
     groups: 'OnetrustActiveGroups',
     event: 'OneTrustGroupsUpdated',
   },
-  routes: [],
+  routes: [
+    {
+      src: 'https://assets.adobedtm.com/ef0f7eb243a4/50bf6aad1917/launch-aa461fb6c86d.min.js',
+      boot: null,
+      category: null,
+    },
+    {
+      src: 'https://www.googletagmanager.com/gtm.js?id=GTM-MP96GBBF',
+      boot: 'gtm',
+      category: null,
+    },
+  ],
+  aemMartech: {
+    module: '../plugins/martech/src/index.js',
+    webSdk: {
+      orgId: '5FFF4CAB563CB2507F000101@AdobeOrg',
+      datastreamId: 'b1c04e90-7e5a-4cf7-b97f-341ac97dec1d',
+      edgeDomain: 'edge.adobedc.net',
+      defaultConsent: 'in',
+      // hand-added from the hand-off (aemMartech.config.webSdk); the scaffold does not emit it
+      idMigrationEnabled: true,
+      thirdPartyCookiesEnabled: false,
+      clickCollectionEnabled: true,
+      targetMigrationEnabled: false,
+      personalizationStorageEnabled: false,
+    },
+    options: {
+      alloyInstanceName: 'alloy1',
+      launchUrls: [],
+      personalization: false,
+      // hand-added (aemMartech.config.options): Launch's ACDL extension owns adobeDataLayer
+      dataLayer: false,
+    },
+    category: null,
+    // hand-added: the source's staging datastream, used off the production hosts (?martech=on)
+    stagingDatastreamId: 'eab18d73-1507-436b-9655-52c600b63d9e',
+    // hand-added (aemMartech.config.beforeSend): analytics variables on page views
+    beforeSend: './martech-analytics.js',
+  },
 };
 
 const params = new URLSearchParams(window.location.search);
@@ -56,12 +94,40 @@ function whenGranted(category, run) {
   window.addEventListener(CONFIG.cmp.event, retry);
 }
 
-export function loadConsent() {
-  if (!on || !CONFIG.cmp?.enabled) return;
-  load(CONFIG.cmp.src, CONFIG.cmp.attrs);
+let webSdk = null;
+
+async function startWebSdk() {
+  const [martech, { default: onBeforeEventSend }] = await Promise.all([
+    import(CONFIG.aemMartech.module),
+    import(CONFIG.aemMartech.beforeSend),
+  ]);
+  const datastreamId = production ? CONFIG.aemMartech.webSdk.datastreamId
+    : CONFIG.aemMartech.stagingDatastreamId;
+  await martech.initMartech(
+    { ...CONFIG.aemMartech.webSdk, datastreamId, onBeforeEventSend },
+    CONFIG.aemMartech.options,
+  );
+  await martech.martechEager();
+  return martech;
 }
 
-export function loadAnalytics() {}
+export function loadConsent() {
+  if (!on) return;
+  if (CONFIG.cmp?.enabled) load(CONFIG.cmp.src, CONFIG.cmp.attrs);
+  webSdk = startWebSdk();
+}
+
+let analytics = null;
+
+export function loadAnalytics() {
+  analytics = analytics || webSdk?.then(async (martech) => {
+    const { category } = CONFIG.aemMartech;
+    if (category) whenGranted(category, () => martech.updateUserConsent({ collect: true }));
+    await martech.martechLazy();
+    return martech;
+  }) || null;
+  return analytics;
+}
 
 export function loadTags() {
   if (!on) return;
@@ -72,4 +138,5 @@ export function loadTags() {
     }
     load(src);
   }));
+  loadAnalytics()?.then((martech) => martech.martechDelayed());
 }
